@@ -15,7 +15,7 @@ async function getChainsData(): Promise<Chains> {
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [chainsData, setChainsData] = useState<Chains | null>(null);
+  const [chainsData, setChainsData] = useState<Chains>({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -35,9 +35,7 @@ export default function Home() {
     loadChainsData();
   }, []);
 
-  if (isLoading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error}</div>;
-  if (!chainsData) return <div>No data available</div>;
+  if (error) return <div className="text-center text-red-500 mt-8">{error}</div>;
 
   return (
     <main className="max-w-[1376px] mx-auto py-6 sm:px-6 lg:px-10">
@@ -46,7 +44,7 @@ export default function Home() {
           Chains & Projects<br />Using Blockscout
         </h1>
         <SearchBar onSearch={setSearchTerm} />
-        <ChainList chains={chainsData} searchTerm={searchTerm} />
+        <ChainList chains={chainsData} searchTerm={searchTerm} isLoading={isLoading} />
       </div>
     </main>
   );
