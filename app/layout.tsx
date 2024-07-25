@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Chainscout',
   description: 'Explorer for Blockscout instances',
+  icons: [
+    { rel: 'icon', url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    { rel: 'apple-touch-icon', url: '/favicon-256x256.png' },
+  ],
 };
 
 export default function RootLayout({
@@ -17,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen`}>
+      <body className={`${inter.className} min-h-screen bg-gray-100`}>
         <Header />
         {children}
       </body>
