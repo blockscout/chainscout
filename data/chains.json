@@ -1,0 +1,202 @@
+{
+  "1": {
+    "name": "Ethereum",
+    "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://ethereum.org",
+    "explorers": [{ "url": "https://eth.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "10": {
+    "name": "Optimism",
+    "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://www.optimism.io",
+    "explorers": [{ "url": "https://optimism.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "81457": {
+    "name": "Blast",
+    "description": "The only Ethereum L2 with native yield for ETH and stablecoins.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://blast.io",
+    "explorers": [{ "url": "https://blast.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "8453": {
+    "name": "Base",
+    "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://base.org",
+    "explorers": [{ "url": "https://base.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "13371": {
+    "name": "Immutable zkEVM",
+    "description": "A chain for games offering EVM compatibility, low cost, massive scale, and Ethereum security.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://www.immutable.com",
+    "explorers": [{ "url": "https://immutable.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "7000": {
+    "name": "Zetachain",
+    "description": "L1 Blockchain connecting all chains including Bitcoin, Cosmos, and Ethereum.",
+    "ecosystem": "Multi-chain",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.zetachain.com",
+    "explorers": [{ "url": "https://zetachain.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "148": {
+    "name": "Shimmer",
+    "description": "A high-performance, feeless, and parallelized Directed Acyclic Graph (DAG) ledger.",
+    "ecosystem": "IOTA",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://shimmer.network",
+    "explorers": [{ "url": "https://shimmer.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "101010": {
+    "name": "Stability",
+    "description": "The first tokenless public blockchain network.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://stability.network",
+    "explorers": [{ "url": "https://stability.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "42793": {
+    "name": "Etherlink",
+    "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
+    "ecosystem": "Tezos",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://etherlink.com",
+    "explorers": [{ "url": "https://etherlink.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "690": {
+    "name": "Redstone",
+    "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://redstone.xyz",
+    "explorers": [{ "url": "https://redstone.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "42161": {
+    "name": "Arbitrum One",
+    "description": "Arbitrum is an L2 scaling solution for Ethereum. Nitro introduces additional improvements for speed and scalability.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://arbitrum.io",
+    "explorers": [{ "url": "https://arbitrum.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "666666666": {
+    "name": "Degen",
+    "description": "Enables Casters to reward others with DEGEN for posting quality content.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://degen.com",
+    "explorers": [{ "url": "https://degen.blockscout.com", "hostedBy": "Conduit" }]
+  },
+  "17069": {
+    "name": "Holesky",
+    "description": "Holesky is a staking, infrastructure and protocol-developer testnet for Ethereum.",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://github.com/eth-clients/holesky",
+    "explorers": [{ "url": "https://holesky.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "61": {
+    "name": "Ethereum Classic",
+    "description": "Longest running smart contract platform running the original Ethereum protocol.",
+    "ecosystem": "Ethereum Classic",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://ethereumclassic.org",
+    "explorers": [{ "url": "https://etc.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "11155420": {
+    "name": "Optimism Sepolia",
+    "description": "Latest OP Testnet",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://www.optimism.io",
+    "explorers": [{ "url": "https://optimism-sepolia.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "100": {
+    "name": "Gnosis",
+    "description": "Gnosis Chain is a feature-rich, user-centered blockchain ecosystem.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.gnosis.io",
+    "explorers": [{ "url": "https://gnosis.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "34443": {
+    "name": "Mode",
+    "description": "Ethereum L2 with rewards for growing the network via new economic mechanisms.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://www.mode.network",
+    "explorers": [{ "url": "https://mode.blockscout.com", "hostedBy": "Conduit" }]
+  },
+  "109": {
+    "name": "Shibarium",
+    "description": "Shiba Inu's L2 blockchain featuring low cost, fast, and powerful technology.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://shibatoken.com",
+    "explorers": [{ "url": "https://shibarum.blockscout.com", "hostedBy": "Blockscout" }]
+  },
+  "7777777": {
+    "name": "Zora",
+    "description": "Fast, cost-efficient, and scalable Layer 2 built to help bring media onchain, built on the OP Stack.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "Optimistic",
+    "website": "https://zora.co",
+    "explorers": [{ "url": "https://zora.blockscout.com", "hostedBy": "Conduit" }]
+  },
+  "42220": {
+    "name": "Celo",
+    "description": "Mobile-first L2 scaling protocol.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org",
+    "explorers": [{ "url": "https://explorer.celo.org", "hostedBy": "self" }]
+  }
+}
