@@ -6,7 +6,11 @@ import ChainList from '@/components/ChainList';
 import { Chains } from '@/types';
 
 async function getChainsData(): Promise<Chains> {
-  const res = await fetch('http://localhost:3000/api/chains');
+  const res = await fetch('/api/chains', {
+    headers: {
+      'Cache-Control': 'no-cache'
+    }
+  });
   if (!res.ok) {
     throw new Error('Failed to fetch chains data');
   }
