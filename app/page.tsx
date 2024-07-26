@@ -42,7 +42,7 @@ export default function Home() {
   if (error) return <div className="text-center text-red-500 mt-8">{error}</div>;
 
   return (
-    <main className="max-w-[1376px] mx-auto py-6 sm:px-6 lg:px-10">
+    <main className="max-w-[1376px] mx-auto pt-6 pb-[100px] sm:px-6 lg:px-10">
       <div className="flex flex-col items-center px-4 py-6 sm:px-0">
         <h1 className="text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] font-semibold text-center mb-12">
           Chains & Projects<br />Using Blockscout

@@ -55,7 +55,7 @@ export default function ChainCard({
         <h3 className="text-[22px] font-semibold text-gray-900">{name}</h3>
       </div>
       <div className="flex flex-col flex-1 relative">
-        <p className="text-gray-600 mb-4 flex-1">{description}</p>
+        <p className="text-gray-600 mb-[60px] flex-1">{description}</p>
         <div className="flex flex-wrap gap-1.5">
           <Tag>{`L${layer}`}</Tag>
           {rollupType && <Tag>{`${ROLLUP_TYPES[rollupType as RollupType]} Rollup`}</Tag>}
