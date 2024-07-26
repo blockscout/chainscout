@@ -71,14 +71,14 @@ export default function Home() {
   if (error) return <div className="text-center text-red-500 mt-8">{error}</div>;
 
   return (
-    <main className="max-w-[1376px] mx-auto pt-6 pb-[100px] sm:px-6 lg:px-10">
-      <div className="flex flex-col items-center px-4 py-6 sm:px-0">
+    <main className="max-w-[1376px] mx-auto pt-24 pb-[100px] sm:px-6 lg:px-10">
+      <div className="flex flex-col items-center px-4 sm:px-0">
         <h1 className="text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] font-semibold text-center mb-12">
           Chains & Projects<br />Using Blockscout
         </h1>
         <SearchBar onSearch={setSearchTerm} />
-        <div className="w-full mt-8 mb-4 flex justify-between items-center">
-          <div className="text-xl font-semibold">
+        <div className="w-full mt-16 mb-4 flex justify-between items-center">
+          <div className="text-[22px] font-semibold text-[#6b6b74]">
             {filteredChains.length} Results
           </div>
           <Filters
