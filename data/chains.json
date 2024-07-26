@@ -1487,6 +1487,22 @@
       }
     ]
   },
+  "17069": {
+    "name": "Garnet Testnet",
+    "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226f758be373b16bd7f_redstone.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://redstone.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.garnetchain.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "693": {
     "name": "LAOS Network",
     "description": "Universal Layer-1 for digital assets across all blockchains.",
@@ -2746,6 +2762,10 @@
     "website": "https://arbitrum.io/",
     "explorers": [
       {
+        "url": "'https://arbitrum-sepolia.blockscout.com/",
+        "hostedBy": "blockscout"
+      },
+      {
         "url": "https://sepolia-explorer.arbitrum.io/",
         "hostedBy": "self"
       }
@@ -3691,6 +3711,22 @@
     "explorers": [
       {
         "url": "https://explorer.mainnet.bifrostnetwork.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "3110": {
+    "name": "SatoshiVM",
+    "description": "Decentralized Bitcoin ZK Rollup L2 that is compatible with the EVM ecosystem and uses native BTC as gas.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c66ccaae1f08e483b38_SatoshiVM.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.satoshivm.io/",
+    "explorers": [
+      {
+        "url": "https://testnet.svmscan.io/",
         "hostedBy": "self"
       }
     ]
@@ -4740,7 +4776,7 @@
     "description": "High throughput, scalable EVM-compatible blockchain",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66649ace8a43a3ebbc48ca8a_Aminox%20colourful.png",
     "ecosystem": "Ethereum",
-    "isTestnet": false,
+    "isTestnet": true,
     "layer": 1,
     "rollupType": null,
     "website": "https://alphacarbon.network",
@@ -4803,8 +4839,8 @@
     "name": "Holesky",
     "description": "Holešky is a staking, infrastructure and protocol-developer testnet for Ethereum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660c9fd8064c9389803bf870_gmblexplorer.png",
-    "ecosystem": "",
-    "isTestnet": false,
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
     "layer": 1,
     "rollupType": null,
     "website": "https://github.com/eth-clients/holesky",
@@ -4985,6 +5021,10 @@
     "rollupType": null,
     "website": "https://www.offchainlabs.com/",
     "explorers": [
+      {
+        "url": "https://arbitrum-nova.blockscout.com/",
+        "hostedBy": "blockscout"
+      },
       {
         "url": "https://nova-explorer.arbitrum.io/",
         "hostedBy": "self"
@@ -6411,6 +6451,62 @@
     "explorers": [
       {
         "url": "https://testnet.otoscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "42220": {
+    "name": "Celo",
+    "description": "Mobile-first L2 scaling protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.celo.org/mainnet/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "44787":{
+    "name": "Celo Alphajores",
+    "description": "Mobile-first L2 scaling protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://celo-alfajores.blockscout.com",
+        "hostedBy": "blockscout"
+      },
+      {
+        "url": "https://explorer.celo.org/alfajores",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "62320":{
+    "name": "Celo Baklava",
+    "description": "Mobile-first L2 scaling protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://celo-baklava.blockscout.com/",
+        "hostedBy": "blockscout"
+      },
+      {
+        "url": "https://explorer.celo.org/baklava",
         "hostedBy": "self"
       }
     ]
