@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Chains } from '@/types';
 import ChainCard from '@/components/ChainCard';
 import SkeletonCard from '@/components/SkeletonCard';
@@ -30,6 +30,10 @@ export default function ChainList({ chains, searchTerm, isLoading, filters }: Pr
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
   };
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, filters]);
 
   if (isLoading) {
     return (
