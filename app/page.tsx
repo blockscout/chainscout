@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import SearchBar from '@/components/SearchBar';
 import ChainList from '@/components/ChainList';
+import Filters from '@/components/Filters';
 import { Chains } from '@/types';
 
 async function getChainsData(): Promise<Chains> {
@@ -22,6 +23,34 @@ export default function Home() {
   const [chainsData, setChainsData] = useState<Chains>({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [filters, setFilters] = useState({
+    hosting: [] as string[],
+    networkTypes: [] as string[],
+    ecosystems: [] as string[],
+  });
+
+  const ecosystems = useMemo(() => {
+    if (!chainsData) return [];
+    return Array.from(new Set(Object.values(chainsData).map(chain => chain.ecosystem)));
+  }, [chainsData]);
+
+  const appliedFiltersCount = useMemo(() => {
+    return Object.values(filters).reduce((acc, curr) => acc + curr.length, 0);
+  }, [filters]);
+
+  const filteredChains = useMemo(() => {
+    return Object.entries(chainsData).filter(([_, data]) => {
+      const nameMatch = data.name.toLowerCase().includes(searchTerm.toLowerCase());
+      const hostingMatch = filters.hosting.length === 0 || filters.hosting.includes(data.explorers[0].hostedBy);
+      const networkTypeMatch = filters.networkTypes.length === 0 ||
+        filters.networkTypes.includes(`l${data.layer}`) ||
+        filters.networkTypes.includes(data.isTestnet ? 'testnet' : 'mainnet') ||
+        (data.rollupType && filters.networkTypes.includes(`${data.rollupType}_rollup`));
+      const ecosystemMatch = filters.ecosystems.length === 0 || filters.ecosystems.includes(data.ecosystem.toLowerCase());
+
+      return nameMatch && hostingMatch && networkTypeMatch && ecosystemMatch;
+    });
+  }, [chainsData, searchTerm, filters]);
 
   useEffect(() => {
     async function loadChainsData() {
@@ -48,7 +77,23 @@ export default function Home() {
           Chains & Projects<br />Using Blockscout
         </h1>
         <SearchBar onSearch={setSearchTerm} />
-        <ChainList chains={chainsData} searchTerm={searchTerm} isLoading={isLoading} />
+        <div className="w-full mt-8 mb-4 flex justify-between items-center">
+          <div className="text-xl font-semibold">
+            {filteredChains.length} Results
+          </div>
+          <Filters
+            filters={filters}
+            setFilters={setFilters}
+            ecosystems={ecosystems}
+            appliedFiltersCount={appliedFiltersCount}
+          />
+        </div>
+        <ChainList
+          chains={Object.fromEntries(filteredChains)}
+          searchTerm={searchTerm}
+          isLoading={isLoading}
+          filters={filters}
+        />
       </div>
     </main>
   );

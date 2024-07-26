@@ -8,25 +8,24 @@ type Props = {
   chains: Chains;
   searchTerm: string;
   isLoading: boolean;
+  filters: {
+    hosting: string[];
+    networkTypes: string[];
+    ecosystems: string[];
+  };
 };
 
 const ITEMS_PER_PAGE = 16;
 
-export default function ChainList({ chains, searchTerm, isLoading }: Props) {
+export default function ChainList({ chains, searchTerm, isLoading, filters }: Props) {
   const [currentPage, setCurrentPage] = useState(1);
-
-  const filteredChains = useMemo(() => {
-    return Object.entries(chains).filter(([_, data]) =>
-      data.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-  }, [chains, searchTerm]);
-
-  const totalPages = Math.ceil(filteredChains.length / ITEMS_PER_PAGE);
 
   const currentChains = useMemo(() => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    return filteredChains.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-  }, [filteredChains, currentPage]);
+    return Object.entries(chains).slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  }, [chains, currentPage]);
+
+  const totalPages = Math.ceil(Object.keys(chains).length / ITEMS_PER_PAGE);
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
