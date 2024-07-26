@@ -100,44 +100,52 @@ const Filters: React.FC<FiltersProps> = ({ filters, setFilters, ecosystems, appl
           </div>
         )}
         Filters
-        <Image src="/arrow-down.svg" alt="arrow" width={20} height={20} />
+        <Image
+          src="/arrow-down.svg"
+          alt="arrow"
+          width={20}
+          height={20}
+          className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
+        />
       </button>
-      {isOpen && (
-        <div className="absolute z-10 right-0 mt-2 w-[calc(100vw-32px)] lg:w-[750px] bg-white rounded-[10px] shadow-[0_0_1px_rgba(0,0,0,.25),10px_0_32px_rgba(104,107,116,.02),12px_0_36px_rgba(33,41,41,.12)] transition-opacity duration-200 ease-in-out opacity-100">
-          <div className="flex justify-between items-center p-4 border-b border-[#e6e8ec]">
-            <h3 className="text-sm font-medium">{appliedFiltersCount} applied filters</h3>
-            <button
-              onClick={clearAll}
-              className="text-sm font-medium text-[#2563eb] hover:opacity-85 transition-opacity"
-            >
-              Clear All
-            </button>
-          </div>
-          <div className="space-y-4 p-4">
-            <FilterItem
-              title="Hosting"
-              items={HOSTING_PROVIDERS}
-              selectedItems={filters.hosting}
-              onItemClick={(item) => handleFilterChange('hosting', item)}
-              category="hosting"
-            />
-            <FilterItem
-              title="Network Types"
-              items={networkTypes}
-              selectedItems={filters.networkTypes}
-              onItemClick={(item) => handleFilterChange('networkTypes', item)}
-              category="networkTypes"
-            />
-            <FilterItem
-              title="Ecosystem"
-              items={ecosystemItems}
-              selectedItems={filters.ecosystems}
-              onItemClick={(item) => handleFilterChange('ecosystems', item)}
-              category="ecosystems"
-            />
-          </div>
+      <div
+        className={`absolute z-10 right-0 mt-2 w-[calc(100vw-32px)] lg:w-[750px] bg-white rounded-[10px] shadow-[0_0_1px_rgba(0,0,0,.25),10px_0_32px_rgba(104,107,116,.02),12px_0_36px_rgba(33,41,41,.12)] transition-all duration-300 ease-in-out ${
+          isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
+        }`}
+      >
+        <div className="flex justify-between items-center p-4 border-b border-[#e6e8ec]">
+          <h3 className="text-sm font-medium">{appliedFiltersCount} applied filters</h3>
+          <button
+            onClick={clearAll}
+            className="text-sm font-medium text-[#2563eb] hover:opacity-85 transition-opacity"
+          >
+            Clear All
+          </button>
         </div>
-      )}
+        <div className="space-y-4 p-4">
+          <FilterItem
+            title="Hosting"
+            items={HOSTING_PROVIDERS}
+            selectedItems={filters.hosting}
+            onItemClick={(item) => handleFilterChange('hosting', item)}
+            category="hosting"
+          />
+          <FilterItem
+            title="Network Types"
+            items={networkTypes}
+            selectedItems={filters.networkTypes}
+            onItemClick={(item) => handleFilterChange('networkTypes', item)}
+            category="networkTypes"
+          />
+          <FilterItem
+            title="Ecosystem"
+            items={ecosystemItems}
+            selectedItems={filters.ecosystems}
+            onItemClick={(item) => handleFilterChange('ecosystems', item)}
+            category="ecosystems"
+          />
+        </div>
+      </div>
     </div>
   );
 };
