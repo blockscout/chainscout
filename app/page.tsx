@@ -39,8 +39,13 @@ export default function Home() {
   }, [filters]);
 
   const filteredChains = useMemo(() => {
-    return Object.entries(chainsData).filter(([_, data]) => {
-      const nameMatch = data.name.toLowerCase().includes(searchTerm.toLowerCase());
+    return Object.entries(chainsData).filter(([chainId, data]) => {
+      const searchLower = searchTerm.toLowerCase();
+      const nameMatch = data.name.toLowerCase().includes(searchLower);
+      const chainIdMatch = chainId.toLowerCase().includes(searchLower);
+      const descriptionMatch = data.description.toLowerCase().includes(searchLower);
+      const searchMatch = nameMatch || chainIdMatch || descriptionMatch;
+
       const hostingMatch = filters.hosting.length === 0 || filters.hosting.includes(data.explorers[0].hostedBy);
       const networkTypeMatch = filters.networkTypes.length === 0 ||
         filters.networkTypes.includes(`l${data.layer}`) ||
@@ -48,7 +53,7 @@ export default function Home() {
         (data.rollupType && filters.networkTypes.includes(`${data.rollupType}_rollup`));
       const ecosystemMatch = filters.ecosystems.length === 0 || filters.ecosystems.includes(data.ecosystem.toLowerCase());
 
-      return nameMatch && hostingMatch && networkTypeMatch && ecosystemMatch;
+      return searchMatch && hostingMatch && networkTypeMatch && ecosystemMatch;
     });
   }, [chainsData, searchTerm, filters]);
 
