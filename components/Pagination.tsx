@@ -38,7 +38,7 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPage
       {pageNumbers.map((number, index) => (
         <button
           key={index}
-          className={`mx-1 rounded-lg border border-[#d0d5dd] h-10 min-w-10 bg-white text-[#777e90] transition-colors ${
+          className={`mx-1 rounded-lg border border-[#d0d5dd] h-10 min-w-10 text-[#777e90] transition-colors ${
             number === currentPage
               ? 'bg-[#2563eb] border-[#2563eb] text-[#fff]'
               : number === '...' ? '' : 'hover:bg-[#f2f4fc]'
