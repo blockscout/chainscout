@@ -17,6 +17,9 @@ const config: Config = {
         'height': 'height',
         'spacing': 'margin, padding',
       },
+      fontFamily: {
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+      },
     },
   },
   variants: {

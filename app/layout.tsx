@@ -1,9 +1,14 @@
 import '@/app/globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Poppins } from 'next/font/google';
 import Header from '@/components/Header';
 
 const inter = Inter({ subsets: ['latin'] });
+const poppins = Poppins({
+  weight: ['600'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+});
 
 export const metadata: Metadata = {
   title: 'Chainscout',
@@ -21,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen`}>
+      <body className={`${inter.className} ${poppins.variable} min-h-screen`}>
         <Header />
         {children}
       </body>

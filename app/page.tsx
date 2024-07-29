@@ -78,7 +78,7 @@ export default function Home() {
   return (
     <main className="max-w-[1376px] mx-auto pt-24 pb-[100px] sm:px-6 lg:px-10">
       <div className="flex flex-col items-center px-4 sm:px-0">
-        <h1 className="text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] font-semibold text-center mb-12">
+        <h1 className="font-poppins text-[#1d1d1f] text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-12">
           Chains & Projects<br />Using Blockscout
         </h1>
         <SearchBar onSearch={setSearchTerm} />
