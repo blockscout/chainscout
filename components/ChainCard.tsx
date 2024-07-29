@@ -43,12 +43,12 @@ export default function ChainCard({
         </span>
       </div>
       <div className="flex items-center mb-4 gap-3">
-        <div className="w-12 h-12 flex-shrink-0">
+        <div className="w-14 h-14 flex-shrink-0">
           <Image
             src={logo}
             alt={`${name} logo`}
-            width={48}
-            height={48}
+            width={56}
+            height={56}
             className="rounded-lg"
           />
         </div>
