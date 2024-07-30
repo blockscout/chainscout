@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chainscout
+
+Chainscout is an explorer for Blockscout instances, allowing users to easily search and filter through various blockchain networks and projects using Blockscout.
+
+## Table of Contents
+
+- [Chainscout](#chainscout)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+    - [Adding a New Chain](#adding-a-new-chain)
+    - [Adding an Explorer to an Existing Chain](#adding-an-explorer-to-an-existing-chain)
+
+## Features
+
+- Search functionality for chains and projects
+- Filtering by hosting provider, network type, and ecosystem
+- Responsive design for various screen sizes
+- Pagination for easy navigation through results
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/blockscout/chainscout.git
+```
+2. Navigate to the project directory:
+```bash
+cd chainscout
+```
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+4. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Use the search bar to find specific chains or projects. Apply filters to narrow down results based on hosting provider, network type, or ecosystem.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+We welcome contributions to Chainscout! Here's how you can help:
 
-To learn more about Next.js, take a look at the following resources:
+### Adding a New Chain
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository and create a new branch for your addition.
+2. Open the file `data/chains.json`.
+3. Add a new entry for the chain, following the existing format:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```json
+"chainId": {
+  "name": "Chain Name",
+  "description": "Brief description of the chain",
+  "ecosystem": ["Associated ecosystem (e.g., Ethereum, Polkadot)"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "website": "https://chain-website.com",
+  "explorers": [
+    {
+      "url": "https://explorer-url.com",
+      "hostedBy": "blockscout"
+    }
+  ],
+  "logo": "https://example.com/path/to/logo.png"
+}
+```
+4. If the logo URL uses a new domain, add it to the `images.domains` array in `next.config.mjs`:
+```javascript
+module.exports = {
+  images: {
+    domains: [
+      'existing-domain.com',
+      'new-logo-domain.com'
+    ],
+  },
+};
+```
+5. Create a pull request with your changes.
 
-## Deploy on Vercel
+### Adding an Explorer to an Existing Chain
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository and create a new branch for your addition.
+2. Open the file data/chains.json.
+3. Find the entry for the chain you want to update.
+4. Add a new object to the explorers array:
+```json
+"explorers": [
+  {
+    "url": "https://new-explorer-url.com",
+    "hostedBy": "hosting-provider"
+  }
+]
+```
+5. Create a pull request with your changes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please ensure your contributions adhere to our coding standards and include appropriate documentation.
