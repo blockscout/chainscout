@@ -4887,7 +4887,7 @@
     "name": "Allo",
     "description": "Allo is a decentralized protocol for launching real world assets.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66649a5d93ca6d92cdf8a45b_allo-2.png",
-    "ecosystem": "Ethererum",
+    "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
