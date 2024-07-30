@@ -31,7 +31,11 @@ export default function Home() {
 
   const ecosystems = useMemo(() => {
     if (!chainsData) return [];
-    return Array.from(new Set(Object.values(chainsData).map(chain => chain.ecosystem)));
+    return Array.from(new Set(
+      Object.values(chainsData).flatMap(chain =>
+        Array.isArray(chain.ecosystem) ? chain.ecosystem : [chain.ecosystem]
+      )
+    ));
   }, [chainsData]);
 
   const appliedFiltersCount = useMemo(() => {
@@ -51,7 +55,10 @@ export default function Home() {
         filters.networkTypes.includes(`l${data.layer}`) ||
         filters.networkTypes.includes(data.isTestnet ? 'testnet' : 'mainnet') ||
         (data.rollupType && filters.networkTypes.includes(`${data.rollupType}_rollup`));
-      const ecosystemMatch = filters.ecosystems.length === 0 || filters.ecosystems.includes(data.ecosystem.toLowerCase());
+      const ecosystemMatch = filters.ecosystems.length === 0 ||
+        (Array.isArray(data.ecosystem)
+          ? data.ecosystem.some(eco => filters.ecosystems.includes(eco.toLowerCase()))
+          : filters.ecosystems.includes(data.ecosystem.toLowerCase()));
 
       return searchMatch && hostingMatch && networkTypeMatch && ecosystemMatch;
     });

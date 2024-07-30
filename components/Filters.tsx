@@ -72,7 +72,9 @@ const Filters: React.FC<FiltersProps> = ({ filters, setFilters, ecosystems, appl
   };
 
   const ecosystemItems = Object.fromEntries(
-    ecosystems.map(eco => [eco.toLowerCase(), capitalizeFirstLetter(eco)])
+    ecosystems.flatMap(eco =>
+      Array.isArray(eco) ? eco : [eco]
+    ).map(eco => [eco.toLowerCase(), capitalizeFirstLetter(eco)])
   );
 
   useEffect(() => {

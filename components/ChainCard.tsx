@@ -27,10 +27,12 @@ export default function ChainCard({
   isTestnet,
   website,
   logo,
+  ecosystem,
 }: ChainData & { chainId: string }) {
   const { hostedBy, url } = explorers[0];
   const hostedByText = HOSTING_PROVIDERS[hostedBy as HostingProvider] || 'Unknown';
   const colors = hostingColors[hostedBy as HostingProvider] || hostingColors.blockscout;
+  const ecosystemTags = Array.isArray(ecosystem) ? ecosystem : [ecosystem];
 
   return (
     <div className="bg-white p-6 flex flex-col border rounded-[20px] hover:shadow-[20px_0_40px_rgba(183,183,183,.1),2px_0_20px_rgba(183,183,183,.08)] transition-shadow duration-[400ms] ease-[cubic-bezier(.39, .575, .565, 1)] group">
@@ -60,6 +62,9 @@ export default function ChainCard({
           <Tag>{`L${layer}`}</Tag>
           {rollupType && <Tag>{`${ROLLUP_TYPES[rollupType as RollupType]} Rollup`}</Tag>}
           <Tag>{isTestnet ? 'Testnet' : 'Mainnet'}</Tag>
+          {ecosystemTags.map((eco, index) => (
+            <Tag key={index}>{eco}</Tag>
+          ))}
         </div>
 
         {/* Hover effect block */}

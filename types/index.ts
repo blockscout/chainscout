@@ -8,7 +8,7 @@ export type Explorer = {
 export type ChainData = {
   name: string;
   description: string;
-  ecosystem: string;
+  ecosystem: string | string[];
   isTestnet: boolean | undefined;
   layer: 1 | 2 | 3;
   rollupType: RollupType | undefined;
