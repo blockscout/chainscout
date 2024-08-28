@@ -1,0 +1,90 @@
+on:
+  push:
+    branches:
+      - 'main'
+    tags:
+      - 'v*'
+  pull_request:
+
+name: Build and push docker
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: blockscout/chainscout
+
+jobs:
+  push:
+    name: Docker build and docker push
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: actions-ecosystem/action-regex-match@v2
+        id: regex
+        with:
+          text: ${{ github.ref }}
+          regex: '^(refs\/tags\/(v\d+\.\d+\.\d+))|(refs\/heads\/(main))$'
+
+      - name: Extract tag name
+        id: tags_extractor
+        run: |
+          t=${{ steps.regex.outputs.group2 }}
+          m=${{ steps.regex.outputs.group4 }}
+          (if ! [[ "$t" == "" ]]; then echo tags=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:$t, ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest; elif ! [[ "$m" == "" ]]; then echo tags=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:$m; else echo tags=; fi) >> $GITHUB_OUTPUT
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: "."
+          file: "Dockerfile"
+          push: ${{ steps.tags_extractor.outputs.tags != '' }}
+          tags: ${{ steps.tags_extractor.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+  #deploy_prod:
+  #  name: Deploy prod instance
+  #  needs: push
+  #  if: ${{ github.ref == 'refs/heads/main' }}
+  #  runs-on: ubuntu-latest
+  #  permissions: write-all
+  #  steps:
+  #    - name: Get Vault credentials
+  #      id: retrieve-vault-secrets
+  #      uses: hashicorp/vault-action@v2.4.1
+  #      with:
+  #        url: https://vault.k8s.blockscout.com
+  #        role: ci-dev
+  #        path: github-jwt
+  #        method: jwt
+  #        tlsSkipVerify: false
+  #        exportToken: true
+  #        secrets: |
+  #          ci/data/dev/github token | WORKFLOW_TRIGGER_TOKEN ;
+  #    - name: Trigger deploy
+  #      uses: convictional/trigger-workflow-and-wait@v1.6.1
+  #      with:
+  #        owner: blockscout
+  #        repo: deployment-values
+  #        github_token: ${{ env.WORKFLOW_TRIGGER_TOKEN }}
+  #        workflow_file_name: deploy_services.yaml
+  #        ref: main
+  #        wait_interval: 30
+  #        client_payload: '{ "instance": "chainscout", "globalEnv": "production"}'
