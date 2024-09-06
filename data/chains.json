@@ -2762,7 +2762,7 @@
     "website": "https://arbitrum.io/",
     "explorers": [
       {
-        "url": "'https://arbitrum-sepolia.blockscout.com/",
+        "url": "https://arbitrum-sepolia.blockscout.com/",
         "hostedBy": "blockscout"
       },
       {
