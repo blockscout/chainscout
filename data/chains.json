@@ -571,7 +571,7 @@
     "explorers": [
       {
         "url": "https://polygon.blockscout.com/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
