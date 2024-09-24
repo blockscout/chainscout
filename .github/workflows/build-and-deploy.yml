@@ -2,9 +2,6 @@ on:
   push:
     branches:
       - 'main'
-    tags:
-      - 'v*'
-  pull_request:
 
 name: Build and push docker
 
@@ -20,19 +17,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - uses: actions-ecosystem/action-regex-match@v2
-        id: regex
-        with:
-          text: ${{ github.ref }}
-          regex: '^(refs\/tags\/(v\d+\.\d+\.\d+))|(refs\/heads\/(main))$'
-
-      - name: Extract tag name
-        id: tags_extractor
-        run: |
-          t=${{ steps.regex.outputs.group2 }}
-          m=${{ steps.regex.outputs.group4 }}
-          (if ! [[ "$t" == "" ]]; then echo tags=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:$t, ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest; elif ! [[ "$m" == "" ]]; then echo tags=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:$m; else echo tags=; fi) >> $GITHUB_OUTPUT
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
@@ -54,8 +38,8 @@ jobs:
         with:
           context: "."
           file: "Dockerfile"
-          push: ${{ steps.tags_extractor.outputs.tags != '' }}
-          tags: ${{ steps.tags_extractor.outputs.tags }}
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest,${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
