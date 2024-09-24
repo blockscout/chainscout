@@ -10,7 +10,7 @@ env:
   IMAGE_NAME: blockscout/chainscout
 
 jobs:
-  push:
+  validate-build:
     name: Docker build
     timeout-minutes: 30
     runs-on: ubuntu-latest
