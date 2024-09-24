@@ -463,22 +463,6 @@
       }
     ]
   },
-  "111": {
-    "name": "BOB Testnet",
-    "description": "Hybrid L2 that combines the security of Bitcoin with the versatility of Ethereum.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b13d9cabc22dddfd3_BOB.png",
-    "ecosystem": "Bitcoin",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://www.gobob.xyz/",
-    "explorers": [
-      {
-        "url": "https://testnet-explorer.gobob.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "113": {
     "name": "Flare Network Coston2",
     "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
@@ -5891,6 +5875,22 @@
     "explorers": [
       {
         "url": "https://testnet.btscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "808813": {
+    "name": "BOB Sepolia",
+    "description": "Hybrid L2 that combines the security of Bitcoin with the versatility of Ethereum.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b13d9cabc22dddfd3_BOB.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.gobob.xyz/",
+    "explorers": [
+      {
+        "url": "https://bob-sepolia.explorer.gobob.xyz/",
         "hostedBy": "self"
       }
     ]
