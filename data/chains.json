@@ -22,7 +22,7 @@
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
-    "rollupType": null,
+    "rollupType": null
     "website": "https://ammer.group/",
     "explorers": [
       {
