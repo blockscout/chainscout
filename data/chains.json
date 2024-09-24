@@ -639,22 +639,6 @@
       }
     ]
   },
-  "164": {
-    "name": "Omni testnet",
-    "description": "A high-performant global integration layer for all rollups",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aa8df0d4ac76eeeeb1_omni.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://omni.network/testnet",
-    "explorers": [
-      {
-        "url": "https://omni-testnet.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "169": {
     "name": "Manta Pacific",
     "description": "The first EVM-equivalent ZK-application platform that is scalable and secure through Celestia DA and Polygon zkEVM",
