@@ -59,32 +59,32 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-  #deploy_prod:
-  #  name: Deploy prod instance
-  #  needs: push
-  #  if: ${{ github.ref == 'refs/heads/main' }}
-  #  runs-on: ubuntu-latest
-  #  permissions: write-all
-  #  steps:
-  #    - name: Get Vault credentials
-  #      id: retrieve-vault-secrets
-  #      uses: hashicorp/vault-action@v2.4.1
-  #      with:
-  #        url: https://vault.k8s.blockscout.com
-  #        role: ci-dev
-  #        path: github-jwt
-  #        method: jwt
-  #        tlsSkipVerify: false
-  #        exportToken: true
-  #        secrets: |
-  #          ci/data/dev/github token | WORKFLOW_TRIGGER_TOKEN ;
-  #    - name: Trigger deploy
-  #      uses: convictional/trigger-workflow-and-wait@v1.6.1
-  #      with:
-  #        owner: blockscout
-  #        repo: deployment-values
-  #        github_token: ${{ env.WORKFLOW_TRIGGER_TOKEN }}
-  #        workflow_file_name: deploy_services.yaml
-  #        ref: main
-  #        wait_interval: 30
-  #        client_payload: '{ "instance": "chainscout", "globalEnv": "production"}'
+  deploy_prod:
+    name: Deploy prod instance
+    needs: push
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Get Vault credentials
+        id: retrieve-vault-secrets
+        uses: hashicorp/vault-action@v2.4.1
+        with:
+          url: https://vault.k8s.blockscout.com
+          role: ci-dev
+          path: github-jwt
+          method: jwt
+          tlsSkipVerify: false
+          exportToken: true
+          secrets: |
+            ci/data/dev/github token | WORKFLOW_TRIGGER_TOKEN ;
+      - name: Trigger deploy
+        uses: convictional/trigger-workflow-and-wait@v1.6.1
+        with:
+          owner: blockscout
+          repo: deployment-values
+          github_token: ${{ env.WORKFLOW_TRIGGER_TOKEN }}
+          workflow_file_name: deploy_services.yaml
+          ref: main
+          wait_interval: 30
+          client_payload: '{ "instance": "chainscout", "globalEnv": "production"}'
