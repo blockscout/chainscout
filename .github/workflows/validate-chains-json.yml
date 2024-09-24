@@ -14,5 +14,4 @@ jobs:
 
       - name: Validate JSON files
         run: |
-          apt update && apt install jq -y
           jq . data/chains.json > /dev/null
