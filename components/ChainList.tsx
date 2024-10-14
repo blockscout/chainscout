@@ -37,7 +37,7 @@ export default function ChainList({ chains, searchTerm, isLoading, filters }: Pr
 
   if (isLoading) {
     return (
-      <div className="w-full mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="w-full grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {[...Array(16)].map((_, index) => (
           <SkeletonCard key={index} />
         ))}
@@ -47,7 +47,7 @@ export default function ChainList({ chains, searchTerm, isLoading, filters }: Pr
 
   return (
     <>
-      <div className="w-full mt-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="w-full grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {currentChains.map(([chainId, data]) => (
           <ChainCard key={chainId} chainId={chainId} {...data} />
         ))}

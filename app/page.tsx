@@ -4,8 +4,9 @@ import { useState, useEffect, useMemo } from 'react';
 import SearchBar from '@/components/SearchBar';
 import ChainList from '@/components/ChainList';
 import Filters from '@/components/Filters';
-import { Chains } from '@/types';
 import PopularEcosystems from '@/components/PopularEcosystems';
+import AddChainSection from '@/components/AddChainSection';
+import { Chains } from '@/types';
 
 async function getChainsData(): Promise<Chains> {
   const res = await fetch('/api/chains', {
@@ -101,7 +102,7 @@ export default function Home() {
           <h1 className="font-poppins text-[#1d1d1f] text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-12">
             Chains & Projects<br />Using Blockscout
           </h1>
-          <div className="flex flex-col w-full lg:w-[860px]">
+          <div className="flex flex-col w-full lg:w-[860px] mb-[70px]">
             <SearchBar onSearch={setSearchTerm} />
             <PopularEcosystems
               ecosystems={popularEcosystems}
@@ -109,7 +110,7 @@ export default function Home() {
               onSelect={handleEcosystemSelect}
             />
           </div>
-          <div className="w-full mt-16 mb-4 flex justify-between items-center">
+          <div className="w-full mb-6 flex justify-between items-center">
             <div className="text-[22px] font-semibold text-[#6b6b74]">
               {filteredChains.length} Results
             </div>
@@ -120,6 +121,7 @@ export default function Home() {
               appliedFiltersCount={appliedFiltersCount}
             />
           </div>
+          <AddChainSection />
           <ChainList
             chains={Object.fromEntries(filteredChains)}
             searchTerm={searchTerm}
