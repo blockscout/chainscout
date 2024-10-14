@@ -5,6 +5,7 @@ import SearchBar from '@/components/SearchBar';
 import ChainList from '@/components/ChainList';
 import Filters from '@/components/Filters';
 import { Chains } from '@/types';
+import PopularEcosystems from '@/components/PopularEcosystems';
 
 async function getChainsData(): Promise<Chains> {
   const res = await fetch('/api/chains', {
@@ -29,6 +30,8 @@ export default function Home() {
     ecosystems: [] as string[],
   });
 
+  const popularEcosystems = ['Ethereum', 'Polygon', 'Optimism', 'Polkadot', 'Cosmos', 'zkSync', 'Arbitrum'];
+
   const ecosystems = useMemo(() => {
     if (!chainsData) return [];
     return Array.from(new Set(
@@ -41,6 +44,15 @@ export default function Home() {
   const appliedFiltersCount = useMemo(() => {
     return Object.values(filters).reduce((acc, curr) => acc + curr.length, 0);
   }, [filters]);
+
+  const handleEcosystemSelect = (ecosystem: string) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      ecosystems: prevFilters.ecosystems.includes(ecosystem.toLowerCase())
+        ? prevFilters.ecosystems.filter(e => e !== ecosystem.toLowerCase())
+        : [...prevFilters.ecosystems, ecosystem.toLowerCase()]
+    }));
+  };
 
   const filteredChains = useMemo(() => {
     return Object.entries(chainsData).filter(([chainId, data]) => {
@@ -89,7 +101,14 @@ export default function Home() {
           <h1 className="font-poppins text-[#1d1d1f] text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-12">
             Chains & Projects<br />Using Blockscout
           </h1>
-          <SearchBar onSearch={setSearchTerm} />
+          <div className="flex flex-col w-full lg:w-[860px]">
+            <SearchBar onSearch={setSearchTerm} />
+            <PopularEcosystems
+              ecosystems={popularEcosystems}
+              selectedEcosystems={filters.ecosystems}
+              onSelect={handleEcosystemSelect}
+            />
+          </div>
           <div className="w-full mt-16 mb-4 flex justify-between items-center">
             <div className="text-[22px] font-semibold text-[#6b6b74]">
               {filteredChains.length} Results

@@ -29,7 +29,7 @@ export default function SearchBar({ onSearch }: Props) {
   };
 
   return (
-    <div className="relative w-full lg:w-[860px]">
+    <div className="relative w-full">
       <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
         <Image src="/search.svg" alt="search" width={24} height={24} />
       </div>
