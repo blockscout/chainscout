@@ -12,8 +12,6 @@ type MenuLinkProps = {
 
 type DropdownItemProps = {
   href: string;
-  target?: string;
-  onClick?: () => void;
   className?: string;
   children: React.ReactNode;
 };
@@ -24,11 +22,10 @@ const MenuLink = ({ href, target, children }: MenuLinkProps) => (
   </Link>
 );
 
-const DropdownItem = ({ href, target = '_blank', onClick, className, children }: DropdownItemProps) => (
+const DropdownItem = ({ href, className, children }: DropdownItemProps) => (
   <Link
     href={href}
-    target={target}
-    onClick={onClick}
+    target="_blank"
     className={`block px-4 py-2 text-sm text-[#646474] hover:text-[#1668f9] ${className || ''}`}
   >
     {children}
@@ -95,14 +92,13 @@ export default function Header() {
                 <DropdownItem href="https://zksync.blockscout.com/">zkSync Era</DropdownItem>
                 <DropdownItem href="https://base.blockscout.com/">Base</DropdownItem>
                 <DropdownItem href="https://gnosis.blockscout.com/">Gnosis</DropdownItem>
-                <DropdownItem
+                <Link
                   href="/"
-                  target="_self"
                   onClick={() => setIsOpen(false)}
-                  className="text-[#1761e4] font-semibold leading-6"
+                  className="block px-4 py-2 text-sm text-[#1761e4] hover:opacity-80 font-semibold leading-6"
                 >
                   View all
-                </DropdownItem>
+                </Link>
               </div>
             )}
           </div>
