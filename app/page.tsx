@@ -4,6 +4,8 @@ import { useState, useEffect, useMemo } from 'react';
 import SearchBar from '@/components/SearchBar';
 import ChainList from '@/components/ChainList';
 import Filters from '@/components/Filters';
+import PopularEcosystems from '@/components/PopularEcosystems';
+import AddChainSection from '@/components/AddChainSection';
 import { Chains } from '@/types';
 
 async function getChainsData(): Promise<Chains> {
@@ -18,6 +20,18 @@ async function getChainsData(): Promise<Chains> {
   return res.json();
 }
 
+async function getFeaturedChains(): Promise<string[]> {
+  const res = await fetch('/api/featured', {
+    headers: {
+      'Cache-Control': 'no-cache'
+    }
+  });
+  if (!res.ok) {
+    throw new Error('Failed to fetch featured networks');
+  }
+  return res.json();
+}
+
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [chainsData, setChainsData] = useState<Chains>({});
@@ -28,6 +42,10 @@ export default function Home() {
     networkTypes: [] as string[],
     ecosystems: [] as string[],
   });
+  const [sortOption, setSortOption] = useState<'Featured' | 'Alphabetical'>('Featured');
+  const [featuredChains, setFeaturedChains] = useState<string[]>([]);
+
+  const popularEcosystems = ['Ethereum', 'Polygon', 'Optimism', 'Polkadot', 'Cosmos', 'zkSync', 'Arbitrum'];
 
   const ecosystems = useMemo(() => {
     if (!chainsData) return [];
@@ -42,8 +60,17 @@ export default function Home() {
     return Object.values(filters).reduce((acc, curr) => acc + curr.length, 0);
   }, [filters]);
 
+  const handleEcosystemSelect = (ecosystem: string) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      ecosystems: prevFilters.ecosystems.includes(ecosystem.toLowerCase())
+        ? prevFilters.ecosystems.filter(e => e !== ecosystem.toLowerCase())
+        : [...prevFilters.ecosystems, ecosystem.toLowerCase()]
+    }));
+  };
+
   const filteredChains = useMemo(() => {
-    return Object.entries(chainsData).filter(([chainId, data]) => {
+    return Object.fromEntries(Object.entries(chainsData).filter(([chainId, data]) => {
       const searchLower = searchTerm.toLowerCase();
       const nameMatch = data.name.toLowerCase().includes(searchLower);
       const chainIdMatch = chainId.toLowerCase().includes(searchLower);
@@ -61,7 +88,7 @@ export default function Home() {
           : filters.ecosystems.includes(data.ecosystem.toLowerCase()));
 
       return searchMatch && hostingMatch && networkTypeMatch && ecosystemMatch;
-    });
+    }));
   }, [chainsData, searchTerm, filters]);
 
   useEffect(() => {
@@ -80,32 +107,77 @@ export default function Home() {
     loadChainsData();
   }, []);
 
+  useEffect(() => {
+    async function loadFeaturedChains() {
+      try {
+        const networks = await getFeaturedChains();
+        setFeaturedChains(networks);
+      } catch (err) {
+        console.error('Failed to load featured networks:', err);
+      }
+    }
+
+    loadFeaturedChains();
+  }, []);
+
+  const sortedAndFilteredChains = useMemo(() => {
+    let sorted = Object.entries(filteredChains);
+
+    if (sortOption === 'Featured') {
+      sorted = sorted.sort((a, b) => {
+        const aIndex = featuredChains.indexOf(a[0]);
+        const bIndex = featuredChains.indexOf(b[0]);
+        if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+        if (aIndex !== -1) return -1;
+        if (bIndex !== -1) return 1;
+        return 0;
+      });
+    } else {
+      sorted = sorted.sort((a, b) => a[1].name.localeCompare(b[1].name));
+    }
+
+    return sorted;
+  }, [filteredChains, sortOption, featuredChains]);
+
   if (error) return <div className="text-center text-red-500 mt-8">{error}</div>;
 
   return (
-    <main className="max-w-[1376px] mx-auto pt-24 pb-[100px] sm:px-6 lg:px-10">
-      <div className="flex flex-col items-center px-4 sm:px-0">
-        <h1 className="font-poppins text-[#1d1d1f] text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-12">
-          Chains & Projects<br />Using Blockscout
-        </h1>
-        <SearchBar onSearch={setSearchTerm} />
-        <div className="w-full mt-16 mb-4 flex justify-between items-center">
-          <div className="text-[22px] font-semibold text-[#6b6b74]">
-            {filteredChains.length} Results
+    <main className="pt-[143px] md:pt-[138px]">
+      <div className="flex flex-col items-center custom-background">
+        <div className="flex flex-col items-center px-5 pt-[60px] md:pt-24 w-full max-w-[1376px] mx-auto pb-[100px] sm:px-6 lg:px-10">
+          <h1 className="font-poppins text-[#1d1d1f] text-[36px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-6 md:mb-12">
+            Chains & Projects<br />Using Blockscout
+          </h1>
+          <div className="flex flex-col w-full lg:w-[860px] mb-6 md:mb-[70px]">
+            <SearchBar onSearch={setSearchTerm} />
+            <PopularEcosystems
+              ecosystems={popularEcosystems}
+              selectedEcosystems={filters.ecosystems}
+              onSelect={handleEcosystemSelect}
+            />
           </div>
-          <Filters
+          <div className="w-full mb-6 flex flex-col md:flex-row gap-3 md:gap-0 justify-between items-center">
+            <div className="text-lg md:text-[22px] font-semibold text-[#6b6b74]">
+              {sortedAndFilteredChains.length} Results
+            </div>
+            <Filters
+              filters={filters}
+              setFilters={setFilters}
+              ecosystems={ecosystems}
+              appliedFiltersCount={appliedFiltersCount}
+              sortOption={sortOption}
+              setSortOption={setSortOption}
+            />
+          </div>
+          <AddChainSection />
+          <ChainList
+            chains={sortedAndFilteredChains}
+            searchTerm={searchTerm}
+            isLoading={isLoading}
             filters={filters}
-            setFilters={setFilters}
-            ecosystems={ecosystems}
-            appliedFiltersCount={appliedFiltersCount}
+            featuredChains={featuredChains}
           />
         </div>
-        <ChainList
-          chains={Object.fromEntries(filteredChains)}
-          searchTerm={searchTerm}
-          isLoading={isLoading}
-          filters={filters}
-        />
       </div>
     </main>
   );

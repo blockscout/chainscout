@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url('/background.png');
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: scroll;
+  background-color: #fff;
 }
 
 @keyframes pulse {
@@ -21,4 +17,12 @@ body {
 
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.custom-background {
+  background-image: url('/background.png');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
 }
