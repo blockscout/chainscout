@@ -16,6 +16,7 @@ const config: Config = {
       transitionProperty: {
         'height': 'height',
         'spacing': 'margin, padding',
+        'transform': 'transform',
       },
       fontFamily: {
         poppins: ['var(--font-poppins)', 'sans-serif'],
