@@ -23,10 +23,10 @@ export default function Header() {
         </div>
       </div>
       <header className="fixed w-full z-10 bg-white">
-        <div className="bg-[#161616] text-white text-sm h-[68px] md:h-[44px] flex items-center justify-center gap-[14px]">
-          <span>Support Open Source 🔭</span>
-          <Link href="#" className="underline">
-            Donate to Blockscout Today!
+        <div className="bg-[#161616] text-white text-sm h-[68px] md:h-[44px] flex flex-col md:flex-row items-center justify-center gap-1 md:gap-[14px]">
+          <span>Participated in our <b>recent Blockscout activities</b>?</span>
+          <Link href="https://badges.blockscout.com/?utm_source=blockscout-landing" target="_blank" className="underline">
+            Mint your exclusive NFT Scout badge!
           </Link>
         </div>
         <div className="flex items-center justify-between bg-white max-w-[1376px] h-[75px] md:h-[94px] mx-auto px-5 md:px-10 md:border-0 border-b border-[#e6e8ec]">
