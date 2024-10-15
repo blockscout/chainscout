@@ -10,6 +10,7 @@ type ExplorerDropdownProps = {
 const DropdownItem: React.FC<{ href: string; children: React.ReactNode; isMobile: boolean }> = ({ href, children, isMobile }) => (
   <Link
     href={href}
+    target="_blank"
     className={`block px-4 py-2 text-sm text-[#646474] hover:text-[#1668f9] ${isMobile ? 'py-1.5' : 'py-2'}`}
   >
     {children}
