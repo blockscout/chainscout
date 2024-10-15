@@ -142,7 +142,7 @@ export default function Home() {
   if (error) return <div className="text-center text-red-500 mt-8">{error}</div>;
 
   return (
-    <main className="pt-[138px]">
+    <main className="pt-[143px] md:pt-[138px]">
       <div className="flex flex-col items-center custom-background">
         <div className="flex flex-col items-center px-4 pt-24 w-full max-w-[1376px] mx-auto pb-[100px] sm:px-6 lg:px-10">
           <h1 className="font-poppins text-[#1d1d1f] text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-12">

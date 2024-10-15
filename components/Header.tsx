@@ -13,7 +13,7 @@ export default function Header() {
     <>
       {/* Mobile menu */}
       <div
-        className={`md:hidden fixed inset-x-0 top-0 bottom-0 pt-[104px] bg-white transition-transform duration-300 ease-in-out overflow-y-auto z-10 ${
+        className={`md:hidden fixed inset-x-0 top-0 bottom-0 pt-[143px] bg-white transition-transform duration-300 ease-in-out overflow-y-auto z-10 ${
           isMobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
@@ -22,15 +22,15 @@ export default function Header() {
           <ExplorerDropdown isMobile onClose={() => setIsMobileMenuOpen(false)} />
         </div>
       </div>
-      <header className="fixed w-full z-10">
-        <div className="bg-[#161616] text-white text-sm h-[44px] flex items-center justify-center gap-[14px]">
+      <header className="fixed w-full z-10 bg-white">
+        <div className="bg-[#161616] text-white text-sm h-[68px] md:h-[44px] flex items-center justify-center gap-[14px]">
           <span>Support Open Source 🔭</span>
           <Link href="#" className="underline">
             Donate to Blockscout Today!
           </Link>
         </div>
-        <div className="flex items-center justify-between bg-white h-[60px] md:h-[94px] px-4 md:px-10 border-b border-[#e6e8ec]">
-          <div className="flex-1">
+        <div className="flex items-center justify-between bg-white max-w-[1376px] h-[75px] md:h-[94px] mx-auto px-5 md:px-10 md:border-0 border-b border-[#e6e8ec]">
+          <div className="flex-1 mb-[-6px] md:mb-0">
             <div className="w-[150px] md:w-[115px] relative">
               <Image
                 src="/logo.svg"
@@ -48,7 +48,7 @@ export default function Header() {
           </div>
           {/* Mobile menu button */}
           <button
-            className="w-6 h-6 flex flex-col justify-center items-end md:hidden gap-1"
+            className="w-8 h-8 flex flex-col justify-center items-center md:hidden gap-1 mb-[-6px]"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <div className={`block w-5 h-0.5 bg-black ${isMobileMenuOpen ? 'rotate-45 translate-y-[3px]' : ''}`}></div>

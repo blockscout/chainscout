@@ -20,7 +20,7 @@ const DropdownItem: React.FC<{ href: string; children: React.ReactNode; isMobile
 const ExplorerDropdown: React.FC<ExplorerDropdownProps> = ({ isMobile = false, onClose }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const buttonClasses = isMobile ? 'justify-between w-full text-md py-5 px-6' : 'h-[46px] w-[170px] text-sm pl-4 pr-2';
+  const buttonClasses = isMobile ? 'w-full text-md py-5 px-6' : 'h-[46px] w-[170px] text-sm pl-4 pr-2.5';
   const dropdownClasses = isMobile ? 'left-0 w-full' : 'w-[170px]';
 
   const handleClose = () => {
@@ -32,7 +32,7 @@ const ExplorerDropdown: React.FC<ExplorerDropdownProps> = ({ isMobile = false, o
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center bg-transparent font-semibold text-[#1d1d1f] rounded-lg border border-[#dcdddd] hover:border-[#1668f9] transition-colors duration-[800ms] ease-in-out ${buttonClasses}`}
+        className={`flex items-center justify-between bg-transparent font-semibold text-[#1d1d1f] rounded-lg border border-[#dcdddd] hover:border-[#1668f9] transition-colors duration-[800ms] ease-in-out ${buttonClasses}`}
       >
         Use the Explorer
         <Image
