@@ -107,11 +107,11 @@ const Filters: React.FC<FiltersProps> = ({
   }, []);
 
   return (
-    <div className="flex items-center gap-4">
-      <div className="relative" ref={filterRef}>
+    <div className="flex items-center w-full md:w-auto gap-3">
+      <div className="md:relative flex-1 md:flex-auto" ref={filterRef}>
         <button
           onClick={() => setIsFilterOpen(!isFilterOpen)}
-          className="flex items-center h-[46px] gap-2 p-[10px_12px_10px_16px] border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
+          className="w-full flex items-center h-[46px] gap-2 p-[10px_12px_10px_16px] border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
         >
           {appliedFiltersCount > 0 && (
             <div className="h-6 min-w-6 px-[3px] text-sm text-semibold text-white bg-[#23262f] rounded-full flex items-center justify-center">
@@ -124,11 +124,11 @@ const Filters: React.FC<FiltersProps> = ({
             alt="arrow"
             width={20}
             height={20}
-            className={`transition-transform duration-300 ${isFilterOpen ? 'rotate-180' : ''}`}
+            className={`ml-auto transition-transform duration-300 ${isFilterOpen ? 'rotate-180' : ''}`}
           />
         </button>
         <div
-          className={`absolute z-10 right-0 mt-2 w-[calc(100vw-32px)] lg:w-[750px] bg-white rounded-[10px] shadow-[0_0_1px_rgba(0,0,0,.25),10px_0_32px_rgba(104,107,116,.02),12px_0_36px_rgba(33,41,41,.12)] transition-all duration-300 ease-in-out ${
+          className={`absolute z-10 md:right-0 mt-2 w-[calc(100vw-32px)] lg:w-[750px] bg-white rounded-[10px] shadow-[0_0_1px_rgba(0,0,0,.25),10px_0_32px_rgba(104,107,116,.02),12px_0_36px_rgba(33,41,41,.12)] transition-all duration-300 ease-in-out ${
             isFilterOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
           }`}
         >
@@ -166,18 +166,20 @@ const Filters: React.FC<FiltersProps> = ({
           </div>
         </div>
       </div>
-      <div className="relative" ref={sortRef}>
+      <div className="relative flex-1 md:flex-auto" ref={sortRef}>
         <button
           onClick={() => setIsSortOpen(!isSortOpen)}
-          className="flex items-center h-[46px] py-2.5 px-3 border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
+          className="w-full flex items-center gap-2 h-[46px] py-2.5 px-3 border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
         >
-          <span className="text-[#b1b5c3] mr-1">Sort:</span> {sortOption}
+          <span>
+            <span className="text-[#b1b5c3]">Sort:</span> {sortOption}
+          </span>
           <Image
             src="/arrow-down.svg"
             alt="arrow"
             width={20}
             height={20}
-            className={`ml-2 transition-transform duration-300 ${isSortOpen ? 'rotate-180' : ''}`}
+            className={`ml-auto transition-transform duration-300 ${isSortOpen ? 'rotate-180' : ''}`}
           />
         </button>
         {isSortOpen && (

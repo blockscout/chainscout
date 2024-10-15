@@ -144,11 +144,11 @@ export default function Home() {
   return (
     <main className="pt-[143px] md:pt-[138px]">
       <div className="flex flex-col items-center custom-background">
-        <div className="flex flex-col items-center px-4 pt-24 w-full max-w-[1376px] mx-auto pb-[100px] sm:px-6 lg:px-10">
-          <h1 className="font-poppins text-[#1d1d1f] text-[42px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-12">
+        <div className="flex flex-col items-center px-5 pt-[60px] md:pt-24 w-full max-w-[1376px] mx-auto pb-[100px] sm:px-6 lg:px-10">
+          <h1 className="font-poppins text-[#1d1d1f] text-[36px] md:text-[54px] lg:text-7xl leading-[1.08em] lg:leading-[1.08em] font-semibold text-center mb-6 md:mb-12">
             Chains & Projects<br />Using Blockscout
           </h1>
-          <div className="flex flex-col w-full lg:w-[860px] mb-[70px]">
+          <div className="flex flex-col w-full lg:w-[860px] mb-6 md:mb-[70px]">
             <SearchBar onSearch={setSearchTerm} />
             <PopularEcosystems
               ecosystems={popularEcosystems}
@@ -156,8 +156,8 @@ export default function Home() {
               onSelect={handleEcosystemSelect}
             />
           </div>
-          <div className="w-full mb-6 flex justify-between items-center">
-            <div className="text-[22px] font-semibold text-[#6b6b74]">
+          <div className="w-full mb-6 flex flex-col md:flex-row gap-3 md:gap-0 justify-between items-center">
+            <div className="text-lg md:text-[22px] font-semibold text-[#6b6b74]">
               {sortedAndFilteredChains.length} Results
             </div>
             <Filters

@@ -27,6 +27,7 @@ const config: Config = {
     extend: {
       opacity: ['group-hover'],
       translate: ['group-hover'],
+      textColor: ['peer-hover'],
     },
   },
   plugins: [],

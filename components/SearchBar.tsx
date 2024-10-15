@@ -35,8 +35,7 @@ export default function SearchBar({ onSearch }: Props) {
       </div>
       <input
         type="text"
-        className="w-full text-[#23262f] border border-[#d0d5dd] rounded-[10px] h-[56px] mb-0 pl-12 pr-4 py-4 text-lg leading-[1.55em] transition-colors duration-400 ease-in-out shadow-[1px_0_2px_rgba(16,24,40,0.05)] focus:outline-none focus:border-[#2563eb]"
-        style={{ fontSize: '18px' }}
+        className="w-full text-[16px] md:text-lg text-[#23262f] border border-[#d0d5dd] rounded-[10px] h-[56px] mb-0 pl-12 pr-4 py-4 text-lg leading-[1.55em] transition-colors duration-400 ease-in-out shadow-[1px_0_2px_rgba(16,24,40,0.05)] focus:outline-none focus:border-[#2563eb]"
         placeholder="Search for something"
         value={term}
         onChange={handleChange}
