@@ -28,7 +28,8 @@ export default function ChainCard({
   website,
   logo,
   ecosystem,
-}: ChainData & { chainId: string }) {
+  featured,
+}: ChainData & { chainId: string, featured: boolean }) {
   const { hostedBy, url } = explorers[0];
   const hostedByText = HOSTING_PROVIDERS[hostedBy as HostingProvider] || 'Unknown';
   const colors = hostingColors[hostedBy as HostingProvider] || hostingColors.blockscout;
@@ -36,13 +37,22 @@ export default function ChainCard({
 
   return (
     <div className="bg-white p-6 flex flex-col border rounded-[20px] hover:shadow-[20px_0_40px_rgba(183,183,183,.1),2px_0_20px_rgba(183,183,183,.08)] transition-shadow duration-[400ms] ease-[cubic-bezier(.39, .575, .565, 1)] group">
-      <div className="flex justify-between items-start mb-6">
+      <div className="flex justify-between items-center mb-6">
         <span
-          className="inline-flex items-center px-2 py-1 rounded text-sm font-medium"
+          className="inline-flex items-center px-2 py-0.5 rounded text-sm font-medium"
           style={{ backgroundColor: colors.bg, color: colors.text }}
         >
           {hostedBy === 'self' ? 'Self-hosted' : `Hosted by ${hostedByText}`}
         </span>
+        {featured && (
+          <Image
+            src="/star.svg"
+            alt="Featured Chain"
+            width={24}
+            height={24}
+            className="flex-shrink-0"
+          />
+        )}
       </div>
       <div className="flex items-center mb-4 gap-3">
         <div className="w-14 h-14 flex-shrink-0">

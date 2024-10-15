@@ -20,6 +20,18 @@ async function getChainsData(): Promise<Chains> {
   return res.json();
 }
 
+async function getFeaturedChains(): Promise<string[]> {
+  const res = await fetch('/api/featured', {
+    headers: {
+      'Cache-Control': 'no-cache'
+    }
+  });
+  if (!res.ok) {
+    throw new Error('Failed to fetch featured networks');
+  }
+  return res.json();
+}
+
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [chainsData, setChainsData] = useState<Chains>({});
@@ -30,6 +42,8 @@ export default function Home() {
     networkTypes: [] as string[],
     ecosystems: [] as string[],
   });
+  const [sortOption, setSortOption] = useState<'Featured' | 'Alphabetical'>('Featured');
+  const [featuredChains, setFeaturedChains] = useState<string[]>([]);
 
   const popularEcosystems = ['Ethereum', 'Polygon', 'Optimism', 'Polkadot', 'Cosmos', 'zkSync', 'Arbitrum'];
 
@@ -56,7 +70,7 @@ export default function Home() {
   };
 
   const filteredChains = useMemo(() => {
-    return Object.entries(chainsData).filter(([chainId, data]) => {
+    return Object.fromEntries(Object.entries(chainsData).filter(([chainId, data]) => {
       const searchLower = searchTerm.toLowerCase();
       const nameMatch = data.name.toLowerCase().includes(searchLower);
       const chainIdMatch = chainId.toLowerCase().includes(searchLower);
@@ -74,7 +88,7 @@ export default function Home() {
           : filters.ecosystems.includes(data.ecosystem.toLowerCase()));
 
       return searchMatch && hostingMatch && networkTypeMatch && ecosystemMatch;
-    });
+    }));
   }, [chainsData, searchTerm, filters]);
 
   useEffect(() => {
@@ -92,6 +106,38 @@ export default function Home() {
 
     loadChainsData();
   }, []);
+
+  useEffect(() => {
+    async function loadFeaturedChains() {
+      try {
+        const networks = await getFeaturedChains();
+        setFeaturedChains(networks);
+      } catch (err) {
+        console.error('Failed to load featured networks:', err);
+      }
+    }
+
+    loadFeaturedChains();
+  }, []);
+
+  const sortedAndFilteredChains = useMemo(() => {
+    let sorted = Object.entries(filteredChains);
+
+    if (sortOption === 'Featured') {
+      sorted = sorted.sort((a, b) => {
+        const aIndex = featuredChains.indexOf(a[0]);
+        const bIndex = featuredChains.indexOf(b[0]);
+        if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+        if (aIndex !== -1) return -1;
+        if (bIndex !== -1) return 1;
+        return 0;
+      });
+    } else {
+      sorted = sorted.sort((a, b) => a[1].name.localeCompare(b[1].name));
+    }
+
+    return sorted;
+  }, [filteredChains, sortOption, featuredChains]);
 
   if (error) return <div className="text-center text-red-500 mt-8">{error}</div>;
 
@@ -112,21 +158,24 @@ export default function Home() {
           </div>
           <div className="w-full mb-6 flex justify-between items-center">
             <div className="text-[22px] font-semibold text-[#6b6b74]">
-              {filteredChains.length} Results
+              {sortedAndFilteredChains.length} Results
             </div>
             <Filters
               filters={filters}
               setFilters={setFilters}
               ecosystems={ecosystems}
               appliedFiltersCount={appliedFiltersCount}
+              sortOption={sortOption}
+              setSortOption={setSortOption}
             />
           </div>
           <AddChainSection />
           <ChainList
-            chains={Object.fromEntries(filteredChains)}
+            chains={sortedAndFilteredChains}
             searchTerm={searchTerm}
             isLoading={isLoading}
             filters={filters}
+            featuredChains={featuredChains}
           />
         </div>
       </div>
