@@ -51,7 +51,10 @@
     "name": "Optimism",
     "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -67,6 +70,22 @@
     "name": "Flare Network",
     "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b7046228b97e09c6b3b3_Flare-pink.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://flare.network/",
+    "explorers": [
+      {
+        "url": "https://flare-explorer.flare.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "14": {
+    "name": "Flare Networks",
+    "description": "Networks for the secure and Universal Flare EVM chain. ",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/flaresongbird.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -95,6 +114,22 @@
       }
     ]
   },
+  "16": {
+    "name": "Flare Network Coston",
+    "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/flare-blue.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://flare.network/",
+    "explorers": [
+      {
+        "url": "https://coston-explorer.flare.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "18": {
     "name": "Thundercore Testnet",
     "description": "A high performance, eco-friendly, fully interoperable blockchain.",
@@ -107,6 +142,22 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.thundercore.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "19": {
+    "name": "Flare Network Songbird Canary",
+    "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Flare-black.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://flare.network/",
+    "explorers": [
+      {
+        "url": "https://songbird-explorer.flare.network/",
         "hostedBy": "self"
       }
     ]
@@ -383,6 +434,22 @@
       }
     ]
   },
+  "99": {
+    "name": "GlitchD",
+    "description": "GlitchD is a zero knowledge rollup network built on Ethereum.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/GlitchD.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": "zk",
+    "website": "https://glitchd.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.glitchd.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "100": {
     "name": "Gnosis",
     "description": "Gnosis Chain is a feature-rich, user-centered blockchain ecosystem.",
@@ -463,10 +530,42 @@
       }
     ]
   },
+  "111": {
+    "name": "BOB Testnet",
+    "description": "Hybrid L2 that combines the security of Bitcoin with the versatility of Ethereum.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/BOB.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.gobob.xyz/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.gobob.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "113": {
     "name": "Flare Network Coston2",
     "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b704f27176823b36e394_flare-blue.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://flare.network/",
+    "explorers": [
+      {
+        "url": "https://coston2-explorer.flare.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "114": {
+    "name": "Flare Network Coston2",
+    "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/flare-blue.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -539,6 +638,22 @@
     "explorers": [
       {
         "url": "https://blockscout.bellecour.iex.ec/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "133": {
+    "name": "HashKey Testnet",
+    "description": "HashKey Chain adopts ZK-proof technology to provide users with low-cost, efficient, and developer-friendly onchain solutions.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://global.hashkey.com/en-US/",
+    "explorers": [
+      {
+        "url": "https://hashkey-testnet.blockscout.com",
         "hostedBy": "self"
       }
     ]
@@ -675,7 +790,10 @@
     "name": "Mint Chain",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b4292ddefeda50298_Mint.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -683,6 +801,22 @@
     "explorers": [
       {
         "url": "https://explorer.mintchain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "190": {
+    "name": "CommuDAO",
+    "description": "Protocol enabling NFTs and ERC20 tokens to be used in gamification and DeFi dApps, where DAO community can then participate.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/CommuDAO.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://commudao.xyz/",
+    "explorers": [
+      {
+        "url": "https://bbqchain-exp.commudao.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -899,7 +1033,10 @@
     "name": "Orderly",
     "description": "The permissionless liquidity layer for Web3 trading.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1123,7 +1260,10 @@
     "name": "PGN Mainnet",
     "description": "L2 designed for durable and recurring funding for public goods.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem":  ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1147,6 +1287,22 @@
     "explorers": [
       {
         "url": "https://clvscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "480": {
+    "name": "World Chain",
+    "description": "World Chain is permissionless, open source, designed for community governance, and for developers to reach users with apps for everyday life.",
+    "logo": "",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://world.org/world-chain",
+    "explorers": [
+      {
+        "url": "https://worldchain-mainnet.explorer.alchemy.com",
         "hostedBy": "self"
       }
     ]
@@ -1227,6 +1383,22 @@
     "explorers": [
       {
         "url": "https://explorer.doric.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "550": {
+    "name": "River Mainnet",
+    "description": "Onchain protocol for building decentralized, encrypted messaging apps.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/River.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.river.build/",
+    "explorers": [
+      {
+        "url": "https://explorer.river.build/",
         "hostedBy": "self"
       }
     ]
@@ -1439,11 +1611,30 @@
       }
     ]
   },
+  "654": {
+    "name": "Kalichain",
+    "description": "Blockchain platform crafted for fostering authenticity, secure transactions and rightful royalties in secondary markets.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Kalichain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.kalichain.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.kalichain.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "690": {
     "name": "Redstone",
     "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226f758be373b16bd7f_redstone.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1451,22 +1642,6 @@
     "explorers": [
       {
         "url": "https://explorer.redstone.xyz/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "17069": {
-    "name": "Garnet Testnet",
-    "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226f758be373b16bd7f_redstone.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "website": "https://redstone.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.garnetchain.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -1567,6 +1742,22 @@
       }
     ]
   },
+  "749": {
+    "name": "Social Network Testnet",
+    "description": "The first Bitcoin staking Layer-2, backed by Ethereum.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.social.network/",
+    "explorers": [
+      {
+        "url": "https://socialnetwork-testnet.explorer.alchemy.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "758": {
     "name": "Ozone",
     "description": "Quantum resistant blockchain with embedded quantum security technologies included.",
@@ -1595,6 +1786,22 @@
     "explorers": [
       {
         "url": "https://ocean.ftnscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "766": {
+    "name": "QOM ONE",
+    "description": "A meme-friendly L1 Network project (fork of Evmos) focusing on decentralization.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/QOM-ONE.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://qom.one/",
+    "explorers": [
+      {
+        "url": "https://scan.qom.one/",
         "hostedBy": "self"
       }
     ]
@@ -1859,7 +2066,10 @@
     "name": "Lyra",
     "description": "Permissionless smart contract platform that scales Ethereum while inheriting its security.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5474a3f3454c26c669c_lyra.png",
-    "ecosystem":  ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1883,6 +2093,22 @@
     "explorers": [
       {
         "url": "https://xanachain.xana.net/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "979": {
+    "name": "EthXY",
+    "description": "Multiplayer on-chain game with one-tap PvP combat on Base and a community of players.",
+    "logo": "",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://ethxy.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.ethxy.com/",
         "hostedBy": "self"
       }
     ]
@@ -2159,6 +2385,22 @@
       }
     ]
   },
+  "1110": {
+    "name": "Nural",
+    "description": "Decentralized Interoperable Application Layer for Ethereum.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Nural.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.nuralchain.org/",
+    "explorers": [
+      {
+        "url": "https://blockscout.nuralchain.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1111": {
     "name": "Moonchain",
     "description": "Hyper-scalable DePin native Layer 3.",
@@ -2275,7 +2517,10 @@
     "name": "Lisk ",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a991726cabd8059078_lisk.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2491,6 +2736,22 @@
     "explorers": [
       {
         "url": "https://explorer-evm.testnet.swisstronik.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1301": {
+    "name": "Unichain Testnet",
+    "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
+    "logo": "",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.unichain.org/",
+    "explorers": [
+      {
+        "url": "https://unichain-sepolia.blockscout.com",
         "hostedBy": "self"
       }
     ]
@@ -2715,6 +2976,22 @@
     "explorers": [
       {
         "url": "https://explorer.bloomgenesis.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1490": {
+    "name": "Vitruveo",
+    "description": "Auto-rebasing protocol creating multiple revenue streams for creators and collectors.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://vitruveo.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.vitruveo.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -3011,6 +3288,22 @@
       }
     ]
   },
+  "1625": {
+    "name": "Gravity",
+    "description": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gravity.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://gravity.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.gravity.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1648": {
     "name": "DBK",
     "description": "Bridge from Ethereum to DBK Chain powered by OP SuperBridge, mint DBK NFTs.",
@@ -3107,6 +3400,22 @@
       }
     ]
   },
+  "1717": {
+    "name": "Doric",
+    "description": "Blockchain platform tokenizing real-world assets.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/doric.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://doric.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.doric.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1729": {
     "name": "Reya",
     "description": "The 1st zero-Gas trading-optimized L2",
@@ -3175,7 +3484,10 @@
     "name": "Metal L2",
     "description": "Blockchain solution serving as the connective layer for seamless asset transfers and dApp operations.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6a611744972e72f88b_Metal_L2.png",
-    "ecosystem":  ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -3183,6 +3495,22 @@
     "explorers": [
       {
         "url": "https://explorer.metall2.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1776": {
+    "name": "SVN",
+    "description": "A public good for validating data so AI can make new scientific discoveries.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.svn.haus/",
+    "explorers": [
+      {
+        "url": "https://explorer.svn.haus/",
         "hostedBy": "self"
       }
     ]
@@ -3347,6 +3675,22 @@
       }
     ]
   },
+  "1993": {
+    "name": "B3",
+    "description": "Gaming ecosystem on Base built to bring the next gen of gamers and game creators onchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/B3.png",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.b3.fun/",
+    "explorers": [
+      {
+        "url": "https://sepolia.explorer.b3.fun/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1994": {
     "name": "Ekta",
     "description": "Aligns the blockchain and physical world through the tokenization of real-world assets",
@@ -3411,6 +3755,22 @@
       }
     ]
   },
+  "2020": {
+    "name": "Alastria",
+    "description": "Public-permissioned, multi-sector blockchain platform aiming to spread knowledge about distributed ledger technologies.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Alastria.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://alastria.io/",
+    "explorers": [
+      {
+        "url": "https://b-network.alastria.izer.tech/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2021": {
     "name": "Edgeware",
     "description": "EdgeEVM is a Permissionless, DAO-first smart contract blockchain.",
@@ -3447,7 +3807,10 @@
     "name": "Swan",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -3539,6 +3902,22 @@
       }
     ]
   },
+  "2233": {
+    "name": "Chainbase",
+    "description": "Omnichain data network for AI: Chainbase powers AI in crypto, just like Oracle powers Blockchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Chainbase.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://chainbase.com/",
+    "explorers": [
+      {
+        "url": "https://testnet.explorer.chainbase.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2358": {
     "name": "Kroma Sepolia",
     "description": "Optimistic Rollup with ZK Fault Proof - adaptive and User-Friendly L2 solution",
@@ -3587,6 +3966,22 @@
       }
     ]
   },
+  "2525": {
+    "name": "inEVM Mainnet",
+    "description": "Hyperscale Ethereum development, the first rollup designed to supercharge concurrent VM development.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/inEVM.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://inevm.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.inevm.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2710": {
     "name": "Morph Sepolia",
     "description": "Solutions platform to make consumer blockchain applications accessible and valuable to developers, projects and users.",
@@ -3603,6 +3998,22 @@
       }
     ]
   },
+  "2730": {
+    "name": "XR One",
+    "description": "High impact PvP Web3 games.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://xrone.network/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.xrone.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2810": {
     "name": "Morph",
     "description": "Solutions platform to make consumer blockchain applications accessible and valuable to developers, projects and users.",
@@ -3615,6 +4026,22 @@
     "explorers": [
       {
         "url": "https://explorer-holesky.morphl2.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "2818": {
+    "name": "Morph",
+    "description": "Solutions platform to make consumer blockchain applications accessible and valuable to developers, projects and users.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Morph.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.morphl2.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.morphl2.io/",
         "hostedBy": "self"
       }
     ]
@@ -3811,6 +4238,38 @@
       }
     ]
   },
+  "3890": {
+    "name": "Clisha Chain Mainnet",
+    "description": "Community-focused platform for digital marketing and blockchain integration.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Clisha-Chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://clishachain.com/",
+    "explorers": [
+      {
+        "url": "https://clishascan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "3891": {
+    "name": "Clisha Chain Testnet",
+    "description": "Community-focused platform for digital marketing and blockchain integration.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Clisha-Chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://clishachain.com/",
+    "explorers": [
+      {
+        "url": "https://testnet.clishachain.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "4024": {
     "name": "TONSquare",
     "description": "Platform that bridges the TON blockchain with EVM-compatible chains, enhancing dApp developement across ecosystems.",
@@ -3923,6 +4382,22 @@
       }
     ]
   },
+  "4613": {
+    "name": "Very Network",
+    "description": "Global web 3 chat platform that eliminates communication barriers for people around the world.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://verylabs.io/",
+    "explorers": [
+      {
+        "url": "https://veryscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "4653": {
     "name": "Gold",
     "description": "Gold is an innovative Layer 3 blockchain designed for fully onchain strategy games",
@@ -3952,6 +4427,22 @@
       {
         "url": "https://blackfort-testnet.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "4801": {
+    "name": "World Chain Testnet",
+    "description": "World Chain is permissionless, open source, designed for community governance, and for developers to reach users with apps for everyday life.",
+    "logo": "",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://world.org/world-chain",
+    "explorers": [
+      {
+        "url": "https://worldchain-sepolia.explorer.alchemy.com",
+        "hostedBy": "self"
       }
     ]
   },
@@ -4067,6 +4558,38 @@
       }
     ]
   },
+  "5272": {
+    "name": "D-Ecosystem",
+    "description": "A community-driven open-source blockchain protocol.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/D-Ecosystem.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://d-ecosystem.io/",
+    "explorers": [
+      {
+        "url": "https://mainnet-explorer.d-ecosystem.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5499": {
+    "name": "Timeleap",
+    "description": "Blockchain company offering services such as Custom Oracle Network, blockchain IoT SDK, and Deep Indexing on 8 EVM chains.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://timeleap.swiss/",
+    "explorers": [
+      {
+        "url": "https://devnet.timeleap.swiss/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "5845": {
     "name": "Tangle",
     "description": "Modular restaking infrastructure for web3 development.",
@@ -4147,6 +4670,38 @@
       }
     ]
   },
+  "6805": {
+    "name": "RACE",
+    "description": "Layer 2 RWA-focused protocol to unlock global liquidity.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/RACE.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://raceecosystem.com/",
+    "explorers": [
+      {
+        "url": "https://racescan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "6806": {
+    "name": "RACE",
+    "description": "Layer 2 RWA-focused protocol to unlock global liquidity.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/RACE.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://raceecosystem.com/",
+    "explorers": [
+      {
+        "url": "https://testnet.racescan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "6868": {
     "name": "U Bitcoin Thunder Network",
     "description": "Bitcoin Layer 3 - EVM compatible, BTC denominated, powered by Arbitrum AnyTrust and Celestia.",
@@ -4208,6 +4763,22 @@
       {
         "url": "https://zetachain-athens-3.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "7007": {
+    "name": "BST Chain",
+    "description": "Scalable, secure, and sustainable platform for building and deploying decentralized applications powered by zero-knowledge technology.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/BST-Chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://bstchain.io/",
+    "explorers": [
+      {
+        "url": "https://bstscan.com/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -4291,6 +4862,22 @@
       }
     ]
   },
+  "7774": {
+    "name": "GDCC",
+    "description": "Decentralized and scalable platform, supporting transparent peer-to-peer transactions. ",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/gdcc.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://gdcchain.com/",
+    "explorers": [
+      {
+        "url": "https://www.gdccscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "7777": {
     "name": "GDCC",
     "description": "Decentralized and scalable platform, supporting transparent peer-to-peer transactions.",
@@ -4303,6 +4890,22 @@
     "explorers": [
       {
         "url": "https://www.gdccscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "7879": {
+    "name": "Gam3 Mainnet",
+    "description": "Scalable gamification layer - gamified AI agent and dePIN network.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gam3.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://gam3.ai/",
+    "explorers": [
+      {
+        "url": "https://explorer.gam3.ai/",
         "hostedBy": "self"
       }
     ]
@@ -4355,11 +4958,46 @@
       }
     ]
   },
+  "8329": {
+    "name": "Lorenzo Mainnet",
+    "description": "The premier platform for Bitcoin liquid staking token issuance, trading, and settlement.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Lorenzo.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.lorenzo-protocol.xyz/",
+    "explorers": [
+      {
+        "url": "https://scan.lorenzo-protocol.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "8428": {
+    "name": "THAT",
+    "description": "A blockchain cryptocurrency designed to become the world’s first primary, borderless medium of exchange.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.that.website/",
+    "explorers": [
+      {
+        "url": "https://that.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "8453": {
     "name": "Base",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535abf3b842f5da79f4_base.png",
-    "ecosystem": ["Ethereum", "Superchain"],
+    "ecosystem": [
+      "Ethereum",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -4407,7 +5045,10 @@
     "name": "Lumio",
     "description": "Rollup technology suite that enables developers to build with any VM on any chain.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66197b04192c1560286bac0c_lumio.png",
-    "ecosystem":  ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -4467,6 +5108,70 @@
       }
     ]
   },
+  "8900": {
+    "name": "Ottochain",
+    "description": "Consumer chain that adopts Oct 2.0 Interchain security built on the Cosmos SDK. Compatibility & Interoperability with EVM.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Ottochain.png",
+    "ecosystem": "NEAR",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.ottochain.io/",
+    "explorers": [
+      {
+        "url": "https://otto.blockscout.mainnet.octopus.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "8911": {
+    "name": "ALG",
+    "description": "Blockchain that merges AI & blockchain technology, with emphasis on the genuine service level of the network, specifically for DApps.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/ALG.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.algen.network/",
+    "explorers": [
+      {
+        "url": "https://scan.algen.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "8912": {
+    "name": "ALG Testnet 1",
+    "description": "Blockchain that merges AI & blockchain technology, with emphasis on the genuine service level of the network, specifically for DApps.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/ALG.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.algen.network/",
+    "explorers": [
+      {
+        "url": "https://scan.test.algen.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "8922": {
+    "name": "ALG Testnet 2",
+    "description": "Blockchain that merges AI & blockchain technology, with emphasis on the genuine service level of the network, specifically for DApps.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/ALG.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.algen.network/",
+    "explorers": [
+      {
+        "url": "https://scan.alg2-test.algen.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "8995": {
     "name": "Bloxberg",
     "description": "The Blockchain for Science",
@@ -4515,6 +5220,22 @@
       }
     ]
   },
+  "9302": {
+    "name": "Galactica",
+    "description": "EVM L1 powered by Cosmos SDK. Among the core features are contingent transactions, zkCertificates and KYC Guardians.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Galactica.png",
+    "ecosystem": "Cosmos",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://galactica.com/",
+    "explorers": [
+      {
+        "url": "https://explorer-reticulum.galactica.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "9372": {
     "name": "Oasys HUB Testnet",
     "description": "Gaming blockchain combing public and private blockchain technologies.",
@@ -4531,6 +5252,38 @@
       }
     ]
   },
+  "9496": {
+    "name": "WeaveVM",
+    "description": "Hyperscalable network built on the permanent storage layer: Arweave.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 0,
+    "rollupType": null,
+    "website": "https://www.wvm.dev/",
+    "explorers": [
+      {
+        "url": "https://explorer.wvm.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "9897": {
+    "name": "Arena-Z-Testnet",
+    "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
+    "logo": "",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://arena-z.gg/",
+    "explorers": [
+      {
+        "url": "https://arena-z.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "9990": {
     "name": "Lumio",
     "description": "Rollup technology suite that enables developers to build with any VM on any chain.",
@@ -4543,6 +5296,22 @@
     "explorers": [
       {
         "url": "https://explorer.testnet.lumio.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "9999": {
+    "name": "Metagarden",
+    "description": "Crypto gaming platform on Telegram.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Metagarden.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://metagarden.io/",
+    "explorers": [
+      {
+        "url": "https://scan.metagarden.io/",
         "hostedBy": "self"
       }
     ]
@@ -4595,6 +5364,22 @@
       }
     ]
   },
+  "10321": {
+    "name": "TAOevm",
+    "description": "The Bittensor TAO Layer 2 Solution for Enhanced Blockchain Efficiency.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://taoevm.io/",
+    "explorers": [
+      {
+        "url": "https://taoscan.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "10395": {
     "name": "Worldland Testnet",
     "description": "Platform for users to establish a global free trade digital land.",
@@ -4643,6 +5428,22 @@
       }
     ]
   },
+  "11011": {
+    "name": "Shape",
+    "description": "Chain for creators, built on top of Ethereum using OP Stack.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Shape.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.shape.network/",
+    "explorers": [
+      {
+        "url": "https://shape-sepolia-explorer.alchemy.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "11221": {
     "name": "Shine Chain",
     "description": "Blockchain platform combining blockchain technology with artificial intelligence (AI).",
@@ -4687,6 +5488,22 @@
     "explorers": [
       {
         "url": "https://bx.testnet.shyft.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "11989": {
+    "name": "Kaon",
+    "description": "L1 blockchain for transfers across all chains",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Kaon.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.kaon.one/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.kaon.one/",
         "hostedBy": "self"
       }
     ]
@@ -4787,6 +5604,38 @@
       }
     ]
   },
+  "15551": {
+    "name": "Loop",
+    "description": "EVM-compatible programmability with Proof of Stake and Authority(PoSA) consensus. ",
+    "logo": "x",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.theloopnetwork.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.mainnetloop.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "16182": {
+    "name": "EVEDEX",
+    "description": "Perpetual DEX and next-gen Web3 financial platform for cryptocurrency trading based on an L3 blockchain.",
+    "logo": "",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://evedex.com/",
+    "explorers": [
+      {
+        "url": "https://testnet-blockscout.eh-dev.app",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "16888": {
     "name": "DogeLayer Testnet",
     "description": "Layer 2 making Dogecoin programmable, faster, more widely used and accepted.",
@@ -4819,6 +5668,22 @@
       }
     ]
   },
+  "17069": {
+    "name": "Garnet Testnet",
+    "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226f758be373b16bd7f_redstone.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://redstone.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.garnetchain.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "17071": {
     "name": "Mezcal",
     "description": "Dev-friendly environment built to testing the Celo migration from L1 to L2",
@@ -4831,6 +5696,38 @@
     "explorers": [
       {
         "url": "https://mezcal-testnet.explorer.caldera.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "17247": {
+    "name": "Chainers",
+    "description": "Next-gen NFT metagame for web 3.0 funseekers running on Polygon.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/chainers.png",
+    "ecosystem": "Polygon",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://chainers.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.chainers.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "17406": {
+    "name": "Mal Network",
+    "description": "Designing a Scalable Layer 2 Blockchain for Real world Applications.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Mal-Network.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://mal.network/",
+    "explorers": [
+      {
+        "url": "https://scan.mal.network/",
         "hostedBy": "self"
       }
     ]
@@ -4851,6 +5748,22 @@
       }
     ]
   },
+  "18803": {
+    "name": "Zitherin",
+    "description": "An RPG adventure game built on blockchain. Trade traits, battle monsters, defeat other players.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://zitherin.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.zitherin.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "19424": {
     "name": "Allo",
     "description": "Allo is a decentralized protocol for launching real world assets.",
@@ -4863,6 +5776,22 @@
     "explorers": [
       {
         "url": "https://explorer.allo.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "20197": {
+    "name": "Oasys Sand Verse",
+    "description": "Gaming blockchain combing public and private blockchain technologies.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/oasys.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.oasys.games/",
+    "explorers": [
+      {
+        "url": "https://explorer.sandverse.oasys.games/",
         "hostedBy": "self"
       }
     ]
@@ -4915,6 +5844,22 @@
       }
     ]
   },
+  "31194": {
+    "name": "Rift Network",
+    "description": "Web3 technologies to help develop gaming, including a high speed reliable L3 blockchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Rift-Network.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://riftnetwork.io/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.riftnetwork.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "32001": {
     "name": "W3Gamez Network",
     "description": "Gaming blockchain based on Optimism Rollup and NEAR Data Availability.",
@@ -4931,11 +5876,62 @@
       }
     ]
   },
+  "33103": {
+    "name": "Zilliqa Testnet",
+    "description": "Zilliqa 2.0 features a native EVM execution layer, supporting standard EVM development tools and wallets while also retaining a custom execution layer",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.zilliqa.com/",
+    "explorers": [
+      {
+        "url": "https://zilliqa-prototestnet.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "33111": {
+    "name": "ApeCoin",
+    "description": "ApeCoin testnet includes the network itself, Ape token and others, and a bridge from Curtis to Arbitrum Sepolia.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/ApeCoin.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://apecoin.com/",
+    "explorers": [
+      {
+        "url": "https://curtis.explorer.caldera.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "33401": {
+    "name": "SlingShot",
+    "description": "Gaming DAO where users to vote on game ideas, build, and launch them, earning rewards and revenue for the gaming community.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/SlingShot.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://slingshotdao.com/",
+    "explorers": [
+      {
+        "url": "https://explore.slingshotdao.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "34443": {
     "name": "Mode",
     "description": "Ethereum L2 with rewards for growing the network via new economic mechanisms.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bd53572e9b71e26d8724ba_mode.png",
-    "ecosystem":  ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -4963,6 +5959,54 @@
       }
     ]
   },
+  "39855": {
+    "name": "Gam3 Testnet",
+    "description": "Scalable gamification layer - gamified AI agent and dePIN network.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gam3.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://gam3.ai/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.gam3.ai/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "41923": {
+    "name": "EDU Chain",
+    "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://educhain.xyz/",
+    "explorers": [
+      {
+        "url": "https://educhain.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "42026": {
+    "name": "Donatuz",
+    "description": "Streamlining Monetization for Sustainable Creator Income!",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Donatuz.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.donatuz.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.donatuz.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "42161": {
     "name": "Arbitrum One Nitro",
     "description": "Arbitrum is an L2 scaling solution for Ethereum. Nitro introduces additional improvements for speed and scalability.",
@@ -4976,6 +6020,22 @@
       {
         "url": "https://arbitrum.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "42169": {
+    "name": "XGA Testnet",
+    "description": "Platform comprised of a Rollup, smart contract protocol, Ethereum consensus layer sidecar and domain-specific engine for developing game-specific mechanisms.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://docs.xga.com/",
+    "explorers": [
+      {
+        "url": "https://holesky-blockscout.xga.com/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -4999,6 +6059,22 @@
       }
     ]
   },
+  "42220": {
+    "name": "Celo",
+    "description": "Mobile-first L2 scaling protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.celo.org/mainnet/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "42262": {
     "name": "Oasis Emerald",
     "description": "Privacy-enabled and scalable layer-1 blockchain network",
@@ -5011,6 +6087,22 @@
     "explorers": [
       {
         "url": "https://explorer.emerald.oasis.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "42421": {
+    "name": "Xend Finance Asset Chain",
+    "description": "A universal framework and blockchain for real-world assets tokenization and on-chain management developed by Xend Finance.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Asset-Chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://xend.finance/",
+    "explorers": [
+      {
+        "url": "https://scan-testnet.assetchain.org/",
         "hostedBy": "self"
       }
     ]
@@ -5063,6 +6155,42 @@
       }
     ]
   },
+  "44787": {
+    "name": "Celo Alphajores",
+    "description": "Mobile-first L2 scaling protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://celo-alfajores.blockscout.com",
+        "hostedBy": "blockscout"
+      },
+      {
+        "url": "https://explorer.celo.org/alfajores",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "45510": {
+    "name": "DeeLance Mainnet",
+    "description": "A decentralized blockchain built to connect freelancers and recruiters.",
+    "logo": "x",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://deelance.com/en",
+    "explorers": [
+      {
+        "url": "https://deescan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "47805": {
     "name": "Rei Network",
     "description": "Light weight, Ethereum compatible, high performance, no fee blockchain framework.",
@@ -5091,6 +6219,22 @@
     "explorers": [
       {
         "url": "https://explorer.testnet.bifrostnetwork.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "49293": {
+    "name": "thirdweb",
+    "description": "Full-stack, open-source web3 development platform. Frontend, backend, and onchain tools to build complete web3 apps — on every EVM chain.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.thirdweb-dev.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.cane-testnet.thirdweb-dev.com/",
         "hostedBy": "self"
       }
     ]
@@ -5223,6 +6367,42 @@
       }
     ]
   },
+  "62320": {
+    "name": "Celo Baklava",
+    "description": "Mobile-first L2 scaling protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://celo-baklava.blockscout.com/",
+        "hostedBy": "blockscout"
+      },
+      {
+        "url": "https://explorer.celo.org/baklava",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "63157": {
+    "name": "Geist Mainnet",
+    "description": "Members-only blockchain, built for crypto gaming, the onchain home of Aavegotchi, and all community-built games.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.playongeist.com/",
+    "explorers": [
+      {
+        "url": "https://geist-mainnet.explorer.alchemy.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "64002": {
     "name": "IDEX",
     "description": "Omnichain perpetuals DEX",
@@ -5268,6 +6448,38 @@
       {
         "url": "https://explorer.apex.proofofplay.com/",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "73114": {
+    "name": "ICB Network Testnet",
+    "description": "Decentralized blockchain combining speed and safety, built to enable scalable, user-friendly apps for the world.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/ICB-network.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.icb.network/",
+    "explorers": [
+      {
+        "url": "https://testnet.icbscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "73115": {
+    "name": "ICB Network",
+    "description": "Decentralized blockchain combining speed and safety, built to enable scalable, user-friendly apps for the world.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/ICB-network.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.icb.network/",
+    "explorers": [
+      {
+        "url": "https://icbscan.io/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5319,6 +6531,22 @@
       }
     ]
   },
+  "83291": {
+    "name": "Lorenzo Testnet",
+    "description": "The premier platform for Bitcoin liquid staking token issuance, trading, and settlement.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Lorenzo.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.lorenzo-protocol.xyz/",
+    "explorers": [
+      {
+        "url": "https://scan-testnet.lorenzo-protocol.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "84532": {
     "name": "Base Sepolia",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
@@ -5332,6 +6560,54 @@
       {
         "url": "https://base-sepolia.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "88808": {
+    "name": "Smartly Ventures",
+    "description": "Community-centric Web3 ecosystem, onboarding communities on chain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Smartly-Ventures.png",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.smartly.ventures/",
+    "explorers": [
+      {
+        "url": "https://explorer.smartly.ventures/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "88817": {
+    "name": "Units",
+    "description": "Foundational layer connecting ecosystem chains in a fully interoperable and trustless manner.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Units.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://units.network",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.unit0.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "91111": {
+    "name": "Henez Finance",
+    "description": "Modular network for OmniDapps - OmniDefi liquidity layer.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Henez-Finance.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.henez.fi/",
+    "explorers": [
+      {
+        "url": "https://explorer.henez.fi/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5363,6 +6639,22 @@
     "explorers": [
       {
         "url": "https://explorer.lambda.im/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "93747": {
+    "name": "StratoVM",
+    "description": "StratoVM is a modular rollup, aiming to empower the future of DeFi on Bitcoin.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/StratoVM.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://stratovm.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.stratovm.io/",
         "hostedBy": "self"
       }
     ]
@@ -5399,6 +6691,22 @@
       }
     ]
   },
+  "98985": {
+    "name": "Superposition",
+    "description": "Layer-3 Chain engineered to facilitate native liquidity and utility mechanisms for decentralised applications.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Superposition.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.superposition.so/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.superposition.so/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "101010": {
     "name": "Stability",
     "description": "The first tokenless public blockchain network.",
@@ -5415,6 +6723,22 @@
       }
     ]
   },
+  "102030": {
+    "name": "Creditcoin",
+    "description": "Creditcoin connects real-world assets (RWAs) to Web3, helping financial institutions integrate their credit operations on-chain.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://creditcoin.org/",
+    "explorers": [
+      {
+        "url": "https://creditcoin.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "102031": {
     "name": "Creditcoin testnet",
     "description": "Multichain Credit Protocol Powering Real-World Assets",
@@ -5428,6 +6752,22 @@
       {
         "url": "https://creditcoin-testnet.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "102032": {
+    "name": "Creditcoin Devnet",
+    "description": "Creditcoin connects real-world assets (RWAs) to Web3, helping financial institutions integrate their credit operations on-chain.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://creditcoin.org/",
+    "explorers": [
+      {
+        "url": "https://creditcoin-devnet.blockscout.com",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5495,6 +6835,22 @@
       }
     ]
   },
+  "123321": {
+    "name": "Gem",
+    "description": "Mini-app in Telegram for quick and free transfers and swaps of your favorite TON tokens using the Gem Chain blockchain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gem.png",
+    "ecosystem": "Cosmos",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://gemchain.org/",
+    "explorers": [
+      {
+        "url": "https://scan.gemchain.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "128123": {
     "name": "Etherlink Testnet",
     "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
@@ -5508,6 +6864,38 @@
       {
         "url": "https://testnet-explorer.etherlink.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "132902": {
+    "name": "Form",
+    "description": "Form is a light speed, low-cost Ethereum L2 built to bring mass adoption to SocialFi.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Form.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://form.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.form.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "150150": {
+    "name": "Hedwig Chain",
+    "description": "OP-stack playground designed for developers, with no gas fees.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://hedwig.build/",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.hedwig.build/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5588,6 +6976,22 @@
       {
         "url": "https://andromeda.anomalyscan.io/",
         "hostedBy": "gelato-raas"
+      }
+    ]
+  },
+  "314159": {
+    "name": "Filecoin Calibration testnet",
+    "description": "Filecoin is a peer-to-peer network that stores files, with built-in economic incentives and cryptography to ensure files are stored reliably over time.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://filecoin.io/",
+    "explorers": [
+      {
+        "url": "https://filecoin-testnet.blockscout.com",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5751,6 +7155,22 @@
       }
     ]
   },
+  "486487": {
+    "name": "Gobbl",
+    "description": "Decentralized ecosystem of food dapps across delivery, social, gaming and loyaltytech.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gobbl.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.gobbl.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.gobbl.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "490000": {
     "name": "Subspace",
     "description": "Network that allows developers to run Web3 apps at Internet scale.",
@@ -5767,6 +7187,54 @@
       }
     ]
   },
+  "534351": {
+    "name": "Scroll Testnet",
+    "description": "Security-focused scaling solution for Ethereum, using innovations in scaling design and zero knowledge proofs to build a new layer on Ethereum.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://scroll.io/",
+    "explorers": [
+      {
+        "url": "https://scroll-sepolia.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "534352": {
+    "name": "Scroll",
+    "description": "Security-focused scaling solution for Ethereum, using innovations in scaling design and zero knowledge proofs to build a new layer on Ethereum.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://scroll.io/",
+    "explorers": [
+      {
+        "url": "https://scroll.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "560098": {
+    "name": "Novastro Testnet",
+    "description": "Novastro is a Layer3 chain for parallelized restaking that tokenizes future yields for a variety of assets across blockchains.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.novastro.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.novastro.xyz",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "622277": {
     "name": "Hypra Network",
     "description": "Decentralized proof-of-work EVM blockchain.",
@@ -5779,6 +7247,22 @@
     "explorers": [
       {
         "url": "https://explorer.hypra.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "631571": {
+    "name": "Polter Testnet",
+    "description": "Members-only blockchain, built for crypto gaming, the onchain home of Aavegotchi, and all community-built games.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.playongeist.com/",
+    "explorers": [
+      {
+        "url": "https://polter-testnet.explorer.alchemy.com",
         "hostedBy": "self"
       }
     ]
@@ -5831,6 +7315,54 @@
       }
     ]
   },
+  "736826": {
+    "name": "Renta",
+    "description": "Global ecosystem for property rental worldwide without commissions and intermediaries.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Renta.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://renta.network/",
+    "explorers": [
+      {
+        "url": "https://explorer-bluetail.renta.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "763373": {
+    "name": "Ink Testnet",
+    "description": "Blockchain designed to be the house of DeFi for the Superchain; a powerful baselayer for deploying innovative DeFi protocols.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://inkonchain.com/en-US",
+    "explorers": [
+      {
+        "url": "https://explorer-sepolia.inkonchain.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "777777": {
+    "name": "WINR",
+    "description": "An EVM-based high throughput L3 built for decentralized gambling apps and fast, gasless onchain games with custom tooling.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://winr.games/",
+    "explorers": [
+      {
+        "url": "https://explorer.winr.games/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "782251": {
     "name": "Stack Testnet",
     "description": "Loyalty points onchain and simple tools for managing points programs",
@@ -5844,6 +7376,22 @@
       {
         "url": "https://testnet.explorer.stack.so",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "789987": {
+    "name": "Codex",
+    "description": "Decentralised data storage protocol, created so the world community can preserve its most important knowledge without risk of censorship.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Codex.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://codex.storage/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.codex.storage/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5959,6 +7507,38 @@
       }
     ]
   },
+  "4423333": {
+    "name": "Radiologex",
+    "description": "Revolutionizing global healthcare with Web3 and AI-powered IT productivity solutions.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Radiologex.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://radiologex.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.rdgx.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "4444444": {
+    "name": "Ceremonies",
+    "description": "A decentralized exchange for AI services and info, providing a platform for users and creators to access any AI tools they need.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Ceremonies.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.ceremonies.ai/",
+    "explorers": [
+      {
+        "url": "https://altar-explorer.ceremonies.ai/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "6038361": {
     "name": "Astar zKyoto",
     "description": "The Astar zkEVM provides Ethereum-inherited security, high EVM equivalence,\nspeed, and scalability.",
@@ -5975,11 +7555,46 @@
       }
     ]
   },
+  "6524490": {
+    "name": "River Testnet",
+    "description": "Onchain protocol for building decentralized, encrypted messaging apps.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/River.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.river.build/",
+    "explorers": [
+      {
+        "url": "https://testnet.explorer.river.build/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "7225878": {
+    "name": "saakuru",
+    "description": "Consumer-centric L1 with zero transaction fees.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/saakuru.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://saakuru.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.saakuru.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "7777777": {
     "name": "Zora",
     "description": "Fast, cost-efficient, and scalable Layer 2 built to help bring media onchain, built on the OP Stack.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5412aeb7e4739e65f12_zora.png",
-    "ecosystem":  ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -5988,6 +7603,22 @@
       {
         "url": "https://explorer.zora.energy/",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "7890785": {
+    "name": "XGA Mainnet",
+    "description": "Platform comprised of a Rollup, smart contract protocol, Ethereum consensus layer sidecar and domain-specific engine for developing game-specific mechanisms.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://docs.xga.com/",
+    "explorers": [
+      {
+        "url": "https://blockscout.xga.com/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -6003,6 +7634,22 @@
     "explorers": [
       {
         "url": "https://xcap-mainnet.explorer.xcap.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "9999999": {
+    "name": "Fluence",
+    "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.fluence.network/",
+    "explorers": [
+      {
+        "url": "https://blockscout.mainnet.fluence.dev",
         "hostedBy": "self"
       }
     ]
@@ -6068,6 +7715,22 @@
       {
         "url": "https://optimism-sepolia.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "12020498": {
+    "name": "Prosvita",
+    "description": "Online learning platform for teachers and students with courses and learning software tools.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Prosvita.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://prosvita.net",
+    "explorers": [
+      {
+        "url": "https://blockscout.prosvita.net",
+        "hostedBy": "self"
       }
     ]
   },
@@ -6151,6 +7814,38 @@
       }
     ]
   },
+  "34949059": {
+    "name": "Citronus Citro",
+    "description": "Citronus is a full-fledged ecosystem designed to simplify the investment experience for users at all levels.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://docs.citronus.com/",
+    "explorers": [
+      {
+        "url": "https://test.citronus.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "52164803": {
+    "name": "Fluence Testnet",
+    "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.fluence.network/",
+    "explorers": [
+      {
+        "url": "https://blockscout.testnet.fluence.dev",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "65010002": {
     "name": "Autonity Bakerloo",
     "description": "Public, EVM proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
@@ -6179,6 +7874,22 @@
     "explorers": [
       {
         "url": "https://piccadilly.autonity.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "88558800": {
+    "name": "Backstop",
+    "description": "A forkable Layer 2 with an in-built adjudication backstop.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Backstop.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://backstop.technology/",
+    "explorers": [
+      {
+        "url": "https://testnet.explorer.backstop.technology/",
         "hostedBy": "self"
       }
     ]
@@ -6231,6 +7942,38 @@
       }
     ]
   },
+  "123420111": {
+    "name": "Gelato - OP Celestia Raspberry",
+    "description": "Rollup-as-a-Service Platform. Launch enterprise-grade L2 & L3 chains integrated with industry-standard Web3 services.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gelato.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.gelato.network/",
+    "explorers": [
+      {
+        "url": "https://opcelestia-raspberry.gelatoscout.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "161221135": {
+    "name": "Plume",
+    "description": "Modular RWA L2 bringing any real world asset on-chain.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/plumenetwork.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://www.plumenetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://plume-testnet.explorer.caldera.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "168587773": {
     "name": "Blast Sepolia Testnet",
     "description": "The only Ethereum L2 with native yield for ETH and stablecoins.",
@@ -6279,6 +8022,22 @@
       }
     ]
   },
+  "584548796": {
+    "name": "Prom",
+    "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Prom.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://prom.io/",
+    "explorers": [
+      {
+        "url": "https://testnet.promscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "666666666": {
     "name": "Degen",
     "description": "Enables Casters to reward others with DEGEN for posting quality content.",
@@ -6295,6 +8054,22 @@
       }
     ]
   },
+  "686669576": {
+    "name": "Polygon CDK Stavanger",
+    "description": "Testnet based on the zkEVM architecture offered by Polygon CDK (Chain Development Kit).",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Stavanger.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://polygon.technology/cdk-stavanger-testnet",
+    "explorers": [
+      {
+        "url": "https://polygon-cdk-stavanger.blockscout.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "888888888": {
     "name": "Ancient8 Mainnet",
     "description": "Gaming-focused, community-driven L2 built to onboard the next 100M Web3 citizens",
@@ -6308,6 +8083,22 @@
       {
         "url": "https://scan.ancient8.gg/",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "994873017": {
+    "name": "Lumia Mainnet",
+    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Lumia.png",
+    "ecosystem": "Polygon",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://lumia.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.lumia.org/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -6391,6 +8182,54 @@
       }
     ]
   },
+  "1702448187": {
+    "name": "Witness Chain",
+    "description": "Witness Chain is the EigenLayer AVS to bring Ethereum’s security to new optimistic rollups and DePIN projects.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Witness-Chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.witnesschain.com/",
+    "explorers": [
+      {
+        "url": "https://witnesschain-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1942999413": {
+    "name": "Humanity Protocol",
+    "description": "Human-centric blockchain to empower the future of digital identity using Proof-of-Humanity technology.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Humanity-Protocol.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://www.humanity.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.humanity.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1952959480": {
+    "name": "Lumia Testnet",
+    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Lumia.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://lumia.org/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.lumia.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2046399126": {
     "name": "Skale",
     "description": "Multichain network composed of an unlimited number high-performance Ethereum Blockchains.",
@@ -6439,58 +8278,34 @@
       }
     ]
   },
-  "42220": {
-    "name": "Celo",
-    "description": "Mobile-first L2 scaling protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
+  "88153591557": {
+    "name": "Gelato - Arbitrum Blueberry",
+    "description": "Rollup-as-a-Service Platform. Launch enterprise-grade L2 & L3 chains integrated with industry-standard Web3 services.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Gelato.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 3,
     "rollupType": null,
-    "website": "https://celo.org/",
+    "website": "https://www.gelato.network/",
     "explorers": [
       {
-        "url": "https://explorer.celo.org/mainnet/",
+        "url": "https://arb-blueberry.gelatoscout.com/",
         "hostedBy": "self"
       }
     ]
   },
-  "44787":{
-    "name": "Celo Alphajores",
-    "description": "Mobile-first L2 scaling protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
-    "ecosystem": "Ethereum",
+  "71499284269": {
+    "name": "Rogue Chain",
+    "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
+    "logo": "https://blockscout-icons.s3.amazonaws.com/Rogue-Chain.png",
+    "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
-    "website": "https://celo.org/",
+    "website": "https://roguechain.io/",
     "explorers": [
       {
-        "url": "https://celo-alfajores.blockscout.com",
-        "hostedBy": "blockscout"
-      },
-      {
-        "url": "https://explorer.celo.org/alfajores",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "62320":{
-    "name": "Celo Baklava",
-    "description": "Mobile-first L2 scaling protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://celo.org/",
-    "explorers": [
-      {
-        "url": "https://celo-baklava.blockscout.com/",
-        "hostedBy": "blockscout"
-      },
-      {
-        "url": "https://explorer.celo.org/baklava",
+        "url": "https://testnet-explorer.roguechain.io/",
         "hostedBy": "self"
       }
     ]
