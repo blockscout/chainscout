@@ -1,4 +1,4 @@
-{
+  {
   "1": {
     "name": "Ethereum",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
@@ -1294,7 +1294,7 @@
   "480": {
     "name": "World Chain",
     "description": "World Chain is permissionless, open source, designed for community governance, and for developers to reach users with apps for everyday life.",
-    "logo": "",
+    "logo": "https://worldchain-mainnet.explorer.alchemy.com/assets/configs/network_icon.svg",
     "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 2,
@@ -1303,7 +1303,7 @@
     "explorers": [
       {
         "url": "https://worldchain-mainnet.explorer.alchemy.com",
-        "hostedBy": "self"
+        "hostedBy": "alchemy"
       }
     ]
   },
@@ -2743,7 +2743,7 @@
   "1301": {
     "name": "Unichain Testnet",
     "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
-    "logo": "",
+    "logo": "https://unichain-sepolia.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -2983,7 +2983,7 @@
   "1490": {
     "name": "Vitruveo",
     "description": "Auto-rebasing protocol creating multiple revenue streams for creators and collectors.",
-    "logo": "",
+    "logo": "https://explorer.vitruveo.xyz//assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -4433,7 +4433,7 @@
   "4801": {
     "name": "World Chain Testnet",
     "description": "World Chain is permissionless, open source, designed for community governance, and for developers to reach users with apps for everyday life.",
-    "logo": "",
+    "logo": "https://worldchain-sepolia.explorer.alchemy.com/assets/configs/network_icon.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -4577,7 +4577,7 @@
   "5499": {
     "name": "Timeleap",
     "description": "Blockchain company offering services such as Custom Oracle Network, blockchain IoT SDK, and Deep Indexing on 8 EVM chains.",
-    "logo": "",
+    "logo": "https://devnet.timeleap.swiss//assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -4977,7 +4977,7 @@
   "8428": {
     "name": "THAT",
     "description": "A blockchain cryptocurrency designed to become the world’s first primary, borderless medium of exchange.",
-    "logo": "",
+    "logo": "https://that.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -5879,7 +5879,7 @@
   "33103": {
     "name": "Zilliqa Testnet",
     "description": "Zilliqa 2.0 features a native EVM execution layer, supporting standard EVM development tools and wallets while also retaining a custom execution layer",
-    "logo": "",
+    "logo": "https://zilliqa-prototestnet.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -6390,7 +6390,7 @@
   "63157": {
     "name": "Geist Mainnet",
     "description": "Members-only blockchain, built for crypto gaming, the onchain home of Aavegotchi, and all community-built games.",
-    "logo": "",
+    "logo": "https://geist-mainnet.explorer.alchemy.com/assets/configs/network_icon.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 3,
@@ -6726,7 +6726,7 @@
   "102030": {
     "name": "Creditcoin",
     "description": "Creditcoin connects real-world assets (RWAs) to Web3, helping financial institutions integrate their credit operations on-chain.",
-    "logo": "",
+    "logo": "https://creditcoin.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -6758,7 +6758,7 @@
   "102032": {
     "name": "Creditcoin Devnet",
     "description": "Creditcoin connects real-world assets (RWAs) to Web3, helping financial institutions integrate their credit operations on-chain.",
-    "logo": "",
+    "logo": "https://creditcoin-devnet.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -6982,7 +6982,7 @@
   "314159": {
     "name": "Filecoin Calibration testnet",
     "description": "Filecoin is a peer-to-peer network that stores files, with built-in economic incentives and cryptography to ensure files are stored reliably over time.",
-    "logo": "",
+    "logo": "https://filecoin-testnet.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -7190,7 +7190,7 @@
   "534351": {
     "name": "Scroll Testnet",
     "description": "Security-focused scaling solution for Ethereum, using innovations in scaling design and zero knowledge proofs to build a new layer on Ethereum.",
-    "logo": "",
+    "logo": "https://scroll-sepolia.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -7206,7 +7206,7 @@
   "534352": {
     "name": "Scroll",
     "description": "Security-focused scaling solution for Ethereum, using innovations in scaling design and zero knowledge proofs to build a new layer on Ethereum.",
-    "logo": "",
+    "logo": "https://scroll.blockscout.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -7222,7 +7222,7 @@
   "560098": {
     "name": "Novastro Testnet",
     "description": "Novastro is a Layer3 chain for parallelized restaking that tokenizes future yields for a variety of assets across blockchains.",
-    "logo": "",
+    "logo": "https://explorer.novastro.xyz/assets/configs/network_icon.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 3,
@@ -7254,7 +7254,7 @@
   "631571": {
     "name": "Polter Testnet",
     "description": "Members-only blockchain, built for crypto gaming, the onchain home of Aavegotchi, and all community-built games.",
-    "logo": "",
+    "logo": "https://polter-testnet.explorer.alchemy.com/assets/configs/network_icon.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 3,
@@ -7334,7 +7334,7 @@
   "763373": {
     "name": "Ink Testnet",
     "description": "Blockchain designed to be the house of DeFi for the Superchain; a powerful baselayer for deploying innovative DeFi protocols.",
-    "logo": "",
+    "logo": "https://explorer-sepolia.inkonchain.com/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -7641,7 +7641,7 @@
   "9999999": {
     "name": "Fluence",
     "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
-    "logo": "",
+    "logo": "https://blockscout.mainnet.fluence.dev/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -7833,7 +7833,7 @@
   "52164803": {
     "name": "Fluence Testnet",
     "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
-    "logo": "",
+    "logo": "https://blockscout.testnet.fluence.dev/assets/configs/network_icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
