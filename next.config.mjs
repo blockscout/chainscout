@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['uploads-ssl.webflow.com'],
+    domains: [
+      'uploads-ssl.webflow.com',
+      'cdn.prod.website-files.com',
+    ],
   },
   webpack(config) {
     const fileLoaderRule = config.module.rules.find(
