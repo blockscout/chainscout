@@ -10,7 +10,7 @@ const AddChainSection: React.FC = () => {
       <Link
         href="https://github.com/blockscout/chainscout?tab=readme-ov-file#contributing"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         className="flex items-center h-[34px] border border-[#2563eb] text-[13px] text-[#2563eb] font-semibold px-3 rounded-lg hover:opacity-75 transition-opacity duration-[400ms]"
       >
         Add your Chain

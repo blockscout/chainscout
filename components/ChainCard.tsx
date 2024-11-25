@@ -83,7 +83,7 @@ export default function ChainCard({
             { href: url, text: 'Blockscout Explorer' },
           ].map(({ href, text }, index, array) => (
             <>
-              <Link href={href} className="group/link flex items-center justify-between py-3" target="_blank" rel="noopener noreferrer">
+              <Link href={href} className="group/link flex items-center justify-between py-3" target="_blank" rel="noopener">
                 <span className="text-sm font-medium text-black group-hover/link:text-blue-600 transition-colors duration-[400ms]">
                   {text}
                 </span>
