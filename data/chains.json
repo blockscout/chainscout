@@ -114,22 +114,6 @@
       }
     ]
   },
-  "16": {
-    "name": "Flare Network Coston",
-    "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b704f27176823b36e394_flare-blue.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://flare.network/",
-    "explorers": [
-      {
-        "url": "https://coston-explorer.flare.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "18": {
     "name": "Thundercore Testnet",
     "description": "A high performance, eco-friendly, fully interoperable blockchain.",
@@ -6878,7 +6862,7 @@
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67044737f3ca24e9c6b9fad8_Celo_Symbol_CMYK_ProsperityYellow.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
-    "layer": null,
+    "layer": 1,
     "rollupType": null,
     "website": "https://celo.org/",
     "explorers": [
@@ -8340,22 +8324,6 @@
     "explorers": [
       {
         "url": "https://pangu.explorer.snapcha.in",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "16813125": {
-    "name": "Flashbots",
-    "description": "Enabling a permissionless, transparent, and sustainable ecosystem for MEV.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65f22016240fbab932f7711d_flashbots.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": null,
-    "rollupType": null,
-    "website": "https://www.flashbots.net/",
-    "explorers": [
-      {
-        "url": "https://explorer.rigil.suave.flashbots.net/",
         "hostedBy": "self"
       }
     ]
@@ -10680,22 +10648,6 @@
       }
     ]
   },
-  "6038361_": {
-    "name": "Astar zKyoto",
-    "description": "The Astar zkEVM provides Ethereum-inherited security, high EVM equivalence,\nspeed, and scalability.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/65afe5361f5e3169ed6c18f7_astar.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "website": "https://astar.network/",
-    "explorers": [
-      {
-        "url": "https://zkyoto.explorer.startale.com",
-        "hostedBy": "hosted-by-blockscout"
-      }
-    ]
-  },
   "42_": {
     "name": "BCF Lab Innovation",
     "description": "Blockchain technology services provider, specializing in building secure and scalable solutions for businesses of all sizes and industries.",
@@ -11028,22 +10980,6 @@
     "explorers": [
       {
         "url": "https://testnet.explorer.stack.so/",
-        "hostedBy": "self-hosted"
-      }
-    ]
-  },
-  "3776_": {
-    "name": "Startale Astar",
-    "description": "Onboarding with Web3 technology, enhancing autonomy and innovation for a more equitable future.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6555e7afa4bf363738e0_Startale.png",
-    "ecosystem": "Astar",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://startale.com/en",
-    "explorers": [
-      {
-        "url": "https://astar-zkevm.explorer.startale.com/",
         "hostedBy": "self-hosted"
       }
     ]
