@@ -4074,7 +4074,7 @@
     "explorers": [
       {
         "url": "https://explorer-ui.cardona.zkevm-rpc.com/",
-        "hostedBy": "blockscout"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7043,7 +7043,7 @@
     "website": "https://www.etherlink.com/",
     "explorers": [
       {
-        "url": "https://testnet-explorer.etherlink.com/",
+        "url": "https://testnet.explorer.etherlink.com/",
         "hostedBy": "blockscout"
       }
     ]
