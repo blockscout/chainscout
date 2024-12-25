@@ -3,6 +3,7 @@ export const HOSTING_PROVIDERS = {
   'conduit': 'Conduit',
   'gelato-raas': 'Gelato RaaS',
   'altlayer-raas': 'Altlayer',
+  'protofire': 'Protofire',
   'self': 'Self-hosted'
 } as const;
 
