@@ -9,6 +9,7 @@ const hostingColors: Record<HostingProvider, { bg: string; text: string }> = {
   'conduit': { bg: '#31e3e3', text: '#0a0a0a' },
   'gelato-raas': { bg: '#f37b84', text: '#202020' },
   'altlayer-raas': { bg: 'hsla(264.6428571428571, 100.00%, 78.04%, 1.00)', text: '#1c1e24' },
+  'protofire': { bg: '#faa807', text: '#1c1e24' },
   'self': { bg: '#c2d9ff', text: '#003180' },
 };
 

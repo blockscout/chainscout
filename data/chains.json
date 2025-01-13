@@ -809,7 +809,7 @@
     "name": "VRCScan Testnet",
     "description": "Scalable and sustainable decentralized smart contracts platform.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664b89d7858b3e4cd3bff85e_vrcscan.png",
-    "ecosystem": "Ethererum",
+    "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -9048,6 +9048,38 @@
       }
     ]
   },
+  "1666600000": {
+    "name": "Harmony",
+    "description": "Harmony is an open blockchain with data sharding and fast finality.",
+    "logo": "https://cdn.prod.website-files.com/676b715fa7c0ee9345c1a283/676b719201065b4d04e0e5cf_1666600000.png",
+    "ecosystem": "Harmony",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.harmony.one/",
+    "explorers": [
+      {
+        "url": "https://explorer.harmony.one/",
+        "hostedBy": "protofire"
+      }
+    ]
+  },
+  "1666700000": {
+    "name": "Harmony Testnet",
+    "description": "Harmony is an open blockchain with data sharding and fast finality.",
+    "logo": "https://cdn.prod.website-files.com/676b715fa7c0ee9345c1a283/676b719201065b4d04e0e5cf_1666600000.png",
+    "ecosystem": "Harmony",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.harmony.one/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.harmony.one/",
+        "hostedBy": "protofire"
+      }
+    ]
+  },
   "1702448187": {
     "name": "Witness Chain",
     "description": "Witness Chain is the EigenLayer AVS to bring Ethereum’s security to new optimistic rollups and DePIN projects.",
@@ -10403,7 +10435,7 @@
     "website": "https://qu.ai/",
     "explorers": [
       {
-        "url": "https://cyprus1.colosseum.quaiscan.io/",
+        "url": "https://quaiscan.io/",
         "hostedBy": "self"
       }
     ]
