@@ -10707,7 +10707,7 @@
     "website": "https://taiko.xyz/",
     "explorers": [
       {
-        "url": "https://blockscoutapi.mainnet.taiko.xyz/",
+        "url": "https://blockscout.mainnet.taiko.xyz/",
         "hostedBy": "self"
       }
     ]
