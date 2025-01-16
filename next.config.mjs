@@ -5,6 +5,7 @@ const nextConfig = {
     domains: [
       'uploads-ssl.webflow.com',
       'cdn.prod.website-files.com',
+      'explorer.deso.com',
     ],
   },
   webpack(config) {
