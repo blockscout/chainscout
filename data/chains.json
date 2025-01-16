@@ -66,6 +66,22 @@
       }
     ]
   },
+  "11": {
+    "name": "DeSo",
+    "description": "DeSo is the first layer-1 blockchain built from the ground up to decentralize social media and scale storage-heavy apps to billions of users",
+    "logo": "https://explorer.deso.com/assets/img/logo-deso.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://deso.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.deso.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "13": {
     "name": "Flare Network",
     "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
