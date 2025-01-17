@@ -6487,7 +6487,7 @@
   "41923": {
     "name": "EDU Chain",
     "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
-    "logo": "",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e204578cf35841d0a804e_EDU-Chain.png",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 3,
@@ -6496,7 +6496,7 @@
     "explorers": [
       {
         "url": "https://educhain.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -8061,7 +8061,7 @@
     "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e204578cf35841d0a804e_EDU-Chain.png",
     "ecosystem": "Arbitrum",
-    "isTestnet": false,
+    "isTestnet": true,
     "layer": 3,
     "rollupType": null,
     "website": "https://educhain.xyz/",
@@ -11463,23 +11463,7 @@
         "hostedBy": "self-hosted"
       }
     ]
-  },
-  "656476__": {
-    "name": "Open Campus Testnet",
-    "description": "Blockchain dedicated to evolving the world of education via web3 technology.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e55fa3dd9ff936823d211_open-campus.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": "optimistic",
-    "website": "https://www.opencampus.xyz/",
-    "explorers": [
-      {
-        "url": "https://opencampus-codex.blockscout.com/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
+  }, 
   "5______": {
     "name": "QuarkChain",
     "description": "A flexible, scalable, and user-oriented blockchain infrastructure using blockchain sharding technology.",
