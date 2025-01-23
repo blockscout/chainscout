@@ -11543,5 +11543,20 @@
         "hostedBy": "self-hosted"
       }
     ]
-  }
+  },
+"57073": {
+  "name": "Ink",
+  "description": "Ink's public testnet",
+  "logo": "https://docs.inkonchain.com/images/brand-kit/docs-logo-symbol.png",
+  "ecosystem": "Optimism",
+  "isTestnet": false,
+  "layer": 2,
+  "rollupType": null,
+  "website": "https://inkonchain.com/",
+  "explorers": [
+    {
+      "url": "https://explorer.inkonchain.com/",
+      "hostedBy": "blockscout"
+    }
+  ]
 }
