@@ -11546,7 +11546,7 @@
   },
 "57073": {
   "name": "Ink",
-  "description": "Ink's public testnet",
+  "description": "Ink's public mainnet",
   "logo": "https://docs.inkonchain.com/images/brand-kit/docs-logo-symbol.png",
   "ecosystem": "Optimism",
   "isTestnet": false,
