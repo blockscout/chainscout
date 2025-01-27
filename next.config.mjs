@@ -6,6 +6,7 @@ const nextConfig = {
       'uploads-ssl.webflow.com',
       'cdn.prod.website-files.com',
       'docs.inkonchain.com',
+      'haust.network',
     ],
   },
   webpack(config) {
