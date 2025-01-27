@@ -4,6 +4,7 @@ export const HOSTING_PROVIDERS = {
   'gelato-raas': 'Gelato RaaS',
   'altlayer-raas': 'Altlayer',
   'protofire': 'Protofire',
+  'gateway-fm': 'gateway.fm',
   'self': 'Self-hosted'
 } as const;
 
