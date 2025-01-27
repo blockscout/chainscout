@@ -11561,20 +11561,20 @@
   ]
  },
 "1570754601": {
-"name": "Haust network",
-"description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
-"logo": "https://haust.network/haust-icon-white512.png",
-"ecosystem": "Ethereum",
-"isTestnet": true,
-"layer": 2,
-"rollupType": "zk",
-"website": "https://haust.network/",
-"explorers": [
-{
-"url": "https://explorer-testnet.haust.app/",
-"hostedBy": "Gateway"
-}
-]
+  "name": "Haust network",
+  "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
+  "logo": "https://haust.network/haust-icon-white512.png",
+  "ecosystem": "Ethereum",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "zk",
+  "website": "https://haust.network/",
+  "explorers": [
+    {
+      "url": "https://explorer-testnet.haust.app/",
+      "hostedBy": "gateway"
+    }
+  ]
 }
   
 }
