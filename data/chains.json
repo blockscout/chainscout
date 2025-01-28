@@ -9092,7 +9092,7 @@
     "explorers": [
       {
         "url": "https://witnesschain-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "self"
+        "hostedBy": "gateway"
       }
     ]
   },
