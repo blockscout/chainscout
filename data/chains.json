@@ -9123,8 +9123,8 @@
     "website": "https://www.humanity.org/",
     "explorers": [
       {
-        "url": "https://explorer.testnet.humanity.org/",
-        "hostedBy": "self"
+        "url": "https://hp-testnet-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
     ]
   },
