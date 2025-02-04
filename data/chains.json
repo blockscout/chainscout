@@ -8963,8 +8963,8 @@
     "website": "https://lumia.org/",
     "explorers": [
       {
-        "url": "https://explorer.lumia.org/",
-        "hostedBy": "self"
+        "url": "https://prism-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
     ]
   },
