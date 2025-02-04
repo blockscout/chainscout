@@ -8776,19 +8776,35 @@
       }
     ]
   },
-  "97072271": {
+  "1888108590": {
     "name": "Prom",
     "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Polygon",
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
     "website": "https://prom.io/",
     "explorers": [
       {
-        "url": "https://testnet.promscan.io/",
-        "hostedBy": "self"
+        "url": "https://prom-devnet-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+   "1279132": {
+    "name": "Prom",
+    "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
+    "ecosystem": "Polygon",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://prom.io/",
+    "explorers": [
+      {
+        "url": "https://prom-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
     ]
   },
