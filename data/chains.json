@@ -6571,7 +6571,7 @@
   "42220": {
     "name": "Celo",
     "description": "Mobile-first L2 scaling protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53649ca5bd7e40046c8_celo.png",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67044737f3ca24e9c6b9fad8_Celo_Symbol_CMYK_ProsperityYellow.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -6579,8 +6579,8 @@
     "website": "https://celo.org/",
     "explorers": [
       {
-        "url": "https://explorer.celo.org/mainnet/",
-        "hostedBy": "self"
+        "url": "https://celo.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
