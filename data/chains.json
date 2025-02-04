@@ -6579,8 +6579,8 @@
     "website": "https://celo.org/",
     "explorers": [
       {
-        "url": "https://explorer.celo.org/mainnet/",
-        "hostedBy": "self"
+        "url": "https://celo.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
