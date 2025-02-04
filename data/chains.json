@@ -9155,11 +9155,12 @@
     "website": "https://lumia.org/",
     "explorers": [
       {
-        "url": "https://testnet-explorer.lumia.org/",
-        "hostedBy": "self"
+        "url": "https://lumia-testnet-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
     ]
   },
+  
   "2046399126": {
     "name": "Skale",
     "description": "Multichain network composed of an unlimited number high-performance Ethereum Blockchains.",
