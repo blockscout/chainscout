@@ -6648,6 +6648,22 @@
       }
     ]
   },
+  "43111": {
+    "name": "Hemi",
+    "description": "Hemi is a modular blockchain built for superior scaling, security and interoperability.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6939415e7aa2dd801b18_hemi.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://hemi.xyz",
+    "explorers": [
+      {
+        "url": "https://explorer.hemi.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "43337": {
     "name": "RuneChain",
     "description": "Bitcoin L2 that scales Bitcoin for trading.",
@@ -8143,12 +8159,12 @@
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://hemi.xyz",
     "explorers": [
       {
         "url": "https://testnet.explorer.hemi.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
