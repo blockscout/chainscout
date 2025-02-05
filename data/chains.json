@@ -11593,5 +11593,22 @@
     }
   ]
 }
+
+"1418808462": {
+"name": "Arkreen",
+"description": "A public renewable energy asset network based on trusted energy data",
+"logo": "https://d2e6b8w31txsjq.cloudfront.net/logo-square-brandbg.png",
+"ecosystem": "Polygon",
+"isTestnet": true,
+"layer": 2,
+"rollupType": "zk",
+"website": "?????,
+"explorers": [
+{
+"url": "https://arkreen-zk-devnet-blockscout.eu-north-2.gateway.fm/",
+"hostedBy": "gateway"
+}
+]
+}
   
 }
