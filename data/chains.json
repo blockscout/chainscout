@@ -383,6 +383,38 @@
       }
     ]
   },
+  "88": {
+    "name": "Viction Network",
+    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://viction.xyz/",
+    "explorers": [
+      {
+        "url": "https://viction.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "89": {
+    "name": "Viction Testnet Network",
+    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://viction.xyz/",
+    "explorers": [
+      {
+        "url": "https://viction-testnet.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "94": {
     "name": "SwissDLT",
     "description": "Swiss Infrastructure with nodes under Swiss law for SMEs.",
@@ -811,6 +843,22 @@
     "explorers": [
       {
         "url": "https://dxb.vrcscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "210": {
+    "name": "Bitnet BTN",
+    "description": "Per-to-peer blockchain and financial network - made for everyone.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitnet-btn",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://bitnet.technology/",
+    "explorers": [
+      {
+        "url": "https://btnscout.org/",
         "hostedBy": "self"
       }
     ]
@@ -1291,6 +1339,22 @@
     "explorers": [
       {
         "url": "https://clvscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "469": {
+    "name": "Anzillium",
+    "description": "Anzillium blockchain boasts its own NFT platform equipped with cross-blockchain capabilities. ",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/anzillium.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.anzillium.io/",
+    "explorers": [
+      {
+        "url": "https://anzscan.com/",
         "hostedBy": "self"
       }
     ]
@@ -4163,6 +4227,22 @@
       }
     ]
   },
+  "2368": {
+    "name": "KiteAI Testnet",
+    "description": "Purpose-built EVM-compatible Layer 1, powered by Proof of AI.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/kiteai.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://gokite.ai/",
+    "explorers": [
+      {
+        "url": "https://testnet.kitescan.ai/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "2410": {
     "name": "Karak",
     "description": "The universal restaking security layer powered by the entire digital economy.",
@@ -4803,6 +4883,22 @@
       }
     ]
   },
+  "5050": {
+    "name": "ABO",
+    "description": "EGPTEX web3 retail store and staking app.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/abo.png",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://egptex.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.egptex.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "5101": {
     "name": "Syndicate",
     "description": "APIs infrastructure for building highly scalable, user-friendly, web3-powered products",
@@ -5023,6 +5119,22 @@
     "explorers": [
       {
         "url": "https://explorer.uprotocol.finance",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "6880": {
+    "name": "MTT Network",
+    "description": "MTT Network is a high-performance blockchain specifically developed for Web3 gaming tournaments.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mtt.png",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.mtt.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.mtt.network/",
         "hostedBy": "self"
       }
     ]
@@ -5619,6 +5731,22 @@
       }
     ]
   },
+  "9716": {
+    "name": "Astra Chain",
+    "description": "Highly efficient L1 blockchain built to deliver scalability, security, and fast transactions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/astra-chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://astralabschain.com/",
+    "explorers": [
+      {
+        "url": "https://astrachain.live/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "9897": {
     "name": "Arena-Z-Testnet",
     "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
@@ -5872,6 +6000,22 @@
       {
         "url": "https://shape-sepolia-explorer.alchemy.com/",
         "hostedBy": "alchemy"
+      }
+    ]
+  },
+  "11141": {
+    "name": "Ankawings Network Testnet",
+    "description": "Lower costs, high security, and advanced applications with new networks.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ankawings.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://ankawings.network/",
+    "explorers": [
+      {
+        "url": "https://ankawings.io/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -6259,6 +6403,22 @@
       }
     ]
   },
+  "18880": {
+    "name": "EXPchain Testnet",
+    "description": "Blockchain designed to redefine the intersection of artificial intelligence and decentralized technologies.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/expchain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://expchain.ai/",
+    "explorers": [
+      {
+        "url": "https://blockscout-testnet.expchain.ai/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "19424": {
     "name": "Allo",
     "description": "Allo is a decentralized protocol for launching real world assets.",
@@ -6511,6 +6671,22 @@
     "explorers": [
       {
         "url": "https://explorer.q.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "39815": {
+    "name": "Oho",
+    "description": "The Universal Layer 1-for-All blockchain powered by $OHO Coin.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/oho.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://oho.ai/",
+    "explorers": [
+      {
+        "url": "https://cloud.oho.ai/",
         "hostedBy": "self"
       }
     ]
@@ -6855,6 +7031,22 @@
       }
     ]
   },
+  "51012": {
+    "name": "PlutoChain",
+    "description": "PlutoChain is a Hybrid Layer 2 Solution that introduces smart contracts to Bitcoin.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plutochain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.plutochain.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.plutochain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "53302": {
     "name": "Superseed Sepolia",
     "description": "The first blockchain that repays your debt",
@@ -7143,6 +7335,22 @@
       }
     ]
   },
+  "65535": {
+    "name": "CyberChain Mainnet",
+    "description": "Layer 1 blockchain with GPU-friendly PoW, built for the next generation of decentralized applications.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cyberchain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://cyberchain.xyz/",
+    "explorers": [
+      {
+        "url": "https://scan.cyberchain.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "66665": {
     "name": "Creator",
     "description": "Blockchain built on the Superchain, designed to enhance scalability, efficiency, and reward-driven growth.",
@@ -7171,6 +7379,22 @@
     "explorers": [
       {
         "url": "https://scan.siriusnet.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "67412": {
+    "name": "ITA",
+    "description": "Comprehensive ecosystem built on web3 technologies, combines entertainment and gaming  - P2E/TAP Games, AI Bot and Game Center.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ita.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://itachain.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.itachain.io/",
         "hostedBy": "self"
       }
     ]
@@ -7267,6 +7491,22 @@
     "explorers": [
       {
         "url": "https://explorer-vanguard.vanarchain.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "80808": {
+    "name": "XeChain",
+    "description": "XeChain: ASIC-resistant EVM Layer 1 blockchain powered by GPUs, designed for fair and decentralized mining.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/xechain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://xechain.org/",
+    "explorers": [
+      {
+        "url": "https://xescan.net/",
         "hostedBy": "self"
       }
     ]
@@ -7559,6 +7799,22 @@
       }
     ]
   },
+  "110110": {
+    "name": "Mars Credit",
+    "description": "EVM fork of Ethereum POW L1, with larger blocks and faster consensus.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mars-credit.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://marscredit.xyz/",
+    "explorers": [
+      {
+        "url": "https://blockscan.marscredit.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "111111": {
     "name": "Siberium",
     "description": "Blockchain explorer for Siberium Network.",
@@ -7683,6 +7939,22 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.hedwig.build/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "150887": {
+    "name": "Maximo Testnet",
+    "description": "Maximo Protocol is a public infrastructure for on-chain attestations.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/maximo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://maximochain.xyz/",
+    "explorers": [
+      {
+        "url": "https://maximoscan.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -8295,6 +8567,22 @@
       }
     ]
   },
+  "786786": {
+    "name": "Zebro Smart Chain",
+    "description": "DeFi project with own EVM blockchain and multi-chain token Zebrocoin.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zebro.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://zebrocoin.app/",
+    "explorers": [
+      {
+        "url": "https://explorer.zebrocoin.app/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "789987": {
     "name": "Codex",
     "description": "Decentralised data storage protocol, created so the world community can preserve its most important knowledge without risk of censorship.",
@@ -8723,6 +9011,22 @@
     "explorers": [
       {
         "url": "https://sepolia-explorer.testnet.debank.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "28041980": {
+    "name": "Maximo",
+    "description": "Maximo Protocol is a public infrastructure for on-chain attestations.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/maximo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://maximochain.xyz/",
+    "explorers": [
+      {
+        "url": "https://maximochain.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -9300,6 +9604,22 @@
     "explorers": [
       {
         "url": "https://onfascan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "18022030290": {
+    "name": "MultiBank Testnet",
+    "description": "Digital Asset trading platform. Instant buy tool - buy and withdraw crypto instantly.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/multibank.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://multibank.io/",
+    "explorers": [
+      {
+        "url": "https://testnet.explorer.multibank.io/",
         "hostedBy": "self"
       }
     ]
