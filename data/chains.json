@@ -51,10 +51,7 @@
     "name": "Optimism",
     "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -774,10 +771,7 @@
     "name": "Mint Chain",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b4292ddefeda50298_Mint.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -834,6 +828,22 @@
       {
         "url": "https://explorer.energyweb.org/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "227": {
+    "name": "Prom Mainnet",
+    "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
+    "ecosystem": "Polygon",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://prom.io/",
+    "explorers": [
+      {
+        "url": "https://promscan.io/",
+        "hostedBy": "gateway"
       }
     ]
   },
@@ -1017,10 +1027,7 @@
     "name": "Orderly",
     "description": "The permissionless liquidity layer for Web3 trading.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1260,10 +1267,7 @@
     "name": "PGN Mainnet",
     "description": "L2 designed for durable and recurring funding for public goods.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1679,10 +1683,7 @@
     "name": "Redstone",
     "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226f758be373b16bd7f_redstone.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2178,10 +2179,7 @@
     "name": "Lyra",
     "description": "Permissionless smart contract platform that scales Ethereum while inheriting its security.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5474a3f3454c26c669c_lyra.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2645,10 +2643,7 @@
     "name": "Lisk ",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a991726cabd8059078_lisk.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -3644,10 +3639,7 @@
     "name": "Metal L2",
     "description": "Blockchain solution serving as the connective layer for seamless asset transfers and dApp operations.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6a611744972e72f88b_Metal_L2.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -3999,10 +3991,7 @@
     "name": "Swan",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -5298,10 +5287,7 @@
     "name": "Base",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535abf3b842f5da79f4_base.png",
-    "ecosystem": [
-      "Ethereum",
-      "Superchain"
-    ],
+    "ecosystem": ["Ethereum", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -6405,10 +6391,7 @@
     "name": "Mode",
     "description": "Ethereum L2 with rewards for growing the network via new economic mechanisms.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bd53572e9b71e26d8724ba_mode.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -8777,33 +8760,17 @@
     ]
   },
   "1888108590": {
-    "name": "Prom",
+    "name": "Prom Devnet",
     "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
     "ecosystem": "Polygon",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "zk",
     "website": "https://prom.io/",
     "explorers": [
       {
-        "url": "https://prom-devnet-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-   "1279132": {
-    "name": "Prom",
-    "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
-    "ecosystem": "Polygon",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://prom.io/",
-    "explorers": [
-      {
-        "url": "https://prom-blockscout.eu-north-2.gateway.fm/",
+        "url": "https://testnet.promscan.io/",
         "hostedBy": "gateway"
       }
     ]
@@ -8885,22 +8852,6 @@
       {
         "url": "https://neon.blockscout.com/",
         "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "584548796": {
-    "name": "Prom Testnet",
-    "description": "Modular ZkEVM Layer 2 that enables interoperability across various chains, including both EVM and non-EVM compatible networks. ",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/666a1f71ca501a1c6769ac56_prom.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "website": "https://prom.io/",
-    "explorers": [
-      {
-        "url": "http://testnet.promscan.io/",
-        "hostedBy": "altlayer-raas"
       }
     ]
   },
@@ -9160,7 +9111,7 @@
       }
     ]
   },
-  
+
   "2046399126": {
     "name": "Skale",
     "description": "Multichain network composed of an unlimited number high-performance Ethereum Blockchains.",
@@ -11480,7 +11431,7 @@
         "hostedBy": "self-hosted"
       }
     ]
-  }, 
+  },
   "5______": {
     "name": "QuarkChain",
     "description": "A flexible, scalable, and user-oriented blockchain infrastructure using blockchain sharding technology.",
@@ -11562,36 +11513,35 @@
     ]
   },
   "57073": {
-  "name": "Ink",
-  "description": "Kraken's Ink chain built on the Superchain features sequencer-level security and sub-second block times",
-  "logo": "https://docs.inkonchain.com/images/brand-kit/docs-logo-symbol.png",
-  "ecosystem": "Optimism",
-  "isTestnet": false,
-  "layer": 2,
-  "rollupType": null,
-  "website": "https://inkonchain.com/",
-  "explorers": [
-    {
-      "url": "https://explorer.inkonchain.com/",
-      "hostedBy": "blockscout"
-    }
-  ]
- },
-"1570754601": {
-  "name": "Haust network",
-  "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
-  "logo": "https://haust.network/haust-icon-white512.png",
-  "ecosystem": "Polygon",
-  "isTestnet": true,
-  "layer": 2,
-  "rollupType": "zk",
-  "website": "https://haust.network/",
-  "explorers": [
-    {
-      "url": "https://explorer-testnet.haust.app/",
-      "hostedBy": "gateway"
-    }
-  ]
-}
-  
+    "name": "Ink",
+    "description": "Kraken's Ink chain built on the Superchain features sequencer-level security and sub-second block times",
+    "logo": "https://docs.inkonchain.com/images/brand-kit/docs-logo-symbol.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://inkonchain.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.inkonchain.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "1570754601": {
+    "name": "Haust network",
+    "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
+    "logo": "https://haust.network/haust-icon-white512.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://haust.network/",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.haust.app/",
+        "hostedBy": "gateway"
+      }
+    ]
+  }
 }
