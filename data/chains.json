@@ -1887,6 +1887,22 @@
       }
     ]
   },
+  "777": {
+    "name": "FunChain",
+    "description": "Platform that reimagines mining with exciting features and a twist of luck.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/funchain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://funchain.network/",
+    "explorers": [
+      {
+        "url": "https://funscan.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "778": {
     "name": "Merlin",
     "description": "Bitcoin L2 ZK-Rollup built to enhance efficiency and scalability",
@@ -3699,19 +3715,19 @@
       }
     ]
   },
-  "1833": {
-    "name": "Verify",
-    "description": "L2 with low fees for publishers and highly-available data for content consumers",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aa8148ac51c588b1c2_verify.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
+  "1868": {
+    "name": "Soneium",
+    "description": "Creating a world where everyone uses Web3 technologies and makes their own narratives.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/66db09a9108b179b7ddee7bb_Soneium.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
-    "website": "https://www.verifymedia.com/",
+    "rollupType": "optimistic",
+    "website": "https://soneium.org/",
     "explorers": [
       {
-        "url": "https://verify-testnet.blockscout.com/",
-        "hostedBy": "gelato-raas"
+        "url": "https://soneium.blockscout.com",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -4383,6 +4399,22 @@
     "explorers": [
       {
         "url": "https://avescan.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "3409": {
+    "name": "Pepe Unchained",
+    "description": "Ethereum Layer 2 Ecosystem purpose-built for memes.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/pepe-unchained.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://pepeunchained.com/en#home",
+    "explorers": [
+      {
+        "url": "https://pepuscan.com/",
         "hostedBy": "self"
       }
     ]
@@ -5059,6 +5091,22 @@
       }
     ]
   },
+  "7117": {
+    "name": "0XL3 Chain",
+    "description": "The official Web3 explorer of 0XL3, beyond transactions building trust.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/0xl3.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://0xl3.com/",
+    "explorers": [
+      {
+        "url": "https://0xl3.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "7332": {
     "name": "Horizen Eon",
     "description": "EON is a fully EVM-compatible sidechain and smart contract platform built for massive scalability.",
@@ -5587,6 +5635,22 @@
       }
     ]
   },
+  "9898": {
+    "name": "Larissa Chain",
+    "description": "Next-generation blockchain that leverages an EVM-based architecture and a robust Proof of Work consensus mechanism.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/larissa.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://larissa.network/",
+    "explorers": [
+      {
+        "url": "https://scan.larissa.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "9990": {
     "name": "Lumio",
     "description": "Rollup technology suite that enables developers to build with any VM on any chain.",
@@ -5680,6 +5744,22 @@
       {
         "url": "https://explorer-test.sending.network/",
         "hostedBy": "self-hosted"
+      }
+    ]
+  },
+  "10112": {
+    "name": "Cypher Testnet",
+    "description": "The First Encrypted Transactions Chain for Confidential Computing.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cypher.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://cypher.z1labs.ai/",
+    "explorers": [
+      {
+        "url": "https://testnet3.cypherscan.ai/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -6823,6 +6903,22 @@
       }
     ]
   },
+  "54176": {
+    "name": "Over Mainnet",
+    "description": "OverProtocol is a Layer 1 blockchain that lets individuals run full nodes on their personal computers.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/over.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://over.network/",
+    "explorers": [
+      {
+        "url": "https://scan.over.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "54211": {
     "name": "HAQQ Testnet",
     "description": "Ethics-first, EVM-equivalent chain, based on Cosmos SDK.",
@@ -7587,6 +7683,22 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.hedwig.build/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "175190": {
+    "name": "Chronicle Loa - Lit Testnet",
+    "description": "Lit network is used for decentralized signing, encryption, and computation.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b14371cbf1ef9f9b55fb5_litprotocol.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://litprotocol.com",
+    "explorers": [
+      {
+        "url": "https://loa-explorer.litprotocol.com/",
         "hostedBy": "self"
       }
     ]
@@ -8935,6 +9047,22 @@
       }
     ]
   },
+  "1000000003": {
+    "name": "THE POWER",
+    "description": "Full-fledged web3 infrastructure platform for full-stack, really decentralized applications.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/power.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://thepower.io/",
+    "explorers": [
+      {
+        "url": "https://bs.thepower.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1122334455": {
     "name": "Wire Foundation",
     "description": "Governing board for the Wire Network to help determine the future state of the network.",
@@ -9160,6 +9288,38 @@
       }
     ]
   },
+  "8691942025": {
+    "name": "ONFA Chain",
+    "description": "Digital asset management platform powered by Mettitech Technology Group.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/onfa-chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://onfa.io",
+    "explorers": [
+      {
+        "url": "https://onfascan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "71499284269": {
+    "name": "Rogue Chain",
+    "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64d1fbcab72f487e9ed4_Rogue-Chain.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://roguechain.io/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.roguechain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "81247166294": {
     "name": "Otona",
     "description": "Uncensorable AI protocol that revolutionizes content generation",
@@ -9188,22 +9348,6 @@
     "explorers": [
       {
         "url": "https://arb-blueberry.gelatoscout.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "71499284269": {
-    "name": "Rogue Chain",
-    "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64d1fbcab72f487e9ed4_Rogue-Chain.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://roguechain.io/",
-    "explorers": [
-      {
-        "url": "https://testnet-explorer.roguechain.io/",
         "hostedBy": "self"
       }
     ]
@@ -10852,6 +10996,22 @@
     "explorers": [
       {
         "url": "https://veridocledger.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "vindaxscan": {
+    "name": "VinDAX Chain",
+    "description": "VinDAX is a cryptocurrency that can be used to trade and pay fees on the VinDAX cryptocurrency exchange.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/vindax.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://vindax.com/",
+    "explorers": [
+      {
+        "url": "https://scan.vindax.com/",
         "hostedBy": "self"
       }
     ]
