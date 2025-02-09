@@ -3167,6 +3167,22 @@
       }
     ]
   },
+  "1480": {
+    "name": "Vana",
+    "description": "User-owned AI through user-owned data. Growing the DataDAO Ecosystem.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/6746020bdae5f5ae45c175a4_vana.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.vana.org/",
+    "explorers": [
+      {
+        "url": "https://vanascan.io/",
+        "hostedBy": "self-hosted"
+      }
+    ]
+  },
   "1490": {
     "name": "Vitruveo",
     "description": "Auto-rebasing protocol creating multiple revenue streams for creators and collectors.",
@@ -6179,8 +6195,24 @@
       }
     ]
   },
+  "14800": {
+    "name": "Vana Moksha Testnet",
+    "description": "User-owned AI through user-owned data. Growing the DataDAO Ecosystem.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/6746020bdae5f5ae45c175a4_vana.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.vana.org/",
+    "explorers": [
+      {
+        "url": "https://moksha.vanascan.io/",
+        "hostedBy": "self-hosted"
+      }
+    ]
+  },
   "14801": {
-    "name": "vana",
+    "name": "Vana Satori Testnet",
     "description": "User-owned AI through user-owned data. Growing the DataDAO Ecosystem.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/6746020bdae5f5ae45c175a4_vana.png",
     "ecosystem": "Ethereum",
