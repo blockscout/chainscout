@@ -3619,22 +3619,6 @@
       }
     ]
   },
-  "1680": {
-    "name": "Plume",
-    "description": "Modular RWA L2 bringing any real world asset on-chain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226dae08f9773b0298f_plumenetwork.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://www.plumenetwork.xyz/",
-    "explorers": [
-      {
-        "url": "https://plume-testnet.explorer.caldera.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "1687": {
     "name": "Mint Chain Sepolia",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
@@ -7863,6 +7847,22 @@
       }
     ]
   },
+  "98864": {
+    "name": "Plume-Testnet",
+    "description": "Modular RWA L2 bringing any real world asset on-chain.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226dae08f9773b0298f_plumenetwork.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.plumenetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://test-explorer.plumenetwork.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "98881": {
     "name": "Ebi",
     "description": "Non-custodial limit order book decentralized platform for trading perpetual futures.",
@@ -9400,13 +9400,13 @@
     ]
   },
   "161221135": {
-    "name": "Plume",
+    "name": "Plume Testnet",
     "description": "Modular RWA L2 bringing any real world asset on-chain.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226dae08f9773b0298f_plumenetwork.png",
-    "ecosystem": "Arbitrum",
+    "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://www.plumenetwork.xyz/",
     "explorers": [
       {
