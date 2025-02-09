@@ -15,6 +15,22 @@
       }
     ]
   },
+  "5": {
+    "name": "Hyperliquid Testnet",
+    "description": "Hyperliquid is a performant L1 optimized from the ground up.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hyperliquid.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://hyperfoundation.org/",
+    "explorers": [
+      {
+        "url": "https://evm.hyperstats.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "7": {
     "name": "Thai Chain",
     "description": "Audit service provider, from languages and compilers, to smart contract systems, protocols and applications.",
@@ -640,18 +656,18 @@
     ]
   },
   "133": {
-    "name": "HashKey Testnet",
+    "name": "HashKey Chain Testnet",
     "description": "HashKey Chain adopts ZK-proof technology to provide users with low-cost, efficient, and developer-friendly onchain solutions.",
-    "logo": "",
-    "ecosystem": "Ethereum",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hashkey.png",
+    "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://global.hashkey.com/en-US/",
     "explorers": [
       {
-        "url": "https://hashkey-testnet.blockscout.com",
-        "hostedBy": "self"
+        "url": "https://hashkeychain-testnet-explorer.alt.technology/",
+        "hostedBy": "altlayer-raas"
       }
     ]
   },
@@ -783,6 +799,22 @@
       }
     ]
   },
+  "177": {
+    "name": "HashKey",
+    "description": "HashKey Chain adopts ZK-proof technology to provide users with low-cost, efficient, and developer-friendly onchain solutions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hashkey.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://hsk.xyz/",
+    "explorers": [
+      {
+        "url": "https://hashkey.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "185": {
     "name": "Mint Chain",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
@@ -876,6 +908,22 @@
       {
         "url": "https://promscan.io/",
         "hostedBy": "gateway"
+      }
+    ]
+  },
+  "228": {
+    "name": "Mind Network",
+    "description": "A Fully Homomorphic Encryption (FHE) restaking layer for PoS and AI networks.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mind-network.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.mindnetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.mindnetwork.xyz/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -1307,6 +1355,22 @@
     "explorers": [
       {
         "url": "https://clvscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "466": {
+    "name": "AppChain",
+    "description": "Incentivized low-cost L2 that allows developers to capture the value their dapps create, enabling sustainable economic models.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/appchain.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://appchain.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.appchain.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -2619,6 +2683,22 @@
     "explorers": [
       {
         "url": "https://scan.camelark.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1125": {
+    "name": "Taker Mainnet",
+    "description": "Bitcoin yields scaling layer.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/taker.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://taker.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.taker.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -4323,6 +4403,22 @@
       }
     ]
   },
+  "2748": {
+    "name": "Taker Testnet",
+    "description": "Bitcoin yields scaling layer.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/taker.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://taker.xyz/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.taker.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2810": {
     "name": "Morph",
     "description": "Solutions platform to make consumer blockchain applications accessible and valuable to developers, projects and users.",
@@ -4752,6 +4848,22 @@
       {
         "url": "https://explorer.gold.dev/",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "4661": {
+    "name": "AppChain Testnet",
+    "description": "Incentivized low-cost L2 that allows developers to capture the value their dapps create, enabling sustainable economic models.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/appchain.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://appchain.xyz/",
+    "explorers": [
+      {
+        "url": "https://appchaintestnet.explorer.caldera.xyz/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5331,6 +5443,22 @@
       }
     ]
   },
+  "7897": {
+    "name": "Arena-Z",
+    "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20514ab5756e2e37e133_Arena-Z.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://arena-z.gg/",
+    "explorers": [
+      {
+        "url": "https://explorer.arena-z.gg/",
+        "hostedBy": "gelato-raas"
+      }
+    ]
+  },
   "7979": {
     "name": "DOS",
     "description": "Dedicated blockchain for gaming that leverages the existing infrastructure and security of the Avalanche Network",
@@ -5722,7 +5850,7 @@
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://arena-z.gg/",
     "explorers": [
       {
@@ -7111,6 +7239,22 @@
       }
     ]
   },
+  "55244": {
+    "name": "Superposition",
+    "description": "Layer-3 Chain engineered to facilitate native liquidity and utility mechanisms for decentralised applications.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1cf15c17a33bd7a19ba_Superposition.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://www.superposition.so/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.superposition.so/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "55551": {
     "name": "Photon",
     "description": "L2 creating an open settlement layer on Bitcoin.",
@@ -7351,6 +7495,22 @@
       }
     ]
   },
+  "65536": {
+    "name": "Automata",
+    "description": "rusted Execution Environment (TEE) Coprocessors live on EigenLayer Mainnet with Multi-Prover AVS",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/667c8648386972e5a15b205d_Automata.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://ata.network",
+    "explorers": [
+      {
+        "url": "https://explorer.ata.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "66665": {
     "name": "Creator",
     "description": "Blockchain built on the Superchain, designed to enhance scalability, efficiency, and reward-driven growth.",
@@ -7459,6 +7619,22 @@
     "explorers": [
       {
         "url": "https://icb.blockscout.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "73682": {
+    "name": "Renta",
+    "description": "Global ecosystem for property rental worldwide without commissions and intermediaries.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64af99aff96b3c1af76b_Renta.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://renta.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.renta.network/",
         "hostedBy": "self"
       }
     ]
@@ -7704,7 +7880,7 @@
     ]
   },
   "98985": {
-    "name": "Superposition",
+    "name": "Superposition Testnet",
     "description": "Layer-3 Chain engineered to facilitate native liquidity and utility mechanisms for decentralised applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1cf15c17a33bd7a19ba_Superposition.png",
     "ecosystem": "Arbitrum",
@@ -7976,9 +8152,9 @@
     ]
   },
   "192940": {
-    "name": "Mind Network",
+    "name": "Mind Network Testnet",
     "description": "A Fully Homomorphic Encryption (FHE) restaking layer for PoS and AI networks.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mind-network.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -8359,6 +8535,22 @@
       }
     ]
   },
+  "560013": {
+    "name": "Rogue Chain",
+    "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64d1fbcab72f487e9ed4_Rogue-Chain.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://roguechain.io/",
+    "explorers": [
+      {
+        "url": "https://roguescan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "560098": {
     "name": "Novastro Testnet",
     "description": "Novastro is a Layer3 chain for parallelized restaking that tokenizes future yields for a variety of assets across blockchains.",
@@ -8488,7 +8680,7 @@
     ]
   },
   "736826": {
-    "name": "Renta",
+    "name": "Renta Bluetail",
     "description": "Global ecosystem for property rental worldwide without commissions and intermediaries.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64af99aff96b3c1af76b_Renta.png",
     "ecosystem": "Ethereum",
@@ -8680,7 +8872,7 @@
     ]
   },
   "1398243": {
-    "name": "Automata",
+    "name": "Automata Testnet",
     "description": "rusted Execution Environment (TEE) Coprocessors live on EigenLayer Mainnet with Multi-Prover AVS",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/667c8648386972e5a15b205d_Automata.png",
     "ecosystem": "Ethereum",
@@ -8690,7 +8882,7 @@
     "website": "https://ata.network",
     "explorers": [
       {
-        "url": "https://explorer.ata.network",
+        "url": "https://explorer-testnet.ata.network/",
         "hostedBy": "self"
       }
     ]
@@ -9641,7 +9833,7 @@
     ]
   },
   "71499284269": {
-    "name": "Rogue Chain",
+    "name": "Rogue Chain Testnet",
     "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64d1fbcab72f487e9ed4_Rogue-Chain.png",
     "ecosystem": "Arbitrum",
