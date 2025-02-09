@@ -15,22 +15,6 @@
       }
     ]
   },
-  "5": {
-    "name": "Ammer",
-    "description": "Web3 Platform as a Service Solution",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6662359c2c03c60b08c5917a_ammer.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://ammer.group/",
-    "explorers": [
-      {
-        "url": "https://explorer.ammer.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "7": {
     "name": "Thai Chain",
     "description": "Audit service provider, from languages and compilers, to smart contract systems, protocols and applications.",
@@ -892,22 +876,6 @@
       {
         "url": "https://promscan.io/",
         "hostedBy": "gateway"
-      }
-    ]
-  },
-  "228": {
-    "name": "Eagle Network",
-    "description": "Gamified crypto mining app for the Eagle Network.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b14370d2674cb6e2a9750_egonscan.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://eaglenetwork.app/",
-    "explorers": [
-      {
-        "url": "https://egonscan.com",
-        "hostedBy": "self"
       }
     ]
   },
@@ -1795,7 +1763,7 @@
     "name": "Matchain",
     "description": "EVM-compatible L1 that operates on the Cosmos with a focus on decentralization and composability.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/65afe5483c8a6d3b060eb02a_match_chain.png",
-    "ecosystem": "Cosmos",
+    "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -2655,22 +2623,6 @@
       }
     ]
   },
-  "1125": {
-    "name": "P12",
-    "description": "GUI Onchain Engine for onchain games and autonomous worlds.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b16272fd2fee2f2bc5cd8_p12.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://p12.games",
-    "explorers": [
-      {
-        "url": "https://explorer.p12.games",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "1130": {
     "name": "Jellyfish",
     "description": "SDK and ecosystem for building modern lite DeFi applications using TypeScript and JavaScript.",
@@ -2970,7 +2922,7 @@
     "website": "https://glue.net/",
     "explorers": [
       {
-        "url": "https://explorer.mainnet.prod.gke.glue.net/",
+        "url": "https://explorer.glue.net/",
         "hostedBy": "self-hosted"
       }
     ]
@@ -5550,7 +5502,7 @@
     "website": "https://jibchain.net/",
     "explorers": [
       {
-        "url": "https://exp-l1-ng.jibchain.net/",
+        "url": "https://exp.jibchain.net/",
         "hostedBy": "self"
       }
     ]
@@ -5652,11 +5604,11 @@
     ]
   },
   "9001": {
-    "name": "Match",
+    "name": "Match Testnet",
     "description": "EVM-compatible L1 that operates on the Cosmos with a focus on decentralization and composability.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5483c8a6d3b060eb02a_match_chain.png",
-    "ecosystem": "Cosmos",
-    "isTestnet": false,
+    "ecosystem": "Optimism",
+    "isTestnet": true,
     "layer": 1,
     "rollupType": null,
     "website": "https://matchain.io/",
@@ -7159,6 +7111,22 @@
       }
     ]
   },
+  "57073": {
+    "name": "Ink",
+    "description": "Kraken's Ink chain built on the Superchain features sequencer-level security and sub-second block times",
+    "logo": "https://docs.inkonchain.com/images/brand-kit/docs-logo-symbol.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://inkonchain.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.inkonchain.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "58008": {
     "name": "PGN Testnet",
     "description": "L2 designed for durable and recurring funding for public goods.",
@@ -7315,7 +7283,7 @@
     "explorers": [
       {
         "url": "https://geist-mainnet.explorer.alchemy.com",
-        "hostedBy": "self"
+        "hostedBy": "alchemy"
       }
     ]
   },
@@ -7458,7 +7426,7 @@
     "website": "https://www.icb.network/",
     "explorers": [
       {
-        "url": "https://icbscan.io/",
+        "url": "https://icb.blockscout.com/",
         "hostedBy": "self"
       }
     ]
@@ -9444,6 +9412,22 @@
       {
         "url": "https://explorer.gptprotocol.io/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "1570754601": {
+    "name": "Haust network",
+    "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
+    "logo": "https://haust.network/haust-icon-white512.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://haust.network/",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.haust.app/",
+        "hostedBy": "gateway"
       }
     ]
   },
@@ -11992,35 +11976,51 @@
       }
     ]
   },
-  "57073": {
-    "name": "Ink",
-    "description": "Kraken's Ink chain built on the Superchain features sequencer-level security and sub-second block times",
-    "logo": "https://docs.inkonchain.com/images/brand-kit/docs-logo-symbol.png",
-    "ecosystem": "Optimism",
+  "5_______": {
+    "name": "Ammer",
+    "description": "Web3 Platform as a Service Solution",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6662359c2c03c60b08c5917a_ammer.png",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
-    "layer": 2,
+    "layer": 1,
     "rollupType": null,
-    "website": "https://inkonchain.com/",
+    "website": "https://ammer.group/",
     "explorers": [
       {
-        "url": "https://explorer.inkonchain.com/",
-        "hostedBy": "blockscout"
+        "url": "https://explorer.ammer.network/",
+        "hostedBy": "self"
       }
     ]
   },
-  "1570754601": {
-    "name": "Haust network",
-    "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
-    "logo": "https://haust.network/haust-icon-white512.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "website": "https://haust.network/",
+  "228_": {
+    "name": "Eagle Network",
+    "description": "Gamified crypto mining app for the Eagle Network.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b14370d2674cb6e2a9750_egonscan.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://eaglenetwork.app/",
     "explorers": [
       {
-        "url": "https://explorer-testnet.haust.app/",
-        "hostedBy": "gateway"
+        "url": "https://egonscan.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1125_": {
+    "name": "P12",
+    "description": "GUI Onchain Engine for onchain games and autonomous worlds.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b16272fd2fee2f2bc5cd8_p12.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://p12.games",
+    "explorers": [
+      {
+        "url": "https://explorer.p12.games",
+        "hostedBy": "self"
       }
     ]
   }
