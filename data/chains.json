@@ -9100,7 +9100,7 @@
     "name": "Witness Chain",
     "description": "Witness Chain is the EigenLayer AVS to bring Ethereum’s security to new optimistic rollups and DePIN projects.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1d123533c38613d86e6_Witness-Chain.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Polygon",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
