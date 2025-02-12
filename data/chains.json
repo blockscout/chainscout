@@ -1966,6 +1966,22 @@
       }
     ]
   },
+  "841": {
+  "name": "Taraxa Mainnet",
+  "description": "Taraxa is a purpose-built, fast & scalable Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.",
+  "ecosystem": "Ethereum",
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "website": "https://taraxa.io",
+  "explorers": [
+    {
+      "url": "https://tara.to",
+      "hostedBy": "self"
+    }
+  ],
+  "logo": "https://avatars.githubusercontent.com/u/37036895?s=200&v=4"
+},
   "842": {
     "name": "Hika.network",
     "description": "Open DAG programmable smart contracts platform for dApps.",

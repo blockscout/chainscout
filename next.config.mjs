@@ -7,6 +7,7 @@ const nextConfig = {
       'cdn.prod.website-files.com',
       'docs.inkonchain.com',
       'haust.network',
+      'avatars.githubusercontent.com',
     ],
   },
   webpack(config) {
