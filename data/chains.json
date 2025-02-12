@@ -1969,7 +1969,7 @@
   "841": {
   "name": "Taraxa Mainnet",
   "description": "Taraxa is a purpose-built, fast & scalable Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.",
-  "ecosystem": "Ethereum”,
+  "ecosystem": "Ethereum",
   "isTestnet": false,
   "layer": 1,
   "rollupType": null,
