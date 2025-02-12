@@ -3723,6 +3723,22 @@
       }
     ]
   },
+  "1868": {
+    "name": "Soneium Mainnet",
+    "description": "Creating a world where everyone uses Web3 technologies and makes their own narratives.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/66db09a9108b179b7ddee7bb_Soneium.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://soneium.org/",
+    "explorers": [
+      {
+        "url": "https://soneium.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "1890": {
     "name": "Lightlink",
     "description": "L2 secured by Ethereum, purposefully built for Metaverse, NFT and Gaming applications.",
@@ -3782,7 +3798,7 @@
     "website": "https://soneium.org/",
     "explorers": [
       {
-        "url": "https://explorer-testnet.soneium.org/",
+        "url": "https://soneium-minato.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
