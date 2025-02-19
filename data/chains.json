@@ -12295,5 +12295,22 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "80094": {
+    "name": "Berachain",
+    "description": "Berachain is an EVM-identical Layer 1 (L1) blockchain that uses the novel Proof of Liquidity.",
+    "logo": "https://berascan.com/assets/bera/images/svg/logos/token-light.svg?v=25.2.2.0",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://berachain.com/",
+    "explorers": [
+      {
+        "url": "https://berascan.com/",
+        "hostedBy": "self"
+      }
+    ]
   }
+
 }

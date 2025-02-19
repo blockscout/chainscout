@@ -9,6 +9,8 @@ const nextConfig = {
       'docs.inkonchain.com',
       'haust.network',
       'avatars.githubusercontent.com',
+      'blockscout-icons.s3.us-east-1.amazonaws.com',
+      'uploads-ssl.webflow.com',
     ],
   },
   webpack(config) {
