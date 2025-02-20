@@ -35,10 +35,10 @@ export default function Header() {
               <Image
                 src="/logo.svg"
                 alt="Blockscout Logo"
-                layout="responsive"
                 width={150}
                 height={150 * (22/115)} // Maintain aspect ratio
                 className="w-full h-auto"
+                priority // Add priority since this is above the fold
               />
             </div>
           </div>
