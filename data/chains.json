@@ -388,7 +388,7 @@
     "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.png",
     "ecosystem": "Ethereum",
-    "isTestnet": true,
+    "isTestnet": false,
     "layer": 1,
     "rollupType": null,
     "website": "https://viction.xyz/",
@@ -1898,8 +1898,8 @@
     "website": "https://lycanchain.com/",
     "explorers": [
       {
-        "url": "https://lycan.blockscout.com/",
-        "hostedBy": "blockscout"
+        "url": "https://explorer.lycanchain.com/",
+        "hostedBy": "self"
       }
     ]
   },
