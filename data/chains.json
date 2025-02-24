@@ -9928,6 +9928,38 @@
       }
     ]
   },
+"1417429182": {
+  "name": "WilderWorld",
+  "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+  "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+  "ecosystem": "Polygon",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "zk",
+  "website": "https://www.wilderworld.com/",
+  "explorers": [
+    {
+      "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
+      "hostedBy": "gateway"
+    }
+  ]
+},
+"1828369849": {
+  "name": "WilderWorld",
+  "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+  "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+  "ecosystem": "Polygon",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "zk",
+  "website": "https://www.wilderworld.com/",
+  "explorers": [
+    {
+      "url": "https://moonwalker-blockscout.eu-north-2.gateway.fm/",
+      "hostedBy": "gateway"
+    }
+  ]
+},
   "5dax": {
     "name": "5dax",
     "description": "Exchange built for novice and experienced traders.",
