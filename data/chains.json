@@ -11584,7 +11584,7 @@
   "isTestnet": true,
   "layer": 2,
   "rollupType": "zk",
-  "website": "https://www.wilderworld.com/”,
+  "website": "https://www.wilderworld.com/",
   "explorers": [
     {
       "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
@@ -11592,7 +11592,6 @@
     }
   ]
 },
-
 "1828369849": {
   "name": "WilderWorld",
   "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
@@ -11601,13 +11600,12 @@
   "isTestnet": true,
   "layer": 2,
   "rollupType": "zk",
-  "website": "https://www.wilderworld.com/”,
+  "website": "https://www.wilderworld.com/",
   "explorers": [
     {
       "url": "https://moonwalker-blockscout.eu-north-2.gateway.fm/",
       "hostedBy": "gateway"
     }
   ]
-},
-  
+}  
 }
