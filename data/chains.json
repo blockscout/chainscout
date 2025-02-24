@@ -1835,7 +1835,7 @@
     "explorers": [
       {
         "url": "https://matchscan.io/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5775,7 +5775,7 @@
     "explorers": [
       {
         "url": "https://lisbon.matchscan.io/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7635,7 +7635,7 @@
     "explorers": [
       {
         "url": "https://testnet.icbscan.io/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7651,7 +7651,7 @@
     "explorers": [
       {
         "url": "https://icb.blockscout.com/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8323,7 +8323,7 @@
     "explorers": [
       {
         "url": "https://parthenon.athenescan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8563,7 +8563,7 @@
     "explorers": [
       {
         "url": "https://scroll-sepolia.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8579,7 +8579,7 @@
     "explorers": [
       {
         "url": "https://scroll.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
