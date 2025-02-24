@@ -4,9 +4,11 @@ const nextConfig = {
   images: {
     domains: [
       'uploads-ssl.webflow.com',
+      'd2e6b8w31txsjq.cloudfront.net',
       'cdn.prod.website-files.com',
       'docs.inkonchain.com',
       'haust.network',
+      'avatars.githubusercontent.com',
     ],
   },
   webpack(config) {
