@@ -66,7 +66,6 @@ We welcome contributions to Chainscout! Here's how you can help:
 1. Fork the repository and create a new branch for your addition.
 2. Open the file `data/chains.json`.
 3. Add a new entry for the chain, following the existing format:
-
 ```json
 "chainId": {
   "name": "Chain Name",
@@ -85,18 +84,7 @@ We welcome contributions to Chainscout! Here's how you can help:
   "logo": "https://example.com/path/to/logo.png"
 }
 ```
-4. If the logo URL uses a new domain, add it to the `images.domains` array in `next.config.mjs`:
-```javascript
-module.exports = {
-  images: {
-    domains: [
-      'existing-domain.com',
-      'new-logo-domain.com'
-    ],
-  },
-};
-```
-5. Create a pull request with your changes.
+4. Create a pull request with your changes.
 
 ### Adding an Explorer to an Existing Chain
 

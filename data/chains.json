@@ -866,7 +866,7 @@
   "210": {
     "name": "Bitnet BTN",
     "description": "Per-to-peer blockchain and financial network - made for everyone.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitnet-btn",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitnet-btn.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -7082,7 +7082,7 @@
   "45510": {
     "name": "DeeLance Mainnet",
     "description": "A decentralized blockchain built to connect freelancers and recruiters.",
-    "logo": "x",
+    "logo": "",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -12327,5 +12327,21 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "32323": {
+    "name": "Reltime",
+    "description": "Reltime (RTC) is a private blockchain network built on Hyperledger Besu—a robust Ethereum client designed for enterprise applications. It operates in a permissioned environment where smart contracts can run securely and efficiently.",
+    "logo": "https://purple-alecia-8.tiiny.site/Footerlogo.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+      "layer": 1,
+      "rollupType": null,
+      "website": "https://www.reltime.com/",
+      "explorers": [
+        {
+          "url": "http://explorer.reltime.com",
+          "hostedBy": "self"
+        }
+      ]
   }
 }
