@@ -5,7 +5,8 @@ export const HOSTING_PROVIDERS = {
   'altlayer-raas': 'Altlayer',
   'protofire': 'Protofire',
   'gateway' : 'gateway.fm',
-  'self': 'Self-hosted'
+  'self': 'Self-hosted',
+  'alchemy': 'Alchemy'
 } as const;
 
 export const ROLLUP_TYPES = {
