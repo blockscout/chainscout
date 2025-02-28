@@ -7650,7 +7650,7 @@
     "website": "https://www.icb.network/",
     "explorers": [
       {
-        "url": "https://icb.blockscout.com/",
+        "url": "https://icbscan.io/",
         "hostedBy": "blockscout"
       }
     ]
