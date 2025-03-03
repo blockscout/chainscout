@@ -9968,6 +9968,7 @@
   "isTestnet": true,
   "layer": 2,
   "rollupType": "op",
+  "website": "https://www.optimism.io/",
   "explorers": [
     {
       "url": "https://optimism-interop-alpha-0.blockscout.com/",
@@ -9983,6 +9984,7 @@
   "isTestnet": true,
   "layer": 2,
   "rollupType": "op",
+  "website": "https://www.optimism.io/",
   "explorers": [
     {
       "url": "https://optimism-interop-alpha-1.blockscout.com/",
