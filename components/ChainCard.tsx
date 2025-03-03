@@ -13,6 +13,7 @@ const hostingColors: Record<HostingProvider, { bg: string; text: string }> = {
   'protofire': { bg: '#faa807', text: '#1c1e24' },
   'gateway': { bg: '#9368E8', text: '#ffffff' },
   'self': { bg: '#c2d9ff', text: '#003180' },
+  'alchemy': { bg: '#363FF9', text: '#ffffff' },
 };
 
 const Tag = ({ children }: { children: string }) => (
