@@ -874,7 +874,7 @@
     "website": "https://bitnet.technology/",
     "explorers": [
       {
-        "url": "https://btnscout.org/",
+        "url": "https://btnscout.com",
         "hostedBy": "self"
       }
     ]
@@ -9880,38 +9880,70 @@
       }
     ]
   },
-  "1417429182": {
-    "name": "WilderWorld",
-    "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
-    "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "website": "https://www.wilderworld.com/",
-    "explorers": [
-      {
-        "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-  "1828369849": {
-    "name": "WilderWorld",
-    "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
-    "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "website": "https://www.wilderworld.com/",
-    "explorers": [
-      {
-        "url": "https://moonwalker-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
+"1417429182": {
+  "name": "WilderWorld",
+  "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+  "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+  "ecosystem": "Polygon",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "zk",
+  "website": "https://www.wilderworld.com/",
+  "explorers": [
+    {
+      "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
+      "hostedBy": "gateway"
+    }
+  ]
+},
+"1828369849": {
+  "name": "WilderWorld",
+  "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+  "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+  "ecosystem": "Polygon",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "zk",
+  "website": "https://www.wilderworld.com/",
+  "explorers": [
+    {
+      "url": "https://moonwalker-blockscout.eu-north-2.gateway.fm/",
+      "hostedBy": "gateway"
+    }
+  ]
+},
+"420120000": {
+  "name": "Optimism Interop Devnet 0",
+  "description": "Devnet for testing interoperability messages",
+  "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
+  "ecosystem": "Optimism",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "optimistic",
+  "website": "https://www.optimism.io/",
+  "explorers": [
+    {
+      "url": "https://optimism-interop-alpha-0.blockscout.com/",
+      "hostedBy": "blockscout"
+    }
+  ]
+},
+"420120001": {
+  "name": "Optimism Interop Devnet 1",
+  "description": "Devnet for testing interoperability messages",
+  "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
+  "ecosystem": "Optimism",
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": "optimistic",
+  "website": "https://www.optimism.io/",
+  "explorers": [
+    {
+      "url": "https://optimism-interop-alpha-1.blockscout.com/",
+      "hostedBy": "blockscout"
+    }
+  ]
+},
   "5dax": {
     "name": "5dax",
     "description": "Exchange built for novice and experienced traders.",
