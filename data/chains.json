@@ -720,7 +720,7 @@
     ]
   },
   "148": {
-    "name": "Shimmer",
+    "name": "Shimmer EVM Mainnet",
     "description": "A high-performance, feeless, and parallelized Directed Acyclic Graph (DAG) ledger.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/65bc474c4f47c48581bcb36e_shimmer.network.png",
     "ecosystem": "IOTA",
@@ -1104,7 +1104,7 @@
     ]
   },
   "300": {
-    "name": "zkSync Era Sepolia Testnet",
+    "name": "ZkSync Era Sepolia Testnet",
     "description": "zkSync is a Layer-2 protocol that scales Ethereum with cutting-edge ZK tech",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226401648f8eaa96b19_zksync.png",
     "ecosystem": "zkSync",
@@ -1168,7 +1168,7 @@
     ]
   },
   "324": {
-    "name": "zkSync Era",
+    "name": "ZkSync Era",
     "description": "zkSync is a Layer-2 protocol that scales Ethereum with cutting-edge ZK tech",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226401648f8eaa96b19_zksync.png",
     "ecosystem": "zkSync",
@@ -1375,22 +1375,6 @@
       }
     ]
   },
-  "469": {
-    "name": "Anzillium",
-    "description": "Anzillium blockchain boasts its own NFT platform equipped with cross-blockchain capabilities. ",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/anzillium.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://www.anzillium.io/",
-    "explorers": [
-      {
-        "url": "https://anzscan.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "480": {
     "name": "World Chain",
     "description": "World Chain is permissionless, open source, designed for community governance, and for developers to reach users with apps for everyday life.",
@@ -1398,7 +1382,7 @@
     "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://world.org/world-chain",
     "explorers": [
       {
@@ -2080,21 +2064,21 @@
     ]
   },
   "841": {
-  "name": "Taraxa Mainnet",
-  "description": "Taraxa is a purpose-built, fast & scalable Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.",
-  "ecosystem": "Ethereum",
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "website": "https://taraxa.io",
-  "explorers": [
-    {
-      "url": "https://tara.to",
-      "hostedBy": "self"
-    }
-  ],
-  "logo": "https://avatars.githubusercontent.com/u/37036895?s=200&v=4"
-},
+    "name": "Taraxa Mainnet",
+    "description": "Taraxa is a purpose-built, fast & scalable Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://taraxa.io",
+    "explorers": [
+      {
+        "url": "https://tara.to",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://avatars.githubusercontent.com/u/37036895?s=200&v=4"
+  },
   "842": {
     "name": "Hika.network",
     "description": "Open DAG programmable smart contracts platform for dApps.",
@@ -2544,7 +2528,7 @@
     ]
   },
   "1073": {
-    "name": "Shimmer Testnet",
+    "name": "Shimmer EVM Testnet",
     "description": "A high-performance, feeless, and parallelized Directed Acyclic Graph (DAG) ledger.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bc474c4f47c48581bcb36e_shimmer.network.png",
     "ecosystem": "IOTA",
@@ -2560,7 +2544,7 @@
     ]
   },
   "1075": {
-    "name": "IOTA EVM testnet",
+    "name": "IOTA EVM Testnet",
     "description": "An Open, Feeless Data And Value Transfer Protocol",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a98df0d4ac76eeedf4_iota.png",
     "ecosystem": "Ethereum",
@@ -2630,7 +2614,7 @@
     "ecosystem": "Polygon",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "zk",
     "website": "https://polygon.technology/",
     "explorers": [
       {
@@ -3024,18 +3008,18 @@
     ]
   },
   "1301": {
-    "name": "Unichain Testnet",
+    "name": "Unichain Sepolia Testnet",
     "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://www.unichain.org/",
     "explorers": [
       {
         "url": "https://unichain-sepolia.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -3843,27 +3827,11 @@
       }
     ]
   },
-  "1868": {
-    "name": "Soneium Mainnet",
-    "description": "Creating a world where everyone uses Web3 technologies and makes their own narratives.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/66db09a9108b179b7ddee7bb_Soneium.png",
-    "ecosystem": "Optimism",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "website": "https://soneium.org/",
-    "explorers": [
-      {
-        "url": "https://soneium.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "1890": {
-    "name": "Lightlink",
+    "name": "LightLink Phoenix Mainnet",
     "description": "L2 secured by Ethereum, purposefully built for Metaverse, NFT and Gaming applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe542aea9ec7584fb85c4_lightlink.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -3876,10 +3844,10 @@
     ]
   },
   "1891": {
-    "name": "Lightlink Testnet",
+    "name": "LightLink Pegasus Testnet",
     "description": "L2 secured by Ethereum, purposefully built for Metaverse, NFT and Gaming applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66353faac19a28210073e0a7_lightlink.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
@@ -4906,7 +4874,7 @@
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://world.org/world-chain",
     "explorers": [
       {
@@ -5252,7 +5220,7 @@
     ]
   },
   "7000": {
-    "name": "Zetachain",
+    "name": "ZetaChain",
     "description": "L1 Blockchain connecting all chains including Bitcoin, Cosmos, and Ethereum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bc474c4a6785274bf2a7a8_zeta.png",
     "ecosystem": "Cosmos",
@@ -5268,7 +5236,7 @@
     ]
   },
   "7001": {
-    "name": "Zetachain Testnet",
+    "name": "ZetaChain Testnet",
     "description": "L1 Blockchain connecting all chains including Bitcoin, Cosmos, and Ethereum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bc474c4a6785274bf2a7a8_zeta.png",
     "ecosystem": "Cosmos",
@@ -5444,10 +5412,10 @@
     ]
   },
   "7887": {
-    "name": "Kinto",
+    "name": "Kinto Mainnet",
     "description": "Sybil Resistant blockchain with User-Owned KYC and enforced Account Abstraction",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660c9fd8c3373ca6cca60251_kinto.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
@@ -5455,7 +5423,7 @@
     "explorers": [
       {
         "url": "https://explorer.kinto.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5524,18 +5492,18 @@
     ]
   },
   "8408": {
-    "name": "ZenChain Testnet",
+    "name": "Zenchain Testnet",
     "description": "Fully decentralized and EVM-compatible Bitcoin L1 solution, leveraging Bitcoin's network for secure cross-chain interactions.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e2004ecbf024c711f68a8_ZenChain.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://www.zenchain.io/",
     "explorers": [
       {
         "url": "https://zentrace.io",
-        "hostedBy": "self-hosted"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5551,7 +5519,7 @@
     "explorers": [
       {
         "url": "https://that.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -6068,11 +6036,11 @@
     ]
   },
   "10888": {
-    "name": "Gameswift",
+    "name": "GameSwift Chain Testnet",
     "description": "One-stop web3 gaming ecosystem",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6682d5bee57ead8ace223b31_Gameswift.png",
-    "ecosystem": "Polygon",
-    "isTestnet": false,
+    "ecosystem": "Optimism",
+    "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
     "website": "https://gameswift.io/",
@@ -6106,7 +6074,7 @@
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "website": "https://www.shape.network/",
     "explorers": [
       {
@@ -6120,7 +6088,7 @@
     "description": "Lower costs, high security, and advanced applications with new networks.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ankawings.png",
     "ecosystem": "Ethereum",
-    "isTestnet": true,
+    "isTestnet": false,
     "layer": 1,
     "rollupType": null,
     "website": "https://ankawings.network/",
@@ -6436,7 +6404,7 @@
     ]
   },
   "17069": {
-    "name": "Garnet Testnet",
+    "name": "Redstone Garnet Testnet",
     "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226f758be373b16bd7f_redstone.png",
     "ecosystem": "Optimism",
@@ -6500,7 +6468,7 @@
     ]
   },
   "18233": {
-    "name": "Tangible Unreal testnet",
+    "name": "Tangible Unreal Testnet",
     "description": "The first permissionless L2 for tokenized real world assets",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a99b8a3db2ecacc3f7_real.png",
     "ecosystem": "Arbitrum",
@@ -6703,7 +6671,7 @@
     "explorers": [
       {
         "url": "https://zilliqa-prototestnet.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -6836,7 +6804,7 @@
     ]
   },
   "41455": {
-    "name": "Aleph Zero ",
+    "name": "Aleph Zero EVM",
     "description": "The first EVM-compatible ZK privacy with subsecond proving.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e55a9f69d1425629ec892_aleph.png",
     "ecosystem": "Arbitrum",
@@ -6931,7 +6899,7 @@
       },
       {
         "url": "https://nova-explorer.arbitrum.io/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7331,7 +7299,7 @@
     "explorers": [
       {
         "url": "https://explorer.inkonchain.com/",
-        "hostedBy": "blockscout"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -7527,22 +7495,6 @@
       }
     ]
   },
-  "65536": {
-    "name": "Automata",
-    "description": "rusted Execution Environment (TEE) Coprocessors live on EigenLayer Mainnet with Multi-Prover AVS",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/667c8648386972e5a15b205d_Automata.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://ata.network",
-    "explorers": [
-      {
-        "url": "https://explorer.ata.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "66665": {
     "name": "Creator",
     "description": "Blockchain built on the Superchain, designed to enhance scalability, efficiency, and reward-driven growth.",
@@ -7619,7 +7571,7 @@
     "explorers": [
       {
         "url": "https://explorer.boss.proofofplay.com/",
-        "hostedBy": "hosted-by-conduit"
+        "hostedBy": "conduit"
       }
     ]
   },
@@ -7634,7 +7586,7 @@
     "website": "https://www.icb.network/",
     "explorers": [
       {
-        "url": "https://testnet.icbscan.io/",
+        "url": "https://icb-testnet.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -7667,7 +7619,7 @@
     "explorers": [
       {
         "url": "https://explorer.renta.network/",
-        "hostedBy": "self"
+        "hostedBy": "conduit"
       }
     ]
   },
@@ -7944,7 +7896,7 @@
     ]
   },
   "101010": {
-    "name": "Stability",
+    "name": "Stability Global Trust Network",
     "description": "The first tokenless public blockchain network.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/66354079732253c6df752499_stability.png",
     "ecosystem": "Ethereum",
@@ -7971,12 +7923,12 @@
     "explorers": [
       {
         "url": "https://creditcoin.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
   "102031": {
-    "name": "Creditcoin testnet",
+    "name": "Creditcoin Testnet",
     "description": "Multichain Credit Protocol Powering Real-World Assets",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aae10a4004192357f5_creditcoin.png",
     "ecosystem": "Ethereum",
@@ -8003,7 +7955,7 @@
     "explorers": [
       {
         "url": "https://creditcoin-devnet.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8291,7 +8243,7 @@
     "explorers": [
       {
         "url": "https://andromeda.anomalyscan.io/",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -8328,7 +8280,7 @@
     ]
   },
   "314159": {
-    "name": "Filecoin Calibration testnet",
+    "name": "Filecoin Calibration Testnet",
     "description": "Filecoin is a peer-to-peer network that stores files, with built-in economic incentives and cryptography to ensure files are stored reliably over time.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e207404eff9bc6316bae3_Filecoin.png",
     "ecosystem": "Ethereum",
@@ -8339,7 +8291,7 @@
     "explorers": [
       {
         "url": "https://filecoin-testnet.blockscout.com",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8376,10 +8328,10 @@
     ]
   },
   "325000": {
-    "name": "Camp Network",
+    "name": "Camp Network Testnet",
     "description": "Identity layer enabling users to monetize their data.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c290dcd9650d7aac81e8_Camp_Network.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -8387,7 +8339,7 @@
     "explorers": [
       {
         "url": "https://camp-network-testnet.blockscout.com/",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -8611,7 +8563,7 @@
     "explorers": [
       {
         "url": "https://explorer.novastro.xyz",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -8739,7 +8691,7 @@
     "explorers": [
       {
         "url": "https://explorer-bluetail.renta.network/",
-        "hostedBy": "self"
+        "hostedBy": "conduit"
       }
     ]
   },
@@ -8760,7 +8712,7 @@
     ]
   },
   "763373": {
-    "name": "Ink Testnet",
+    "name": "Ink Sepolia",
     "description": "Blockchain designed to be the house of DeFi for the Superchain; a powerful baselayer for deploying innovative DeFi protocols.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e1ff167aa4333bfaef4d9_Ink.png",
     "ecosystem": "Ethereum",
@@ -9115,7 +9067,7 @@
     "name": "Fluence",
     "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
     "logo": "https://blockscout.mainnet.fluence.dev/assets/configs/network_icon.svg",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -9123,7 +9075,7 @@
     "explorers": [
       {
         "url": "https://blockscout.mainnet.fluence.dev",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -9311,7 +9263,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
-    "website": "https://docs.citronus.com/",
+    "website": "https://citronus.com/",
     "explorers": [
       {
         "url": "https://test.citronus.com",
@@ -9331,7 +9283,7 @@
     "explorers": [
       {
         "url": "https://blockscout.testnet.fluence.dev",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -9443,7 +9395,7 @@
     "explorers": [
       {
         "url": "https://opcelestia-raspberry.gelatoscout.com/",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -9464,7 +9416,7 @@
     ]
   },
   "168587773": {
-    "name": "Blast Sepolia Testnet",
+    "name": "Blast Sepolia",
     "description": "The only Ethereum L2 with native yield for ETH and stablecoins.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e5bade2a8324d9f15efb9_blast.png",
     "ecosystem": "Ethereum",
@@ -9512,7 +9464,7 @@
     ]
   },
   "666666666": {
-    "name": "Degen",
+    "name": "Degen Chain",
     "description": "Enables Casters to reward others with DEGEN for posting quality content.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/660c9fd8a12ce2c2cea52793_degen.png",
     "ecosystem": "Arbitrum",
@@ -9528,18 +9480,18 @@
     ]
   },
   "686669576": {
-    "name": "Stavanger Testnet",
+    "name": "Polygon CDK Stavanger Testnet",
     "description": "Testnet based on the zkEVM architecture offered by Polygon CDK (Chain Development Kit).",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1cf3ff848ddbb664de0_Stavanger.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Polygon",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "zk",
     "website": "https://polygon.technology/cdk-stavanger-testnet",
     "explorers": [
       {
         "url": "https://sn2-stavanger-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -9924,7 +9876,7 @@
     "explorers": [
       {
         "url": "https://arb-blueberry.gelatoscout.com/",
-        "hostedBy": "self"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -11220,7 +11172,7 @@
     "explorers": [
       {
         "url": "https://garnet.blockscout.com/",
-        "hostedBy": "hosted-by-blockscout"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -11924,7 +11876,7 @@
     "explorers": [
       {
         "url": "https://zkyoto.explorer.startale.com",
-        "hostedBy": "hosted-by-blockscout"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -12020,7 +11972,7 @@
     "explorers": [
       {
         "url": "https://eth-goerli.blockscout.com/",
-        "hostedBy": "hosted-by-blockscout"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -12366,14 +12318,14 @@
     "logo": "https://purple-alecia-8.tiiny.site/Footerlogo.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
-      "layer": 1,
-      "rollupType": null,
-      "website": "https://www.reltime.com/",
-      "explorers": [
-        {
-          "url": "http://explorer.reltime.com",
-          "hostedBy": "self"
-        }
-      ]
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.reltime.com/",
+    "explorers": [
+      {
+        "url": "http://explorer.reltime.com",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
