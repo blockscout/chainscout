@@ -9967,7 +9967,7 @@
   "ecosystem": "Optimism",
   "isTestnet": true,
   "layer": 2,
-  "rollupType": "op",
+  "rollupType": "optimistic",
   "website": "https://www.optimism.io/",
   "explorers": [
     {
@@ -9983,7 +9983,7 @@
   "ecosystem": "Optimism",
   "isTestnet": true,
   "layer": 2,
-  "rollupType": "op",
+  "rollupType": "optimistic",
   "website": "https://www.optimism.io/",
   "explorers": [
     {
