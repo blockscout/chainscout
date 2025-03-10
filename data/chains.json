@@ -255,6 +255,22 @@
       }
     ]
   },
+  "40": {
+    "name": "Telos EVM",
+    "description": "Telos Kiwi - A Block Producer on Telos with a focus on education & community.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/telos-evm.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://bp.kiwi/",
+    "explorers": [
+      {
+        "url": "https://telostx.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "42": {
     "name": "Lukso",
     "description": "EVM blockchain based on Casper PoS geared towards the new creative economy.",
@@ -1023,6 +1039,22 @@
       }
     ]
   },
+  "250": {
+    "name": "Fantom Chain Mainnet",
+    "description": "Fantom is a highly scalable blockchain platform for DeFi, crypto dApps, and enterprise applications.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fantom.png",
+    "ecosystem": "Fantom",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://fantom.foundation/",
+    "explorers": [
+      {
+        "url": "https://ftmscout.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "253": {
     "name": "CosVM",
     "description": "Enables secure 360-degree communication, operating on the PoS consesus mechanism.",
@@ -1259,6 +1291,22 @@
     "explorers": [
       {
         "url": "https://explorer.fortresschain.finance/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "393": {
+    "name": "Nexus",
+    "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexus.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://nexus.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.nexus.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -1504,17 +1552,17 @@
     ]
   },
   "550": {
-    "name": "River Mainnet",
-    "description": "Onchain protocol for building decentralized, encrypted messaging apps.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64c3339ed219d39c8f78_River.png",
-    "ecosystem": "Ethereum",
+    "name": "Towns Mainnet",
+    "description": "Open source protocol for building decentralized real-time messaging apps.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
+    "ecosystem": "Base",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
-    "website": "https://www.river.build/",
+    "rollupType": "optimistic",
+    "website": "https://www.towns.com/",
     "explorers": [
       {
-        "url": "https://explorer.river.build/",
+        "url": "https://explorer.towns.com/",
         "hostedBy": "self"
       }
     ]
@@ -2288,17 +2336,17 @@
     ]
   },
   "957": {
-    "name": "Lyra",
-    "description": "Permissionless smart contract platform that scales Ethereum while inheriting its security.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5474a3f3454c26c669c_lyra.png",
+    "name": "Derive Mainnet",
+    "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.png",
     "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
-    "website": "https://www.lyra.finance/",
+    "website": "https://www.derive.xyz/",
     "explorers": [
       {
-        "url": "https://explorer.lyra.finance/",
+        "url": "https://explorer.derive.xyz/",
         "hostedBy": "conduit"
       }
     ]
@@ -2656,7 +2704,7 @@
     ]
   },
   "1114": {
-    "name": "Oasys HOME Verse",
+    "name": "Oasys HOME Verse Mainnet",
     "description": "Gaming blockchain combing public and private blockchain technologies.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe545b7bec826fe8740c0_oasys.png",
     "ecosystem": "Ethereum",
@@ -2811,6 +2859,22 @@
     "explorers": [
       {
         "url": "https://brisescan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1190": {
+    "name": "AIEAGLE Chain",
+    "description": "Built to offer high-speed transactions, ultra-low gas fees, and powerful blockchain features for developers, investors, and crypto users.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aieagle.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "optimistic",
+    "website": "https://www.aieaglechain.com/",
+    "explorers": [
+      {
+        "url": "https://scan.aieaglechain.com/",
         "hostedBy": "self"
       }
     ]
@@ -3759,22 +3823,6 @@
     "explorers": [
       {
         "url": "https://explorer.metall2.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1776": {
-    "name": "SVN",
-    "description": "A public good for validating data so AI can make new scientific discoveries.",
-    "logo": "",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://www.svn.haus/",
-    "explorers": [
-      {
-        "url": "https://explorer.svn.haus/",
         "hostedBy": "self"
       }
     ]
@@ -4995,6 +5043,22 @@
       }
     ]
   },
+  "5151": {
+    "name": "Moca Chain",
+    "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.moca.foundation/",
+    "explorers": [
+      {
+        "url": "https://testnet-scan.mechain.tech/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "5165": {
     "name": "Bahamut",
     "description": "Smart contract-enabled, open source DLT platform.",
@@ -5508,17 +5572,17 @@
     ]
   },
   "8428": {
-    "name": "THAT",
-    "description": "A blockchain cryptocurrency designed to become the world’s first primary, borderless medium of exchange.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e2014dd5eea47bfdb8126_THAT.png",
+    "name": "SEI",
+    "description": "Sei is the first parallelized EVM blockchain delivering unmatched scalability and speed.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sei.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "website": "https://www.that.website/",
+    "website": "https://www.sei.io/",
     "explorers": [
       {
-        "url": "https://that.blockscout.com",
+        "url": "https://sei.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -6803,6 +6867,22 @@
       }
     ]
   },
+  "40875": {
+    "name": "Oasys HOME Verse Testnet",
+    "description": "Gaming blockchain combing public and private blockchain technologies.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe545b7bec826fe8740c0_oasys.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.oasys.games/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.oasys.homeverse.games/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "41455": {
     "name": "Aleph Zero EVM",
     "description": "The first EVM-compatible ZK privacy with subsecond proving.",
@@ -7155,6 +7235,22 @@
     "explorers": [
       {
         "url": "https://explorer.plutochain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "52014": {
+    "name": "Electroneum",
+    "description": "Electroneum is a Layer-1 EVM-compatible blockchain, with 5+ million users and 5 second transaction  speed with single block finality.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/electroneum.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://electroneum.com/",
+    "explorers": [
+      {
+        "url": "https://blockexplorer.electroneum.com/",
         "hostedBy": "self"
       }
     ]
@@ -7667,6 +7763,22 @@
     "explorers": [
       {
         "url": "https://xescan.net/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "80888": {
+    "name": "Onyx",
+    "description": "Onyx is a Layer 3 blockchain powered by Onyxcoin XCN supporting decentralized financial-purposed applications.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/onyx.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": null,
+    "website": "https://onyx.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.onyx.org/",
         "hostedBy": "self"
       }
     ]
@@ -8535,6 +8647,22 @@
       }
     ]
   },
+  "543210": {
+    "name": "ZERϴ",
+    "description": "L2 network to make onchain more enjoyable & rewarding with zero gas fees.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zero.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://zero.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.zero.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "560013": {
     "name": "Rogue Chain",
     "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
@@ -8983,18 +9111,18 @@
       }
     ]
   },
-  "6524490": {
-    "name": "River Testnet",
-    "description": "Onchain protocol for building decentralized, encrypted messaging apps.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64c3339ed219d39c8f78_River.png",
-    "ecosystem": "Ethereum",
+  "5565244900": {
+    "name": "Towns Testnet",
+    "description": "Open source protocol for building decentralized real-time messaging apps.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
+    "ecosystem": "Base",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
-    "website": "https://www.river.build/",
+    "rollupType": "optimistic",
+    "website": "https://www.towns.com/",
     "explorers": [
       {
-        "url": "https://testnet.explorer.river.build/",
+        "url": "https://testnet.explorer.towns.com/",
         "hostedBy": "self"
       }
     ]
@@ -9203,6 +9331,22 @@
     "explorers": [
       {
         "url": "https://sepolia-explorer.testnet.debank.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "21000000": {
+    "name": "Corn Maizenet",
+    "description": "CORN is aN EVM blockchain network using a hybrid tokenized bitcoin (BTCN) as gas.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/corn.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://usecorn.com/",
+    "explorers": [
+      {
+        "url": "https://maizenet-explorer.usecorn.com/",
         "hostedBy": "self"
       }
     ]
@@ -9559,6 +9703,38 @@
       }
     ]
   },
+  "1020352220": {
+    "name": "Titan AI Hub",
+    "description": "SKALE chain dedicated to AI and ML apps looking to utilize blockchain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/titan-ai-hub.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://skale.space/",
+    "explorers": [
+      {
+        "url": "https://aware-fake-trim-testnet.explorer.testnet.skalenodes.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1093502521": {
+    "name": "Moonveil Testnet",
+    "description": "A gamer-first ecosystem, building the Moonveil L2 powered by $MORE.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moonveil.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://moonveil.gg/",
+    "explorers": [
+      {
+        "url": "https://blockscout.testnet.moonveil.gg/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1122334455": {
     "name": "Wire Foundation",
     "description": "Governing board for the Wire Network to help determine the future state of the network.",
@@ -9603,6 +9779,22 @@
     "explorers": [
       {
         "url": "https://explorer.mainnet.aurora.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1350216234": {
+    "name": "Titan AI Hub Testnet",
+    "description": "SKALE chain dedicated to AI and ML apps looking to utilize blockchain.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://skale.space/",
+    "explorers": [
+      {
+        "url": "https://parallel-stormy-spica.explorer.mainnet.skalenodes.com/",
         "hostedBy": "self"
       }
     ]
@@ -9880,70 +10072,70 @@
       }
     ]
   },
-"1417429182": {
-  "name": "WilderWorld",
-  "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
-  "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
-  "ecosystem": "Polygon",
-  "isTestnet": true,
-  "layer": 2,
-  "rollupType": "zk",
-  "website": "https://www.wilderworld.com/",
-  "explorers": [
-    {
-      "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
-      "hostedBy": "gateway"
-    }
-  ]
-},
-"1828369849": {
-  "name": "WilderWorld",
-  "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
-  "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
-  "ecosystem": "Polygon",
-  "isTestnet": true,
-  "layer": 2,
-  "rollupType": "zk",
-  "website": "https://www.wilderworld.com/",
-  "explorers": [
-    {
-      "url": "https://moonwalker-blockscout.eu-north-2.gateway.fm/",
-      "hostedBy": "gateway"
-    }
-  ]
-},
-"420120000": {
-  "name": "Optimism Interop Devnet 0",
-  "description": "Devnet for testing interoperability messages",
-  "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
-  "ecosystem": "Optimism",
-  "isTestnet": true,
-  "layer": 2,
-  "rollupType": "optimistic",
-  "website": "https://www.optimism.io/",
-  "explorers": [
-    {
-      "url": "https://optimism-interop-alpha-0.blockscout.com/",
-      "hostedBy": "blockscout"
-    }
-  ]
-},
-"420120001": {
-  "name": "Optimism Interop Devnet 1",
-  "description": "Devnet for testing interoperability messages",
-  "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
-  "ecosystem": "Optimism",
-  "isTestnet": true,
-  "layer": 2,
-  "rollupType": "optimistic",
-  "website": "https://www.optimism.io/",
-  "explorers": [
-    {
-      "url": "https://optimism-interop-alpha-1.blockscout.com/",
-      "hostedBy": "blockscout"
-    }
-  ]
-},
+  "1417429182": {
+    "name": "WilderWorld",
+    "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+    "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://www.wilderworld.com/",
+    "explorers": [
+      {
+        "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+  "1828369849": {
+    "name": "WilderWorld",
+    "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+    "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://www.wilderworld.com/",
+    "explorers": [
+      {
+        "url": "https://moonwalker-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+  "420120000": {
+    "name": "Optimism Interop Devnet 0",
+    "description": "Devnet for testing interoperability messages",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.optimism.io/",
+    "explorers": [
+      {
+        "url": "https://optimism-interop-alpha-0.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "420120001": {
+    "name": "Optimism Interop Devnet 1",
+    "description": "Devnet for testing interoperability messages",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.optimism.io/",
+    "explorers": [
+      {
+        "url": "https://optimism-interop-alpha-1.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "5dax": {
     "name": "5dax",
     "description": "Exchange built for novice and experienced traders.",
@@ -12324,6 +12516,38 @@
     "explorers": [
       {
         "url": "http://explorer.reltime.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "8428_": {
+    "name": "THAT",
+    "description": "A blockchain cryptocurrency designed to become the world’s first primary, borderless medium of exchange.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e2014dd5eea47bfdb8126_THAT.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.that.website/",
+    "explorers": [
+      {
+        "url": "https://that.blockscout.com",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "1__": {
+    "name": "ChainFusion",
+    "description": "Fully Decentralized Cross-Chain Bridge.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/chainfusion.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://chainfusion.org/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.chainfusion.org/",
         "hostedBy": "self"
       }
     ]
