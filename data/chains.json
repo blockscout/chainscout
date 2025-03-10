@@ -7330,7 +7330,7 @@
     "website": "https://www.superposition.so/",
     "explorers": [
       {
-        "url": "https://testnet-explorer.superposition.so/",
+        "url": "https://explorer.superposition.so/",
         "hostedBy": "self"
       }
     ]
