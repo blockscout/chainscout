@@ -415,6 +415,22 @@
       }
     ]
   },
+  "88_": {
+    "name": "IDN Network",
+    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
+    "logo": "https://idnexplorer.s3.ap-east-1.amazonaws.com/network_icon-logo2.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://idn.world/",
+    "explorers": [
+      {
+        "url": "https://scan.idn-network.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "89": {
     "name": "Viction Testnet Network",
     "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
