@@ -384,22 +384,6 @@
     ]
   },
   "88": {
-    "name": "IDN Network",
-    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
-    "logo": "https://idnexplorer.s3.ap-east-1.amazonaws.com/network_icon-logo2.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://idn.world/",
-    "explorers": [
-      {
-        "url": "https://scan.idn-network.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "88": {
     "name": "Viction Network",
     "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.png",
@@ -411,6 +395,22 @@
     "explorers": [
       {
         "url": "https://viction.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "88_": {
+    "name": "IDN Network",
+    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
+    "logo": "https://idnexplorer.s3.ap-east-1.amazonaws.com/network_icon-logo2.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://idn.world/",
+    "explorers": [
+      {
+        "url": "https://scan.idn-network.com/",
         "hostedBy": "blockscout"
       }
     ]
