@@ -3087,6 +3087,22 @@
       }
     ]
   },
+  "130": {
+    "name": "Unichain",
+    "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.unichain.org/",
+    "explorers": [
+      {
+        "url": "https://unichain.blockscout.com",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "1310": {
     "name": "Mixin",
     "description": "EVM compatible decentralized W3 POS network managed by multiple nodes.",
@@ -3376,6 +3392,38 @@
       {
         "url": "https://scan-canary.bevm.io/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "1514": {
+    "name": "Story",
+    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
+    "ecosystem": "",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.story.foundation/",
+    "explorers": [
+      {
+        "url": "https://www.storyscan.xyz/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+   "1315": {
+    "name": "Story Aeneid",
+    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
+    "ecosystem": "",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.story.foundation/",
+    "explorers": [
+      {
+        "url": "https://aeneid.storyscan.xyz",
+        "hostedBy": "blockscout"
       }
     ]
   },
