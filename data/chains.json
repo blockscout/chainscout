@@ -9282,8 +9282,8 @@
     "website": "https://alienxchain.io/home",
     "explorers": [
       {
-        "url": "https://hal.explorer.caldera.xyz/",
-        "hostedBy": "self"
+        "url": "https://explorer.alienxchain.io/",
+        "hostedBy": "caldera"
       }
     ]
   },
