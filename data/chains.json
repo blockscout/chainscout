@@ -2250,7 +2250,7 @@
     "website": "https://adilchain.io/",
     "explorers": [
       {
-        "url": "adilchain-scan.io",
+        "url": "https://adilchain-scan.io",
         "hostedBy": "self"
       }
     ]
