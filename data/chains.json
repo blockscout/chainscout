@@ -1679,22 +1679,6 @@
       }
     ]
   },
-  "596": {
-    "name": "Dogechain",
-    "description": "A chain for Dogecoin holders built with the Polygon Edge framework.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bb07bb8049d4f4ebc9c67d_dogechain.png",
-    "ecosystem": "Polygon",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://dogechain.dog/",
-    "explorers": [
-      {
-        "url": "https://explorer.dogechain.dog/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "597": {
     "name": "Milkomeda",
     "description": "Protocol that brings EVM capabilities to non-EVM blockchains like Cardano, Solana, and Algorand.",
@@ -4159,6 +4143,22 @@
     "explorers": [
       {
         "url": "https://explorer.oslocrypto.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+    "2000": {
+    "name": "Dogechain",
+    "description": "A chain for Dogecoin holders built with the Polygon Edge framework.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bb07bb8049d4f4ebc9c67d_dogechain.png",
+    "ecosystem": "Polygon",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "website": "https://dogechain.dog/",
+    "explorers": [
+      {
+        "url": "https://explorer.dogechain.dog/",
         "hostedBy": "self"
       }
     ]
