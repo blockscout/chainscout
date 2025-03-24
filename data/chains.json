@@ -1679,6 +1679,22 @@
       }
     ]
   },
+  "595": {
+    "name": "Acala Mandala Testnet TC9",
+    "description": "Liquidity Layer of DeFi",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53b9c7e4d2873f00152_karura.png",
+    "ecosystem": "Polkadot",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://acala.network/",
+    "explorers": [
+      {
+        "url": "https://blockscout.mandala.aca-staging.network",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "597": {
     "name": "Milkomeda",
     "description": "Protocol that brings EVM capabilities to non-EVM blockchains like Cardano, Solana, and Algorand.",
@@ -2234,7 +2250,7 @@
     "website": "https://adilchain.io/",
     "explorers": [
       {
-        "url": "adilchain-scan.io",
+        "url": "https://adilchain-scan.io",
         "hostedBy": "self"
       }
     ]
@@ -3147,6 +3163,22 @@
     "explorers": [
       {
         "url": "https://explorer.testnet.bitcoincats.world/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1319": {
+    "name": "AIA Mainnet",
+    "description": "Emerging payment financial public chain",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aia.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://aiachain.org/en",
+    "explorers": [
+      {
+        "url": "https://aiascan.com",
         "hostedBy": "self"
       }
     ]
@@ -4147,7 +4179,7 @@
       }
     ]
   },
-    "2000": {
+  "2000": {
     "name": "Dogechain",
     "description": "A chain for Dogecoin holders built with the Polygon Edge framework.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bb07bb8049d4f4ebc9c67d_dogechain.png",
@@ -4479,6 +4511,38 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.morphl2.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "2648": {
+    "name": "AILayer Testnet",
+    "description": "AI-modular Bitcoin Layer2 solution",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ai-layer.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://ailayer.xyz/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.ailayer.xyz",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "2649": {
+    "name": "AILayer Mainnet",
+    "description": "AI-modular Bitcoin Layer2 solution",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ai-layer.png",
+    "ecosystem": "Bitcoin",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://ailayer.xyz/",
+    "explorers": [
+      {
+        "url": "https://mainnet-explorer.ailayer.xyz",
         "hostedBy": "self"
       }
     ]
@@ -5780,7 +5844,7 @@
     ]
   },
   "8911": {
-    "name": "ALG",
+    "name": "Algen",
     "description": "Blockchain that merges AI & blockchain technology, with emphasis on the genuine service level of the network, specifically for DApps.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67064c703021ed5beda5ca97_ALG.png",
     "ecosystem": "Ethereum",
@@ -5796,7 +5860,7 @@
     ]
   },
   "8912": {
-    "name": "ALG Testnet 1",
+    "name": "Algen Testnet 1",
     "description": "Blockchain that merges AI & blockchain technology, with emphasis on the genuine service level of the network, specifically for DApps.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67064c703021ed5beda5ca97_ALG.png",
     "ecosystem": "Ethereum",
@@ -5811,14 +5875,30 @@
       }
     ]
   },
+  "8921": {
+    "name": "Algen Layer2",
+    "description": "Hyper application blockchain with strong interoperability and layered information processing",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/algen.png",
+    "ecosystem": "Algen",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.algen.network/",
+    "explorers": [
+      {
+        "url": "https://scan.alg2.algen.network",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "8922": {
-    "name": "ALG Testnet 2",
+    "name": "Algen Testnet L2",
     "description": "Blockchain that merges AI & blockchain technology, with emphasis on the genuine service level of the network, specifically for DApps.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67064c703021ed5beda5ca97_ALG.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
+    "layer": 2,
+    "rollupType": "optimistic",
     "website": "https://www.algen.network/",
     "explorers": [
       {
@@ -6723,6 +6803,22 @@
       }
     ]
   },
+    "24776": {
+    "name": "Degree of Outreach",
+    "description": "Online community and social media platform",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/6DO.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://6do.world/",
+    "explorers": [
+      {
+        "url": "https://explorer.6do.world",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "25925": {
     "name": "Bitkub Testnet",
     "description": "Blockchain infrastructure for Southeast Asian users.",
@@ -7410,7 +7506,7 @@
     "website": "https://www.superposition.so/",
     "explorers": [
       {
-        "url": "https://testnet-explorer.superposition.so/",
+        "url": "https://explorer.superposition.so/",
         "hostedBy": "self"
       }
     ]
@@ -8407,6 +8503,22 @@
       }
     ]
   },
+  "229772": {
+    "name": "Abyss Protocol",
+    "description": "Platform for autonomous AI agents",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ai_agent_layer.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://aiagentlayer.com/",
+    "explorers": [
+      {
+        "url": "https://testnet.abyssprotocol.ai",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "241120": {
     "name": "Anomaly",
     "description": "AI-gaming app chain that integrates custom AI engine built mini-games directly into social platforms.",
@@ -9282,8 +9394,8 @@
     "website": "https://alienxchain.io/home",
     "explorers": [
       {
-        "url": "https://hal.explorer.caldera.xyz/",
-        "hostedBy": "self"
+        "url": "https://explorer.alienxchain.io/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -9668,6 +9780,22 @@
       {
         "url": "https://neon.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+    "247724776": {
+    "name": "Degree of Outreach testnet",
+    "description": "Online community and social media platform",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/6DO.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://6do.world/",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.6do.world/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -12261,6 +12389,22 @@
       {
         "url": "https://explorer.testnet.dev.gke.glue.net/",
         "hostedBy": "self-hosted"
+      }
+    ]
+  },
+  "1320_": {
+    "name": "AIA Testnet",
+    "description": "Emerging payment financial public chain",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aia.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://aiachain.org/en",
+    "explorers": [
+      {
+        "url": "https://testnet.aiascan.com",
+        "hostedBy": "self"
       }
     ]
   },
