@@ -543,6 +543,22 @@
       }
     ]
   },
+  "105": {
+    "name": "Stratis",
+    "description": "StratisEVM brings the power of Ethereum with lower fees & faster transactions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/stratis.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.stratisplatform.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.stratisevm.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "109": {
     "name": "Shibarium",
     "description": "Shiba Inu's L2 blockchain featuring low cost, fast, and powerful technology.",
@@ -891,6 +907,22 @@
     "explorers": [
       {
         "url": "https://dxb.vrcscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "205": {
+    "name": "Stratis Auroria Testnet",
+    "description": "StratisEVM brings the power of Ethereum with lower fees & faster transactions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/stratis.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.stratisplatform.com/",
+    "explorers": [
+      {
+        "url": "https://auroria.explorer.stratisevm.com",
         "hostedBy": "self"
       }
     ]
@@ -1739,6 +1771,38 @@
     "explorers": [
       {
         "url": "https://explorer.publicmint.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "624": {
+    "name": "Binary Holdings Mainnet",
+    "description": "Providing Web3 infrastructure for telecommunication companies in emerging economies across Southeast Asia.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/binary.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.thebinaryholdings.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.thebinaryholdings.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "625": {
+    "name": "Binary Holdings Sepolia",
+    "description": "Providing Web3 infrastructure for telecommunication companies in emerging economies across Southeast Asia.",
+    "logo": "binary.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.thebinaryholdings.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.sepolia.thebinaryholdings.com",
         "hostedBy": "self"
       }
     ]
@@ -3987,6 +4051,38 @@
       }
     ]
   },
+  "1907": {
+    "name": "Bitcichain Mainnet",
+    "description": "The First and Leading Blockchain in Turkiye",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitci.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://bitcichain.com/",
+    "explorers": [
+      {
+        "url": "https://bitciexplorer.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1908": {
+    "name": "Bitcichain Testnet",
+    "description": "The First and Leading Blockchain in Turkiye",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitci.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://bitcichain.com/",
+    "explorers": [
+      {
+        "url": "https://testnet.bitciexplorer.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1924": {
     "name": "Swell",
     "description": "ZK-validium built on the Polygon CDK, with AltLayer, and Ankr.",
@@ -4372,8 +4468,8 @@
     ]
   },
   "2340": {
-    "name": "Atleta",
-    "description": "Modular, multi-layer,, smart contract platform with native cross-chain interoperability, dedicated to servicing the Sports Industry.",
+    "name": "Atleta Olympia Testnet",
+    "description": "Modular, multi-layer smart contract platform with native cross-chain interoperability, dedicated to servicing the Sports Industry.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1d023dfa1b920c505c0_Atleta.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
@@ -4543,22 +4639,6 @@
     "explorers": [
       {
         "url": "https://mainnet-explorer.ailayer.xyz",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "2730": {
-    "name": "XR One",
-    "description": "High impact PvP Web3 games.",
-    "logo": "",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": null,
-    "website": "https://xrone.network/",
-    "explorers": [
-      {
-        "url": "https://testnet-explorer.xrone.network/",
         "hostedBy": "self"
       }
     ]
@@ -5683,6 +5763,22 @@
       }
     ]
   },
+  "8333": {
+    "name": "B3",
+    "description": "Fun-first gaming ecosystem built on Base.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/B3.png",
+    "ecosystem": "Base",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "optimistic",
+    "website": "https://www.b3.fun/",
+    "explorers": [
+      {
+        "url": "https://explorer.b3.fun",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "8408": {
     "name": "Zenchain Testnet",
     "description": "Fully decentralized and EVM-compatible Bitcoin L1 solution, leveraging Bitcoin's network for secure cross-chain interactions.",
@@ -6751,6 +6847,22 @@
     "explorers": [
       {
         "url": "https://explorer.sandverse.oasys.games/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "21133": {
+    "name": "All About Healthy",
+    "description": "Alternative protocol for building decentralized applications",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/C4EI.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://c4ex.net/",
+    "explorers": [
+      {
+        "url": "https://exp.c4ex.net",
         "hostedBy": "self"
       }
     ]
@@ -10388,22 +10500,6 @@
     "explorers": [
       {
         "url": "https://scan.gemini.axiomesh.io/home",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "bahamut": {
-    "name": "Bahamut",
-    "description": "Smart contract-enabled, open source DLT platform for Fastex and Ethereum with POSA consensus.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/665636dc39d1ce18e71a182a_bahamut.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://www.bahamut.io/",
-    "explorers": [
-      {
-        "url": "https://www.ftnscan.com/",
         "hostedBy": "self"
       }
     ]
