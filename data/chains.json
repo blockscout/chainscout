@@ -3727,7 +3727,7 @@
     "explorers": [
       {
         "url": "https://explorer.gravity.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "conduit"
       }
     ]
   },
