@@ -12761,3 +12761,22 @@
     ]
   }
 }
+"chainId": { 20677
+  "name": "buildbear interim shocker",
+  "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain ",
+  "ecosystem": Ethereum,
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "website": " https://app.buildbear.io/ ",
+  "explorers": [
+    {
+      "url": "https://explorer.buildbear.io/interim-shocker-7c7305d9",
+      "url":
+             "https://interim-shocker-7c7305d9.ethernal.buildbear.io/"
+      "url":
+             "https://interim-shocker-7c7305d9.blockscout.buildbear.io/"
+"hostedBy": "blockscout & buildbear"
+    }
+  ],
+}
