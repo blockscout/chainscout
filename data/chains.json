@@ -12759,5 +12759,37 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "3721": {
+    "name": "Xone Mainnet",
+    "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
+    "logo": "https://rose-petite-porcupine-710.mypinata.cloud/ipfs/bafkreihdoo23wgwumbe2jscr2egadls3on6j2orqg2ajj45c4ocaympaty",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://xone.org",
+    "explorers": [
+      {
+        "url": "https://xscscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "33772211": {
+    "name": "Xone Testnet",
+    "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
+    "logo": "https://rose-petite-porcupine-710.mypinata.cloud/ipfs/bafkreihdoo23wgwumbe2jscr2egadls3on6j2orqg2ajj45c4ocaympaty",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://xone.org",
+    "explorers": [
+      {
+        "url": "https://testnet.xscscan.com/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
