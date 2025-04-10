@@ -528,22 +528,6 @@
     ]
   },
   "105": {
-    "name": "Velas",
-    "description": "Solana fork with embedded EVM integration creates a Solana (eBPF) VM and Ethereum VM hybrid.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe542f6b602a9430cb39a_Velas.png",
-    "ecosystem": "Solana",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://velas.com/en",
-    "explorers": [
-      {
-        "url": "https://evmexplorer.velas.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "105": {
     "name": "Stratis",
     "description": "StratisEVM brings the power of Ethereum with lower fees & faster transactions.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/stratis.png",
@@ -3494,8 +3478,8 @@
   "1514": {
     "name": "Story",
     "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
-    "ecosystem": "",
+    "logo": "",
+    "ecosystem": "Cosmos",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -3507,11 +3491,11 @@
       }
     ]
   },
-   "1315": {
+  "1315": {
     "name": "Story Aeneid",
     "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
-    "ecosystem": "",
+    "logo": "",
+    "ecosystem": "Cosmos",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -4831,6 +4815,22 @@
     "explorers": [
       {
         "url": "https://blockscout.botanixlabs.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "3721": {
+    "name": "Xone Mainnet",
+    "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
+    "logo": "https://rose-petite-porcupine-710.mypinata.cloud/ipfs/bafkreihdoo23wgwumbe2jscr2egadls3on6j2orqg2ajj45c4ocaympaty",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://xone.org",
+    "explorers": [
+      {
+        "url": "https://xscscan.com/",
         "hostedBy": "self"
       }
     ]
@@ -6915,7 +6915,7 @@
       }
     ]
   },
-    "24776": {
+  "24776": {
     "name": "Degree of Outreach",
     "description": "Online community and social media platform",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/6DO.png",
@@ -7023,7 +7023,7 @@
     "explorers": [
       {
         "url": "https://curtis.explorer.caldera.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -7039,7 +7039,7 @@
     "explorers": [
       {
         "url": "https://apechain.calderaexplorer.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -9687,6 +9687,22 @@
       }
     ]
   },
+  "33772211": {
+    "name": "Xone Testnet",
+    "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
+    "logo": "https://rose-petite-porcupine-710.mypinata.cloud/ipfs/bafkreihdoo23wgwumbe2jscr2egadls3on6j2orqg2ajj45c4ocaympaty",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://xone.org",
+    "explorers": [
+      {
+        "url": "https://testnet.xscscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "34949059": {
     "name": "Citronus Citro",
     "description": "Citronus is a full-fledged ecosystem designed to simplify the investment experience for users at all levels.",
@@ -9895,7 +9911,7 @@
       }
     ]
   },
-    "247724776": {
+  "247724776": {
     "name": "Degree of Outreach testnet",
     "description": "Online community and social media platform",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/6DO.png",
@@ -12856,34 +12872,18 @@
       }
     ]
   },
-  "3721": {
-    "name": "Xone Mainnet",
-    "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
-    "logo": "https://rose-petite-porcupine-710.mypinata.cloud/ipfs/bafkreihdoo23wgwumbe2jscr2egadls3on6j2orqg2ajj45c4ocaympaty",
-    "ecosystem": "Ethereum",
+  "105_": {
+    "name": "Velas",
+    "description": "Solana fork with embedded EVM integration creates a Solana (eBPF) VM and Ethereum VM hybrid.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe542f6b602a9430cb39a_Velas.png",
+    "ecosystem": "Solana",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "website": "https://xone.org",
+    "website": "https://velas.com/en",
     "explorers": [
       {
-        "url": "https://xscscan.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "33772211": {
-    "name": "Xone Testnet",
-    "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
-    "logo": "https://rose-petite-porcupine-710.mypinata.cloud/ipfs/bafkreihdoo23wgwumbe2jscr2egadls3on6j2orqg2ajj45c4ocaympaty",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://xone.org",
-    "explorers": [
-      {
-        "url": "https://testnet.xscscan.com/",
+        "url": "https://evmexplorer.velas.com/",
         "hostedBy": "self"
       }
     ]
