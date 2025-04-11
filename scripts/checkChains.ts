@@ -1,7 +1,7 @@
 const fs = require('fs');
 const nodeFetch = require('node-fetch');
 const https = require('https');
-const PQueue = require('p-queue').default;
+const PQueue = require('p-queue');
 
 interface Explorer {
   url: string;
@@ -224,4 +224,4 @@ async function checkChains(): Promise<void> {
   }
 }
 
-checkChains();
+checkChains().catch(console.error);
