@@ -20,10 +20,12 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install typescript ts-node node-fetch@2 p-queue @types/node @types/node-fetch
+        working-directory: ./scripts
+        run: npm install
 
       - name: Run chain check script using ts-node
-        run: npx ts-node scripts/checkChains.ts
+        working-directory: ./scripts
+        run: npx ts-node --esm checkChains.ts
 
       - name: Check if report exists
         id: check_report
