@@ -1,13 +1,21 @@
 const fs = require('fs');
-const fetch = require('node-fetch');
+const nodeFetch = require('node-fetch');
 const https = require('https');
 const PQueue = require('p-queue').default;
 
-import type { ChainData } from '@/types';
+interface Explorer {
+  url: string;
+}
+
+interface ChainData {
+  name: string;
+  website: string;
+  explorers?: Explorer[];
+}
 
 // Read the chains JSON file (adjust the path if needed)
 const data: string = fs.readFileSync('../data/chains.json', 'utf-8');
-const chains = JSON.parse(data);
+const chains: Record<string, ChainData> = JSON.parse(data);
 
 // Create a queue with concurrency of 5
 const queue = new PQueue({
@@ -47,42 +55,49 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       const response = await queue.add(async () => {
-        const res = await fetch(url, {
-          timeout: 5000,
-          headers: {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
-            'Sec-Fetch-User': '?1',
-            'Cache-Control': 'max-age=0',
-            'sec-ch-ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
-            'DNT': '1',
-            'Pragma': 'no-cache',
-            'Referer': 'https://www.google.com/',
-            'Origin': 'https://www.google.com'
-          },
-          redirect: 'follow',
-          agent: ignoreSSL ? new https.Agent({
-            rejectUnauthorized: false
-          }) : undefined
-        });
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000); // 5 seconds timeout
 
-        if (!res.ok) {
-          if (res.status === 403) {
-            throw new Error(`URL exists but access is forbidden (${url})`);
+        try {
+          const res = await nodeFetch(url, {
+            signal: controller.signal,
+            headers: {
+              'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+              'Accept-Language': 'en-US,en;q=0.9',
+              'Accept-Encoding': 'gzip, deflate, br',
+              'Connection': 'keep-alive',
+              'Upgrade-Insecure-Requests': '1',
+              'Sec-Fetch-Dest': 'document',
+              'Sec-Fetch-Mode': 'navigate',
+              'Sec-Fetch-Site': 'none',
+              'Sec-Fetch-User': '?1',
+              'Cache-Control': 'max-age=0',
+              'sec-ch-ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+              'sec-ch-ua-mobile': '?0',
+              'sec-ch-ua-platform': '"macOS"',
+              'DNT': '1',
+              'Pragma': 'no-cache',
+              'Referer': 'https://www.google.com/',
+              'Origin': 'https://www.google.com'
+            },
+            redirect: 'follow',
+            agent: ignoreSSL ? new https.Agent({
+              rejectUnauthorized: false
+            }) : undefined
+          });
+
+          if (!res.ok) {
+            if (res.status === 403) {
+              throw new Error(`URL exists but access is forbidden (${url})`);
+            }
+            throw new Error(`HTTP error! status: ${res.status}`);
           }
-          throw new Error(`HTTP error! status: ${res.status}`);
-        }
 
-        return res;
+          return res;
+        } finally {
+          clearTimeout(timeout);
+        }
       });
 
       const finalUrl = response.url;
@@ -173,7 +188,7 @@ async function checkChains(): Promise<void> {
     const [websiteMessage, explorerMessages] = await Promise.all([
       checkUrl(chain.website),
       Promise.all(
-        (chain.explorers || []).map(explorer => checkUrl(explorer.url))
+        (chain.explorers || []).map((explorer: Explorer) => checkUrl(explorer.url))
       )
     ]);
 
@@ -181,7 +196,7 @@ async function checkChains(): Promise<void> {
       chainReport += `- Website: ${websiteMessage}\n`;
     }
 
-    explorerMessages.forEach(message => {
+    explorerMessages.forEach((message: string | null) => {
       if (message) {
         chainReport += `- Explorer: ${message}\n`;
       }
