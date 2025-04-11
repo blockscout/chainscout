@@ -1,7 +1,7 @@
-const fs = require('fs');
-const nodeFetch = require('node-fetch');
-const https = require('https');
-const PQueue = require('p-queue');
+import fs from 'fs';
+import nodeFetch, { Response } from 'node-fetch';
+import https from 'https';
+import PQueue from 'p-queue';
 
 interface Explorer {
   url: string;
@@ -11,6 +11,12 @@ interface ChainData {
   name: string;
   website: string;
   explorers?: Explorer[];
+}
+
+interface FetchResponse {
+  status: number;
+  url: string;
+  data: string;
 }
 
 // Read the chains JSON file (adjust the path if needed)
@@ -48,7 +54,7 @@ function checkRedirect(originalUrl: string, finalUrl: string): string | null {
 }
 
 // Helper function to make HTTP request with retries
-async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ response: any, error: Error | null }> {
+async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ response: FetchResponse | null, error: Error | null }> {
   const maxRetries = 2;
   let lastError: Error | null = null;
 
@@ -60,7 +66,7 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
 
         try {
           const res = await nodeFetch(url, {
-            signal: controller.signal,
+            signal: controller.signal as any,
             headers: {
               'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
               'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -98,7 +104,7 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
         } finally {
           clearTimeout(timeout);
         }
-      });
+      }) as Response;
 
       const finalUrl = response.url;
       const content = await response.text();
