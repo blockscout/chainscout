@@ -25,7 +25,7 @@ jobs:
 
       - name: Run chain check script using ts-node
         working-directory: ./scripts
-        run: node --loader ts-node/esm scripts/checkChains.mts
+        run: node --loader ts-node/esm checkChains.mts
 
       - name: Check if report exists
         id: check_report
