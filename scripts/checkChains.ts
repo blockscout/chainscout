@@ -1,13 +1,13 @@
-import * as fs from 'fs';
-import fetch, { Response } from 'node-fetch';
-import * as https from 'https';
-import PQueue from 'p-queue';
+const fs = require('fs');
+const fetch = require('node-fetch');
+const https = require('https');
+const PQueue = require('p-queue').default;
 
-import type { ChainData, Chains } from '@/types';
+import type { ChainData } from '@/types';
 
 // Read the chains JSON file (adjust the path if needed)
-const data: string = fs.readFileSync('./data/chains.json', 'utf-8');
-const chains: Chains = JSON.parse(data);
+const data: string = fs.readFileSync('../data/chains.json', 'utf-8');
+const chains = JSON.parse(data);
 
 // Create a queue with concurrency of 5
 const queue = new PQueue({
@@ -40,7 +40,7 @@ function checkRedirect(originalUrl: string, finalUrl: string): string | null {
 }
 
 // Helper function to make HTTP request with retries
-async function makeRequest(url: string, ignoreSSL: boolean = true):Promise<{ response: any, error: Error | null }> {
+async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ response: any, error: Error | null }> {
   const maxRetries = 2;
   let lastError: Error | null = null;
 
@@ -83,7 +83,7 @@ async function makeRequest(url: string, ignoreSSL: boolean = true):Promise<{ res
         }
 
         return res;
-      }) as Response;
+      });
 
       const finalUrl = response.url;
       const content = await response.text();
@@ -160,7 +160,7 @@ async function checkUrl(url: string): Promise<string | null> {
 
 // Main function: iterate over chains and record broken URLs
 async function checkChains(): Promise<void> {
-  const entries = Object.entries(chains);
+  const entries: [string, ChainData][] = Object.entries(chains);
   const totalChains = entries.length;
   let completed = 0;
   const results: string[] = [];
