@@ -1947,7 +1947,7 @@
     "explorers": [
       {
         "url": "https://explorer.playground.fiefdom.gg/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -2155,7 +2155,7 @@
     "explorers": [
       {
         "url": "https://qng.qitmeer.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -2315,7 +2315,7 @@
     "explorers": [
       {
         "url": "https://mainnet.maxi.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -2987,7 +2987,7 @@
     "explorers": [
       {
         "url": "https://testnet-scan.cuckoo.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -3131,7 +3131,7 @@
     "explorers": [
       {
         "url": "https://explorer.glue.net/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -3419,7 +3419,7 @@
     "explorers": [
       {
         "url": "https://vanascan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -4383,7 +4383,7 @@
     "explorers": [
       {
         "url": "https://explorer.vanarchain.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -4463,7 +4463,7 @@
     "explorers": [
       {
         "url": "https://blockscout.atleta.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -4527,7 +4527,7 @@
     "explorers": [
       {
         "url": "https://testnet.explorer.inevm.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -4559,7 +4559,7 @@
     "explorers": [
       {
         "url": "https://nowscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -5055,7 +5055,7 @@
     "explorers": [
       {
         "url": "https://dailyscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6063,7 +6063,7 @@
     "explorers": [
       {
         "url": "https://litherscan.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6255,7 +6255,7 @@
     "explorers": [
       {
         "url": "https://explorer-test.sending.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6463,7 +6463,7 @@
     "explorers": [
       {
         "url": "https://scan-satschain.bevm.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6495,7 +6495,7 @@
     "explorers": [
       {
         "url": "https://explorer.snft.pro/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6607,7 +6607,7 @@
     "explorers": [
       {
         "url": "https://testnet.game7.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6623,7 +6623,7 @@
     "explorers": [
       {
         "url": "https://moksha.vanascan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6639,7 +6639,7 @@
     "explorers": [
       {
         "url": "https://satori.vanascan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -6943,7 +6943,7 @@
     "explorers": [
       {
         "url": "https://testnet.bkcscan.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7087,7 +7087,7 @@
     "explorers": [
       {
         "url": "https://0xprivacyscan.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7363,7 +7363,7 @@
     "explorers": [
       {
         "url": "https://explorer.runechain.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7427,7 +7427,7 @@
     "explorers": [
       {
         "url": "https://xexplorer.neo.org/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7555,7 +7555,7 @@
     "explorers": [
       {
         "url": "https://blk.keeex.me/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7651,7 +7651,7 @@
     "explorers": [
       {
         "url": "https://rollux.tanenbaum.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7699,7 +7699,7 @@
     "explorers": [
       {
         "url": "https://testnet-scan.duckchain.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7747,7 +7747,7 @@
     "explorers": [
       {
         "url": "https://explorer.kaichain.net/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7763,7 +7763,7 @@
     "explorers": [
       {
         "url": "https://scan-testnet.optopia.ai/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7779,7 +7779,7 @@
     "explorers": [
       {
         "url": "https://scan.optopia.ai/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7795,7 +7795,7 @@
     "explorers": [
       {
         "url": "https://explorer.devnet.citrea.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -7875,7 +7875,7 @@
     "explorers": [
       {
         "url": "https://explorer.creatorchain.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -8147,7 +8147,7 @@
     "explorers": [
       {
         "url": "https://hades.jbcha.in/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -8419,7 +8419,7 @@
     "explorers": [
       {
         "url": "https://explorer.librachain.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -8755,7 +8755,7 @@
     "explorers": [
       {
         "url": "https://scan.nal.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -9091,7 +9091,7 @@
     "explorers": [
       {
         "url": "https://zthscan.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -9267,7 +9267,7 @@
     "explorers": [
       {
         "url": "https://odyssey-explorer.ithaca.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -9683,7 +9683,7 @@
     "explorers": [
       {
         "url": "https://explorer.toliman.suave.flashbots.net/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -10227,7 +10227,7 @@
     "explorers": [
       {
         "url": "https://explorer.pandoshi.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12148,7 +12148,7 @@
     "explorers": [
       {
         "url": "https://antscan.net/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12164,7 +12164,7 @@
     "explorers": [
       {
         "url": "https://scan.chiliz.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12180,7 +12180,7 @@
     "explorers": [
       {
         "url": "https://explorer.cryptnic.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12196,7 +12196,7 @@
     "explorers": [
       {
         "url": "https://dscscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12212,7 +12212,7 @@
     "explorers": [
       {
         "url": "https://polygon-blackberry.gelatoscout.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12228,7 +12228,7 @@
     "explorers": [
       {
         "url": "https://testnet.gunzscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12244,7 +12244,7 @@
     "explorers": [
       {
         "url": "https://eye.moduluszk.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12260,7 +12260,7 @@
     "explorers": [
       {
         "url": "https://explorer.nigella.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12276,7 +12276,7 @@
     "explorers": [
       {
         "url": "https://explorer.parallel.fi/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12292,7 +12292,7 @@
     "explorers": [
       {
         "url": "https://bx.veriscope.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12308,7 +12308,7 @@
     "explorers": [
       {
         "url": "https://scan.3tlab.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12324,7 +12324,7 @@
     "explorers": [
       {
         "url": "https://blockscout-explorer.airdao.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12340,7 +12340,7 @@
     "explorers": [
       {
         "url": "https://amazechain.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12356,7 +12356,7 @@
     "explorers": [
       {
         "url": "https://aminox.blockscout.alphacarbon.network/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12388,7 +12388,7 @@
     "explorers": [
       {
         "url": "https://blockscout-v6.dev.bcf-lab.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12404,7 +12404,7 @@
     "explorers": [
       {
         "url": "https://explorer.blockey.co/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12420,7 +12420,7 @@
     "explorers": [
       {
         "url": "https://boomscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12436,7 +12436,7 @@
     "explorers": [
       {
         "url": "https://www.borscan.com",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12452,7 +12452,7 @@
     "explorers": [
       {
         "url": "https://btsscan.com",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12484,7 +12484,7 @@
     "explorers": [
       {
         "url": "https://evm.flowscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12500,7 +12500,7 @@
     "explorers": [
       {
         "url": "https://explorer.testnet.dev.gke.glue.net/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12532,7 +12532,7 @@
     "explorers": [
       {
         "url": "https://explorer.rivest.inco.org/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12548,7 +12548,7 @@
     "explorers": [
       {
         "url": "https://explorer.ipsprotocol.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12564,7 +12564,7 @@
     "explorers": [
       {
         "url": "https://explorer.japanopenchain.org/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12580,7 +12580,7 @@
     "explorers": [
       {
         "url": "https://blockscout.changi.ocean.jellyfishsdk.com",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12596,7 +12596,7 @@
     "explorers": [
       {
         "url": "https://explorer.lumio.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12612,7 +12612,7 @@
     "explorers": [
       {
         "url": "https://mezcal-testnet.explorer.caldera.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12628,7 +12628,7 @@
     "explorers": [
       {
         "url": "https://molten.calderaexplorer.xyz/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12644,7 +12644,7 @@
     "explorers": [
       {
         "url": "https://scan.nexqloud.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12660,7 +12660,7 @@
     "explorers": [
       {
         "url": "https://testnet.nxqscan.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12676,7 +12676,7 @@
     "explorers": [
       {
         "url": "https://jpoay.numerico.ai/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12692,7 +12692,7 @@
     "explorers": [
       {
         "url": "https://onlyscan.info/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12708,7 +12708,7 @@
     "explorers": [
       {
         "url": "https://explorer.testnet.l2.quarkchain.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12724,7 +12724,7 @@
     "explorers": [
       {
         "url": "https://explorer.stack.so/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12740,7 +12740,7 @@
     "explorers": [
       {
         "url": "https://testnet.explorer.stack.so/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12756,7 +12756,7 @@
     "explorers": [
       {
         "url": "https://astar-zkevm.explorer.startale.com/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12772,7 +12772,7 @@
     "explorers": [
       {
         "url": "https://bnb.xterscan.io/",
-        "hostedBy": "self-hosted"
+        "hostedBy": "self"
       }
     ]
   },
