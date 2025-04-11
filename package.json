@@ -1,6 +1,7 @@
 {
   "name": "chainscout",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,10 +17,14 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/node-fetch": "^2.6.12",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/tough-cookie": "^4.0.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "node-fetch": "^2.7.0",
+    "p-queue": "^8.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"

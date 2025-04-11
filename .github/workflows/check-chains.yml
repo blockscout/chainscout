@@ -1,0 +1,65 @@
+name: Check chain URLs
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs every Sunday at 00:00 UTC
+  push:
+    branches: [ check-script ]
+
+jobs:
+  check-chains:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install node-fetch ts-node p-queue
+
+      - name: Run chain check script using ts-node
+        run: npx ts-node scripts/checkChains.ts
+
+      - name: Check if report exists
+        id: check_report
+        run: |
+          if [ -f report ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Read report content
+        id: get_report
+        if: ${{ steps.check_report.outputs.exists == 'true' }}
+        run: |
+          echo "report<<EOF" >> $GITHUB_OUTPUT
+          cat report >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Issue if report found
+        if: ${{ steps.check_report.outputs.exists == 'true' }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // Format the current date as DD-MM-YYYY
+            const now = new Date();
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const year = now.getFullYear();
+            const formattedDate = `${day}-${month}-${year}`;
+            const report = process.env.REPORT;
+            const issueTitle = `Chain Issues Report (${formattedDate})`;
+            github.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issueTitle,
+              body: report,
+            });
+        env:
+          REPORT: ${{ steps.get_report.outputs.report }}
