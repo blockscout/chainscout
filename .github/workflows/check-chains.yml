@@ -29,9 +29,8 @@ jobs:
 
       - name: Check if report exists
         id: check_report
-        working-directory: ./scripts
         run: |
-          if [ -f report ]; then
+          if [ -f scripts/report ]; then
             echo "exists=true" >> $GITHUB_OUTPUT
           else
             echo "exists=false" >> $GITHUB_OUTPUT
@@ -42,7 +41,7 @@ jobs:
         if: ${{ steps.check_report.outputs.exists == 'true' }}
         run: |
           echo "report<<EOF" >> $GITHUB_OUTPUT
-          cat report >> $GITHUB_OUTPUT
+          cat scripts/report >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Issue if report found
@@ -58,7 +57,7 @@ jobs:
             const formattedDate = `${day}-${month}-${year}`;
             const report = process.env.REPORT;
             const issueTitle = `Chain Issues Report (${formattedDate})`;
-            github.issues.create({
+            github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: issueTitle,
