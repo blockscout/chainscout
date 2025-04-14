@@ -27,12 +27,26 @@ jobs:
         working-directory: ./scripts
         run: node --loader ts-node/esm checkChains.mts
 
+      - name: Debug - List files
+        run: |
+          echo "Root directory:"
+          ls -la
+          echo "Scripts directory:"
+          ls -la scripts/
+
       - name: Check if report exists
         id: check_report
         run: |
+          echo "Checking for report in root:"
           if [ -f report ]; then
+            echo "Report exists in root"
             echo "exists=true" >> $GITHUB_OUTPUT
+          elif [ -f scripts/report ]; then
+            echo "Report exists in scripts directory"
+            echo "exists=true" >> $GITHUB_OUTPUT
+            cp scripts/report report
           else
+            echo "Report not found in either location"
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
 
@@ -40,6 +54,8 @@ jobs:
         id: get_report
         if: ${{ steps.check_report.outputs.exists == 'true' }}
         run: |
+          echo "Reading report content:"
+          cat report
           echo "report<<EOF" >> $GITHUB_OUTPUT
           cat report >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -49,7 +65,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            // Format the current date as DD-MM-YYYY
+            console.log('Creating issue with report:', process.env.REPORT);
             const now = new Date();
             const day = String(now.getDate()).padStart(2, '0');
             const month = String(now.getMonth() + 1).padStart(2, '0');
@@ -57,11 +73,12 @@ jobs:
             const formattedDate = `${day}-${month}-${year}`;
             const report = process.env.REPORT;
             const issueTitle = `Chain Issues Report (${formattedDate})`;
-            github.issues.create({
+            await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: issueTitle,
               body: report,
             });
+            console.log('Issue created successfully');
         env:
           REPORT: ${{ steps.get_report.outputs.report }}

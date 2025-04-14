@@ -180,54 +180,85 @@ async function checkUrl(url: string): Promise<string | null> {
 }
 
 // Main function: iterate over chains and record broken URLs
+// async function checkChains(): Promise<void> {
+//   const entries: [string, ChainData][] = Object.entries(chains);
+//   const totalChains = entries.length;
+//   let completed = 0;
+//   const results: string[] = [];
+
+//   // Helper function that processes a single chain and updates the progress counter
+//   async function processChain([id, chain]: [string, ChainData]): Promise<string> {
+//     let chainReport = '';
+
+//     // Check website and explorer URLs in parallel
+//     const [websiteMessage, explorerMessages] = await Promise.all([
+//       checkUrl(chain.website),
+//       Promise.all(
+//         (chain.explorers || []).map((explorer: Explorer) => checkUrl(explorer.url))
+//       )
+//     ]);
+
+//     if (websiteMessage) {
+//       chainReport += `- Website: ${websiteMessage}\n`;
+//     }
+
+//     explorerMessages.forEach((message: string | null) => {
+//       if (message) {
+//         chainReport += `- Explorer: ${message}\n`;
+//       }
+//     });
+
+//     // Increment the completed counter and update the dynamic progress line
+//     completed++;
+//     process.stdout.clearLine(0); // clear the current line
+//     process.stdout.cursorTo(0);    // move the cursor to the beginning of the line
+//     process.stdout.write(`Checking chains... [${completed}/${totalChains}]`);
+
+//     return chainReport ? `**${chain.name} (${id})**\n${chainReport}\n` : '';
+//   }
+
+//   // Process all chains
+//   const chainResults = await Promise.all(entries.map(processChain));
+//   results.push(...chainResults);
+
+//   // Aggregate the final report
+//   const overallReport = results.filter((report) => report !== '').join('');
+//   process.stdout.write('\n'); // move to a new line after progress output
+
+//   if (overallReport !== '') {
+//     fs.writeFileSync('../report', overallReport);
+//   }
+// }
+
 async function checkChains(): Promise<void> {
-  const entries: [string, ChainData][] = Object.entries(chains);
-  const totalChains = entries.length;
-  let completed = 0;
-  const results: string[] = [];
+  console.log('Starting test report creation...');
 
-  // Helper function that processes a single chain and updates the progress counter
-  async function processChain([id, chain]: [string, ChainData]): Promise<string> {
-    let chainReport = '';
+  const testReport = `
+**Test Chain (test-chain)**
+- Website: Test issue with website
+- Explorer: Test issue with explorer
 
-    // Check website and explorer URLs in parallel
-    const [websiteMessage, explorerMessages] = await Promise.all([
-      checkUrl(chain.website),
-      Promise.all(
-        (chain.explorers || []).map((explorer: Explorer) => checkUrl(explorer.url))
-      )
-    ]);
+**Another Chain (another-chain)**
+- Website: Another test issue
+`;
 
-    if (websiteMessage) {
-      chainReport += `- Website: ${websiteMessage}\n`;
-    }
-
-    explorerMessages.forEach((message: string | null) => {
-      if (message) {
-        chainReport += `- Explorer: ${message}\n`;
-      }
-    });
-
-    // Increment the completed counter and update the dynamic progress line
-    completed++;
-    process.stdout.clearLine(0); // clear the current line
-    process.stdout.cursorTo(0);    // move the cursor to the beginning of the line
-    process.stdout.write(`Checking chains... [${completed}/${totalChains}]`);
-
-    return chainReport ? `**${chain.name} (${id})**\n${chainReport}\n` : '';
+  try {
+    console.log('Creating test report file...');
+    // Пробуем записать в разные места, чтобы понять, где работает
+    fs.writeFileSync('./report', testReport);
+    console.log('Report was written to ./report');
+    fs.writeFileSync('../report', testReport);
+    console.log('Report was written to ../report');
+  } catch (error) {
+    console.error('Error writing report file:', error);
+    throw error;
   }
 
-  // Process all chains
-  const chainResults = await Promise.all(entries.map(processChain));
-  results.push(...chainResults);
-
-  // Aggregate the final report
-  const overallReport = results.filter((report) => report !== '').join('');
-  process.stdout.write('\n'); // move to a new line after progress output
-
-  if (overallReport !== '') {
-    fs.writeFileSync('../report', overallReport);
-  }
+  // Выведем содержимое директории для проверки
+  console.log('Current directory contents:');
+  console.log(fs.readdirSync('.'));
+  console.log('Parent directory contents:');
+  console.log(fs.readdirSync('..'));
 }
 
 checkChains().catch(console.error);
