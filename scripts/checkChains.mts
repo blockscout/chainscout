@@ -226,7 +226,7 @@ async function checkChains(): Promise<void> {
   process.stdout.write('\n'); // move to a new line after progress output
 
   if (overallReport !== '') {
-    fs.writeFileSync('./report', overallReport);
+    fs.writeFileSync('../report', overallReport);
   }
 }
 
