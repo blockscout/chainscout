@@ -1,0 +1,16 @@
+"chainId": {1205614510163080}
+  "name": "Niche",
+  "description": "niche chain is the root chain above bitcoin, it gorms a new merkle tree connecting all of the current crypto chains as children",
+  "ecosystem": ["Associated eco Ethereum, Base, optimism],
+  "isTestnet": true,
+  "layer": 2,
+  "rollupType": alchemy,
+  "website": "https://gamma.app/docs/Niche-Network-Revolutionizing-Clean-Energy-with-AI-Integration-632kue5r2x48tgk",
+  "explorers": [https://explorer-1205614510163080.devnet.alchemy.com/
+    {
+      "url": "https://explorer-1205614510163080.devnet.alchemy.com/",
+      "hostedBy": "blockscout"
+    }
+  ],
+  "logo": "https://euc.li/nichebiche.eth"
+}
