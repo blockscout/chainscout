@@ -179,7 +179,7 @@ async function checkUrl(url: string): Promise<string | null> {
   return `URL is unreachable (${url})`;
 }
 
-// Main function: iterate over chains and record broken URLs
+// // Main function: iterate over chains and record broken URLs
 // async function checkChains(): Promise<void> {
 //   const entries: [string, ChainData][] = Object.entries(chains);
 //   const totalChains = entries.length;
@@ -231,8 +231,6 @@ async function checkUrl(url: string): Promise<string | null> {
 // }
 
 async function checkChains(): Promise<void> {
-  console.log('Starting test report creation...');
-
   const testReport = `
 **Test Chain (test-chain)**
 - Website: Test issue with website
@@ -243,22 +241,11 @@ async function checkChains(): Promise<void> {
 `;
 
   try {
-    console.log('Creating test report file...');
-    // Пробуем записать в разные места, чтобы понять, где работает
     fs.writeFileSync('./report', testReport);
-    console.log('Report was written to ./report');
-    fs.writeFileSync('../report', testReport);
-    console.log('Report was written to ../report');
   } catch (error) {
     console.error('Error writing report file:', error);
     throw error;
   }
-
-  // Выведем содержимое директории для проверки
-  console.log('Current directory contents:');
-  console.log(fs.readdirSync('.'));
-  console.log('Parent directory contents:');
-  console.log(fs.readdirSync('..'));
 }
 
 checkChains().catch(console.error);
