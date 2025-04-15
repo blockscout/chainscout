@@ -223,22 +223,6 @@
       }
     ]
   },
-  "37": {
-    "name": "Orb 3",
-    "description": "Fast, scalable L3 optimized for GameFi and SocialFi.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe548954f7a0ceefd6c94_orb3.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "website": "https://orb3.tech/",
-    "explorers": [
-      {
-        "url": "https://orb3scan.tech/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "38": {
     "name": "U2U Network",
     "description": "L1 network focused on decentralized physical infrastructure network and RWA builders.",
@@ -995,7 +979,7 @@
     "name": "Mind Network",
     "description": "A Fully Homomorphic Encryption (FHE) restaking layer for PoS and AI networks.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mind-network.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -1371,7 +1355,7 @@
     "explorers": [
       {
         "url": "https://explorer.nexus.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -1411,7 +1395,7 @@
     "name": "SX Network",
     "description": "L2 blockchain built on Polygon Edge. Scaling betting, DeFi, and NFT applications.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6662359f5bc5b5ddb3e44125_sx.technology.png",
-    "ecosystem": "Polygon",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -1964,22 +1948,6 @@
       {
         "url": "https://matchscan.io/",
         "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "712": {
-    "name": "Fief",
-    "description": "Multichain platform for trading and earning rewards on metaverse assets with decentralized fee share via $FIEF token.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e623f98cd58638dcb508b_Fief.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "website": "https://www.fief.gg/",
-    "explorers": [
-      {
-        "url": "https://explorer.playground.fiefdom.gg/",
-        "hostedBy": "self"
       }
     ]
   },
@@ -3783,7 +3751,7 @@
     "name": "Gravity",
     "description": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e62ecae9f1e8566000175_Gravity.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -6711,7 +6679,7 @@
     "name": "Game7",
     "description": "Game7 is a onchain gaming ecosystem where both players and developers win.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/674603433c75eff26b5182af_Game7.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -7651,7 +7619,7 @@
     "explorers": [
       {
         "url": "https://scan.birdlayer.xyz/",
-        "hostedBy": "altlayer-raas"
+        "hostedBy": "self"
       }
     ]
   },
@@ -8344,10 +8312,10 @@
     ]
   },
   "98864": {
-    "name": "Plume-Testnet",
+    "name": "Plume Legacy Testnet",
     "description": "Modular RWA L2 bringing any real world asset on-chain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226dae08f9773b0298f_plumenetwork.png",
-    "ecosystem": "Ethereum",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.png",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
@@ -8355,6 +8323,38 @@
     "explorers": [
       {
         "url": "https://test-explorer.plumenetwork.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "98865": {
+    "name": "Plume Legacy Mainnet",
+    "description": "Modular RWA L2 bringing any real world asset on-chain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.plumenetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.plumenetwork.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "98867": {
+    "name": "Plume Testnet",
+    "description": "Modular RWA L2 bringing any real world asset on-chain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.plumenetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.plumenetwork.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -8699,7 +8699,7 @@
     "name": "Mind Network Testnet",
     "description": "A Fully Homomorphic Encryption (FHE) restaking layer for PoS and AI networks.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mind-network.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -10103,22 +10103,6 @@
       }
     ]
   },
-  "161221135": {
-    "name": "Plume Testnet",
-    "description": "Modular RWA L2 bringing any real world asset on-chain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226dae08f9773b0298f_plumenetwork.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "website": "https://www.plumenetwork.xyz/",
-    "explorers": [
-      {
-        "url": "https://plume-testnet.explorer.caldera.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "168587773": {
     "name": "Blast Sepolia",
     "description": "The only Ethereum L2 with native yield for ETH and stablecoins.",
@@ -10379,7 +10363,7 @@
     "name": "RARI Chain",
     "description": "Embeds royalties on the node level to guarantee royalty payments, powered by Arbitrum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29874f1ce4bfa053b06_RARI.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
@@ -11132,7 +11116,7 @@
     "name": "Destra Network",
     "description": "On-chain one-stop solution for all your DePin, Cloud and AI computing needs.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1d21a4fcec7b085b54d_Destra-Network.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
