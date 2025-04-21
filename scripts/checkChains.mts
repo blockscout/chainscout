@@ -1,6 +1,7 @@
 import fs from 'fs';
-import nodeFetch, { Response } from 'node-fetch';
+import nodeFetch from 'node-fetch';
 import https from 'https';
+import http from 'http';
 import PQueue from 'p-queue';
 
 interface Explorer {
@@ -19,16 +20,17 @@ interface FetchResponse {
   data: string;
 }
 
+interface CheckResult {
+  error: string | null;
+  isCritical: boolean;
+}
+
 // Read the chains JSON file (adjust the path if needed)
 const data: string = fs.readFileSync('../data/chains.json', 'utf-8');
 const chains: Record<string, ChainData> = JSON.parse(data);
 
-// Create a queue with concurrency of 5
-const queue = new PQueue({
-  concurrency: 5,
-  interval: 2000, // 2 seconds between requests
-  intervalCap: 1
-});
+// Create a queue with concurrency of 10
+const queue = new PQueue({ concurrency: 10 });
 
 // Helper function to normalize domain (get parent domain)
 function normalizeDomain(url: string): string {
@@ -47,7 +49,7 @@ function checkRedirect(originalUrl: string, finalUrl: string): string | null {
   const finalDomain = normalizeDomain(finalUrl);
 
   if (originalDomain !== finalDomain) {
-    return `URL redirects to different domain => ${finalDomain} (${originalUrl})`;
+    return `Redirects to different domain (${finalDomain})`;
   }
 
   return null;
@@ -62,7 +64,7 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
     try {
       const response = await queue.add(async () => {
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 5000); // 5 seconds timeout
+        const timeout = setTimeout(() => controller.abort(), 5000);
 
         try {
           const res = await nodeFetch(url, {
@@ -88,40 +90,39 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
               'Origin': 'https://www.google.com'
             },
             redirect: 'follow',
-            agent: ignoreSSL ? new https.Agent({
-              rejectUnauthorized: false
-            }) : undefined
+            agent: url.startsWith('http://')
+              ? new http.Agent()
+              : ignoreSSL
+                ? new https.Agent({ rejectUnauthorized: false })
+                : undefined
           });
 
-          if (!res.ok) {
-            if (res.status === 403) {
-              throw new Error(`URL exists but access is forbidden (${url})`);
-            }
-            throw new Error(`HTTP error! status: ${res.status}`);
-          }
+          const finalUrl = res.url;
+          const content = await res.text();
 
-          return res;
+          return {
+            response: {
+              status: res.status,
+              url: finalUrl,
+              data: content
+            },
+            error: null
+          };
         } finally {
           clearTimeout(timeout);
         }
-      }) as Response;
+      }) as { response: FetchResponse | null, error: Error | null };
 
-      const finalUrl = response.url;
-      const content = await response.text();
-
-      return {
-        response: {
-          status: response.status,
-          url: finalUrl,
-          data: content
-        },
-        error: null
-      };
+      return response;
     } catch (error: unknown) {
       lastError = error instanceof Error ? error : new Error(String(error));
 
-      if (attempt < maxRetries) {
-        continue;
+      if (lastError.message.includes('aborted') || lastError.message.includes('ECONNRESET')) {
+        if (attempt < maxRetries) {
+          continue;
+        }
+      } else {
+        return { response: null, error: lastError };
       }
     }
   }
@@ -129,54 +130,76 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
   return { response: null, error: lastError };
 }
 
-async function checkUrl(url: string): Promise<string | null> {
+async function checkUrl(url: string): Promise<CheckResult> {
   if (!url.startsWith('http://') && !url.startsWith('https://')) {
     url = `https://${url}`;
   }
 
   const originalProtocol = url.startsWith('https://') ? 'https' : 'http';
+  const { response, error } = await makeRequest(url);
 
-  // Try HTTPS first
-  const { response: httpsResponse, error: httpsError } = await makeRequest(url);
+  if (response) {
+    const finalUrl = response.url;
 
-  if (httpsResponse) {
-    const finalUrl = httpsResponse.url;
-
-    // Check redirects to different domains first
-    const redirectError = checkRedirect(url, finalUrl);
-    if (redirectError) {
-      return redirectError;
-    }
-
-    // Then check if HTTPS redirects to HTTP (only if original protocol was HTTPS)
-    if (originalProtocol === 'https' && finalUrl.startsWith('http://')) {
-      return `HTTPS is invalid, but HTTP works (${url})`;
-    }
-
-    return null;
-  }
-
-  // If HTTPS fails, try HTTP fallback (only if original protocol was HTTPS)
-  if (originalProtocol === 'https') {
-    const httpUrl = url.replace("https://", "http://");
-    const { response: httpResponse } = await makeRequest(httpUrl, false);
-
-    if (httpResponse) {
-      const redirectError = checkRedirect(httpUrl, httpResponse.url);
-      if (redirectError) {
-        return redirectError;
+    // Check successful statuses (2xx)
+    if (response.status >= 200 && response.status < 300) {
+      // For .js files check window.__envs presence
+      if (url.endsWith('.js')) {
+        if (!response.data.includes('window.__envs')) {
+          return {
+            error: 'Invalid JavaScript content',
+            isCritical: true
+          };
+        }
+        return { error: null, isCritical: false };
       }
 
-      return `HTTPS is invalid, but HTTP works (${httpUrl})`;
+      // For other URLs check redirect and protocol
+      const redirectError = checkRedirect(url, finalUrl);
+      if (redirectError) {
+        return {
+          error: redirectError,
+          isCritical: false
+        };
+      }
+
+      if (originalProtocol === 'https' && finalUrl.startsWith('http://')) {
+        return {
+          error: 'HTTPS is invalid, but HTTP works',
+          isCritical: false
+        };
+      }
+      return { error: null, isCritical: false };
     }
+
+    // Check client errors (4xx)
+    if (response.status >= 400 && response.status < 500) {
+      // Non-critical client errors
+      if ([401, 403, 429, 451].includes(response.status)) {
+        const statusMessages = {
+          401: 'Unauthorized',
+          403: 'Access forbidden',
+          429: 'Too many requests',
+          451: 'Unavailable for legal reasons'
+        };
+        return {
+          error: `${statusMessages[response.status as keyof typeof statusMessages]} (${response.status})`,
+          isCritical: false
+        };
+      }
+    }
+
+    return {
+      error: `HTTP error (${response.status})`,
+      isCritical: true
+    };
   }
 
-  // Return the error message if we have one
-  if (httpsError) {
-    return httpsError.message;
-  }
-
-  return `URL is unreachable (${url})`;
+  // For any non-HTTP error, return a generic error message
+  return {
+    error: 'Connection error',
+    isCritical: true
+  };
 }
 
 // Main function: iterate over chains and record broken URLs
@@ -187,24 +210,36 @@ async function checkChains(): Promise<void> {
   const results: string[] = [];
 
   // Helper function that processes a single chain and updates the progress counter
-  async function processChain([id, chain]: [string, ChainData]): Promise<string> {
-    let chainReport = '';
+  async function processChain([id, chain]: [string, ChainData]): Promise<string[]> {
+    const chainResults: string[] = [];
 
     // Check website and explorer URLs in parallel
-    const [websiteMessage, explorerMessages] = await Promise.all([
+    const [websiteResult, explorerResults] = await Promise.all([
       checkUrl(chain.website),
       Promise.all(
-        (chain.explorers || []).map((explorer: Explorer) => checkUrl(explorer.url))
+        (chain.explorers || []).map(async (explorer: Explorer) => {
+          // Normalize explorer URL by removing trailing slash
+          const normalizedUrl = explorer.url.replace(/\/$/, '');
+          let result = await checkUrl(`${normalizedUrl}/assets/envs.js`);
+          if (result.error && result.isCritical) {
+            result = await checkUrl(`${normalizedUrl}/envs.js`);
+          }
+          return result;
+        })
       )
     ]);
 
-    if (websiteMessage) {
-      chainReport += `- Website: ${websiteMessage}\n`;
+    // Process website results
+    if (websiteResult.error) {
+      chainResults.push(`| ${id} | ${chain.name} | Website 🌐 | ${chain.website} | ${websiteResult.error} | 🟠 |`);
     }
 
-    explorerMessages.forEach((message: string | null) => {
-      if (message) {
-        chainReport += `- Explorer: ${message}\n`;
+    // Process explorer results
+    explorerResults.forEach((result, index) => {
+      if (result.error) {
+        const explorer = chain.explorers![index];
+        const severity = result.isCritical ? '🔴' : '🟠';
+        chainResults.push(`| ${id} | ${chain.name} | Explorer 🔍 | ${explorer.url} | ${result.error} | ${severity} |`);
       }
     });
 
@@ -212,18 +247,18 @@ async function checkChains(): Promise<void> {
     completed++;
     console.log(`Checking chains... [${completed}/${totalChains}]`);
 
-    return chainReport ? `**${chain.name} (${id})**\n${chainReport}\n` : '';
+    return chainResults;
   }
 
   // Process all chains
   const chainResults = await Promise.all(entries.map(processChain));
-  results.push(...chainResults);
+  results.push(...chainResults.flat());
 
-  // Aggregate the final report
-  const overallReport = results.filter((report) => report !== '').join('');
-
-  if (overallReport !== '') {
-    fs.writeFileSync('./report', overallReport);
+  // Generate the final report
+  if (results.length > 0) {
+    const header = '| ID | Name | Type | URL | Issue | Severity |\n| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |';
+    const report = [header, ...results].join('\n');
+    fs.writeFileSync('./report', report);
   }
 }
 
