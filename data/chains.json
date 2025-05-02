@@ -10564,5 +10564,21 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "7171": {
+    "name": "Bitrock",
+    "description": "Bitrock is an IBFT 2.0 Proof of Authority (PoA) Ethereum side chain with near-zero native gas fees and lightning speed block times.",
+    "logo": "https://raw.githubusercontent.com/BitrockChain/assets_explorer/refs/heads/main/chainscout7171.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://bit-rock.io",
+    "explorers": [
+      {
+        "url": "https://explorer.bit-rock.io",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
