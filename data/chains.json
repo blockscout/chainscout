@@ -10533,6 +10533,22 @@
       }
     ]
   },
+  "5656": {
+  "name": "QIE chain",
+  "description": "QIE delivers fast, scalable, low-cost blockchain solutions for Web3, DeFi, and Gaming. Build secure, high-performance dApps and games with endless possibilities.",
+  "ecosystem": "Ethereum",
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "website": "https://www.qie.digital/",
+  "explorers": [
+    {
+      "url": "https://mainnet.qiblockchain.online/",
+      "hostedBy": "self"
+    }
+  ],
+  "logo": "https://www.qie.digital/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqie_logo.062376c2.png&w=3840&q=75"
+},
   "1__": {
     "name": "ChainFusion",
     "description": "Fully Decentralized Cross-Chain Bridge.",
