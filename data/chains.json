@@ -935,13 +935,13 @@
   },
   "248": {
     "name": "Oasys",
-    "description": "Decentralised blockchain video gaming platform with zero gas fees.",
+    "description": "Blockchain for Tokenized Asian Assets.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe545b7bec826fe8740c0_oasys.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Oasys",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "website": "https://www.oasys.games/",
+    "website": "https://www.oasys-chain.net/",
     "explorers": [
       {
         "url": "https://explorer.oasys.games/",
@@ -4495,14 +4495,14 @@
     ]
   },
   "9372": {
-    "name": "Oasys HUB Testnet",
-    "description": "Gaming blockchain combing public and private blockchain technologies.",
+    "name": "Oasys Testnet",
+    "description": "Blockchain for Tokenized Asian Assets.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe545b7bec826fe8740c0_oasys.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Oasys",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
-    "website": "https://www.oasys.games/",
+    "website": "https://www.oasys-chain.net/",
     "explorers": [
       {
         "url": "https://explorer.testnet.oasys.games/",
@@ -5071,14 +5071,14 @@
     ]
   },
   "20197": {
-    "name": "Oasys Sand Verse",
-    "description": "Gaming blockchain combing public and private blockchain technologies.",
+    "name": "Oasys SAND Verse",
+    "description": "Blockchain for Tokenized Asian Assets.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe545b7bec826fe8740c0_oasys.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Oasys",
     "isTestnet": true,
-    "layer": 1,
+    "layer": 2,
     "rollupType": null,
-    "website": "https://www.oasys.games/",
+    "website": "https://www.oasys-chain.net/",
     "explorers": [
       {
         "url": "https://explorer.sandverse.oasys.games/",
