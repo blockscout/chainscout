@@ -7,6 +7,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://ethereum.org/",
     "explorers": [
       {
@@ -23,6 +24,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://hyperfoundation.org/",
     "explorers": [
       {
@@ -39,6 +41,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TCH",
     "website": "https://www.thaichain.io/",
     "explorers": [
       {
@@ -58,6 +61,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.optimism.io/",
     "explorers": [
       {
@@ -74,6 +78,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FLR",
     "website": "https://flare.network/",
     "explorers": [
       {
@@ -90,6 +95,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FLR",
     "website": "https://flare.network/",
     "explorers": [
       {
@@ -106,6 +112,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CFLR",
     "website": "https://flare.network/",
     "explorers": [
       {
@@ -122,6 +129,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.thundercore.com/",
     "explorers": [
       {
@@ -138,6 +146,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SGB",
     "website": "https://flare.network/",
     "explorers": [
       {
@@ -154,6 +163,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://kardiachain.io/",
     "explorers": [
       {
@@ -170,6 +180,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://cronos.org/",
     "explorers": [
       {
@@ -186,6 +197,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "草田分",
     "website": "https://ctblock.cn",
     "explorers": [
       {
@@ -202,6 +214,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RBTC",
     "website": "https://rootstock.io/",
     "explorers": [
       {
@@ -218,6 +231,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tRBTC",
     "website": "https://rootstock.io/",
     "explorers": [
       {
@@ -234,6 +248,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://u2u.xyz/",
     "explorers": [
       {
@@ -250,6 +265,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TLOS",
     "website": "https://bp.kiwi/",
     "explorers": [
       {
@@ -266,6 +282,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LYX",
     "website": "https://lukso.network/",
     "explorers": [
       {
@@ -282,6 +299,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CRAB",
     "website": "https://darwinia.network/",
     "explorers": [
       {
@@ -298,6 +316,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RING",
     "website": "https://darwinia.network/",
     "explorers": [
       {
@@ -314,6 +333,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://zyx.network/",
     "explorers": [
       {
@@ -330,6 +350,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SYS",
     "website": "https://www.syscoin.org",
     "explorers": [
       {
@@ -346,6 +367,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETC",
     "website": "https://ethereumclassic.org/",
     "explorers": [
       {
@@ -362,6 +384,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "mETC",
     "website": "https://ethereumclassic.org/",
     "explorers": [
       {
@@ -378,6 +401,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://idchain.one/begin/",
     "explorers": [
       {
@@ -394,6 +418,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SBY",
     "website": "https://astar.network/",
     "explorers": [
       {
@@ -410,6 +435,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VIC",
     "website": "https://viction.xyz/",
     "explorers": [
       {
@@ -426,6 +452,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://swissdlt.ch",
     "explorers": [
       {
@@ -442,6 +469,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "KUB",
     "website": "https://www.bitkubchain.com/",
     "explorers": [
       {
@@ -458,6 +486,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://glitchd.network/",
     "explorers": [
       {
@@ -474,6 +503,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "XDAI",
     "website": "https://docs.gnosischain.com/",
     "explorers": [
       {
@@ -490,6 +520,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://worldland.foundation",
     "explorers": [
       {
@@ -506,6 +537,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "STRAX",
     "website": "https://www.stratisplatform.com/",
     "explorers": [
       {
@@ -522,6 +554,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "BONE",
     "website": "https://docs.shibariumtech.com/shibarium/",
     "explorers": [
       {
@@ -538,6 +571,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.gobob.xyz/",
     "explorers": [
       {
@@ -554,6 +588,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "C2FLR",
     "website": "https://flare.network/",
     "explorers": [
       {
@@ -570,6 +605,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "C2FLR",
     "website": "https://flare.network/",
     "explorers": [
       {
@@ -586,6 +622,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://nuls.io/",
     "explorers": [
       {
@@ -602,6 +639,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FUSE",
     "website": "https://www.fuse.io/",
     "explorers": [
       {
@@ -618,6 +656,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "Spark",
     "website": "https://www.fuse.io/",
     "explorers": [
       {
@@ -634,6 +673,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.unichain.org/",
     "explorers": [
       {
@@ -650,6 +690,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "xRLC",
     "website": "https://iex.ec/",
     "explorers": [
       {
@@ -666,6 +707,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "HSK",
     "website": "https://global.hashkey.com/en-US/",
     "explorers": [
       {
@@ -682,6 +724,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "POL",
     "website": "https://polygon.technology/polygon-pos",
     "explorers": [
       {
@@ -698,6 +741,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SMR",
     "website": "https://shimmer.network/",
     "explorers": [
       {
@@ -714,6 +758,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "BONE",
     "website": "https://docs.shibariumtech.com/shibarium/",
     "explorers": [
       {
@@ -730,6 +775,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://manta.network/",
     "explorers": [
       {
@@ -746,6 +792,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://amechain.io/",
     "explorers": [
       {
@@ -762,6 +809,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "HSK",
     "website": "https://hsk.xyz/",
     "explorers": [
       {
@@ -781,6 +829,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.mintchain.io/",
     "explorers": [
       {
@@ -797,6 +846,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://commudao.xyz/",
     "explorers": [
       {
@@ -813,6 +863,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "STRAX",
     "website": "https://www.stratisplatform.com/",
     "explorers": [
       {
@@ -829,6 +880,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.energyweb.org/",
     "explorers": [
       {
@@ -845,6 +897,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "IDN",
     "website": "https://idn.world/",
     "explorers": [
       {
@@ -861,6 +914,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "PROM",
     "website": "https://prom.io/",
     "explorers": [
       {
@@ -877,6 +931,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.mindnetwork.xyz/",
     "explorers": [
       {
@@ -893,6 +948,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bpxchain.cc",
     "explorers": [
       {
@@ -909,6 +965,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://blastblockchain.com/",
     "explorers": [
       {
@@ -925,6 +982,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://wyzth.org/",
     "explorers": [
       {
@@ -941,6 +999,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://www.oasys-chain.net/",
     "explorers": [
       {
@@ -957,6 +1016,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FTM",
     "website": "https://fantom.foundation/",
     "explorers": [
       {
@@ -973,6 +1033,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://kroma.network/",
     "explorers": [
       {
@@ -989,6 +1050,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ozonechain.io/",
     "explorers": [
       {
@@ -1008,6 +1070,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://orderly.network/",
     "explorers": [
       {
@@ -1024,6 +1087,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://zksync.io/",
     "explorers": [
       {
@@ -1040,6 +1104,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OMAX",
     "website": "https://omaxcoin.com/",
     "explorers": [
       {
@@ -1056,6 +1121,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "NCN",
     "website": "https://www.neurochain.ai/",
     "explorers": [
       {
@@ -1072,6 +1138,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FIL",
     "website": "https://fvm.filecoin.io/",
     "explorers": [
       {
@@ -1088,6 +1155,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://zksync.io/",
     "explorers": [
       {
@@ -1104,6 +1172,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OMAX",
     "website": "https://omaxcoin.com/",
     "explorers": [
       {
@@ -1120,6 +1189,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SDN",
     "website": "https://shiden.astar.network/",
     "explorers": [
       {
@@ -1136,6 +1206,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://acala.network/",
     "explorers": [
       {
@@ -1152,6 +1223,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.shape.network/",
     "explorers": [
       {
@@ -1168,6 +1240,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "NEX",
     "website": "https://nexus.xyz/",
     "explorers": [
       {
@@ -1184,6 +1257,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://camdl.gov.kh",
     "explorers": [
       {
@@ -1200,6 +1274,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://syndr.com",
     "explorers": [
       {
@@ -1216,6 +1291,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SX",
     "website": "https://www.sx.technology/",
     "explorers": [
       {
@@ -1232,6 +1308,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://clv.org/",
     "explorers": [
       {
@@ -1248,6 +1325,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://appchain.xyz/",
     "explorers": [
       {
@@ -1264,6 +1342,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://world.org/world-chain",
     "explorers": [
       {
@@ -1280,6 +1359,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://eaglenetwork.app/",
     "explorers": [
       {
@@ -1296,6 +1376,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FLOW",
     "website": "https://flow.com/",
     "explorers": [
       {
@@ -1312,6 +1393,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DRC",
     "website": "https://doric.network/",
     "explorers": [
       {
@@ -1328,6 +1410,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.towns.com/",
     "explorers": [
       {
@@ -1344,6 +1427,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dogechain.dog/",
     "explorers": [
       {
@@ -1360,6 +1444,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SYS",
     "website": "https://www.rollux.com",
     "explorers": [
       {
@@ -1376,6 +1461,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://onuschain.io/en",
     "explorers": [
       {
@@ -1392,6 +1478,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ASTR",
     "website": "https://astar.network/",
     "explorers": [
       {
@@ -1408,6 +1495,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ACA",
     "website": "https://acala.network/",
     "explorers": [
       {
@@ -1424,6 +1512,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.milkomeda.com/",
     "explorers": [
       {
@@ -1440,6 +1529,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://publicmint.io",
     "explorers": [
       {
@@ -1456,6 +1546,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://exosama.com/",
     "explorers": [
       {
@@ -1472,6 +1563,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://findora.org/",
     "explorers": [
       {
@@ -1488,6 +1580,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ACE",
     "website": "https://ace.fusionist.io/",
     "explorers": [
       {
@@ -1504,6 +1597,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "KALIS",
     "website": "https://www.kalichain.com/",
     "explorers": [
       {
@@ -1523,6 +1617,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://redstone.xyz/",
     "explorers": [
       {
@@ -1539,6 +1634,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BNB",
     "website": "https://matchain.io/",
     "explorers": [
       {
@@ -1555,6 +1651,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LYC",
     "website": "https://lycanchain.com/",
     "explorers": [
       {
@@ -1571,6 +1668,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ALV",
     "website": "https://alveychain.com/",
     "explorers": [
       {
@@ -1587,6 +1685,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.social.network/",
     "explorers": [
       {
@@ -1603,6 +1702,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ozonechain.io/",
     "explorers": [
       {
@@ -1619,6 +1719,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.bahamut.io/",
     "explorers": [
       {
@@ -1635,6 +1736,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "QOM",
     "website": "https://qom.one/",
     "explorers": [
       {
@@ -1651,6 +1753,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "H1",
     "website": "https://www.haven1.org/",
     "explorers": [
       {
@@ -1667,6 +1770,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.qitmeer.io/",
     "explorers": [
       {
@@ -1682,6 +1786,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TARA",
     "website": "https://taraxa.io",
     "explorers": [
       {
@@ -1699,6 +1804,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://pixie.xyz/",
     "explorers": [
       {
@@ -1715,6 +1821,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BROCK",
     "website": "https://www.bit-rock.io/",
     "explorers": [
       {
@@ -1731,6 +1838,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://adilchain.io/",
     "explorers": [
       {
@@ -1747,6 +1855,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MGAS",
     "website": "https://maxi.network/",
     "explorers": [
       {
@@ -1763,6 +1872,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "L1ETH",
     "website": "https://foam.space",
     "explorers": [
       {
@@ -1779,6 +1889,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "L2ETH",
     "website": "https://foam.space",
     "explorers": [
       {
@@ -1795,6 +1906,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.mode.network/",
     "explorers": [
       {
@@ -1814,6 +1926,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.derive.xyz/",
     "explorers": [
       {
@@ -1830,6 +1943,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.tabichain.com/",
     "explorers": [
       {
@@ -1846,6 +1960,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MIND",
     "website": "https://mindchain.info/",
     "explorers": [
       {
@@ -1862,6 +1977,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LEMX",
     "website": "http://www.allthingslemon.io",
     "explorers": [
       {
@@ -1878,6 +1994,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://gonscan.com/",
     "explorers": [
       {
@@ -1894,6 +2011,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://quadrans.io/",
     "explorers": [
       {
@@ -1910,6 +2028,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://phoenixblockchain.org/",
     "explorers": [
       {
@@ -1926,6 +2045,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SMR",
     "website": "https://shimmer.network/",
     "explorers": [
       {
@@ -1942,6 +2062,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "IOTA",
     "website": "https://www.iota.org/",
     "explorers": [
       {
@@ -1958,6 +2079,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LOOP",
     "website": "https://www.theloopnetwork.org/",
     "explorers": [
       {
@@ -1974,6 +2096,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "METIS",
     "website": "https://www.metis.io/",
     "explorers": [
       {
@@ -1990,6 +2113,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://pointnetwork.io/",
     "explorers": [
       {
@@ -2006,6 +2130,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "https://polygon.technology/",
     "explorers": [
       {
@@ -2022,6 +2147,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": "zk",
+    "native_currency": "MXC",
     "website": "https://www.moonchain.com/",
     "explorers": [
       {
@@ -2038,6 +2164,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://www.oasys.games/",
     "explorers": [
       {
@@ -2054,6 +2181,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "Taker",
     "website": "https://taker.xyz/",
     "explorers": [
       {
@@ -2070,6 +2198,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DFI",
     "website": "https://jellyfishsdk.com",
     "explorers": [
       {
@@ -2086,6 +2215,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DFI",
     "website": "https://defichain.com/",
     "explorers": [
       {
@@ -2102,6 +2232,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OMC",
     "website": "https://omchain.io/",
     "explorers": [
       {
@@ -2121,6 +2252,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://lisk.com/",
     "explorers": [
       {
@@ -2137,6 +2269,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://goldxchain.io/",
     "explorers": [
       {
@@ -2153,6 +2286,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "BCT",
     "website": "https://www.aieaglechain.com/",
     "explorers": [
       {
@@ -2169,6 +2303,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://j2o.io/",
     "explorers": [
       {
@@ -2185,6 +2320,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://goldxchain.io/",
     "explorers": [
       {
@@ -2201,6 +2337,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "HYB",
     "website": "https://buildonhybrid.com/",
     "explorers": [
       {
@@ -2217,6 +2354,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://step.network/",
     "explorers": [
       {
@@ -2233,6 +2371,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.reichain.io/",
     "explorers": [
       {
@@ -2249,6 +2388,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://velo.org",
     "explorers": [
       {
@@ -2265,6 +2405,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "GLUE",
     "website": "https://glue.net/",
     "explorers": [
       {
@@ -2281,6 +2422,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.unichain.org/",
     "explorers": [
       {
@@ -2297,6 +2439,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "IP",
     "website": "https://www.story.foundation/",
     "explorers": [
       {
@@ -2313,6 +2456,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "AIA",
     "website": "https://aiachain.org/en",
     "explorers": [
       {
@@ -2329,6 +2473,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://elysiumchain.tech",
     "explorers": [
       {
@@ -2345,6 +2490,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "STRAX",
     "website": "https://www.stratisplatform.com/",
     "explorers": [
       {
@@ -2361,6 +2507,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://litprotocol.com",
     "explorers": [
       {
@@ -2377,6 +2524,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.thebitica.com/",
     "explorers": [
       {
@@ -2393,6 +2541,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VANA",
     "website": "https://www.vana.org/",
     "explorers": [
       {
@@ -2409,6 +2558,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VTRU",
     "website": "https://vitruveo.xyz/",
     "explorers": [
       {
@@ -2425,6 +2575,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://arbitrum.io/",
     "explorers": [
       {
@@ -2445,6 +2596,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "BTC",
     "website": "https://bevm.io/",
     "explorers": [
       {
@@ -2461,6 +2613,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "IP",
     "website": "https://www.story.foundation/",
     "explorers": [
       {
@@ -2477,6 +2630,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bearnetwork.net/",
     "explorers": [
       {
@@ -2493,6 +2647,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://xai.games/",
     "explorers": [
       {
@@ -2509,6 +2664,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://live.eluv.io/",
     "explorers": [
       {
@@ -2525,6 +2681,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ethoprotocol.com/",
     "explorers": [
       {
@@ -2541,6 +2698,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://saakuru.com/",
     "explorers": [
       {
@@ -2557,6 +2715,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.hap.land/#/",
     "explorers": [
       {
@@ -2573,6 +2732,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "G",
     "website": "https://gravity.xyz/",
     "explorers": [
       {
@@ -2589,6 +2749,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dbkchain.io/",
     "explorers": [
       {
@@ -2605,6 +2766,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.mintchain.io/",
     "explorers": [
       {
@@ -2621,6 +2783,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://blockchain.or.th/",
     "explorers": [
       {
@@ -2637,6 +2800,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://blockchain.or.th/",
     "explorers": [
       {
@@ -2653,6 +2817,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DRC",
     "website": "https://doric.network/",
     "explorers": [
       {
@@ -2669,6 +2834,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://reya.network/",
     "explorers": [
       {
@@ -2685,6 +2851,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://xai.games/",
     "explorers": [
       {
@@ -2704,6 +2871,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://metall2.com/",
     "explorers": [
       {
@@ -2720,6 +2888,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LIF3",
     "website": "https://lif3.com/",
     "explorers": [
       {
@@ -2736,6 +2905,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "PBG",
     "website": "https://www.playnance.com/",
     "explorers": [
       {
@@ -2752,6 +2922,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://soneium.org/",
     "explorers": [
       {
@@ -2768,6 +2939,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.lightlink.io/",
     "explorers": [
       {
@@ -2784,6 +2956,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.lightlink.io/",
     "explorers": [
       {
@@ -2800,6 +2973,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BITCI",
     "website": "https://bitcichain.com/",
     "explorers": [
       {
@@ -2816,6 +2990,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bitcichain.com/",
     "explorers": [
       {
@@ -2832,6 +3007,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "http://swellnetwork.io/",
     "explorers": [
       {
@@ -2848,6 +3024,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://soneium.org/",
     "explorers": [
       {
@@ -2864,6 +3041,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TSCS",
     "website": "https://scschain.com/",
     "explorers": [
       {
@@ -2880,6 +3058,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.redecoin.eu/",
     "explorers": [
       {
@@ -2896,6 +3075,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.b3.fun/",
     "explorers": [
       {
@@ -2912,6 +3092,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "DMT",
     "website": "https://sanko.xyz/",
     "explorers": [
       {
@@ -2928,6 +3109,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dogechain.dog/",
     "explorers": [
       {
@@ -2944,6 +3126,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://alastria.io/",
     "explorers": [
       {
@@ -2960,6 +3143,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "EDG",
     "website": "https://www.edgeware.io/",
     "explorers": [
       {
@@ -2976,6 +3160,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://odw.ai",
     "explorers": [
       {
@@ -2995,6 +3180,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://swanchain.io/",
     "explorers": [
       {
@@ -3011,6 +3197,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "TZERO",
     "website": "https://alephzero.org/",
     "explorers": [
       {
@@ -3027,6 +3214,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VANRY",
     "website": "https://vanarchain.com",
     "explorers": [
       {
@@ -3043,6 +3231,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.thestratos.org/",
     "explorers": [
       {
@@ -3059,6 +3248,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.synthetix.io/",
     "explorers": [
       {
@@ -3075,6 +3265,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://chainbase.com/",
     "explorers": [
       {
@@ -3091,6 +3282,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://atleta.network/",
     "explorers": [
       {
@@ -3107,6 +3299,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://kroma.network/",
     "explorers": [
       {
@@ -3123,6 +3316,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "KITE",
     "website": "https://gokite.ai/",
     "explorers": [
       {
@@ -3139,6 +3333,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://karak.network/",
     "explorers": [
       {
@@ -3155,6 +3350,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "INJ",
     "website": "https://inevm.com/",
     "explorers": [
       {
@@ -3171,6 +3367,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://polygon.technology/",
     "explorers": [
       {
@@ -3187,6 +3384,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "NOW",
     "website": "https://nowchain.co/",
     "explorers": [
       {
@@ -3203,6 +3401,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "INJ",
     "website": "https://inevm.com/",
     "explorers": [
       {
@@ -3219,6 +3418,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "BTC",
     "website": "https://ailayer.xyz/",
     "explorers": [
       {
@@ -3235,6 +3435,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "Taker",
     "website": "https://taker.xyz/",
     "explorers": [
       {
@@ -3251,6 +3452,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.layerai.org/",
     "explorers": [
       {
@@ -3267,6 +3469,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.morphl2.io/",
     "explorers": [
       {
@@ -3283,6 +3486,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.morphl2.io/",
     "explorers": [
       {
@@ -3299,6 +3503,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CCTLD",
     "website": "https://token.uz",
     "explorers": [
       {
@@ -3315,6 +3520,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.aevo.xyz/",
     "explorers": [
       {
@@ -3331,6 +3537,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CAU",
     "website": "https://canxium.org/",
     "explorers": [
       {
@@ -3347,6 +3554,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BFC",
     "website": "https://bifrostnetwork.com/",
     "explorers": [
       {
@@ -3363,6 +3571,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "BTC",
     "website": "https://www.satoshivm.io/",
     "explorers": [
       {
@@ -3379,6 +3588,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "AVS",
     "website": "https://avescoin.io",
     "explorers": [
       {
@@ -3395,6 +3605,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "PEPU",
     "website": "https://pepeunchained.com/en#home",
     "explorers": [
       {
@@ -3411,6 +3622,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "XOC",
     "website": "https://xone.org",
     "explorers": [
       {
@@ -3427,6 +3639,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://crossbell.io/",
     "explorers": [
       {
@@ -3443,6 +3656,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tTNT",
     "website": "https://tangle.tools",
     "explorers": [
       {
@@ -3459,6 +3673,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "KLC",
     "website": "https://kalycoin.io/",
     "explorers": [
       {
@@ -3475,6 +3690,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CLISHA",
     "website": "https://clishachain.com/",
     "explorers": [
       {
@@ -3491,6 +3707,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CLISHA",
     "website": "https://clishachain.com/",
     "explorers": [
       {
@@ -3507,6 +3724,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "TON",
     "website": "https://tonsquare.io/",
     "explorers": [
       {
@@ -3523,6 +3741,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://nahmii.io",
     "explorers": [
       {
@@ -3539,6 +3758,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.cometh.io/",
     "explorers": [
       {
@@ -3555,6 +3775,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://lisk.com/",
     "explorers": [
       {
@@ -3571,6 +3792,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BETH",
     "website": "https://www.betherince.com/",
     "explorers": [
       {
@@ -3587,6 +3809,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://orderly.network/",
     "explorers": [
       {
@@ -3603,6 +3826,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "HYDRA",
     "website": "https://hydrachain.org/",
     "explorers": [
       {
@@ -3619,6 +3843,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VERY",
     "website": "https://verylabs.io/",
     "explorers": [
       {
@@ -3635,6 +3860,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://appchain.xyz/",
     "explorers": [
       {
@@ -3651,6 +3877,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TBXN",
     "website": "https://blackfort.exchange/",
     "explorers": [
       {
@@ -3667,6 +3894,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://world.org/world-chain",
     "explorers": [
       {
@@ -3683,6 +3911,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://api3.org/",
     "explorers": [
       {
@@ -3699,6 +3928,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BXN",
     "website": "https://blackfort.exchange/",
     "explorers": [
       {
@@ -3715,6 +3945,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "MNT",
     "website": "https://www.mantle.xyz/",
     "explorers": [
       {
@@ -3731,6 +3962,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "UNIT",
     "website": "https://treasurenet.io/",
     "explorers": [
       {
@@ -3747,6 +3979,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "MNT",
     "website": "https://www.mantle.xyz/",
     "explorers": [
       {
@@ -3763,6 +3996,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": null,
     "website": "https://egptex.com/",
     "explorers": [
       {
@@ -3779,6 +4013,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://syndicate.io/",
     "explorers": [
       {
@@ -3795,6 +4030,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://ham.fun/",
     "explorers": [
       {
@@ -3811,6 +4047,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MOCA",
     "website": "https://www.moca.foundation/",
     "explorers": [
       {
@@ -3827,6 +4064,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FTN",
     "website": "https://bahamut.io/",
     "explorers": [
       {
@@ -3843,6 +4081,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DCX",
     "website": "https://d-ecosystem.io/",
     "explorers": [
       {
@@ -3859,6 +4098,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://timeleap.swiss/",
     "explorers": [
       {
@@ -3866,6 +4106,23 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "5656": {
+    "name": "QIE chain",
+    "description": "QIE delivers fast, scalable, low-cost blockchain solutions for Web3, DeFi, and Gaming. Build secure, high-performance dApps and games with endless possibilities.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": null,
+    "website": "https://www.qie.digital/",
+    "explorers": [
+      {
+        "url": "https://mainnet.qiblockchain.online/",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://www.qie.digital/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqie_logo.062376c2.png&w=3840&q=75"
   },
   "5845": {
     "name": "Tangle",
@@ -3875,6 +4132,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TNT",
     "website": "https://tangle.tools",
     "explorers": [
       {
@@ -3891,6 +4149,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "STEAMX",
     "website": "https://steamexchange.io/",
     "explorers": [
       {
@@ -3907,6 +4166,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.connext.network/",
     "explorers": [
       {
@@ -3923,6 +4183,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://raceecosystem.com/",
     "explorers": [
       {
@@ -3939,6 +4200,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://raceecosystem.com/",
     "explorers": [
       {
@@ -3955,6 +4217,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MTT",
     "website": "https://www.mtt.network/",
     "explorers": [
       {
@@ -3971,6 +4234,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "TOMB",
     "website": "https://tomb.com/",
     "explorers": [
       {
@@ -3987,6 +4251,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ZETA",
     "website": "https://www.zetachain.com/",
     "explorers": [
       {
@@ -4003,6 +4268,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tZETA",
     "website": "https://www.zetachain.com/",
     "explorers": [
       {
@@ -4019,6 +4285,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bstchain.io/",
     "explorers": [
       {
@@ -4035,10 +4302,28 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": null,
     "website": "https://0xl3.com/",
     "explorers": [
       {
         "url": "https://0xl3.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "7171": {
+    "name": "Bitrock",
+    "description": "Bitrock is an IBFT 2.0 Proof of Authority (PoA) Ethereum side chain with near-zero native gas fees and lightning speed block times.",
+    "logo": "https://raw.githubusercontent.com/BitrockChain/assets_explorer/refs/heads/main/chainscout7171.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "BROCK",
+    "website": "https://bit-rock.io",
+    "explorers": [
+      {
+        "url": "https://explorer.bit-rock.io",
         "hostedBy": "self"
       }
     ]
@@ -4051,6 +4336,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ZEN",
     "website": "https://horizenlabs.io/",
     "explorers": [
       {
@@ -4067,6 +4353,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.shyft.network/",
     "explorers": [
       {
@@ -4083,6 +4370,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BROCK",
     "website": "https://www.bit-rock.io/",
     "explorers": [
       {
@@ -4099,6 +4387,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.kinto.xyz/",
     "explorers": [
       {
@@ -4115,6 +4404,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://arena-z.gg/",
     "explorers": [
       {
@@ -4131,6 +4421,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "DOS",
     "website": "https://doschain.com/",
     "explorers": [
       {
@@ -4147,6 +4438,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MEER-T",
     "website": "https://www.qitmeer.io/",
     "explorers": [
       {
@@ -4163,6 +4455,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "stBTC",
     "website": "https://www.lorenzo-protocol.xyz/",
     "explorers": [
       {
@@ -4179,6 +4472,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.b3.fun/",
     "explorers": [
       {
@@ -4195,6 +4489,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": "optimistic",
+    "native_currency": "ZTC",
     "website": "https://www.zenchain.io/",
     "explorers": [
       {
@@ -4211,6 +4506,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SEI",
     "website": "https://www.sei.io/",
     "explorers": [
       {
@@ -4227,6 +4523,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "Deriw",
     "website": "https://www.deriw.com/",
     "explorers": [
       {
@@ -4246,6 +4543,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://base.org/",
     "explorers": [
       {
@@ -4262,6 +4560,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "IOTA",
     "website": "https://www.iota.org/",
     "explorers": [
       {
@@ -4278,6 +4577,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.stp.network/",
     "explorers": [
       {
@@ -4294,6 +4594,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://lumio.io/",
     "explorers": [
       {
@@ -4310,6 +4611,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LIF3",
     "website": "https://lif3.com/",
     "explorers": [
       {
@@ -4326,6 +4628,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.vyvo.com/",
     "explorers": [
       {
@@ -4342,6 +4645,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "JBC",
     "website": "https://jibchain.net/",
     "explorers": [
       {
@@ -4358,6 +4662,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ALG",
     "website": "https://www.algen.network/",
     "explorers": [
       {
@@ -4374,6 +4679,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ALG",
     "website": "https://www.algen.network/",
     "explorers": [
       {
@@ -4390,6 +4696,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ALG",
     "website": "https://www.algen.network/",
     "explorers": [
       {
@@ -4406,6 +4713,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ALG",
     "website": "https://www.algen.network/",
     "explorers": [
       {
@@ -4422,6 +4730,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bloxberg.org/",
     "explorers": [
       {
@@ -4438,6 +4747,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DXD",
     "website": "https://dxdscan.com/",
     "explorers": [
       {
@@ -4454,6 +4764,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LTH",
     "website": "https://lither.com/",
     "explorers": [
       {
@@ -4470,6 +4781,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "USDC",
     "website": "https://www.pivotalchain.io/",
     "explorers": [
       {
@@ -4486,6 +4798,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "GNET",
     "website": "https://galactica.com/",
     "explorers": [
       {
@@ -4502,6 +4815,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://www.oasys-chain.net/",
     "explorers": [
       {
@@ -4518,6 +4832,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://arena-z.gg/",
     "explorers": [
       {
@@ -4534,6 +4849,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LRS",
     "website": "https://larissa.network/",
     "explorers": [
       {
@@ -4550,6 +4866,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MIND",
     "website": "https://mindchain.info/",
     "explorers": [
       {
@@ -4566,6 +4883,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MEGA",
     "website": "https://metagarden.io/",
     "explorers": [
       {
@@ -4582,6 +4900,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SBCH",
     "website": "https://benswap.cash/",
     "explorers": [
       {
@@ -4598,6 +4917,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "JOCT",
     "website": "https://www.japanopenchain.org/",
     "explorers": [
       {
@@ -4614,6 +4934,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DEAI",
     "website": "https://cypher.z1labs.ai/",
     "explorers": [
       {
@@ -4630,6 +4951,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "XDAI",
     "website": "https://gnosis-chiado.blockscout.com/",
     "explorers": [
       {
@@ -4646,6 +4968,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "GAS",
     "website": "https://www.capxai.org/",
     "explorers": [
       {
@@ -4662,6 +4985,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://worldland.foundation",
     "explorers": [
       {
@@ -4678,6 +5002,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "tGS",
     "website": "https://gameswift.io/",
     "explorers": [
       {
@@ -4694,6 +5019,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.shape.network/",
     "explorers": [
       {
@@ -4710,6 +5036,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ankawings.network/",
     "explorers": [
       {
@@ -4726,6 +5053,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "SC20",
     "website": "https://shinechain.tech/",
     "explorers": [
       {
@@ -4742,6 +5070,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ISLM",
     "website": "https://haqq.network/",
     "explorers": [
       {
@@ -4758,6 +5087,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SATS",
     "website": "https://bevm.io/",
     "explorers": [
       {
@@ -4774,6 +5104,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.kaon.one/",
     "explorers": [
       {
@@ -4790,6 +5121,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "S",
     "website": "https://min.snft.pro/",
     "explorers": [
       {
@@ -4806,6 +5138,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "gBTC",
     "website": "https://www.gelios.io/",
     "explorers": [
       {
@@ -4822,6 +5155,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RSS3",
     "website": "https://rss3.io/",
     "explorers": [
       {
@@ -4838,6 +5172,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.synthetix.io/",
     "explorers": [
       {
@@ -4854,6 +5189,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ACT",
     "website": "https://alphacarbon.network",
     "explorers": [
       {
@@ -4870,6 +5206,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "IMX",
     "website": "https://www.immutable.com/",
     "explorers": [
       {
@@ -4886,6 +5223,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "tIMX",
     "website": "https://www.immutable.com/",
     "explorers": [
       {
@@ -4902,6 +5240,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TG7T",
     "website": "https://game7.com/",
     "explorers": [
       {
@@ -4918,6 +5257,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VANA",
     "website": "https://www.vana.org/",
     "explorers": [
       {
@@ -4934,6 +5274,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DAT",
     "website": "https://www.vana.org/",
     "explorers": [
       {
@@ -4950,6 +5291,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LOOP",
     "website": "https://www.theloopnetwork.org/",
     "explorers": [
       {
@@ -4966,6 +5308,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://github.com/eth-clients/holesky",
     "explorers": [
       {
@@ -4982,6 +5325,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://redstone.xyz/",
     "explorers": [
       {
@@ -4998,6 +5342,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "POP",
     "website": "https://onchainpoints.xyz/",
     "explorers": [
       {
@@ -5014,6 +5359,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "FRI",
     "website": "https://chainers.io/",
     "explorers": [
       {
@@ -5030,6 +5376,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://mal.network/",
     "explorers": [
       {
@@ -5046,6 +5393,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "reETH",
     "website": "https://www.re.al/",
     "explorers": [
       {
@@ -5062,6 +5410,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tZKJ",
     "website": "https://expchain.ai/",
     "explorers": [
       {
@@ -5078,6 +5427,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://www.oasys-chain.net/",
     "explorers": [
       {
@@ -5094,6 +5444,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://c4ex.net/",
     "explorers": [
       {
@@ -5110,6 +5461,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "LETH",
     "website": "https://lestnet.org/",
     "explorers": [
       {
@@ -5126,6 +5478,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.astrolayer.network/",
     "explorers": [
       {
@@ -5142,6 +5495,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "6DO",
     "website": "https://6do.world/",
     "explorers": [
       {
@@ -5158,6 +5512,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tKUB",
     "website": "https://www.bitkubchain.com/",
     "explorers": [
       {
@@ -5174,6 +5529,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://onchaincoin.io/",
     "explorers": [
       {
@@ -5190,6 +5546,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://riftnetwork.io/",
     "explorers": [
       {
@@ -5206,6 +5563,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ZIL",
     "website": "https://www.zilliqa.com/",
     "explorers": [
       {
@@ -5222,6 +5580,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "APE",
     "website": "https://apecoin.com/",
     "explorers": [
       {
@@ -5238,6 +5597,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "APE",
     "website": "https://apechain.com/",
     "explorers": [
       {
@@ -5254,6 +5614,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SLING",
     "website": "https://slingshotdao.com/",
     "explorers": [
       {
@@ -5273,6 +5634,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.mode.network/",
     "explorers": [
       {
@@ -5289,6 +5651,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "QGOV",
     "website": "https://q.org/",
     "explorers": [
       {
@@ -5305,6 +5668,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OHO",
     "website": "https://oho.ai/",
     "explorers": [
       {
@@ -5321,6 +5685,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://www.oasys.games/",
     "explorers": [
       {
@@ -5337,6 +5702,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "AZERO",
     "website": "https://alephzero.org/",
     "explorers": [
       {
@@ -5353,6 +5719,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "EDU",
     "website": "https://educhain.xyz/",
     "explorers": [
       {
@@ -5369,6 +5736,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.donatuz.com/",
     "explorers": [
       {
@@ -5385,6 +5753,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.offchainlabs.com/",
     "explorers": [
       {
@@ -5401,6 +5770,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://docs.xga.com/",
     "explorers": [
       {
@@ -5417,6 +5787,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.offchainlabs.com/",
     "explorers": [
       {
@@ -5437,6 +5808,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "CELO",
     "website": "https://celo.org/",
     "explorers": [
       {
@@ -5453,6 +5825,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RWA",
     "website": "https://xend.finance/",
     "explorers": [
       {
@@ -5469,6 +5842,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "USDC",
     "website": "https://zkfair.io/",
     "explorers": [
       {
@@ -5485,6 +5859,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "XTZ",
     "website": "https://www.etherlink.com/",
     "explorers": [
       {
@@ -5501,6 +5876,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://hemi.xyz",
     "explorers": [
       {
@@ -5517,6 +5893,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "BVM",
     "website": "https://runechain.com/",
     "explorers": [
       {
@@ -5533,6 +5910,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "CELO",
     "website": "https://celo.org/",
     "explorers": [
       {
@@ -5549,6 +5927,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "GAS",
     "website": "https://neo.org/",
     "explorers": [
       {
@@ -5565,6 +5944,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.rei.network/",
     "explorers": [
       {
@@ -5581,6 +5961,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BFC",
     "website": "https://bifrostnetwork.com/",
     "explorers": [
       {
@@ -5597,6 +5978,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "PLUTO",
     "website": "https://www.plutochain.io/",
     "explorers": [
       {
@@ -5613,6 +5995,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETN",
     "website": "https://electroneum.com/",
     "explorers": [
       {
@@ -5629,6 +6012,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.superseed.xyz/",
     "explorers": [
       {
@@ -5645,6 +6029,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "KXETH",
     "website": "https://keeex.me/",
     "explorers": [
       {
@@ -5661,6 +6046,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://birdlayer.xyz/",
     "explorers": [
       {
@@ -5677,6 +6063,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "DODO",
     "website": "https://www.dodochain.com/",
     "explorers": [
       {
@@ -5693,6 +6080,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OVER",
     "website": "https://over.network/",
     "explorers": [
       {
@@ -5709,6 +6097,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ISLM",
     "website": "https://haqq.network/",
     "explorers": [
       {
@@ -5725,6 +6114,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.superposition.so/",
     "explorers": [
       {
@@ -5741,6 +6131,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "PTON",
     "website": "https://photonchain.io/",
     "explorers": [
       {
@@ -5757,6 +6148,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "tSYS",
     "website": "https://www.rollux.com",
     "explorers": [
       {
@@ -5773,6 +6165,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://inkonchain.com/",
     "explorers": [
       {
@@ -5789,6 +6182,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "https://linea.build/",
     "explorers": [
       {
@@ -5805,6 +6199,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.gobob.xyz/",
     "explorers": [
       {
@@ -5821,6 +6216,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "KEC",
     "website": "https://kaichain.net/",
     "explorers": [
       {
@@ -5837,6 +6233,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.optopia.ai/",
     "explorers": [
       {
@@ -5853,6 +6250,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.optopia.ai/",
     "explorers": [
       {
@@ -5869,6 +6267,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://citrea.xyz/",
     "explorers": [
       {
@@ -5885,6 +6284,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CELO",
     "website": "https://celo.org/",
     "explorers": [
       {
@@ -5901,6 +6301,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.mtv.ac/",
     "explorers": [
       {
@@ -5917,6 +6318,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "GHST",
     "website": "https://www.playongeist.com/",
     "explorers": [
       {
@@ -5933,6 +6335,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://idex.io/",
     "explorers": [
       {
@@ -5949,6 +6352,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "XCC",
     "website": "https://cyberchain.xyz/",
     "explorers": [
       {
@@ -5965,6 +6369,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://creatorchain.io/",
     "explorers": [
       {
@@ -5981,6 +6386,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ITA",
     "website": "https://itachain.io/",
     "explorers": [
       {
@@ -5997,6 +6403,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.proofofplay.com/",
     "explorers": [
       {
@@ -6013,6 +6420,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.proofofplay.com/",
     "explorers": [
       {
@@ -6029,6 +6437,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.icb.network/",
     "explorers": [
       {
@@ -6045,6 +6454,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ICBX",
     "website": "https://www.icb.network/",
     "explorers": [
       {
@@ -6061,6 +6471,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RENTA",
     "website": "https://renta.network/",
     "explorers": [
       {
@@ -6077,27 +6488,12 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "VANRY",
     "website": "https://vanarchain.com",
     "explorers": [
       {
         "url": "https://explorer-vanguard.vanarchain.com/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "80094": {
-    "name": "Berachain",
-    "description": "An EVM-identical L1 aligning security and liquidity powered by Proof Of Liquidity",
-    "logo": "https://bera.blockscout.com/assets/configs/network_icon.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://www.berachain.com/",
-    "explorers": [
-      {
-        "url": "https://bera.blockscout.com/",
-        "hostedBy": "blockscout"
       }
     ]
   },
@@ -6109,6 +6505,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://xechain.org/",
     "explorers": [
       {
@@ -6125,6 +6522,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "XCN",
     "website": "https://onyx.org/",
     "explorers": [
       {
@@ -6141,6 +6539,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://blast.io/",
     "explorers": [
       {
@@ -6157,6 +6556,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "stBTC",
     "website": "https://www.lorenzo-protocol.xyz/",
     "explorers": [
       {
@@ -6173,6 +6573,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://base.org/",
     "explorers": [
       {
@@ -6189,6 +6590,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "UNIT0",
     "website": "https://units.network",
     "explorers": [
       {
@@ -6205,6 +6607,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tJBC",
     "website": "https://jbcha.in/",
     "explorers": [
       {
@@ -6221,6 +6624,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.henez.fi/",
     "explorers": [
       {
@@ -6237,6 +6641,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DAP",
     "website": "https://metadap.io/",
     "explorers": [
       {
@@ -6253,6 +6658,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.lambda.im/",
     "explorers": [
       {
@@ -6269,6 +6675,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SVM",
     "website": "https://stratovm.io/",
     "explorers": [
       {
@@ -6285,6 +6692,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "eth",
     "website": "https://lumiterra.net/",
     "explorers": [
       {
@@ -6301,6 +6709,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.plumenetwork.xyz/",
     "explorers": [
       {
@@ -6317,6 +6726,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.plumenetwork.xyz/",
     "explorers": [
       {
@@ -6333,6 +6743,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "P",
     "website": "https://www.plumenetwork.xyz/",
     "explorers": [
       {
@@ -6349,6 +6760,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "SPN",
     "website": "https://www.superposition.so/",
     "explorers": [
       {
@@ -6365,6 +6777,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "DIA",
     "website": "https://www.diadata.org/",
     "explorers": [
       {
@@ -6381,6 +6794,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FREE",
     "website": "https://stabilityprotocol.com/",
     "explorers": [
       {
@@ -6397,6 +6811,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CTC",
     "website": "https://creditcoin.org/",
     "explorers": [
       {
@@ -6413,6 +6828,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CTC",
     "website": "https://creditcoin.org/",
     "explorers": [
       {
@@ -6429,6 +6845,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DEVCTC",
     "website": "https://creditcoin.org/",
     "explorers": [
       {
@@ -6445,6 +6862,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://crystaleum.org/",
     "explorers": [
       {
@@ -6461,6 +6879,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MARS",
     "website": "https://marscredit.xyz/",
     "explorers": [
       {
@@ -6477,6 +6896,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "reETH",
     "website": "https://www.re.al/",
     "explorers": [
       {
@@ -6493,6 +6913,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "GAS",
     "website": "https://librachain.com/",
     "explorers": [
       {
@@ -6509,6 +6930,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "METAO",
     "website": "https://metachain.one/",
     "explorers": [
       {
@@ -6525,6 +6947,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "GEM",
     "website": "https://gemchain.org/",
     "explorers": [
       {
@@ -6541,6 +6964,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "XTZ",
     "website": "https://www.etherlink.com/",
     "explorers": [
       {
@@ -6557,6 +6981,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://form.network/",
     "explorers": [
       {
@@ -6573,6 +6998,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://hedwig.build/",
     "explorers": [
       {
@@ -6589,6 +7015,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MAX",
     "website": "https://maximochain.xyz/",
     "explorers": [
       {
@@ -6605,6 +7032,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://x0pay.com/",
     "explorers": [
       {
@@ -6621,6 +7049,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ALTB",
     "website": "https://altblockscan.com/",
     "explorers": [
       {
@@ -6637,6 +7066,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.mindnetwork.xyz/",
     "explorers": [
       {
@@ -6653,6 +7083,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RMO",
     "website": "https://rarimo.com",
     "explorers": [
       {
@@ -6669,6 +7100,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "JU",
     "website": "https://www.juchain.org/#/",
     "explorers": [
       {
@@ -6685,6 +7117,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "JU",
     "website": "https://www.juchain.org/#/",
     "explorers": [
       {
@@ -6701,6 +7134,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://hydradx.io/",
     "explorers": [
       {
@@ -6717,6 +7151,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CoNET",
     "website": "https://conet.network/",
     "explorers": [
       {
@@ -6733,6 +7168,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "aETH",
     "website": "https://aiagentlayer.com/",
     "explorers": [
       {
@@ -6749,6 +7185,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "tNOM",
     "website": "https://www.theanomaly.xyz/",
     "explorers": [
       {
@@ -6765,6 +7202,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://saakuru.com/",
     "explorers": [
       {
@@ -6781,6 +7219,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://athene.network/",
     "explorers": [
       {
@@ -6797,6 +7236,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FIL",
     "website": "https://filecoin.io/",
     "explorers": [
       {
@@ -6813,6 +7253,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "PRX",
     "website": "https://parex.network/",
     "explorers": [
       {
@@ -6829,6 +7270,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.campnetwork.xyz/",
     "explorers": [
       {
@@ -6845,6 +7287,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "BTF",
     "website": "https://bitfinity.network/",
     "explorers": [
       {
@@ -6861,6 +7304,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "METAL",
     "website": "https://metalblockchain.org/",
     "explorers": [
       {
@@ -6877,6 +7321,7 @@
     "isTestnet": true,
     "layer": null,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://syndr.com",
     "explorers": [
       {
@@ -6893,6 +7338,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://deelance.com/en",
     "explorers": [
       {
@@ -6909,6 +7355,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "https://scroll.io/",
     "explorers": [
       {
@@ -6925,6 +7372,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "https://scroll.io/",
     "explorers": [
       {
@@ -6941,6 +7389,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "https://zero.network/",
     "explorers": [
       {
@@ -6957,6 +7406,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ROGUE",
     "website": "https://roguechain.io/",
     "explorers": [
       {
@@ -6973,6 +7423,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://hoodi.launchpad.ethereum.org/en/",
     "explorers": [
       {
@@ -6989,6 +7440,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "HYP",
     "website": "https://www.hypra.network/",
     "explorers": [
       {
@@ -7005,6 +7457,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "GHST",
     "website": "https://www.playongeist.com/",
     "explorers": [
       {
@@ -7021,6 +7474,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://lacnet.com/",
     "explorers": [
       {
@@ -7037,6 +7491,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "EDU",
     "website": "https://educhain.xyz/",
     "explorers": [
       {
@@ -7053,6 +7508,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://pyropechain.com/bridge",
     "explorers": [
       {
@@ -7069,6 +7525,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ZTH",
     "website": "https://zether.org/",
     "explorers": [
       {
@@ -7085,6 +7542,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "RENTA",
     "website": "https://renta.network/",
     "explorers": [
       {
@@ -7101,6 +7559,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://hemi.xyz",
     "explorers": [
       {
@@ -7117,6 +7576,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://inkonchain.com/en-US",
     "explorers": [
       {
@@ -7133,6 +7593,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "WINR",
     "website": "https://winr.games/",
     "explorers": [
       {
@@ -7149,6 +7610,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://zebrocoin.app/",
     "explorers": [
       {
@@ -7165,6 +7627,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://codex.storage/",
     "explorers": [
       {
@@ -7181,6 +7644,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OCTA",
     "website": "https://octa.space/",
     "explorers": [
       {
@@ -7197,6 +7661,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.gobob.xyz/",
     "explorers": [
       {
@@ -7213,6 +7678,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.ithaca.xyz/",
     "explorers": [
       {
@@ -7229,6 +7695,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "TIA",
     "website": "https://forma.art/",
     "explorers": [
       {
@@ -7245,6 +7712,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "FCT",
     "website": "https://facet.org/",
     "explorers": [
       {
@@ -7261,6 +7729,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ATA",
     "website": "https://ata.network",
     "explorers": [
       {
@@ -7277,6 +7746,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "XRP",
     "website": "https://xrpl.org/",
     "explorers": [
       {
@@ -7293,6 +7763,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "tBNB",
     "website": "https://xter.io/",
     "explorers": [
       {
@@ -7309,6 +7780,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://layerx.baboons.tech/",
     "explorers": [
       {
@@ -7325,6 +7797,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://radiologex.com/",
     "explorers": [
       {
@@ -7341,6 +7814,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://onlylayer.com/",
     "explorers": [
       {
@@ -7357,6 +7831,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "OAS",
     "website": "https://saakuru.com/",
     "explorers": [
       {
@@ -7373,6 +7848,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://zora.co/",
     "explorers": [
       {
@@ -7389,6 +7865,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://docs.xga.com/",
     "explorers": [
       {
@@ -7405,6 +7882,7 @@
     "isTestnet": false,
     "layer": null,
     "rollupType": null,
+    "native_currency": "GAS",
     "website": "https://www.xcap.network/",
     "explorers": [
       {
@@ -7421,6 +7899,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "FLT",
     "website": "https://www.fluence.network/",
     "explorers": [
       {
@@ -7437,6 +7916,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://alienxchain.io/home",
     "explorers": [
       {
@@ -7453,6 +7933,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://ethereum.org/",
     "explorers": [
       {
@@ -7469,6 +7950,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.aevo.xyz/",
     "explorers": [
       {
@@ -7485,6 +7967,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://www.optimism.io/",
     "explorers": [
       {
@@ -7501,6 +7984,7 @@
     "isTestnet": true,
     "layer": null,
     "rollupType": null,
+    "native_currency": "FREE",
     "website": "https://stabilityprotocol.com/",
     "explorers": [
       {
@@ -7517,6 +8001,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "BTCN",
     "website": "https://usecorn.com/",
     "explorers": [
       {
@@ -7533,6 +8018,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://ancient8.gg/",
     "explorers": [
       {
@@ -7549,6 +8035,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.flashbots.net/",
     "explorers": [
       {
@@ -7565,6 +8052,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "XOC",
     "website": "https://xone.org",
     "explorers": [
       {
@@ -7581,6 +8069,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "CITRO",
     "website": "https://citronus.com/",
     "explorers": [
       {
@@ -7597,6 +8086,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "tFLT",
     "website": "https://www.fluence.network/",
     "explorers": [
       {
@@ -7613,6 +8103,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ATN",
     "website": "https://autonity.org/",
     "explorers": [
       {
@@ -7629,6 +8120,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "BTC",
     "website": "https://tunachain.io/",
     "explorers": [
       {
@@ -7645,6 +8137,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://reya.network/",
     "explorers": [
       {
@@ -7661,6 +8154,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://blast.io/",
     "explorers": [
       {
@@ -7677,6 +8171,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "NEON",
     "website": "https://neonevm.org/",
     "explorers": [
       {
@@ -7693,6 +8188,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "NEON",
     "website": "https://neonevm.org/",
     "explorers": [
       {
@@ -7709,6 +8205,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "6DO-T",
     "website": "https://6do.world/",
     "explorers": [
       {
@@ -7725,6 +8222,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.optimism.io/",
     "explorers": [
       {
@@ -7741,6 +8239,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.optimism.io/",
     "explorers": [
       {
@@ -7757,6 +8256,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "DEGEN",
     "website": "https://www.degen.tips/",
     "explorers": [
       {
@@ -7773,6 +8273,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://ancient8.gg/",
     "explorers": [
       {
@@ -7789,6 +8290,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "LUMIA",
     "website": "https://lumia.org/",
     "explorers": [
       {
@@ -7805,6 +8307,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://zora.co/",
     "explorers": [
       {
@@ -7821,6 +8324,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SK",
     "website": "https://thepower.io/",
     "explorers": [
       {
@@ -7837,6 +8341,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "sFUEL",
     "website": "https://skale.space/",
     "explorers": [
       {
@@ -7853,6 +8358,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "MORE",
     "website": "https://moonveil.gg/",
     "explorers": [
       {
@@ -7869,6 +8375,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://wire.foundation",
     "explorers": [
       {
@@ -7885,6 +8392,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "XOR",
     "website": "https://xoracle.io/",
     "explorers": [
       {
@@ -7901,6 +8409,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://aurora.dev/",
     "explorers": [
       {
@@ -7917,6 +8426,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "sFUEL",
     "website": "https://skale.space/",
     "explorers": [
       {
@@ -7933,6 +8443,7 @@
     "isTestnet": false,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://rarichain.org/",
     "explorers": [
       {
@@ -7949,6 +8460,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "Z",
     "website": "https://www.wilderworld.com/",
     "explorers": [
       {
@@ -7965,6 +8477,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "HAUST",
     "website": "https://haust.network/",
     "explorers": [
       {
@@ -7981,6 +8494,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ONE",
     "website": "https://www.harmony.one/",
     "explorers": [
       {
@@ -7997,6 +8511,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ONE",
     "website": "https://www.harmony.one/",
     "explorers": [
       {
@@ -8013,6 +8528,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.witnesschain.com/",
     "explorers": [
       {
@@ -8029,6 +8545,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "T-PROM",
     "website": "https://prom.io/",
     "explorers": [
       {
@@ -8045,6 +8562,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "tHP",
     "website": "https://www.humanity.org/",
     "explorers": [
       {
@@ -8061,6 +8579,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "LUMIA",
     "website": "https://lumia.org/",
     "explorers": [
       {
@@ -8077,6 +8596,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "sFUEL",
     "website": "https://skale.space/",
     "explorers": [
       {
@@ -8093,6 +8613,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": null,
     "website": "https://ancient8.gg/",
     "explorers": [
       {
@@ -8109,6 +8630,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://www.towns.com/",
     "explorers": [
       {
@@ -8125,6 +8647,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "OFC",
     "website": "https://onfa.io",
     "explorers": [
       {
@@ -8141,6 +8664,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": "optimistic",
+    "native_currency": "HYRA",
     "website": "https://hyra.network/",
     "explorers": [
       {
@@ -8157,6 +8681,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ROGUE",
     "website": "https://roguechain.io/",
     "explorers": [
       {
@@ -8173,6 +8698,7 @@
     "isTestnet": true,
     "layer": 3,
     "rollupType": null,
+    "native_currency": "CGT",
     "website": "https://www.gelato.network/",
     "explorers": [
       {
@@ -8189,6 +8715,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ToGPU",
     "website": "https://opengpu.network/",
     "explorers": [
       {
@@ -8205,6 +8732,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://5dax.com/",
     "explorers": [
       {
@@ -8221,6 +8749,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://aster.arisetech.dev/",
     "explorers": [
       {
@@ -8237,6 +8766,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://aunablockchain.cl",
     "explorers": [
       {
@@ -8253,6 +8783,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://axiomesh.io/home",
     "explorers": [
       {
@@ -8269,6 +8800,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bficoin.io/",
     "explorers": [
       {
@@ -8285,6 +8817,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bcubed.io/",
     "explorers": [
       {
@@ -8301,6 +8834,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bficoin.io/",
     "explorers": [
       {
@@ -8317,6 +8851,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.bitlayer.org/",
     "explorers": [
       {
@@ -8333,6 +8868,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bittendo.com/",
     "explorers": [
       {
@@ -8349,6 +8885,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.blockxnet.com/",
     "explorers": [
       {
@@ -8365,6 +8902,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "http://blokista.io",
     "explorers": [
       {
@@ -8381,6 +8919,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://brc20.com/",
     "explorers": [
       {
@@ -8397,6 +8936,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://blockchainbusan.kr",
     "explorers": [
       {
@@ -8413,6 +8953,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://bytechain.io/",
     "explorers": [
       {
@@ -8429,6 +8970,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://c4ex.net/",
     "explorers": [
       {
@@ -8445,6 +8987,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://camdl.gov.kh",
     "explorers": [
       {
@@ -8461,6 +9004,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.chiliz.com/",
     "explorers": [
       {
@@ -8477,6 +9021,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.cleocircle.com/",
     "explorers": [
       {
@@ -8493,6 +9038,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://consciousdao.com/",
     "explorers": [
       {
@@ -8509,6 +9055,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://cyber.co/",
     "explorers": [
       {
@@ -8525,6 +9072,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.cybermiles.io/",
     "explorers": [
       {
@@ -8541,6 +9089,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.cybermiles.io/",
     "explorers": [
       {
@@ -8557,6 +9106,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dex.decentraconnect.io/#/swap",
     "explorers": [
       {
@@ -8573,6 +9123,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://deri.io/",
     "explorers": [
       {
@@ -8589,6 +9140,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.destra.network/",
     "explorers": [
       {
@@ -8605,6 +9157,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dipdup.io/",
     "explorers": [
       {
@@ -8621,6 +9174,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dkpchain.io/en",
     "explorers": [
       {
@@ -8637,6 +9191,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dogether.dog/",
     "explorers": [
       {
@@ -8653,6 +9208,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://doorgod42.github.io/",
     "explorers": [
       {
@@ -8669,6 +9225,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://dotblox.io/",
     "explorers": [
       {
@@ -8685,6 +9242,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ducatus.com/",
     "explorers": [
       {
@@ -8701,6 +9259,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ecroxcoin.io/",
     "explorers": [
       {
@@ -8717,6 +9276,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ELA",
     "website": "https://www.elastos.org/en/",
     "explorers": [
       {
@@ -8733,6 +9293,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.elastos.org/en/",
     "explorers": [
       {
@@ -8749,6 +9310,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.elastos.org/en/",
     "explorers": [
       {
@@ -8765,6 +9327,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://elhereum.com",
     "explorers": [
       {
@@ -8781,6 +9344,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://elysiumchain.tech",
     "explorers": [
       {
@@ -8797,6 +9361,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "NRG",
     "website": "https://energi.world/",
     "explorers": [
       {
@@ -8813,6 +9378,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.energyweb.org/",
     "explorers": [
       {
@@ -8829,6 +9395,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ephemery.dev",
     "explorers": [
       {
@@ -8845,6 +9412,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://esync.network",
     "explorers": [
       {
@@ -8861,6 +9429,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://esync.network",
     "explorers": [
       {
@@ -8877,6 +9446,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://eternalai.org/",
     "explorers": [
       {
@@ -8893,6 +9463,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://etposchain.com/",
     "explorers": [
       {
@@ -8909,6 +9480,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://evadore.io",
     "explorers": [
       {
@@ -8925,6 +9497,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": null,
     "website": "https://frax.finance/",
     "explorers": [
       {
@@ -8941,6 +9514,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://frqtal.org/",
     "explorers": [
       {
@@ -8957,6 +9531,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://fufi.info/",
     "explorers": [
       {
@@ -8973,6 +9548,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://godechain.com/",
     "explorers": [
       {
@@ -8989,6 +9565,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://grovechain.io/",
     "explorers": [
       {
@@ -9005,6 +9582,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://tacscan.io",
     "explorers": [
       {
@@ -9021,6 +9599,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://acala.network/karura",
     "explorers": [
       {
@@ -9037,6 +9616,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.kcc.io/",
     "explorers": [
       {
@@ -9053,6 +9633,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://lacnet.com/",
     "explorers": [
       {
@@ -9069,6 +9650,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://libex.ai/",
     "explorers": [
       {
@@ -9085,6 +9667,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.theloopnetwork.org/",
     "explorers": [
       {
@@ -9101,6 +9684,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://metaapesgame.com/",
     "explorers": [
       {
@@ -9117,6 +9701,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://metachain.asia/",
     "explorers": [
       {
@@ -9133,6 +9718,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://metanovaverse.com/",
     "explorers": [
       {
@@ -9149,6 +9735,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://miexs.com/",
     "explorers": [
       {
@@ -9165,6 +9752,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.morpher.com/",
     "explorers": [
       {
@@ -9181,6 +9769,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://www.mxc.org/",
     "explorers": [
       {
@@ -9197,6 +9786,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://nakachain.xyz/",
     "explorers": [
       {
@@ -9213,6 +9803,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ncogchain.earth/",
     "explorers": [
       {
@@ -9229,6 +9820,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.neobase.one/",
     "explorers": [
       {
@@ -9245,6 +9837,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://www.nerochain.io/",
     "explorers": [
       {
@@ -9261,6 +9854,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://power.netmind.ai/",
     "explorers": [
       {
@@ -9277,6 +9871,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.newtonproject.org/",
     "explorers": [
       {
@@ -9293,6 +9888,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.nordek.io/",
     "explorers": [
       {
@@ -9309,6 +9905,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://0xmakase.co.jp/",
     "explorers": [
       {
@@ -9325,6 +9922,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.peaq.network/",
     "explorers": [
       {
@@ -9341,6 +9939,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.pixelsoftwares.com/",
     "explorers": [
       {
@@ -9357,6 +9956,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://9mm.pro/",
     "explorers": [
       {
@@ -9373,6 +9973,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "Quai",
     "website": "https://qu.ai/",
     "explorers": [
       {
@@ -9389,6 +9990,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.rario.com/",
     "explorers": [
       {
@@ -9405,6 +10007,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": null,
     "website": "https://redstone.xyz/",
     "explorers": [
       {
@@ -9421,6 +10024,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://divm.com/reform-corp/",
     "explorers": [
       {
@@ -9437,6 +10041,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://rumsan.com",
     "explorers": [
       {
@@ -9453,6 +10058,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://explorer.rz.game",
     "explorers": [
       {
@@ -9469,6 +10075,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://mysardis.com/",
     "explorers": [
       {
@@ -9485,6 +10092,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://shieldtechgroup.is",
     "explorers": [
       {
@@ -9501,6 +10109,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SDA",
     "website": "https://sidrachain.com",
     "explorers": [
       {
@@ -9517,6 +10126,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SIX",
     "website": "https://six.network/",
     "explorers": [
       {
@@ -9533,6 +10143,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "SIX",
     "website": "https://six.network/",
     "explorers": [
       {
@@ -9549,6 +10160,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://skhscan.com",
     "explorers": [
       {
@@ -9565,6 +10177,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://solutis.digital/",
     "explorers": [
       {
@@ -9581,6 +10194,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://spectre-scan.io",
     "explorers": [
       {
@@ -9597,6 +10211,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://spectre-scan.io",
     "explorers": [
       {
@@ -9613,6 +10228,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "SYS",
     "website": "https://syscoin.org/",
     "explorers": [
       {
@@ -9629,6 +10245,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://taiko.xyz/",
     "explorers": [
       {
@@ -9645,6 +10262,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": "ETH",
     "website": "https://taiko.xyz/",
     "explorers": [
       {
@@ -9661,6 +10279,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://talium.fr",
     "explorers": [
       {
@@ -9677,6 +10296,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://tccworld.org/",
     "explorers": [
       {
@@ -9693,6 +10313,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://tecra.space/",
     "explorers": [
       {
@@ -9709,6 +10330,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.thundercore.com/",
     "explorers": [
       {
@@ -9725,6 +10347,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://ubitscan.io/",
     "explorers": [
       {
@@ -9741,6 +10364,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://testnet.ubitscan.io/",
     "explorers": [
       {
@@ -9757,6 +10381,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://uniqdigitalcoin.com/",
     "explorers": [
       {
@@ -9773,6 +10398,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://universalunitcoin.com",
     "explorers": [
       {
@@ -9789,6 +10415,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://veridocglobal.com/",
     "explorers": [
       {
@@ -9805,6 +10432,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://vindax.com/",
     "explorers": [
       {
@@ -9821,6 +10449,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://watchdata.io",
     "explorers": [
       {
@@ -9837,6 +10466,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://xixoio.com",
     "explorers": [
       {
@@ -9853,6 +10483,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://member.ant3.io/main/index/",
     "explorers": [
       {
@@ -9869,6 +10500,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.chiliz.com/",
     "explorers": [
       {
@@ -9885,6 +10517,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://cryptnic.com/",
     "explorers": [
       {
@@ -9901,6 +10534,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "DSC",
     "website": "https://dsclab.ai/",
     "explorers": [
       {
@@ -9917,6 +10551,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.gelato.network/",
     "explorers": [
       {
@@ -9933,6 +10568,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://gunbygunz.com/",
     "explorers": [
       {
@@ -9949,6 +10585,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://moduluszk.io/",
     "explorers": [
       {
@@ -9965,6 +10602,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://nigella.io/",
     "explorers": [
       {
@@ -9981,6 +10619,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://parallel.fi/",
     "explorers": [
       {
@@ -9997,6 +10636,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://veriscope.network",
     "explorers": [
       {
@@ -10013,6 +10653,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "3TC",
     "website": "https://3tdao.io/",
     "explorers": [
       {
@@ -10029,6 +10670,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "AMB",
     "website": "https://airdao.io/",
     "explorers": [
       {
@@ -10045,6 +10687,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.amazechain.com/",
     "explorers": [
       {
@@ -10061,6 +10704,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ACT",
     "website": "https://alphacarbon.network",
     "explorers": [
       {
@@ -10077,6 +10721,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
+    "native_currency": null,
     "website": "https://astar.network/",
     "explorers": [
       {
@@ -10093,6 +10738,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BCF",
     "website": "https://www.bcf-lab.com/en/",
     "explorers": [
       {
@@ -10109,6 +10755,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.blockey.co/",
     "explorers": [
       {
@@ -10125,6 +10772,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BMC",
     "website": "https://boom.market/home",
     "explorers": [
       {
@@ -10141,6 +10789,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BOR",
     "website": "http://www.meta-bor.com/",
     "explorers": [
       {
@@ -10157,6 +10806,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BTS",
     "website": "https://bts.holdings/",
     "explorers": [
       {
@@ -10173,6 +10823,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://ethereum.org/",
     "explorers": [
       {
@@ -10189,6 +10840,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "FLOW",
     "website": "https://flow.com/",
     "explorers": [
       {
@@ -10205,6 +10857,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "GLUE",
     "website": "https://glue.net/",
     "explorers": [
       {
@@ -10221,6 +10874,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "AIA",
     "website": "https://aiachain.org/en",
     "explorers": [
       {
@@ -10237,6 +10891,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.inco.org/",
     "explorers": [
       {
@@ -10253,6 +10908,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "PIPS",
     "website": "https://ipsprotocol.xyz/",
     "explorers": [
       {
@@ -10269,6 +10925,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "JOC",
     "website": "https://www.japanopenchain.org/",
     "explorers": [
       {
@@ -10285,6 +10942,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://jellyfishsdk.com/",
     "explorers": [
       {
@@ -10301,6 +10959,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://lumio.io",
     "explorers": [
       {
@@ -10317,6 +10976,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://mezcal.wtf/",
     "explorers": [
       {
@@ -10333,6 +10993,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "MOLTEN",
     "website": "https://www.moltennetwork.com/",
     "explorers": [
       {
@@ -10349,6 +11010,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.nexqloud.io/",
     "explorers": [
       {
@@ -10365,6 +11027,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.nexqloud.io/",
     "explorers": [
       {
@@ -10381,6 +11044,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
+    "native_currency": "ETH",
     "website": "https://numerico.ai/en",
     "explorers": [
       {
@@ -10397,6 +11061,7 @@
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://onlylayer.com/",
     "explorers": [
       {
@@ -10413,6 +11078,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://quarkchain.io/",
     "explorers": [
       {
@@ -10429,6 +11095,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.stack.so/",
     "explorers": [
       {
@@ -10445,6 +11112,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.stack.so/",
     "explorers": [
       {
@@ -10461,6 +11129,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://startale.com/en",
     "explorers": [
       {
@@ -10477,6 +11146,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "BNB",
     "website": "https://xter.io/",
     "explorers": [
       {
@@ -10493,6 +11163,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "ETH",
     "website": "https://ammer.group/",
     "explorers": [
       {
@@ -10509,6 +11180,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://eaglenetwork.app/",
     "explorers": [
       {
@@ -10525,6 +11197,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://p12.games",
     "explorers": [
       {
@@ -10541,6 +11214,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://www.that.website/",
     "explorers": [
       {
@@ -10549,22 +11223,6 @@
       }
     ]
   },
-  "5656": {
-  "name": "QIE chain",
-  "description": "QIE delivers fast, scalable, low-cost blockchain solutions for Web3, DeFi, and Gaming. Build secure, high-performance dApps and games with endless possibilities.",
-  "ecosystem": "Ethereum",
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "website": "https://www.qie.digital/",
-  "explorers": [
-    {
-      "url": "https://mainnet.qiblockchain.online/",
-      "hostedBy": "self"
-    }
-  ],
-  "logo": "https://www.qie.digital/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqie_logo.062376c2.png&w=3840&q=75"
-},
   "1__": {
     "name": "ChainFusion",
     "description": "Fully Decentralized Cross-Chain Bridge.",
@@ -10573,6 +11231,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
+    "native_currency": "CFN",
     "website": "https://chainfusion.org/",
     "explorers": [
       {
@@ -10589,26 +11248,11 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
+    "native_currency": null,
     "website": "https://velas.com/en",
     "explorers": [
       {
         "url": "https://evmexplorer.velas.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "7171": {
-    "name": "Bitrock",
-    "description": "Bitrock is an IBFT 2.0 Proof of Authority (PoA) Ethereum side chain with near-zero native gas fees and lightning speed block times.",
-    "logo": "https://raw.githubusercontent.com/BitrockChain/assets_explorer/refs/heads/main/chainscout7171.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://bit-rock.io",
-    "explorers": [
-      {
-        "url": "https://explorer.bit-rock.io",
         "hostedBy": "self"
       }
     ]
