@@ -6085,6 +6085,22 @@
       }
     ]
   },
+  "80094": {
+    "name": "Berachain",
+    "description": "An EVM-identical L1 aligning security and liquidity powered by Proof Of Liquidity",
+    "logo": "https://bera.blockscout.com/assets/configs/network_icon.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.berachain.com/",
+    "explorers": [
+      {
+        "url": "https://bera.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "80808": {
     "name": "XeChain",
     "description": "XeChain: ASIC-resistant EVM Layer 1 blockchain powered by GPUs, designed for fair and decentralized mining.",
