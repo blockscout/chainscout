@@ -11256,5 +11256,22 @@
         "hostedBy": "self"
       }
     ]
-  }
+  },
+  "9008": {
+    "name": "Shido Network",
+    "description": "Layer 1 PoS chain with Tendermint consensus, infinite scalability, and seamless EVM, Cosmos, and WASM interoperability.",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "SHIDO",
+    "website": "https://shido.io",
+    "explorers": [
+      {
+        "url": "https://shidoscan.net/",
+        "hostedBy": "self"
+      }
+    ]
+  },
 }
