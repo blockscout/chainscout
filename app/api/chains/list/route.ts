@@ -6,7 +6,7 @@ export async function GET() {
   try {
     const filePath = path.join(process.cwd(), 'data', 'chains.json');
     const jsonData = await fs.readFile(filePath, 'utf8');
-    const chainsData = JSON.parse(jsonData);
+    const chainsData = JSON.parse(jsonData) as Record<string, { name: string }>;
 
     const mappedData = Object.entries(chainsData).map(([chainid, { name }]) => ({
       name,
