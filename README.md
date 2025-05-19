@@ -74,6 +74,7 @@ We welcome contributions to Chainscout! Here's how you can help:
   "isTestnet": false,
   "layer": 1,
   "rollupType": null,
+  "native_currency": "ETH",
   "website": "https://chain-website.com",
   "explorers": [
     {
