@@ -7975,6 +7975,22 @@
       }
     ]
   },
+  "80094": {
+    "name": "Bera Mainnet",
+    "description": "Berachain is a high-performance EVM-Identical Layer 1 blockchain utilizing Proof-of-Liquidity (PoL) and built on top of the modular EVM-focused consensus client framework BeaconKit.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/berachain.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "website": "https://www.berachain.com/",
+    "explorers": [
+      {
+        "url": "https://bera.blockscout.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "80808": {
     "name": "XeChain",
     "description": "XeChain: ASIC-resistant EVM Layer 1 blockchain powered by GPUs, designed for fair and decentralized mining.",
