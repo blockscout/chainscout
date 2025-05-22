@@ -6376,24 +6376,7 @@
         "hostedBy": "self"
       }
     ]
-  },
-  "63157": {
-    "name": "Geist Mainnet",
-    "description": "Members-only blockchain, built for crypto gaming, the onchain home of Aavegotchi, and all community-built games.",
-    "logo": "https://geist-mainnet.explorer.alchemy.com/assets/configs/network_icon.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "GHST",
-    "website": "https://www.playongeist.com/",
-    "explorers": [
-      {
-        "url": "https://geist-mainnet.explorer.alchemy.com",
-        "hostedBy": "alchemy"
-      }
-    ]
-  },
+  }, 
   "64002": {
     "name": "IDEX",
     "description": "Omnichain perpetuals DEX",
@@ -7531,24 +7514,7 @@
         "hostedBy": "self"
       }
     ]
-  },
-  "631571": {
-    "name": "Polter Testnet",
-    "description": "Members-only blockchain, built for crypto gaming, the onchain home of Aavegotchi, and all community-built games.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20d00d3371e7ef738e38_Geist.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "GHST",
-    "website": "https://www.playongeist.com/",
-    "explorers": [
-      {
-        "url": "https://polter-testnet.explorer.alchemy.com",
-        "hostedBy": "alchemy"
-      }
-    ]
-  },
+  }, 
   "648541": {
     "name": "LACNet",
     "description": "General purpose permissioned public chain focused on Latin America and Caribbean blockchain ecosystems.",
