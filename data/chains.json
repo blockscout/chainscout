@@ -11395,7 +11395,7 @@
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
-    "website": "https://moonveil.gg/”,
+    "website": "https://moonveil.gg/",
     "explorers": [
       {
       "url": "https://moonveil-testnet-blockscout.eu-north-2.gateway.fm/",
