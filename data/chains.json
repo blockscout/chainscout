@@ -11386,5 +11386,37 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "1093502521": {
+    "name": "Moonveil",
+    "description": "Gaming-centric Layer-2 blockchain platform designed to enhance Web3 gaming experiences",
+    "logo": "https://d2e6b8w31txsjq.cloudfront.net/Moonveil Logo-Gold-Square.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "https://moonveil.gg/”,
+    "explorers": [
+      {
+      "url": "https://moonveil-testnet-blockscout.eu-north-2.gateway.fm/",
+      "hostedBy": "gateway"
+      }
+    ]
+  },
+  "1418808462": {
+    "name": "Arkreen",
+    "description": "A public renewable energy asset network based on trusted energy data",
+    "logo": "https://d2e6b8w31txsjq.cloudfront.net/logo-square-brandbg.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "website": "",
+    "explorers": [
+      {
+      "url": "https://arkreen-zk-devnet-blockscout.eu-north-2.gateway.fm/",
+      "hostedBy": "gateway"
+      }
+    ]
   }
 }
