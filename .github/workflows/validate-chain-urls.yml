@@ -1,0 +1,64 @@
+name: Validate chain URLs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-chain-urls:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ./scripts
+        run: npm install
+
+      - name: Run chain validate script using ts-node
+        working-directory: ./scripts
+        run: node --loader ts-node/esm validateChainUrls.mts
+
+      - name: Check if report exists
+        id: check_report
+        run: |
+          if [ -f scripts/report ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Read report content
+        id: get_report
+        if: ${{ steps.check_report.outputs.exists == 'true' }}
+        run: |
+          echo "report<<EOF" >> $GITHUB_OUTPUT
+          cat scripts/report >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Issue if report found
+        if: ${{ steps.check_report.outputs.exists == 'true' }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // Format the current date as DD-MM-YYYY
+            const now = new Date();
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const year = now.getFullYear();
+            const formattedDate = `${day}-${month}-${year}`;
+            const report = process.env.REPORT;
+            const issueTitle = `Chain Issues Report (${formattedDate})`;
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issueTitle,
+              body: report,
+            });
+        env:
+          REPORT: ${{ steps.get_report.outputs.report }}

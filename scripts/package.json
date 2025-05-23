@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "p-queue": "^8.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20",
+    "@types/node-fetch": "^2.6.12"
+  }
+}
