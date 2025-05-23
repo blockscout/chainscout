@@ -1,13 +1,10 @@
-name: Check chain URLs
+name: Validate chain URLs
 
 on:
-  schedule:
-    - cron: '0 0 * * 0'  # Runs every Sunday at 00:00 UTC
-  push:
-    branches: [ check-script ]
+  workflow_dispatch:
 
 jobs:
-  check-chains:
+  validate-chain-urls:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,9 +20,9 @@ jobs:
         working-directory: ./scripts
         run: npm install
 
-      - name: Run chain check script using ts-node
+      - name: Run chain validate script using ts-node
         working-directory: ./scripts
-        run: node --loader ts-node/esm checkChains.mts
+        run: node --loader ts-node/esm validateChainUrls.mts
 
       - name: Check if report exists
         id: check_report

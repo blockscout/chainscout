@@ -20,7 +20,7 @@ interface FetchResponse {
   data: string;
 }
 
-interface CheckResult {
+interface ValidationResult {
   error: string | null;
   isCritical: boolean;
 }
@@ -130,7 +130,7 @@ async function makeRequest(url: string, ignoreSSL: boolean = true): Promise<{ re
   return { response: null, error: lastError };
 }
 
-async function checkUrl(url: string): Promise<CheckResult> {
+async function validateUrl(url: string): Promise<ValidationResult> {
   if (!url.startsWith('http://') && !url.startsWith('https://')) {
     url = `https://${url}`;
   }
@@ -203,7 +203,7 @@ async function checkUrl(url: string): Promise<CheckResult> {
 }
 
 // Main function: iterate over chains and record broken URLs
-async function checkChains(): Promise<void> {
+async function validateChainUrls(): Promise<void> {
   const entries: [string, ChainData][] = Object.entries(chains);
   const totalChains = entries.length;
   let completed = 0;
@@ -213,16 +213,16 @@ async function checkChains(): Promise<void> {
   async function processChain([id, chain]: [string, ChainData]): Promise<string[]> {
     const chainResults: string[] = [];
 
-    // Check website and explorer URLs in parallel
+    // Validate website and explorer URLs in parallel
     const [websiteResult, explorerResults] = await Promise.all([
-      checkUrl(chain.website),
+      validateUrl(chain.website),
       Promise.all(
         (chain.explorers || []).map(async (explorer: Explorer) => {
           // Normalize explorer URL by removing trailing slash
           const normalizedUrl = explorer.url.replace(/\/$/, '');
-          let result = await checkUrl(`${normalizedUrl}/assets/envs.js`);
+          let result = await validateUrl(`${normalizedUrl}/assets/envs.js`);
           if (result.error && result.isCritical) {
-            result = await checkUrl(`${normalizedUrl}/envs.js`);
+            result = await validateUrl(`${normalizedUrl}/envs.js`);
           }
           return result;
         })
@@ -262,4 +262,4 @@ async function checkChains(): Promise<void> {
   }
 }
 
-checkChains().catch(console.error);
+validateChainUrls().catch(console.error);
