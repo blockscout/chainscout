@@ -34,12 +34,13 @@ jobs:
           fi
 
       - name: Read report content
-        id: get_report
-        if: ${{ steps.check_report.outputs.exists == 'true' }}
+        id: read_report
         run: |
-          echo "report<<EOF" >> $GITHUB_OUTPUT
-          cat scripts/report >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo 'report<<EOF'
+            cat scripts/report
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
 
       - name: Create GitHub Issue if report found
         if: ${{ steps.check_report.outputs.exists == 'true' }}
@@ -61,4 +62,4 @@ jobs:
               body: report,
             });
         env:
-          REPORT: ${{ steps.get_report.outputs.report }}
+          REPORT: ${{ steps.read_report.outputs.report }}
