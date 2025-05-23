@@ -264,7 +264,7 @@ async function validateChainUrls(): Promise<void> {
   if (results.length > 0) {
     const header = '| ID | Name | Type | URL | Issue | Severity |\n| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |';
     const report = [header, ...results].join('\n');
-    fs.writeFileSync('./report', report);
+    fs.writeFileSync('scripts/report', report);
   }
 }
 
