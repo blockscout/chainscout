@@ -23,6 +23,7 @@ interface FetchResponse {
 interface ValidationResult {
   error: string | null;
   isCritical: boolean;
+  response?: string;
 }
 
 // Read the chains JSON file (adjust the path if needed)
@@ -143,33 +144,24 @@ async function validateUrl(url: string): Promise<ValidationResult> {
 
     // Check successful statuses (2xx)
     if (response.status >= 200 && response.status < 300) {
-      // For .js files check window.__envs presence
-      if (url.endsWith('.js')) {
-        if (!response.data.includes('window.__envs')) {
-          return {
-            error: 'Invalid JavaScript content',
-            isCritical: true
-          };
-        }
-        return { error: null, isCritical: false };
-      }
-
-      // For other URLs check redirect and protocol
+      // Check redirect and protocol
       const redirectError = checkRedirect(url, finalUrl);
       if (redirectError) {
         return {
           error: redirectError,
-          isCritical: false
+          isCritical: false,
+          response: response.data
         };
       }
 
       if (originalProtocol === 'https' && finalUrl.startsWith('http://')) {
         return {
           error: 'HTTPS is invalid, but HTTP works',
-          isCritical: false
+          isCritical: false,
+          response: response.data
         };
       }
-      return { error: null, isCritical: false };
+      return { error: null, isCritical: false, response: response.data };
     }
 
     // Check client errors (4xx)
@@ -220,10 +212,24 @@ async function validateChainUrls(): Promise<void> {
         (chain.explorers || []).map(async (explorer: Explorer) => {
           // Normalize explorer URL by removing trailing slash
           const normalizedUrl = explorer.url.replace(/\/$/, '');
-          let result = await validateUrl(`${normalizedUrl}/assets/envs.js`);
-          if (result.error && result.isCritical) {
-            result = await validateUrl(`${normalizedUrl}/envs.js`);
+          const result = await validateUrl(normalizedUrl);
+
+          // Additional validation for explorers
+          if (result.response) {
+            // Check for common explorer patterns
+            const hasExplorerPatterns =
+              (result.response.includes('blocks') && result.response.includes('transactions')) ||
+              result.response.includes('/envs.js');
+
+            if (!hasExplorerPatterns) {
+              return {
+                error: 'Invalid content',
+                isCritical: true,
+                response: result.response
+              };
+            }
           }
+
           return result;
         })
       )
