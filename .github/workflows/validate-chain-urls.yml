@@ -34,7 +34,7 @@ jobs:
           fi
 
       - name: Read report content
-        if: steps.check_report.outputs.exists == 'true'
+        if: ${{ steps.check_report.outputs.exists == 'true' }}
         id: read_report
         run: |
           {
