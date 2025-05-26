@@ -34,12 +34,11 @@ jobs:
           fi
 
       - name: Read report content
-        id: get_report
         if: ${{ steps.check_report.outputs.exists == 'true' }}
+        id: read_report
         run: |
-          echo "report<<EOF" >> $GITHUB_OUTPUT
-          cat scripts/report >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          report_content=$(cat scripts/report | sed ':a;N;$!ba;s/\n/\\n/g')
+          echo "report=$report_content" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Issue if report found
         if: ${{ steps.check_report.outputs.exists == 'true' }}
@@ -52,7 +51,7 @@ jobs:
             const month = String(now.getMonth() + 1).padStart(2, '0');
             const year = now.getFullYear();
             const formattedDate = `${day}-${month}-${year}`;
-            const report = process.env.REPORT;
+            const report = process.env.REPORT.replace(/\\n/g, '\n');
             const issueTitle = `Chain Issues Report (${formattedDate})`;
             github.rest.issues.create({
               owner: context.repo.owner,
@@ -61,4 +60,4 @@ jobs:
               body: report,
             });
         env:
-          REPORT: ${{ steps.get_report.outputs.report }}
+          REPORT: ${{ steps.read_report.outputs.report }}
