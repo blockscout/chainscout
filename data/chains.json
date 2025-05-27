@@ -2480,7 +2480,7 @@
   "1315": {
     "name": "Story Aeneid",
     "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.svg",
     "ecosystem": "Cosmos",
     "isTestnet": true,
     "layer": 1,
@@ -2664,22 +2664,6 @@
     "explorers": [
       {
         "url": "https://www.storyscan.io/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "1315": {
-    "name": "Story Aeneid",
-    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
-    "ecosystem": "",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://www.story.foundation/",
-    "explorers": [
-      {
-        "url": "https://aeneid.storyscan.xyz",
         "hostedBy": "blockscout"
       }
     ]
