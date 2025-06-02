@@ -835,10 +835,7 @@
     "name": "Mint Chain",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b4292ddefeda50298_Mint.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -1076,10 +1073,7 @@
     "name": "Orderly",
     "description": "The permissionless liquidity layer for Web3 trading.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1929,10 +1923,7 @@
     "name": "Derive Mainnet",
     "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2255,10 +2246,7 @@
     "name": "Lisk ",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a991726cabd8059078_lisk.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2666,7 +2654,7 @@
   "1514": {
     "name": "Story",
     "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.svg",
     "ecosystem": "Cosmos",
     "isTestnet": false,
     "layer": 1,
@@ -2954,10 +2942,7 @@
     "name": "Metal L2",
     "description": "Blockchain solution serving as the connective layer for seamless asset transfers and dApp operations.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6a611744972e72f88b_Metal_L2.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -3263,10 +3248,7 @@
     "name": "Swan",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": [
-      "Optimism",
-      "Superchain"
-    ],
+    "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -6376,7 +6358,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "64002": {
     "name": "IDEX",
     "description": "Omnichain perpetuals DEX",
@@ -6634,7 +6616,7 @@
   "84532": {
     "name": "Base Sepolia",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535abf3b842f5da79f4_base.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/base-sepolia.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -7514,7 +7496,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "648541": {
     "name": "LACNet",
     "description": "General purpose permissioned public chain focused on Latin America and Caribbean blockchain ecosystems.",
@@ -11398,8 +11380,8 @@
     "website": "https://moonveil.gg/",
     "explorers": [
       {
-      "url": "https://moonveil-testnet-blockscout.eu-north-2.gateway.fm/",
-      "hostedBy": "gateway"
+        "url": "https://moonveil-testnet-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
     ]
   },
@@ -11414,8 +11396,8 @@
     "website": "",
     "explorers": [
       {
-      "url": "https://arkreen-zk-devnet-blockscout.eu-north-2.gateway.fm/",
-      "hostedBy": "gateway"
+        "url": "https://arkreen-zk-devnet-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
     ]
   }
