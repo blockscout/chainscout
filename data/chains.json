@@ -1835,7 +1835,7 @@
     ]
   },
   "810": {
-    "name": "Haven1",
+    "name": "Haven1 Testnet",
     "description": "Blockchain ecosystem designed to shield against scams, hacks, and rug pulls.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b7071c856ee00e79d17a_haven1.png",
     "ecosystem": "Ethereum",
@@ -2681,6 +2681,23 @@
       }
     ]
   },
+  "1424": {
+    "name": "Perennial Mainnet",
+    "description": "Perennial is a dedicated perps rollup, engineered for hyper-efficient trading.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/perennial.png",
+    "ecosystem": "Base",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://perennial.finance/",
+    "explorers": [
+      {
+        "url": "https://explorer.perennial.foundation/",
+        "hostedBy": "conduit"
+      }
+    ]
+  },
   "1425": {
     "name": "Lit Protocol",
     "description": "Lit network is used for decentralized signing, encryption, and computation.",
@@ -2710,7 +2727,7 @@
     "website": "https://www.thebitica.com/",
     "explorers": [
       {
-        "url": "biticablockchain.com",
+        "url": "https://biticablockchain.com/",
         "hostedBy": "self"
       }
     ]
@@ -3874,6 +3891,23 @@
       }
     ]
   },
+  "3502": {
+    "name": "JFIN POS",
+    "description": "Powerful blockchain platform that can help businesses unlock new opportunities for growth and innovation.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/jfin.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "JFIN",
+    "website": "https://www.jfincoin.io/",
+    "explorers": [
+      {
+        "url": "https://exp.jfinpos.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "3597": {
     "name": "Caucasus",
     "description": "Caucasus is a Layer 2 scaling solution designed to supercharge Bahamut.",
@@ -4911,6 +4945,23 @@
       }
     ]
   },
+  "8811": {
+    "name": "Haven1 Mainnet",
+    "description": "Blockchain ecosystem designed to shield against scams, hacks, and rug pulls.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b7071c856ee00e79d17a_haven1.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "H1",
+    "website": "https://www.haven1.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.haven1.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "8822": {
     "name": "IOTA EVM",
     "description": "An Open, Feeless Data And Value Transfer Protocol",
@@ -5638,6 +5689,23 @@
     "explorers": [
       {
         "url": "https://satori.vanascan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "15151": {
+    "name": "Yorato Chain",
+    "description": "Dpos Blockchain meticulously tailored for payment solutions, with a strong focus on payments, gaming, and metaverse modules.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/yorato.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "YRT",
+    "website": "https://yorato.ai/",
+    "explorers": [
+      {
+        "url": "https://yoratoscan.com/",
         "hostedBy": "self"
       }
     ]
@@ -6411,6 +6479,23 @@
       }
     ]
   },
+  "51828": {
+    "name": "ChainBchaounty",
+    "description": "ChainBounty is a decentralized platform that helps solve security challenges in the crypto space.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/chainbounty.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "BOUNTY",
+    "website": "https://chainbounty.io/",
+    "explorers": [
+      {
+        "url": "https://scan.chainbounty.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "52014": {
     "name": "Electroneum",
     "description": "Electroneum is a Layer-1 EVM-compatible blockchain, with 5+ million users and 5 second transaction  speed with single block finality.",
@@ -6645,6 +6730,23 @@
     "explorers": [
       {
         "url": "https://explorer.gobob.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "60850": {
+    "name": "Perennial Testnet",
+    "description": "Perennial is a dedicated perps rollup, engineered for hyper-efficient trading.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/perennial.png",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://perennial.finance/",
+    "explorers": [
+      {
+        "url": "https://explorer-sepolia.perennial.foundation/",
         "hostedBy": "self"
       }
     ]
@@ -7804,6 +7906,23 @@
       }
     ]
   },
+  "412346": {
+    "name": "Adventure Layer",
+    "description": "Adventure Layer is a L2 on top of Berachain, custom made for AI Native Onchain Games.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/adventure-layer.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "AGLD",
+    "website": "https://adventurelayer.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer-devnet.adventurelayer.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "444444": {
     "name": "Syndr Testnet",
     "description": "Crypto options, perpetuals and futures exchange.",
@@ -7834,6 +7953,23 @@
     "explorers": [
       {
         "url": "https://testnet.deelance.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "490000": {
+    "name": "Taurus Auto EVM",
+    "description": "The Foundation Layer for AI3.0. Build super dApps and on-chain agents on our hyper-scalable storage, compute & consensus DePIN.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/autonomys.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "AI3",
+    "website": "https://www.autonomys.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.auto-evm.taurus.autonomys.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -8161,6 +8297,23 @@
       }
     ]
   },
+  "763375": {
+    "name": "Surge",
+    "description": "Based rollup template of the Taiko Alethia stack, featuring Gigagas performance, decentralized ordering by Ethereum validators, and Stage 2 trustless security.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/surge.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://www.surge.wtf/",
+    "explorers": [
+      {
+        "url": "https://explorer.hoodi.surge.wtf/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "777777": {
     "name": "WINR",
     "description": "An EVM-based high throughput L3 built for decentralized gambling apps and fast, gasless onchain games with custom tooling.",
@@ -8361,6 +8514,23 @@
     "explorers": [
       {
         "url": "https://testnet.layerxscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "3502001": {
+    "name": "OPJFIN Chain",
+    "description": "Powerful blockchain platform that can help businesses unlock new opportunities for growth and innovation.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/jfin.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "JFIN",
+    "website": "https://www.jfincoin.io/",
+    "explorers": [
+      {
+        "url": "https://exp.opjfin.com/",
         "hostedBy": "self"
       }
     ]
@@ -9029,7 +9199,7 @@
     ]
   },
   "1313161554": {
-    "name": "Aurora",
+    "name": "Aurora Mainnet",
     "description": "EVM implementation as a smart contract on the NEAR Protocol.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535a3674caf1d54651c_aurora.png",
     "ecosystem": "Near",
@@ -9041,6 +9211,40 @@
     "explorers": [
       {
         "url": "https://explorer.mainnet.aurora.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1313161555": {
+    "name": "Aurora Testnet",
+    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535a3674caf1d54651c_aurora.png",
+    "ecosystem": "Near",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://aurora.dev/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.aurora.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1313161567": {
+    "name": "Turbo",
+    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/turbo.png",
+    "ecosystem": "Near",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "TURBO",
+    "website": "https://aurora.dev/",
+    "explorers": [
+      {
+        "url": "https://explorer.turbo.aurora.dev/",
         "hostedBy": "self"
       }
     ]
