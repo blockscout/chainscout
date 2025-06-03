@@ -2592,7 +2592,7 @@
     "explorers": [
       {
         "url": "https://vanascan.io/",
-        "hostedBy": "self"
+        "hostedBy": "protofire"
       }
     ]
   },
@@ -5331,7 +5331,7 @@
     "explorers": [
       {
         "url": "https://moksha.vanascan.io/",
-        "hostedBy": "self"
+        "hostedBy": "protofire"
       }
     ]
   },
@@ -7392,6 +7392,22 @@
       {
         "url": "https://testnet.deelance.com/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "490000": {
+    "name": "Autonomys Taurus Testnet",
+    "description": "The Autonomys Taurus Testnet serves as a testing ground for the Autonomys network, which provides the infrastructure to scale decentralized AI 3.0 applications on-chain. It features hyper-scalable permanent data storage, super-fast data availability, and flexible EVM-compatible decoupled execution, allowing developers to experiment with and validate these capabilities before mainnet deployment.",
+    "logo": "https://explorer.auto-evm.taurus.autonomys.xyz/assets/configs/network_logo_dark.svg",
+    "ecosystem": "Autonomys",
+    "isTestnet": true,
+    "layer": 0,
+    "rollupType": null,
+    "website": "https://www.autonomys.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.auto-evm.taurus.autonomys.xyz/",
+        "hostedBy": "protofire"
       }
     ]
   },
