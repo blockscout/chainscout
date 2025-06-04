@@ -1,0 +1,1 @@
+Sitemap: https://chains.blockscout.com/sitemap.xml
