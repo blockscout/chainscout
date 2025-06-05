@@ -6226,12 +6226,12 @@
   },
   "42220": {
     "name": "Celo",
-    "description": "Mobile-first L2 scaling protocol.",
+    "description": "Celo is an emerging Ethereum Layer 2 built for the real world and designed for fast, low-cost payments worldwide.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/celo.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "CELO",
     "website": "https://celo.org/",
     "explorers": [
@@ -6362,12 +6362,12 @@
   },
   "44787": {
     "name": "Celo Alfajores",
-    "description": "Celo L2 developer testnet on top of Holešky.",
+    "description": "The Alfajores Testnet is a Celo test network for developers building on the Celo platform.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/celo.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "CELO",
     "website": "https://celo.org/",
     "explorers": [
@@ -6821,12 +6821,12 @@
   },
   "62320": {
     "name": "Celo Baklava",
-    "description": "Building a regenerative digital economy that creates conditions of prosperity for all. Celo is an emerging Ethereum L2, mobile-first, carbon negative blockchain for the real world.",
+    "description": "The Baklava Testnet is a non-production Testnet for the Validator community.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/celo.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
+    "layer": 2,
+    "rollupType": "optimistic",
     "native_currency": "CELO",
     "website": "https://celo.org/",
     "explorers": [
