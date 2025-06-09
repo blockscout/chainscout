@@ -2745,7 +2745,7 @@
     "explorers": [
       {
         "url": "https://vanascan.io/",
-        "hostedBy": "self"
+        "hostedBy": "protofire"
       }
     ]
   },
@@ -5672,7 +5672,7 @@
     "explorers": [
       {
         "url": "https://moksha.vanascan.io/",
-        "hostedBy": "self"
+        "hostedBy": "protofire"
       }
     ]
   },
@@ -7966,6 +7966,7 @@
     "layer": 1,
     "rollupType": null,
     "native_currency": "AI3",
+
     "website": "https://www.autonomys.xyz/",
     "explorers": [
       {
@@ -7987,7 +7988,7 @@
     "explorers": [
       {
         "url": "https://testnet-explorer.sovrun.org/",
-        "hostedBy": "self"
+        "hostedBy": "protofire"
       }
     ]
   },
