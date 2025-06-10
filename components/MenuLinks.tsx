@@ -27,12 +27,12 @@ type MenuLinksProps = {
 
 const MenuLinks: React.FC<MenuLinksProps> = ({ isMobile = false }) => (
   <nav className={`flex gap-8 ${isMobile ? 'flex-col' : ''}`}>
-    <MenuLink href="https://www.blockscout.com/#features" isMobile={isMobile}>Features</MenuLink>
-    <MenuLink href="https://www.blockscout.com/#explorer-as-a-service" isMobile={isMobile}>Explorer as a Service</MenuLink>
-    <MenuLink href="https://www.blockscout.com/#future-updates" isMobile={isMobile}>Future Updates</MenuLink>
-    <MenuLink href="https://www.blog.blockscout.com/" target="_blank" isMobile={isMobile}>Blog</MenuLink>
+    <MenuLink href="https://eaas.blockscout.com/#features" isMobile={isMobile}>Features</MenuLink>
+    <MenuLink href="https://eaas.blockscout.com/#explorer-as-a-service" isMobile={isMobile}>Explorer as a Service</MenuLink>
+    <MenuLink href="https://eaas.blockscout.com/#future-updates" isMobile={isMobile}>Future Updates</MenuLink>
+    <MenuLink href="https://eaas.blog.blockscout.com/" target="_blank" isMobile={isMobile}>Blog</MenuLink>
     <MenuLink href="https://docs.blockscout.com/" target="_blank" isMobile={isMobile}>Docs</MenuLink>
-    <MenuLink href="https://www.blockscout.com/#contact" isMobile={isMobile}>Contact</MenuLink>
+    <MenuLink href="https://eaas.blockscout.com/#contact" isMobile={isMobile}>Contact</MenuLink>
   </nav>
 );
 
