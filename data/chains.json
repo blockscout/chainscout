@@ -101,23 +101,6 @@
       }
     ]
   },
-  "18": {
-    "name": "Thundercore Testnet",
-    "description": "A high performance, eco-friendly, fully interoperable blockchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66328ec836097d417f6563f9_thundercore.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": null,
-    "website": "https://www.thundercore.com/",
-    "explorers": [
-      {
-        "url": "https://explorer-testnet.thundercore.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "19": {
     "name": "Flare Network Songbird Canary",
     "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
@@ -11248,23 +11231,6 @@
     "explorers": [
       {
         "url": "https://explorer.tecra.space/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "thundercore": {
-    "name": "Thundercore",
-    "description": "A high performance, eco-friendly, fully interoperable blockchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66328ec836097d417f6563f9_thundercore.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": null,
-    "website": "https://www.thundercore.com/",
-    "explorers": [
-      {
-        "url": "https://explorer-mainnet.thundercore.com/",
         "hostedBy": "self"
       }
     ]
