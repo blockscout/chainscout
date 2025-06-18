@@ -376,7 +376,7 @@
   "81": {
     "name": "Astar Shibuya",
     "description": "Polkadot parachain built on Substrate supporting scalable smart-contract execution.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5361f5e3169ed6c18f7_astar.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/astar.svg",
     "ecosystem": "Polkadot",
     "isTestnet": true,
     "layer": 2,
@@ -393,7 +393,7 @@
   "88": {
     "name": "Viction Network",
     "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -613,7 +613,7 @@
   "122": {
     "name": "Fuse",
     "description": "Decentralized payments-focused EVM platform.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53b9834b252a6503dd2_fuse.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fuse.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -630,7 +630,7 @@
   "123": {
     "name": "Fuse Sparknet",
     "description": "Fuse testnet for the decentralized payments-focused EVM platform.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53b9834b252a6503dd2_fuse.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fuse.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -732,7 +732,7 @@
   "148": {
     "name": "Shimmer EVM Mainnet",
     "description": "A high-performance, feeless, and parallelized Directed Acyclic Graph (DAG) ledger.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/65bc474c4f47c48581bcb36e_shimmer.network.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/shimmer.svg",
     "ecosystem": "IOTA",
     "isTestnet": false,
     "layer": 1,
@@ -1174,7 +1174,7 @@
   "314": {
     "name": "Filecoin Virtual Machine",
     "description": "The Filecoin Virtual Machine (FVM) is a runtime environment for smart contracts (also called actors) on the Filecoin network, bringing user programmability to Filecoin.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6656383d0d1b87aa18a5428d_filecoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fvm.svg",
     "ecosystem": "Filecoin",
     "isTestnet": false,
     "layer": 1,
@@ -1225,7 +1225,7 @@
   "336": {
     "name": "Shiden",
     "description": "Astar sister network; smart contract Kusama parachain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53f9c7e4d2873f004c8_shiden.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/shiden.svg",
     "ecosystem": "Polkadot",
     "isTestnet": false,
     "layer": 2,
@@ -1514,7 +1514,7 @@
   "592": {
     "name": "Astar",
     "description": "Polkadot parachain built on Substrate supporting scalable smart-contract execution.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5361f5e3169ed6c18f7_astar.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/astar.svg",
     "ecosystem": "Polkadot",
     "isTestnet": false,
     "layer": 2,
@@ -2160,7 +2160,7 @@
   "1073": {
     "name": "Shimmer EVM Testnet",
     "description": "A high-performance, feeless, and parallelized Directed Acyclic Graph (DAG) ledger.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bc474c4f47c48581bcb36e_shimmer.network.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/shimmer.svg",
     "ecosystem": "IOTA",
     "isTestnet": true,
     "layer": 1,
@@ -2177,7 +2177,7 @@
   "1075": {
     "name": "IOTA EVM Testnet",
     "description": "An Open, Feeless Data And Value Transfer Protocol",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a98df0d4ac76eeedf4_iota.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/iota.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -2245,7 +2245,7 @@
   "1101": {
     "name": "Polygon zkEVM",
     "description": "Polygon zkEVM offers Ethereum scalability with zkEVM performance and security",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/polygon-pos.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/polygon-zkevm.svg",
     "ecosystem": "Polygon",
     "isTestnet": false,
     "layer": 2,
@@ -2364,7 +2364,7 @@
   "1135": {
     "name": "Lisk ",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a991726cabd8059078_lisk.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/lisk.svg",
     "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
@@ -3027,7 +3027,7 @@
   "1729": {
     "name": "Reya",
     "description": "The 1st zero-Gas trading-optimized L2",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aa246632816ca743ce_reya.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/reya.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 2,
@@ -3095,7 +3095,7 @@
   "1829": {
     "name": "Playnance Playblock",
     "description": "Layer-3 gasless blockchain built to onboard iGamers",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aa8798d8501e32aed2_playblock.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/playblock.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 3,
@@ -3418,7 +3418,7 @@
   "2039": {
     "name": "Aleph Zero Testnet",
     "description": "Blazingly fast blockchain with modular ZK.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e55a9f69d1425629ec892_aleph.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aleph-zero.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
@@ -4064,7 +4064,7 @@
   "4202": {
     "name": "Lisk Sepolia Testnet",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a991726cabd8059078_lisk.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/lisk.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -4164,9 +4164,9 @@
     ]
   },
   "4777": {
-    "name": "Blackfort testnet",
+    "name": "Blackfort Testnet",
     "description": "EVM compatible L1 that is fast, scalable, secure, and efficient, with POSA.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9ab0ce1c77e2afdcb8c_blackfort.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/blackfort.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -4217,7 +4217,7 @@
   "4999": {
     "name": "Blackfort",
     "description": "EVM compatible L1 that is fast, scalable, secure, and efficient, with POSA.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9ab0ce1c77e2afdcb8c_blackfort.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/blackfort.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -4761,7 +4761,7 @@
   "7887": {
     "name": "Kinto Mainnet",
     "description": "Sybil Resistant blockchain with User-Owned KYC and enforced Account Abstraction",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660c9fd8c3373ca6cca60251_kinto.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/kinto.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": null,
@@ -4880,7 +4880,7 @@
   "8428": {
     "name": "SEI",
     "description": "Sei is the first parallelized EVM blockchain delivering unmatched scalability and speed.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sei.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sei.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -4948,7 +4948,7 @@
   "8822": {
     "name": "IOTA EVM",
     "description": "An Open, Feeless Data And Value Transfer Protocol",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a98df0d4ac76eeedf4_iota.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/iota.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -5781,7 +5781,7 @@
   "18233": {
     "name": "Tangible Unreal Testnet",
     "description": "The first permissionless L2 for tokenized real world assets",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a99b8a3db2ecacc3f7_real.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/re.al.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
@@ -5968,7 +5968,7 @@
   "33103": {
     "name": "Zilliqa Testnet",
     "description": "Zilliqa 2.0 features a native EVM execution layer, supporting standard EVM development tools and wallets while also retaining a custom execution layer",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e1fdb2ba25eadd14f2bfd_Zilliqa.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zilliqa.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -6104,7 +6104,7 @@
   "41455": {
     "name": "Aleph Zero EVM",
     "description": "The first EVM-compatible ZK privacy with subsecond proving.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e55a9f69d1425629ec892_aleph.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aleph-zero.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
@@ -6121,7 +6121,7 @@
   "41923": {
     "name": "EDU Chain",
     "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e204578cf35841d0a804e_EDU-Chain.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/edu-chain.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 3,
@@ -6278,7 +6278,7 @@
   "42793": {
     "name": "Etherlink",
     "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6644bc7f1ca9c4463e7ddbb9_etherlink.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/etherlink.svg",
     "ecosystem": "Tezos",
     "isTestnet": false,
     "layer": 2,
@@ -6941,7 +6941,7 @@
   "73114": {
     "name": "ICB Network Testnet",
     "description": "Decentralized blockchain combining speed and safety, built to enable scalable, user-friendly apps for the world.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1cfe35991756451ad63_ICB-network.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/icb.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -6958,7 +6958,7 @@
   "73115": {
     "name": "ICB Network",
     "description": "Decentralized blockchain combining speed and safety, built to enable scalable, user-friendly apps for the world.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1cfe35991756451ad63_ICB-network.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/icb.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -7348,7 +7348,7 @@
   "102030": {
     "name": "Creditcoin",
     "description": "Creditcoin connects real-world assets (RWAs) to Web3, helping financial institutions integrate their credit operations on-chain.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20b5ecbf024c711fe51d_Creditcoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/creditcoin.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -7365,7 +7365,7 @@
   "102031": {
     "name": "Creditcoin Testnet",
     "description": "Multichain Credit Protocol Powering Real-World Assets",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aae10a4004192357f5_creditcoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/creditcoin.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -7382,7 +7382,7 @@
   "102032": {
     "name": "Creditcoin Devnet",
     "description": "Creditcoin connects real-world assets (RWAs) to Web3, helping financial institutions integrate their credit operations on-chain.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20b5ecbf024c711fe51d_Creditcoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/creditcoin.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -7433,7 +7433,7 @@
   "111188": {
     "name": "Tangible re.al",
     "description": "The first permissionless L2 for tokenized real world assets",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9a99b8a3db2ecacc3f7_real.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/re.al.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 2,
@@ -7518,7 +7518,7 @@
   "128123": {
     "name": "Etherlink Testnet",
     "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6644bc7f1ca9c4463e7ddbb9_etherlink.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/etherlink.svg",
     "ecosystem": "Tezos",
     "isTestnet": true,
     "layer": 2,
@@ -8063,7 +8063,7 @@
   "612044": {
     "name": "Cross Testnet",
     "description": "Open a New Game Economy - next-gen blockchain gaming protocol for true player ownership and seamless interoperability.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cross.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cross.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -8080,7 +8080,7 @@
   "612055": {
     "name": "Cross Mainnet",
     "description": "Open a New Game Economy - next-gen blockchain gaming protocol for true player ownership and seamless interoperability.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cross.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cross.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -8148,7 +8148,7 @@
   "656476": {
     "name": "EDU Chain Testnet",
     "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e204578cf35841d0a804e_EDU-Chain.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/edu-chain.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 3,
@@ -8641,7 +8641,7 @@
   "9999999": {
     "name": "Fluence",
     "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
-    "logo": "https://blockscout.mainnet.fluence.dev/assets/configs/network_icon.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fluence.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 2,
@@ -8862,7 +8862,7 @@
   "52164803": {
     "name": "Fluence Testnet",
     "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
-    "logo": "https://blockscout.testnet.fluence.dev/assets/configs/network_icon.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fluence.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -8913,7 +8913,7 @@
   "89346162": {
     "name": "Reya Cronos",
     "description": "The 1st zero-Gas trading-optimized L2",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6643d9aa246632816ca743ce_reya.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/reya.svg",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
@@ -8947,7 +8947,7 @@
   "245022926": {
     "name": "Neon Devnet",
     "description": "Neon is an Ethereum Virtual Machine with the scalability and liquidity of Solana.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe543b40229dd40b111f0_neon.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/neon.svg",
     "ecosystem": "Solana",
     "isTestnet": true,
     "layer": 2,
@@ -8964,7 +8964,7 @@
   "245022934": {
     "name": "Neon",
     "description": "Neon is an Ethereum Virtual Machine with the scalability and liquidity of Solana.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe543b40229dd40b111f0_neon.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/neon.svg",
     "ecosystem": "Solana",
     "isTestnet": false,
     "layer": 1,
@@ -11629,7 +11629,7 @@
   "6038361_": {
     "name": "Astar zKyoto",
     "description": "The Astar zkEVM provides Ethereum-inherited security, high EVM equivalence,\nspeed, and scalability.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/65afe5361f5e3169ed6c18f7_astar.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/astar.svg",
     "ecosystem": "Polygon",
     "isTestnet": true,
     "layer": 2,
