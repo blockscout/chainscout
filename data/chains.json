@@ -325,7 +325,7 @@
   "61": {
     "name": "Ethereum Classic",
     "description": "Longest running smart contract platform running the original Ethereum protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53434b2ce6356ab2e46_ethereumclassic.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ethereum-classic.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -342,7 +342,7 @@
   "63": {
     "name": "Ethereum Classic Mordor",
     "description": "Longest running smart contract platform running the original Ethereum protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53434b2ce6356ab2e46_ethereumclassic.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ethereum-classic.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -1510,7 +1510,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "633": {
     "name": "Exosama",
     "description": "NFTs on Ethereum with Polkadot composability via the Moonsama multiverse bridge.",
@@ -3569,7 +3569,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "3721": {
     "name": "Xone Mainnet",
     "description": "Building a blockchain where every on-chain action generates tangible, traceable value.",
@@ -7858,7 +7858,7 @@
   "1449000": {
     "name": "XRPL EVM",
     "description": "Ripple EVM side chain for applications, with XRP native currency.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65fb753345261f69618ff5e5_xrpl.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/xrpl-evm.svg",
     "ecosystem": "Ripple",
     "isTestnet": false,
     "layer": null,
