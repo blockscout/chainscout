@@ -984,6 +984,23 @@
       }
     ]
   },
+  "239": {
+    "name": "TAC Mainnet",
+    "description": "TAC is a purpose-built blockchain for EVM dApps to access TON and Telegram Ecosystem's 1B+ user base.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TAC",
+    "website": "https://tac.build/",
+    "explorers": [
+      {
+        "url": "https://explorer.tac.build/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "248": {
     "name": "Oasys",
     "description": "Blockchain for Tokenized Asian Assets.",
@@ -1168,23 +1185,6 @@
       {
         "url": "https://omaxscan.com/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "336": {
-    "name": "Shiden",
-    "description": "Astar sister network; smart contract Kusama parachain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/shiden.svg",
-    "ecosystem": "Polkadot",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "SDN",
-    "website": "https://shiden.astar.network/",
-    "explorers": [
-      {
-        "url": "https://shiden.blockscout.com/",
-        "hostedBy": "blockscout"
       }
     ]
   },
@@ -3278,6 +3278,23 @@
       {
         "url": "https://eonixscan.com/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "2390": {
+    "name": "TAC Turin",
+    "description": "TAC is a purpose-built blockchain for EVM dApps to access TON and Telegram Ecosystem's 1B+ user base.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TAC",
+    "website": "https://tac.build/",
+    "explorers": [
+      {
+        "url": "https://tac-turin.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5542,8 +5559,25 @@
       }
     ]
   },
-  "33103": {
-    "name": "Zilliqa Testnet",
+  "32769": {
+    "name": "Zilliqa 2 Mainnet",
+    "description": "Zilliqa 2.0 features a native EVM execution layer, supporting standard EVM development tools and wallets while also retaining a custom execution layer",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zilliqa.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ZIL",
+    "website": "https://www.zilliqa.com/",
+    "explorers": [
+      {
+        "url": "https://zq2-mainnet.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "33101": {
+    "name": "Zilliqa 2 Testnet",
     "description": "Zilliqa 2.0 features a native EVM execution layer, supporting standard EVM development tools and wallets while also retaining a custom execution layer",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zilliqa.svg",
     "ecosystem": "Ethereum",
@@ -5554,7 +5588,7 @@
     "website": "https://www.zilliqa.com/",
     "explorers": [
       {
-        "url": "https://zilliqa-prototestnet.blockscout.com",
+        "url": "https://zq2-testnet.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
