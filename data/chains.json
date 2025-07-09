@@ -8910,7 +8910,7 @@
   "383414847825": {
     "name": "Zeniq Smartchain",
     "description": "ZENIQ Smartchain (ZSC) is a smart contract enabled sidechain of the ZENIQ main chain. It provides a permissionless platform for decentralized applications (DApps).",
-    "logo": "https://zeniqblocks.com/static-content/images/zeniq.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zeniq.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
