@@ -11098,5 +11098,22 @@
         "hostedBy": "gateway"
       }
     ]
-  }
+  },
+  "1370": {
+  "name": "Ramestta",
+  "description":  "Ramestta is a high-speed Layer 2 blockchain built on Polygon PoS, focused on scalable decentralized applications and RAMA coin economy.",
+  "ecosystem": ["Polygon"],
+  "isTestnet": false,
+  "layer": 2,
+  "rollupType": null,
+  "native_currency": "RAMA",
+  "website": "https://www.ramestta.com/",
+  "explorers": [
+    {
+      "url": "https://ramascan.com/",
+     "hostedBy": "self"
+    }
+  ],
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBp6j3zKrobPEXOXGai2loMqYpBIAFWNHlg&s"
+}
 }
