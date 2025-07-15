@@ -5571,7 +5571,7 @@
     "website": "https://www.zilliqa.com/",
     "explorers": [
       {
-        "url": "https://zq2-mainnet.blockscout.com/",
+        "url": "https://zilliqa.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -5588,7 +5588,7 @@
     "website": "https://www.zilliqa.com/",
     "explorers": [
       {
-        "url": "https://zq2-testnet.blockscout.com/",
+        "url": "https://testnet.zilliqa.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
