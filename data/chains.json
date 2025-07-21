@@ -46,7 +46,7 @@
     "explorers": [
       {
         "url": "https://explorer.optimism.io/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
