@@ -9400,13 +9400,30 @@
       }
     ]
   },
+  "988207": {
+    "name": "Ecrox Chain",
+    "description": "Non-profit organization advancing blockchain adoption in Thailand through infrastructure services, smart contract audits, and public education",
+    "logo": "https://raw.githubusercontent.com/ecroxchain/assets/main/blockchains/ECROX/assets/0x40662e09C1a421d8b8a661fdD59c183516Db93Ac/logo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ECROX",
+    "website": "https://ecroxscan.com",
+    "explorers": [
+      {
+        "url": "https://ecroxscan.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "ecrox-testnet": {
-    "name": "Ecrox Testnet",
+    "name": "Ecrox Chain Testnet",
     "description": "Focusing on security, fast transactions, and a comprehensive array of interconnected services and platforms.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65c2c226501b85718f0ad460_ecroxcoin.png",
+    "logo": "https://raw.githubusercontent.com/ecroxchain/assets/main/blockchains/ECROX/assets/0x40662e09C1a421d8b8a661fdD59c183516Db93Ac/logo.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
-    "layer": 1,
+    "layer": 2,
     "rollupType": null,
     "native_currency": null,
     "website": "https://ecroxcoin.io/",
