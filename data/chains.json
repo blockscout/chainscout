@@ -50,23 +50,6 @@
       }
     ]
   },
-  "13": {
-    "name": "Flare Network",
-    "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b7046228b97e09c6b3b3_Flare-pink.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "FLR",
-    "website": "https://flare.network/",
-    "explorers": [
-      {
-        "url": "https://flare-explorer.flare.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "14": {
     "name": "Flare Networks",
     "description": "Networks for the secure and Universal Flare EVM chain.",
@@ -2340,22 +2323,6 @@
     "explorers": [
       {
         "url": "https://unichain-sepolia.blockscout.com",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "130": {
-    "name": "Unichain",
-    "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/unichain.svg",
-    "ecosystem": "Optimism",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "website": "https://www.unichain.org/",
-    "explorers": [
-      {
-        "url": "https://unichain.blockscout.com",
         "hostedBy": "blockscout"
       }
     ]
@@ -8432,41 +8399,7 @@
         "hostedBy": "self"
       }
     ]
-  },
-  "420120000": {
-    "name": "Optimism Interop Devnet 0",
-    "description": "Devnet for testing interoperability messages",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.optimism.io/",
-    "explorers": [
-      {
-        "url": "https://optimism-interop-alpha-0.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "420120001": {
-    "name": "Optimism Interop Devnet 1",
-    "description": "Devnet for testing interoperability messages",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe534f95466e8c914ac5b_optimism.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.optimism.io/",
-    "explorers": [
-      {
-        "url": "https://optimism-interop-alpha-1.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
+  },  
   "666666666": {
     "name": "Degen Chain",
     "description": "Enables Casters to reward others with DEGEN for posting quality content.",
@@ -8565,23 +8498,6 @@
     "explorers": [
       {
         "url": "https://aware-fake-trim-testnet.explorer.testnet.skalenodes.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1093502521": {
-    "name": "Moonveil Testnet",
-    "description": "A gamer-first ecosystem, building the Moonveil L2 powered by $MORE.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moonveil.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "MORE",
-    "website": "https://moonveil.gg/",
-    "explorers": [
-      {
-        "url": "https://blockscout.testnet.moonveil.gg/",
         "hostedBy": "self"
       }
     ]
