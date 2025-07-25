@@ -7889,12 +7889,29 @@
       }
     ]
   },
-  "1449000": {
-    "name": "XRPL EVM",
+  "1440000": {
+    "name": "XRPL EVM Mainnet",
     "description": "Ripple EVM side chain for applications, with XRP native currency.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/xrpl-evm.svg",
     "ecosystem": "Ripple",
     "isTestnet": false,
+    "layer": null,
+    "rollupType": null,
+    "native_currency": "XRP",
+    "website": "https://xrpl.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.xrplevm.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1449000": {
+    "name": "XRPL EVM Testnet",
+    "description": "Ripple EVM side chain for applications, with XRP native currency.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/xrpl-evm.svg",
+    "ecosystem": "Ripple",
+    "isTestnet": true,
     "layer": null,
     "rollupType": null,
     "native_currency": "XRP",
@@ -11151,20 +11168,20 @@
     ]
   },
   "1370": {
-  "name": "Ramestta",
-  "description":  "Ramestta is a high-speed Layer 2 blockchain built on Polygon PoS, focused on scalable decentralized applications and RAMA coin economy.",
-  "ecosystem": ["Polygon"],
-  "isTestnet": false,
-  "layer": 2,
-  "rollupType": null,
-  "native_currency": "RAMA",
-  "website": "https://www.ramestta.com/",
-  "explorers": [
-    {
-      "url": "https://ramascan.com/",
-     "hostedBy": "self"
-    }
-  ],
-  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBp6j3zKrobPEXOXGai2loMqYpBIAFWNHlg&s"
-}
+    "name": "Ramestta",
+    "description": "Ramestta is a high-speed Layer 2 blockchain built on Polygon PoS, focused on scalable decentralized applications and RAMA coin economy.",
+    "ecosystem": ["Polygon"],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "RAMA",
+    "website": "https://www.ramestta.com/",
+    "explorers": [
+      {
+        "url": "https://ramascan.com/",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBp6j3zKrobPEXOXGai2loMqYpBIAFWNHlg&s"
+  }
 }
