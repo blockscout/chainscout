@@ -11101,3 +11101,21 @@
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBp6j3zKrobPEXOXGai2loMqYpBIAFWNHlg&s"
   }
 }
+,
+"9194": {
+  "name": "XYBERCHAIN",
+  "description": "XYBERCHAIN is a Geth-based EVM-compatible Layer 1 blockchain optimized for fast and secure dApps.",
+  "ecosystem": ["Ethereum"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "XYB",
+  "website": "https://xyberchain-rpc.xyz/",
+  "explorers": [
+    {
+      "url": "https://xyb.cloud.blockscout.com/",
+      "hostedBy": "blockscout"
+    }
+  ],
+  "logo": "https://uploads.onecompiler.io/42p32vw56/43rx7hm8q/WhatsApp%20Image%202025-07-19%20at%204.04.18%20PM.svg"
+}
