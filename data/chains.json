@@ -45,7 +45,7 @@
     "website": "https://www.optimism.io/",
     "explorers": [
       {
-        "url": "https://optimism.blockscout.com/",
+        "url": "https://explorer.optimism.io/",
         "hostedBy": "blockscout"
       }
     ]
