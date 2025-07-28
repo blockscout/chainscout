@@ -11110,10 +11110,10 @@
   "layer": 1,
   "rollupType": null,
   "native_currency": "XYB",
-  "website": "https://xyberchain-rpc.xyz/",
+  "website": "https://www.xyberchain.network/",
   "explorers": [
     {
-      "url": "https://xyb.cloud.blockscout.com/",
+      "url": "https://xyberchain.cloud.blockscout.com/",
       "hostedBy": "blockscout"
     }
   ],
