@@ -11112,7 +11112,7 @@
     "explorers": [
       {
         "url": "https://explorer.fitochain.com",
-        "hostedBy": "blockscout"
+        "hostedBy": "self"
       }
     ],
     "logo": "https://explorer.fitochain.com/assets/configs/network_logo.png"
