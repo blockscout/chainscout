@@ -1577,7 +1577,7 @@
     "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
-     "settlementLayerChainId": "1",
+    "settlementLayerChainId": "1",
     "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://redstone.xyz/",
@@ -3892,23 +3892,6 @@
       }
     ]
   },
-  "5000": {
-    "name": "Mantle",
-    "description": "High-performance Ethereum L2 network built with modular architecture.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bb07bb07fbcc9c323781e8_mantle.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "MNT",
-    "website": "https://www.mantle.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.mantle.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "5002": {
     "name": "Treasurenet Protocol",
     "description": "Blockchain built on real-world rare assets.",
@@ -3922,23 +3905,6 @@
     "explorers": [
       {
         "url": "https://evmexplorer.treasurenet.io",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "5003": {
-    "name": "Mantle Sepolia Testnet",
-    "description": "High-performance Ethereum L2 network built with modular architecture.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bb07bb07fbcc9c323781e8_mantle.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "MNT",
-    "website": "https://www.mantle.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.sepolia.mantle.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -4279,7 +4245,7 @@
     "explorers": [
       {
         "url": "https://zetachain-athens-3.blockscout.com/",
-        "hostedBy": "blockscout"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -4518,23 +4484,6 @@
     "explorers": [
       {
         "url": "https://zentrace.io",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "8428": {
-    "name": "SEI",
-    "description": "Sei is the first parallelized EVM blockchain delivering unmatched scalability and speed.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sei.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "SEI",
-    "website": "https://www.sei.io/",
-    "explorers": [
-      {
-        "url": "https://sei.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -8138,6 +8087,23 @@
       }
     ]
   },
+  "11142220": {
+    "name": "Celo Sepolia",
+    "description": "The Sepolia Testnet is a Celo test network for developers building on the Celo platform.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/celo.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "CELO",
+    "website": "https://celo.org/",
+    "explorers": [
+      {
+        "url": "https://celo-sepolia.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "11155111": {
     "name": "Ethereum Sepolia",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
@@ -8459,7 +8425,7 @@
     "explorers": [
       {
         "url": "https://explorer.degen.tips/",
-        "hostedBy": "blockscout"
+        "hostedBy": "alchemy"
       }
     ]
   },
