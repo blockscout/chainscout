@@ -1331,6 +1331,23 @@
       }
     ]
   },
+  "484": {
+    "name": "BlockSurety",
+    "description": "Asset tokenization for liquidity and investment service provider.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/block-surety.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "BSURE",
+    "website": "https://blocksurety.com/",
+    "explorers": [
+      {
+        "url": "https://blocksurety.net/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "528": {
     "name": "Eagle Network",
     "description": "Gamified crypto mining app for the Eagle Network.",
@@ -1996,6 +2013,23 @@
       }
     ]
   },
+  "1071": {
+    "name": "OpenGPU Mainnet",
+    "description": "Built for speed and scalability with a custom protocol integration. The blockchain leverages Lachesis consensus for parallel execution of transactions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/opengpu.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "OGPU",
+    "website": "https://opengpu.network/",
+    "explorers": [
+      {
+        "url": "https://mbs.ogpuscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1073": {
     "name": "Shimmer EVM Testnet",
     "description": "A high-performance, feeless, and parallelized Directed Acyclic Graph (DAG) ledger.",
@@ -2528,6 +2562,23 @@
       }
     ]
   },
+  "1512": {
+    "name": "Story Internal Devnet",
+    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.svg",
+    "ecosystem": "Cosmos",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "IP",
+    "website": "https://www.story.foundation/",
+    "explorers": [
+      {
+        "url": "https://devnet.storyscan.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1514": {
     "name": "Story",
     "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
@@ -2922,11 +2973,28 @@
       }
     ]
   },
-  "1924": {
-    "name": "Swell",
-    "description": "ZK-validium built on the Polygon CDK, with AltLayer, and Ankr.",
+  "1923": {
+    "name": "Swell Chain",
+    "description": "The restaking chain, powered by Proof of Restake. Built on the Superchain.",
     "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/674601f748066e327faf4ecc_Swell.png",
-    "ecosystem": "Polygon",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "http://swellnetwork.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.swellnetwork.io/",
+        "hostedBy": "altlayer-raas"
+      }
+    ]
+  },
+  "1924": {
+    "name": "Swell Testnet",
+    "description": "The restaking chain, powered by Proof of Restake. Built on the Superchain.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/674601f748066e327faf4ecc_Swell.png",
+    "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
     "rollupType": "zk",
@@ -3026,19 +3094,19 @@
     ]
   },
   "1996": {
-    "name": "Sanko",
+    "name": "Sanko Nitro Mainnet",
     "description": "Gaming Arbitrum Orbit Layer 3 created by the on-chain game studio Sanko GameCorp.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6ad1c647bb1a1101b6_Sanko.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
-    "rollupType": null,
+    "rollupType": "arbitrum",
     "native_currency": "DMT",
     "website": "https://sanko.xyz/",
     "explorers": [
       {
         "url": "https://explorer.sanko.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -3620,6 +3688,23 @@
       }
     ]
   },
+  "3885": {
+    "name": "Firechain ZKEVM Ghostrider",
+    "description": "Firechain is a L1 & L2 open source platform to write and distribute decentralized applications.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/firechain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "FIRE",
+    "website": "https://thefirechain.com/",
+    "explorers": [
+      {
+        "url": "https://ghostrider-zkevm.firescan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "3888": {
     "name": "Kalycoin",
     "description": "Cryptocurrency created by the Kalypay payment platform for real-world usability.",
@@ -3790,6 +3875,23 @@
       }
     ]
   },
+  "4545": {
+    "name": "E Money Network",
+    "description": "MiCA-compliant public permissioned blockchain, bridging traditional and decentralized finance.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/e-money.jpeg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "EMYC",
+    "website": "https://emoney.io/",
+    "explorers": [
+      {
+        "url": "https://explore.emoney.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "4613": {
     "name": "Very Network",
     "description": "Global web 3 chat platform that eliminates communication barriers for people around the world.",
@@ -3943,6 +4045,23 @@
       }
     ]
   },
+  "5124": {
+    "name": "Seismic Devnet 2",
+    "description": "L1 blockchain that enables everyday developers to build encrypted DeFi.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/seismic.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://www.seismic.systems/",
+    "explorers": [
+      {
+        "url": "https://explorer-2.seismicdev.net/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "5151": {
     "name": "Moca Chain",
     "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
@@ -4048,7 +4167,7 @@
   "5464": {
     "name": "sagaevm",
     "description": "Dedicated and configurable blockchain - with a vibrant community creating the future together.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/edexa.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -4092,6 +4211,91 @@
     "explorers": [
       {
         "url": "https://explorer.tangle.tools",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5920": {
+    "name": "Chainweb EVM Chain20",
+    "description": "An infinitely scalable PoW blockchain that improves upon Bitcoin's design.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/chainweb.jpeg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "KDA",
+    "website": "https://www.kadena.io/",
+    "explorers": [
+      {
+        "url": "https://chain-20.evm-testnet-blockscout.chainweb.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5921": {
+    "name": "Chainweb EVM Chain21",
+    "description": "An infinitely scalable PoW blockchain that improves upon Bitcoin's design.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/chainweb.jpeg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "KDA",
+    "website": "https://www.kadena.io/",
+    "explorers": [
+      {
+        "url": "https://chain-21.evm-testnet-blockscout.chainweb.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5922": {
+    "name": "Chainweb EVM Chain22",
+    "description": "An infinitely scalable PoW blockchain that improves upon Bitcoin's design.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/chainweb.jpeg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "KDA",
+    "website": "https://www.kadena.io/",
+    "explorers": [
+      {
+        "url": "https://chain-22.evm-testnet-blockscout.chainweb.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5923": {
+    "name": "Chainweb EVM Chain23",
+    "description": "An infinitely scalable PoW blockchain that improves upon Bitcoin's design.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/chainweb.jpeg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "KDA",
+    "website": "https://www.kadena.io/",
+    "explorers": [
+      {
+        "url": "https://chain-23.evm-testnet-blockscout.chainweb.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5924": {
+    "name": "Chainweb EVM Chain24",
+    "description": "An infinitely scalable PoW blockchain that improves upon Bitcoin's design.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/chainweb.jpeg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "KDA",
+    "website": "https://www.kadena.io/",
+    "explorers": [
+      {
+        "url": "https://chain-24.evm-testnet-blockscout.chainweb.com/",
         "hostedBy": "self"
       }
     ]
@@ -4536,6 +4740,23 @@
     "explorers": [
       {
         "url": "https://explorer.haven1.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "8818": {
+    "name": "C Link Chain",
+    "description": "Next-generation Web3 ecosystem, powering the world’s first MaaS launchpad.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/c-link.jpg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": "arbitrum",
+    "native_currency": "CBIT",
+    "website": "https://cryptolink.io/login",
+    "explorers": [
+      {
+        "url": "https://explorer.clinkchain.io/",
         "hostedBy": "self"
       }
     ]
@@ -5205,6 +5426,23 @@
       }
     ]
   },
+  "14174": {
+    "name": "Signet Pecorino Testnet",
+    "description": "Signet is a pragmatic Ethereum rollup with sustainable economic incentives.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/signet.jpg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "USD",
+    "website": "https://signet.sh/",
+    "explorers": [
+      {
+        "url": "https://explorer.pecorino.signet.sh/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "14800": {
     "name": "Vana Moksha Testnet",
     "description": "User-owned AI through user-owned data. Growing the DataDAO Ecosystem.",
@@ -5440,6 +5678,23 @@
       {
         "url": "https://ghadames.lbnchain.com/",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "22776": {
+    "name": "MAP Relay Chain",
+    "description": "Omnichain infrastructure for BTC, stablecoin, and tokenized asset swap.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/map-protocol.jpg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MAPO",
+    "website": "https://mapprotocol.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.mapprotocol.io/",
+        "hostedBy": "self"
       }
     ]
   },
@@ -5711,6 +5966,23 @@
     "explorers": [
       {
         "url": "https://explorer.donatuz.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "42101": {
+    "name": "Push Testnet Donut",
+    "description": "Layer 1 built for Universal Apps",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/push.jpg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "PC",
+    "website": "https://push.org/",
+    "explorers": [
+      {
+        "url": "https://donut.push.network/",
         "hostedBy": "self"
       }
     ]
@@ -7176,6 +7448,23 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.saakuru.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "258432": {
+    "name": "Althea L1",
+    "description": "Althea L1 is the settlement layer bringing open-access infrastructure to people everywhere.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/althea.jpg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ALTHEA",
+    "website": "https://www.althea.net/",
+    "explorers": [
+      {
+        "url": "https://explorer.althea.link/",
         "hostedBy": "self"
       }
     ]
@@ -8650,6 +8939,23 @@
       }
     ]
   },
+  "1660990954": {
+    "name": "Status Sepolia Testnet",
+    "description": "First natively gasless Ethereum L2 with built-in public yield.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/status.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://status.network/",
+    "explorers": [
+      {
+        "url": "https://sepoliascan.status.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1666600000": {
     "name": "Harmony",
     "description": "Harmony is an open blockchain with data sharding and fast finality.",
@@ -8732,6 +9038,23 @@
       {
         "url": "https://elated-tan-skat.explorer.mainnet.skalenodes.com/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "2030232745": {
+    "name": "Lumia Beam Testnet",
+    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6325e31c88419962a8d0_Lumia.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "LUMIA",
+    "website": "https://lumia.org/",
+    "explorers": [
+      {
+        "url": "https://beam-explorer.lumia.org/",
+        "hostedBy": "gateway"
       }
     ]
   },
