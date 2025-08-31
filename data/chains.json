@@ -3581,8 +3581,12 @@
     "website": "https://xone.org",
     "explorers": [
       {
-        "url": "https://xscscan.com/",
+        "url": "https://xonescan.com/",
         "hostedBy": "self"
+      },
+      {
+        "url": "https://blockscout.xonescan.com/",
+        "hostedBy": "hosting-provider"
       }
     ]
   },
@@ -8270,7 +8274,7 @@
     "website": "https://xone.org",
     "explorers": [
       {
-        "url": "https://testnet.xscscan.com/",
+        "url": "https://testnet.xonescan.com/",
         "hostedBy": "self"
       }
     ]
