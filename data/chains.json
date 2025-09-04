@@ -769,18 +769,18 @@
   },
   "169": {
     "name": "Manta Pacific",
-    "description": "The first EVM-equivalent ZK-application platform that is scalable and secure through Celestia DA and Polygon zkEVM",
+    "description": "Modular L2 ecosystem for EVM-native ZK applications and dApps that want to deliver the lowest cost and best experience for users.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bd5357954c62a6f3942897_manta.network.png",
-    "ecosystem": "Polygon",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://manta.network/",
     "explorers": [
       {
         "url": "https://pacific-explorer.manta.network/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -1298,19 +1298,19 @@
     ]
   },
   "466": {
-    "name": "AppChain",
+    "name": "AppChain Mainnet",
     "description": "Incentivized low-cost L2 that allows developers to capture the value their dapps create, enabling sustainable economic models.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/appchain.png",
-    "ecosystem": "Arbitrum Orbit",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": "optimistic",
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://appchain.xyz/",
     "explorers": [
       {
         "url": "https://explorer.appchain.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -1401,7 +1401,7 @@
   },
   "550": {
     "name": "Towns Mainnet",
-    "description": "Open source protocol for building decentralized real-time messaging apps.",
+    "description": "Communication onchain. Build decentralized, encrypted messaging apps on Towns.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
     "ecosystem": "Base",
     "isTestnet": false,
@@ -1412,7 +1412,7 @@
     "explorers": [
       {
         "url": "https://explorer.towns.com/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -2438,6 +2438,23 @@
       }
     ]
   },
+  "1345": {
+    "name": "OpenZK",
+    "description": "Unites native ETH staking, liquid restaking, and stablecoin staking in one seamless platform.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ozETH",
+    "website": "https://www.openzk.net/",
+    "explorers": [
+      {
+        "url": "https://openzk.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "1390": {
     "name": "Stratis",
     "description": "Layer 1 evm compatible chain and network including a platform for smart contract development in C#.",
@@ -3060,13 +3077,13 @@
     ]
   },
   "1993": {
-    "name": "B3",
-    "description": "Gaming ecosystem on Base built to bring the next gen of gamers and game creators onchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1d0412fa58829e14f53_B3.png",
+    "name": "B3 Testnet",
+    "description": "Fun-first gaming ecosystem built on Base.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/B3.png",
     "ecosystem": "Base",
     "isTestnet": true,
     "layer": 3,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://www.b3.fun/",
     "explorers": [
@@ -3096,7 +3113,7 @@
   "1996": {
     "name": "Sanko Nitro Mainnet",
     "description": "Gaming Arbitrum Orbit Layer 3 created by the on-chain game studio Sanko GameCorp.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6ad1c647bb1a1101b6_Sanko.png",
+    "logo": "",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
@@ -3349,19 +3366,36 @@
     ]
   },
   "2410": {
-    "name": "Karak",
-    "description": "The universal restaking security layer powered by the entire digital economy.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c295767723f5fedd3bba_Karak.png",
+    "name": "K2",
+    "description": "Modular blockchain with native risk management, shared security, and AI infrastructure built for the next billion users.",
+    "logo": "",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://karak.network/",
     "explorers": [
       {
         "url": "https://explorer.karak.network/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
+      }
+    ]
+  },
+  "2420": {
+    "name": "Rufus",
+    "description": "Dogelon Mars’s Layer-2 chain, Rufus, is designed to reduce gas fees and support a GameFi ecosystem.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "ELON",
+    "website": "https://dogelonmars.com/",
+    "explorers": [
+      {
+        "url": "https://rufus.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -3498,6 +3532,23 @@
       {
         "url": "https://explorer.morphl2.io/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "2911": {
+    "name": "Hychain",
+    "description": "L2 built to enable mass adoption of massive web3 games.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "TOPIA",
+    "website": "https://www.hychain.com/",
+    "explorers": [
+      {
+        "url": "https://hychain.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -3892,6 +3943,23 @@
       }
     ]
   },
+  "4547": {
+    "name": "TRUMPCHAIN",
+    "description": "The (unofficial) native chain for $TRUMP.",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "TRUMP",
+    "website": "https://trumpchain.dev/",
+    "explorers": [
+      {
+        "url": "https://explorer.trumpchain.dev/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "4613": {
     "name": "Very Network",
     "description": "Global web 3 chat platform that eliminates communication barriers for people around the world.",
@@ -3964,16 +4032,16 @@
     "name": "OEV Network",
     "description": "Arbitrum L2 optimistic-rollup by API3. The system ensures transparency and allows verification of the auction process.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/oev-network.png",
-    "ecosystem": "Arbitrum Orbit",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": "optimistic",
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://api3.org/",
     "explorers": [
       {
         "url": "https://oev.explorer.api3.org/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -4012,19 +4080,19 @@
     ]
   },
   "5101": {
-    "name": "Syndicate",
-    "description": "APIs infrastructure for building highly scalable, user-friendly, web3-powered products",
+    "name": "Syndicate Frame",
+    "description": "An OP Stack L3 on Base with Celestia underneath unlocking high throughput and extremely low gas costs for Frame developers.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad2f65b7708ba60ea7_syndicate.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Base",
     "isTestnet": false,
     "layer": 3,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://syndicate.io/",
     "explorers": [
       {
         "url": "https://explorer-frame.syndicate.io/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -4032,16 +4100,16 @@
     "name": "Ham",
     "description": "Experimental Layer 3 rollup, backed by a memcoin and bootstrapped by an NFT mint, built on the OP stack and Base.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b8572f6ef5cb4183f_Ham.png",
-    "ecosystem": "Optimism",
+    "ecosystem": "Base",
     "isTestnet": false,
     "layer": 3,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://ham.fun/",
     "explorers": [
       {
-        "url": "https://explorer.ham.fun/",
-        "hostedBy": "self"
+        "url": "https://ham.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -4538,6 +4606,23 @@
       }
     ]
   },
+  "7534": {
+    "name": "Rivalz",
+    "description": "The World Abstraction Layer for AI and AI Agents.",
+    "logo": "",
+    "ecosystem": "Arbitrum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://rivalz.ai/",
+    "explorers": [
+      {
+        "url": "https://rivalz.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "7771": {
     "name": "Bit Rock Testnet",
     "description": "Ethereum IBFT 2.0 Proof of Authority (PoA) side chain with near-zero native gas fees.",
@@ -4576,11 +4661,11 @@
     "name": "Kinto Mainnet",
     "description": "Sybil Resistant blockchain with User-Owned KYC and enforced Account Abstraction",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/kinto.svg",
-    "ecosystem": "Arbitrum",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
     "settlementLayerChainId": "1",
-    "rollupType": null,
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://www.kinto.xyz/",
     "explorers": [
@@ -4659,7 +4744,7 @@
     ]
   },
   "8333": {
-    "name": "B3",
+    "name": "B3 Mainnet",
     "description": "Fun-first gaming ecosystem built on Base.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/B3.png",
     "ecosystem": "Base",
@@ -4671,7 +4756,7 @@
     "explorers": [
       {
         "url": "https://explorer.b3.fun",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -5322,6 +5407,23 @@
       }
     ]
   },
+  "12323": {
+    "name": "Huddle01",
+    "description": "World’s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://huddle01.com/",
+    "explorers": [
+      {
+        "url": "https://huddle01.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "12553": {
     "name": "RSS3",
     "description": "A decentralized network indexing and structuring open information - environment for open AI, search and social.",
@@ -5440,6 +5542,23 @@
       {
         "url": "https://explorer.pecorino.signet.sh/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "14235": {
+    "name": "Bitlazer",
+    "description": "Bitlazer powered by Caldera",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "LzrBTC",
+    "website": "https://caldera.xyz/",
+    "explorers": [
+      {
+        "url": "https://bitlazer.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -6839,6 +6958,23 @@
       }
     ]
   },
+  "82614": {
+    "name": "VEMP Horizon",
+    "description": "Horizon is a specialist blockchain rollup for community centric on-chain gaming.",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "VEMP",
+    "website": "https://www.vemp.xyz/",
+    "explorers": [
+      {
+        "url": "https://vemp-horizon.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "84532": {
     "name": "Base Sepolia",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
@@ -6898,13 +7034,13 @@
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://www.henez.fi/",
     "explorers": [
       {
-        "url": "https://explorer.henez.fi/",
-        "hostedBy": "self"
+        "url": "https://henez.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -7238,13 +7374,13 @@
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "optimistic",
     "native_currency": "ETH",
     "website": "https://form.network/",
     "explorers": [
       {
         "url": "https://explorer.form.network/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -7569,6 +7705,23 @@
       {
         "url": "https://metalscan.io/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "383353": {
+    "name": "Cheese Chain",
+    "description": "CheeseChain is a Layer 3 EVM chain using $CHEESE.",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "CHEESE",
+    "website": "https://cheesechain.xyz/",
+    "explorers": [
+      {
+        "url": "https://cheesechain.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -8359,14 +8512,14 @@
       }
     ]
   },
-  "10241025": {
+  "10241024": {
     "name": "AlienX",
-    "description": "ALIENX is a high-performance blockchain driven by AI nodes, dedicated to becoming the blockchain infrastructure for NFTs and gaming",
+    "description": "Staking blockchain driven by AI node for NFT and game mass adoption.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/666499d21156a702d953f277_alienx.png",
-    "ecosystem": "Arbitrum",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
-    "rollupType": null,
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://alienxchain.io/home",
     "explorers": [
@@ -8459,6 +8612,23 @@
       {
         "url": "https://explorer.testnet.riselabs.xyz/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "13863860": {
+    "name": "Symbiosis",
+    "description": "Cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "SIS",
+    "website": "https://symbiosis.finance/",
+    "explorers": [
+      {
+        "url": "https://symbiosis.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -8891,17 +9061,17 @@
   "1380012617": {
     "name": "RARI Chain",
     "description": "Embeds royalties on the node level to guarantee royalty payments, powered by Arbitrum.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29874f1ce4bfa053b06_RARI.png",
+    "logo": "",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
-    "rollupType": null,
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://rarichain.org/",
     "explorers": [
       {
         "url": "https://mainnet.explorer.rarichain.org/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -9077,7 +9247,7 @@
   },
   "5565244900": {
     "name": "Towns Testnet",
-    "description": "Open source protocol for building decentralized real-time messaging apps.",
+    "description": "Communication onchain. Build decentralized, encrypted messaging apps on Towns.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
     "ecosystem": "Base",
     "isTestnet": true,
@@ -11151,18 +11321,18 @@
   },
   "360__": {
     "name": "Molten",
-    "description": "Trading optimized modular L3 built for ultra low fees, no MEV, and lighting fast trades.",
+    "description": "Secure, ultra low cost, and OEV protected layer 2 made for traders.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c296eecd44b3f2163c16_Molten.png",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
+    "layer": 2,
+    "rollupType": "arbitrum",
     "native_currency": "MOLTEN",
     "website": "https://www.moltennetwork.com/",
     "explorers": [
       {
         "url": "https://molten.calderaexplorer.xyz/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
