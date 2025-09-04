@@ -1043,7 +1043,7 @@
   "273": {
     "name": "XR1",
     "description": "Gaming studio combining Web3, AI, and immersive tech.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/xr1.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
@@ -2458,7 +2458,7 @@
   "1345": {
     "name": "OpenZK",
     "description": "Unites native ETH staking, liquid restaking, and stablecoin staking in one seamless platform.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/openzk.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3096,7 +3096,7 @@
   "1993": {
     "name": "B3 Testnet",
     "description": "Fun-first gaming ecosystem built on Base.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/B3.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/b3.png",
     "ecosystem": "Base",
     "isTestnet": true,
     "layer": 3,
@@ -3130,7 +3130,7 @@
   "1996": {
     "name": "Sanko Nitro Mainnet",
     "description": "Gaming Arbitrum Orbit Layer 3 created by the on-chain game studio Sanko GameCorp.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sanko.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
@@ -3232,7 +3232,7 @@
   "2026": {
     "name": "Edgeless",
     "description": "Edgeless is the first fee free ecosystem for users.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/edgeless.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3402,7 +3402,7 @@
   "2410": {
     "name": "K2",
     "description": "Modular blockchain with native risk management, shared security, and AI infrastructure built for the next billion users.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/k2.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3419,7 +3419,7 @@
   "2420": {
     "name": "Rufus",
     "description": "Dogelon Mars’s Layer-2 chain, Rufus, is designed to reduce gas fees and support a GameFi ecosystem.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rufus.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3572,7 +3572,7 @@
   "2911": {
     "name": "Hychain",
     "description": "L2 built to enable mass adoption of massive web3 games.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hychain.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3980,7 +3980,7 @@
   "4547": {
     "name": "TRUMPCHAIN",
     "description": "The (unofficial) native chain for $TRUMP.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/trumpchain.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 2,
@@ -4133,7 +4133,7 @@
   "5112": {
     "name": "Ham",
     "description": "Experimental Layer 3 rollup, backed by a memcoin and bootstrapped by an NFT mint, built on the OP stack and Base.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b8572f6ef5cb4183f_Ham.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ham.png",
     "ecosystem": "Base",
     "isTestnet": false,
     "layer": 3,
@@ -4643,7 +4643,7 @@
   "7534": {
     "name": "Rivalz",
     "description": "The World Abstraction Layer for AI and AI Agents.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rivalz.png",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
     "layer": 2,
@@ -4780,7 +4780,7 @@
   "8333": {
     "name": "B3 Mainnet",
     "description": "Fun-first gaming ecosystem built on Base.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/B3.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/b3.png",
     "ecosystem": "Base",
     "isTestnet": false,
     "layer": 3,
@@ -5444,7 +5444,7 @@
   "12323": {
     "name": "Huddle01",
     "description": "World’s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/huddle01.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
@@ -5582,7 +5582,7 @@
   "14235": {
     "name": "Bitlazer",
     "description": "Bitlazer powered by Caldera",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitlazer.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 2,
@@ -6332,7 +6332,7 @@
   "45513": {
     "name": "Blessnet",
     "description": "Bless enables everyday devices to power the websites and services they engage with.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/blessnet.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 2,
@@ -7012,7 +7012,7 @@
   "82614": {
     "name": "VEMP Horizon",
     "description": "Horizon is a specialist blockchain rollup for community centric on-chain gaming.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/vemp-horizon.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
@@ -7670,7 +7670,7 @@
     "explorers": [
       {
         "url": "https://parthenon.athenescan.io/",
-        "hostedBy": "blockscout"
+        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -7762,7 +7762,7 @@
   "383353": {
     "name": "Cheese Chain",
     "description": "CheeseChain is a Layer 3 EVM chain using $CHEESE.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/cheese-chain.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 3,
@@ -8669,7 +8669,7 @@
   "13863860": {
     "name": "Symbiosis",
     "description": "Cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/symbiosis.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
