@@ -11166,3 +11166,23 @@
     "logo": "https://explorer.fitochain.com/assets/configs/network_logo.png"
   }
 }
+{
+  "9194": {
+    "name": "XYBERCHAIN",
+    "description": "EVM-compatible blockchain focused on low fees and fast block confirmation, with native XYB token.",
+    "ecosystem": ["Ethereum"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "XYB",
+    "website": "https://www.xyberchain.network",
+    "explorers": [
+      {
+        "url": "https://www.xyberchainexplorer.xyz",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://uploads.onecompiler.io/42p32vw56/43r98bm5g/WhatsApp%20Image%202025-07-19%20at%204,04,18%20PM-photoaidcom-cropped.jpeg"
+  }
+}
+
