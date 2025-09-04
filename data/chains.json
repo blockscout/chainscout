@@ -1040,6 +1040,23 @@
       }
     ]
   },
+  "273": {
+    "name": "XR1",
+    "description": "Gaming studio combining Web3, AI, and immersive tech.",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "XR1",
+    "website": "https://www.saltwatergames.com/",
+    "explorers": [
+      {
+        "url": "https://xr1.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "277": {
     "name": "Ozone Testnet",
     "description": "Quantum resistant blockchain with embedded quantum security technologies included.",
@@ -3212,6 +3229,23 @@
       }
     ]
   },
+  "2026": {
+    "name": "Edgeless",
+    "description": "Edgeless is the first fee free ecosystem for users.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "EwEth",
+    "website": "https://www.edgeless.network/",
+    "explorers": [
+      {
+        "url": "https://edgeless-mainnet.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "2039": {
     "name": "Aleph Zero Testnet",
     "description": "Blazingly fast blockchain with modular ZK.",
@@ -3401,7 +3435,7 @@
   },
   "2424": {
     "name": "inEVM Testnet",
-    "description": "Hyperscale Ethereum development, the first rollup designed to supercharge concurrent VM development.",
+    "description": "Injective is the first blockchain built for finance. Powering DeFi, RWAs, AI & institutions.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/inevm.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
@@ -3435,18 +3469,18 @@
   },
   "2525": {
     "name": "inEVM Mainnet",
-    "description": "Hyperscale Ethereum development, the first rollup designed to supercharge concurrent VM development.",
+    "description": "Injective is the first blockchain built for finance. Powering DeFi, RWAs, AI & institutions.",
     "logo": "https://blockscout-icons.s3.amazonaws.com/inEVM.png",
-    "ecosystem": "Ethereum",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
+    "layer": 2,
+    "rollupType": "arbitrum",
     "native_currency": "INJ",
     "website": "https://inevm.com/",
     "explorers": [
       {
-        "url": "https://explorer.inevm.com/",
-        "hostedBy": "self"
+        "url": "https://inevm.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -6295,6 +6329,23 @@
       }
     ]
   },
+  "45513": {
+    "name": "Blessnet",
+    "description": "Bless enables everyday devices to power the websites and services they engage with.",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "BLESS",
+    "website": "https://bless.network/",
+    "explorers": [
+      {
+        "url": "https://blessnet.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "47763": {
     "name": "Neo Smart Economy",
     "description": "Open network for smart economy, including NeoX, Neo's EVM-based sidechain.",
@@ -7848,8 +7899,8 @@
     ]
   },
   "543210": {
-    "name": "ZERϴ",
-    "description": "L2 network to make onchain more enjoyable & rewarding with zero gas fees.",
+    "name": "ZERϴ Network",
+    "description": "EVM-compatible rollup that eliminates the need for gas entirely within the network.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zero.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
@@ -7859,8 +7910,8 @@
     "website": "https://zero.network/",
     "explorers": [
       {
-        "url": "https://explorer.zero.network/",
-        "hostedBy": "self"
+        "url": "https://zero-network.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
