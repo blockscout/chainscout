@@ -921,6 +921,23 @@
       }
     ]
   },
+  "216": {
+    "name": "HappyChain Testnet",
+    "description": "A self-developed high TPS game public chain project based on Ethereum.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/happychain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "HAPPY",
+    "website": "https://linktr.ee/happychaindevs",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.happy.tech/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "227": {
     "name": "Prom Mainnet",
     "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
@@ -1269,8 +1286,8 @@
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b162b55cfbdd7d02a2c45_syndr.png",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
+    "layer": 3,
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://syndr.com",
     "explorers": [
@@ -1327,6 +1344,23 @@
     "explorers": [
       {
         "url": "https://explorer.appchain.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
+  "475": {
+    "name": "zkXPLA Testnet",
+    "description": "Tendermint-based Layer 1 blockchain that serves as a hub for digital media content.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/xpla.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://www.xpla.io/en",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.playontoy.com/",
         "hostedBy": "caldera"
       }
     ]
@@ -1533,6 +1567,23 @@
       {
         "url": "https://explorer-mainnet-cardano-evm.c1.milkomeda.com/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "616": {
+    "name": "Studio Chain Testnet",
+    "description": "Blockchain built for Web3 gaming and entertainment.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "KARRAT",
+    "website": "https://www.karratcoin.com/",
+    "explorers": [
+      {
+        "url": "https://studio-chain.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -3093,6 +3144,23 @@
       }
     ]
   },
+  "1992": {
+    "name": "Sanko Testnet",
+    "description": "Gaming Arbitrum Orbit Layer 3 created by the on-chain game studio Sanko GameCorp.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sanko.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "TDMT",
+    "website": "https://sanko.xyz/",
+    "explorers": [
+      {
+        "url": "https://sanko-arb-sepolia.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "1993": {
     "name": "B3 Testnet",
     "description": "Fun-first gaming ecosystem built on Base.",
@@ -3294,6 +3362,23 @@
       {
         "url": "https://web3-explorer-mesos.thestratos.org/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "2099": {
+    "name": "Prime Chain Testnet",
+    "description": "The first gamechain on B3 Open Gaming.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/prime-chain.png",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://www.b3.fun/",
+    "explorers": [
+      {
+        "url": "https://prime-chain.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -3705,6 +3790,23 @@
       }
     ]
   },
+  "3443": {
+    "name": "Rabble Chain Testnet",
+    "description": "Arming buidlers with on-chain tools to solve for talent, capital, GTM and distribution.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rabble-chain.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://www.rabble.pro/",
+    "explorers": [
+      {
+        "url": "https://rabble-chain-testnet.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "3502": {
     "name": "JFIN POS",
     "description": "Powerful blockchain platform that can help businesses unlock new opportunities for growth and innovation.",
@@ -3906,6 +4008,23 @@
       {
         "url": "https://sepolia-blockscout.lisk.com/",
         "hostedBy": "gelato-raas"
+      }
+    ]
+  },
+  "4221": {
+    "name": "GenLayer Testnet",
+    "description": "Trust Infrastructure for the AI Age.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/genlayer.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "GEN",
+    "website": "https://www.genlayer.com/",
+    "explorers": [
+      {
+        "url": "https://genlayer-testnet.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -5118,6 +5237,23 @@
       }
     ]
   },
+  "9296": {
+    "name": "ZaynZK Testnet",
+    "description": "Driving Web3 Innovation Across MENAP & SEA.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zaynzk.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://zayn.network/",
+    "explorers": [
+      {
+        "url": "https://zaynzk-testnet.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "9302": {
     "name": "Galactica",
     "description": "EVM L1 powered by Cosmos SDK. Among the core features are contingent transactions, zkCertificates and KYC Guardians.",
@@ -5442,7 +5578,7 @@
     ]
   },
   "12323": {
-    "name": "Huddle01",
+    "name": "Huddle01 Mainnet",
     "description": "World’s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/huddle01.png",
     "ecosystem": "Arbitrum Orbit",
@@ -5581,14 +5717,14 @@
   },
   "14235": {
     "name": "Bitlazer",
-    "description": "Bitlazer powered by Caldera",
+    "description": "Supercharged Bitcoin yield with Layer 3 speed and ultra-low transaction fees.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/bitlazer.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
-    "layer": 2,
+    "layer": 3,
     "rollupType": "arbitrum",
     "native_currency": "LzrBTC",
-    "website": "https://caldera.xyz/",
+    "website": "https://bitlazer.io/",
     "explorers": [
       {
         "url": "https://bitlazer.calderaexplorer.xyz/",
@@ -5954,13 +6090,13 @@
     ]
   },
   "33111": {
-    "name": "ApeCoin",
+    "name": "APE Curtis",
     "description": "ApeCoin testnet includes the network itself, Ape token and others, and a bridge from Curtis to Arbitrum Sepolia.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/66c4d1d2e6837b8a9ef9969e_ApeCoin.png",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 3,
-    "rollupType": null,
+    "rollupType": "arbitrum",
     "native_currency": "APE",
     "website": "https://apecoin.com/",
     "explorers": [
@@ -6717,6 +6853,23 @@
       {
         "url": "https://explorer-sepolia.perennial.foundation/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "61224": {
+    "name": "Oceanum Testnet",
+    "description": "Decentralized AI personalization protocol, anchored in a shared intelligence layer.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/oceanum.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "BLUAI",
+    "website": "https://www.bluwhale.com/",
+    "explorers": [
+      {
+        "url": "https://oceanum-testnet.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -7571,6 +7724,23 @@
       }
     ]
   },
+  "212000": {
+    "name": "SxT Testnet",
+    "description": "Space and Time is a blockchain for ZK-proven data.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/sxt.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://www.spaceandtime.io/",
+    "explorers": [
+      {
+        "url": "https://sxt-testnet-avail.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "222222": {
     "name": "Hydradx",
     "description": "EVM-compatible blockchain for the HydraDX next-gen DeFi protocol.",
@@ -7799,14 +7969,14 @@
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b162b55cfbdd7d02a2c45_syndr.png",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
+    "layer": 3,
+    "rollupType": "arbitrum",
     "native_currency": "ETH",
     "website": "https://syndr.com",
     "explorers": [
       {
-        "url": "https://sepolia-explorer.syndr.com/",
-        "hostedBy": "self"
+        "url": "https://syndr-l3-sepolia.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -7911,6 +8081,23 @@
     "explorers": [
       {
         "url": "https://zero-network.calderaexplorer.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
+  "559955": {
+    "name": "Ungaii Testnet",
+    "description": "A Global IPs Gaming Publisher Chain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ungaii.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "UNG",
+    "website": "https://x.com/ungaiichain",
+    "explorers": [
+      {
+        "url": "https://ungaii-chain-testnet.explorer.caldera.xyz/",
         "hostedBy": "caldera"
       }
     ]
@@ -8375,6 +8562,23 @@
       }
     ]
   },
+  "1632025": {
+    "name": "Rayls Steam Testnet",
+    "description": "Scalable private and public blockchain for financial institutions and individuals.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rayls.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "",
+    "website": "https://www.rayls.com/",
+    "explorers": [
+      {
+        "url": "https://rayls-test-chain.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
   "1637450": {
     "name": "Xterio Testnet",
     "description": "Decentralized game publisher connecting games and players through $XTER.",
@@ -8406,6 +8610,40 @@
       {
         "url": "https://testnet.layerxscan.com/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "2524852": {
+    "name": "Huddle01 Testnet",
+    "description": "World’s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/huddle01.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://huddle01.com/",
+    "explorers": [
+      {
+        "url": "https://huddle-testnet.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
+  "3441006": {
+    "name": "Manta Sepolia",
+    "description": "Modular L2 ecosystem for EVM-native ZK applications and dApps that want to deliver the lowest cost and best experience for users.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65bd5357954c62a6f3942897_manta.network.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://manta.network/",
+    "explorers": [
+      {
+        "url": "https://manta-sepolia.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -8526,6 +8764,23 @@
       {
         "url": "https://blockscout.xga.com/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "8884571": {
+    "name": "Solo Testnet",
+    "description": "SOLO is the first Agentic DePIN Mining Chain, built on the Optimism Superchain and powered by Caldera and Hyperlane.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/solo.png",
+    "ecosystem": "Base",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://solo.tech/",
+    "explorers": [
+      {
+        "url": "https://solo-testnet.explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -9300,7 +9555,7 @@
     "name": "Towns Testnet",
     "description": "Communication onchain. Build decentralized, encrypted messaging apps on Towns.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
-    "ecosystem": "Base",
+    "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
@@ -9309,7 +9564,7 @@
     "explorers": [
       {
         "url": "https://testnet.explorer.towns.com/",
-        "hostedBy": "self"
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -11689,6 +11944,23 @@
       {
         "url": "https://devnet2blockscout.platon.network/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "21000000_": {
+    "name": "TOY CHAIN Testnet",
+    "description": "Built with purpose to solve the biggest challenge in gaming and entertainment—distribution—using the AI Consumer Engine for end users.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/toy-chain.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "TOY",
+    "website": "https://hub.xyz/toy",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.playontoy.com/",
+        "hostedBy": "caldera"
       }
     ]
   },
