@@ -8165,7 +8165,7 @@
     "website": "https://to.nexus/",
     "explorers": [
       {
-        "url": "https://crossscan.io/",
+        "url": "https://www.crossscan.io/",
         "hostedBy": "blockscout"
       }
     ]
@@ -10787,7 +10787,7 @@
     "website": "https://redstone.xyz/",
     "explorers": [
       {
-        "url": "https://garnet.blockscout.com/",
+        "url": "https://explorer.garnetchain.com/",
         "hostedBy": "blockscout"
       }
     ]
