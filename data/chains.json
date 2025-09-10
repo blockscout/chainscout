@@ -5288,6 +5288,23 @@
       }
     ]
   },
+  "9897": {
+    "name": "Arena-Z-Testnet",
+    "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20514ab5756e2e37e133_Arena-Z.png",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://arena-z.gg/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.arena-z.gg/",
+        "hostedBy": "gelato-raas"
+      }
+    ]
+  },
   "9898": {
     "name": "Larissa Chain",
     "description": "Next-generation blockchain that leverages an EVM-based architecture and a robust Proof of Work consensus mechanism.",
