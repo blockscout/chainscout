@@ -3836,7 +3836,7 @@
     "website": "https://xone.org",
     "explorers": [
       {
-        "url": "https://xscscan.com/",
+        "url": "https://xonescan.com/",
         "hostedBy": "self"
       }
     ]
@@ -8950,7 +8950,7 @@
     "website": "https://xone.org",
     "explorers": [
       {
-        "url": "https://testnet.xscscan.com/",
+        "url": "https://testnet.xonescan.com/",
         "hostedBy": "self"
       }
     ]
