@@ -5458,23 +5458,6 @@
       }
     ]
   },
-  "10888": {
-    "name": "GameSwift Chain Testnet",
-    "description": "One-stop web3 gaming ecosystem",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6682d5bee57ead8ace223b31_Gameswift.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "tGS",
-    "website": "https://gameswift.io/",
-    "explorers": [
-      {
-        "url": "https://testnet.gameswift.io/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "11011": {
     "name": "Shape Testnet",
     "description": "Chain for creators, built on top of Ethereum using OP Stack.",
