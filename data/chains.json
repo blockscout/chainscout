@@ -5288,23 +5288,6 @@
       }
     ]
   },
-  "9897": {
-    "name": "Arena-Z-Testnet",
-    "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20514ab5756e2e37e133_Arena-Z.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://arena-z.gg/",
-    "explorers": [
-      {
-        "url": "https://arena-z.blockscout.com",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "9898": {
     "name": "Larissa Chain",
     "description": "Next-generation blockchain that leverages an EVM-based architecture and a robust Proof of Work consensus mechanism.",
@@ -5865,23 +5848,6 @@
       {
         "url": "https://scan.mal.network/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "18233": {
-    "name": "Tangible Unreal Testnet",
-    "description": "The first permissionless L2 for tokenized real world assets",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/re.al.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "reETH",
-    "website": "https://www.re.al/",
-    "explorers": [
-      {
-        "url": "https://unreal.blockscout.com/",
-        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -7469,23 +7435,6 @@
       }
     ]
   },
-  "111188": {
-    "name": "Tangible re.al",
-    "description": "The first permissionless L2 for tokenized real world assets",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/re.al.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "reETH",
-    "website": "https://www.re.al/",
-    "explorers": [
-      {
-        "url": "https://explorer.re.al/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "111222": {
     "name": "LibraChain",
     "description": "Blockchain platform offering fee-free transactions for businesses, dApps, and users.",
@@ -7775,23 +7724,6 @@
       }
     ]
   },
-  "241120": {
-    "name": "Anomaly",
-    "description": "AI-gaming app chain that integrates custom AI engine built mini-games directly into social platforms.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67064cffbb9c3d3ce9175495_Anomaly.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "tNOM",
-    "website": "https://www.theanomaly.xyz/",
-    "explorers": [
-      {
-        "url": "https://andromeda.anomalyscan.io/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "247253": {
     "name": "Saakuru Testnet",
     "description": "Consumer-centric L1 with zero transaction fees.",
@@ -7890,7 +7822,7 @@
     "website": "https://www.campnetwork.xyz/",
     "explorers": [
       {
-        "url": "https://camp-network-testnet.blockscout.com/",
+        "url": "https://basecamp.cloud.blockscout.com/",
         "hostedBy": "gelato-raas"
       }
     ]
