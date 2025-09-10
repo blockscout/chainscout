@@ -7452,23 +7452,6 @@
       }
     ]
   },
-  "112112": {
-    "name": "abc",
-    "description": "The first Gigagas stack for EVM Sovereign Rollups.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/abc.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "TEST",
-    "website": "https://www.abundance.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.abc.t.raas.gelato.cloud/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "112358": {
     "name": "Metachain One",
     "description": "Zero fees gaming blockchain.",
