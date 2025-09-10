@@ -3583,10 +3583,6 @@
       {
         "url": "https://xonescan.com/",
         "hostedBy": "self"
-      },
-      {
-        "url": "https://blockscout.xonescan.com/",
-        "hostedBy": "hosting-provider"
       }
     ]
   },
