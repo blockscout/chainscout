@@ -511,22 +511,6 @@
       }
     ]
   },
-  "110": {
-    "name": "Etherlite",
-    "description": "Scalability solution with POSDAO consensus.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53a0eb686fb41dfe9ba_etherlite.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "website": "https://etherlite.org/",
-    "explorers": [
-      {
-        "url": "https://explorer.etherlite.org/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "111": {
     "name": "BOB Testnet",
     "description": "Hybrid L2 that combines the security of Bitcoin with the versatility of Ethereum.",
@@ -1604,23 +1588,6 @@
       }
     ]
   },
-  "644": {
-    "name": "Findora",
-    "description": "Open, permissionless blockchain featuring programmable privacy features.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53a568186c740838d72_findora.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": null,
-    "website": "https://findora.org/",
-    "explorers": [
-      {
-        "url": "https://evm.findorascan.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "648": {
     "name": "Endurance",
     "description": "Fusionist's mainnet, social and game oriented infrastructure layer.",
@@ -1907,23 +1874,6 @@
     "explorers": [
       {
         "url": "https://mainnet.maxi.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "917": {
-    "name": "Rinia",
-    "description": "Firechain is a L1 & L2 open source platform to write and distribute decentralized applications.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/firechain.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "FIRE",
-    "website": "https://thefirechain.com/",
-    "explorers": [
-      {
-        "url": "https://rinia-rpc1.thefirechain.com/",
         "hostedBy": "self"
       }
     ]
@@ -3479,7 +3429,7 @@
     "website": "https://tac.build/",
     "explorers": [
       {
-        "url": "https://tac-turin.blockscout.com/",
+        "url": "https://turin.explorer.tac.build/",
         "hostedBy": "blockscout"
       }
     ]
@@ -4539,18 +4489,18 @@
     ]
   },
   "6398": {
-    "name": "Connext Testnet",
-    "description": "Connext is a network for fast, trustless communication between chains and rollups.",
+    "name": "Everclear Testnet",
+    "description": "Everclear is the cross-chain clearing and settlement protocol that solves liquidity fragmentation for blockchains and digital assets.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e554e425596f35cdc2686_connext.png",
     "ecosystem": "Arbitrum",
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
     "native_currency": "ETH",
-    "website": "https://www.connext.network/",
+    "website": "https://www.everclear.org/",
     "explorers": [
       {
-        "url": "https://connext-sepolia.blockscout.com/",
+        "url": "https://scan.testnet.everclear.org/",
         "hostedBy": "gelato-raas"
       }
     ]
@@ -4671,23 +4621,6 @@
       {
         "url": "https://zetachain-athens-3.blockscout.com/",
         "hostedBy": "gelato-raas"
-      }
-    ]
-  },
-  "7007": {
-    "name": "BST Chain",
-    "description": "Scalable, secure, and sustainable platform for building and deploying decentralized applications powered by zero-knowledge technology.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67064d58215392e5f74b84de_BST-Chain.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": null,
-    "website": "https://bstchain.io/",
-    "explorers": [
-      {
-        "url": "https://bstscan.com/",
-        "hostedBy": "self"
       }
     ]
   },
@@ -7537,23 +7470,6 @@
       }
     ]
   },
-  "150150": {
-    "name": "Hedwig Chain",
-    "description": "OP-stack playground designed for developers, with no gas fees.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hedwig.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://hedwig.build/",
-    "explorers": [
-      {
-        "url": "https://explorer-testnet.hedwig.build/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "150887": {
     "name": "Maximo Testnet",
     "description": "Maximo Protocol is a public infrastructure for on-chain attestations.",
@@ -7686,23 +7602,6 @@
     "explorers": [
       {
         "url": "https://explorer.evm.hydration.cloud/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "224433": {
-    "name": "CONET",
-    "description": "Foundational infrastructure project turning the Internet into a wallet-to-wallet network.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b1437ed54fbdee8b7d57f_conet.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "CoNET",
-    "website": "https://conet.network/",
-    "explorers": [
-      {
-        "url": "https://scan.conet.network/",
         "hostedBy": "self"
       }
     ]
