@@ -5349,10 +5349,10 @@
     "layer": 1,
     "rollupType": null,
     "native_currency": "XDAI",
-    "website": "https://gnosis-chiado.blockscout.com/",
+    "website": "https://docs.gnosischain.com/about/networks/chiado",
     "explorers": [
       {
-        "url": "https://gnosis.blockscout.com/",
+        "url": "https://gnosis-chiado.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
