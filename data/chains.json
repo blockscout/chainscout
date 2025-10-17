@@ -11794,5 +11794,22 @@
       }
     ],
     "logo": "https://explorer.fitochain.com/assets/configs/network_logo.png"
+  },
+  "478549": {
+    "name": "Mintrax Mainnet",
+    "description": "A decentralized mining & token ecosystem powered by MTX.",
+    "ecosystem": ["Ethereum"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MTX",
+    "website": "https://mintrax.network",
+    "explorers": [
+      {
+        "url": "https://explorer.mintrax.network",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://app.mintrax.network/images/MTT.png"
   }
 }
