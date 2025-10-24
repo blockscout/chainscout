@@ -1147,7 +1147,7 @@
   "314": {
     "name": "Filecoin Virtual Machine",
     "description": "The Filecoin Virtual Machine (FVM) is a runtime environment for smart contracts (also called actors) on the Filecoin network, bringing user programmability to Filecoin.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fvm.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/filecoin.png",
     "ecosystem": "Filecoin",
     "isTestnet": false,
     "layer": 1,
@@ -7269,7 +7269,7 @@
   "101010": {
     "name": "Stability Global Trust Network",
     "description": "The first tokenless public blockchain network.",
-    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/network-icons/stability-short.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/stability.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -7661,7 +7661,7 @@
   "314159": {
     "name": "Filecoin Calibration Testnet",
     "description": "Filecoin is a peer-to-peer network that stores files, with built-in economic incentives and cryptography to ensure files are stored reliably over time.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e207404eff9bc6316bae3_Filecoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/filecoin.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -8772,7 +8772,7 @@
   "20180427": {
     "name": "Stability Testnet",
     "description": "The first tokenless public blockchain network.",
-    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/network-icons/stability-short.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/stability.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
