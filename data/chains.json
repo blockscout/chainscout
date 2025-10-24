@@ -1147,7 +1147,7 @@
   "314": {
     "name": "Filecoin Virtual Machine",
     "description": "The Filecoin Virtual Machine (FVM) is a runtime environment for smart contracts (also called actors) on the Filecoin network, bringing user programmability to Filecoin.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/filecoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/filecoin.svg",
     "ecosystem": "Filecoin",
     "isTestnet": false,
     "layer": 1,
@@ -7661,7 +7661,7 @@
   "314159": {
     "name": "Filecoin Calibration Testnet",
     "description": "Filecoin is a peer-to-peer network that stores files, with built-in economic incentives and cryptography to ensure files are stored reliably over time.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/filecoin.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/filecoin.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
