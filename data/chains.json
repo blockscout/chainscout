@@ -665,6 +665,23 @@
       }
     ]
   },
+  "135": {
+    "name": "Roax Tricca Testnet",
+    "description": "ROAX is a network for decentralized healthcare systems",
+    "logo": "https://drive.google.com/file/d/160F4Eq25vaupGt7GKKBUXok4PlpIcpX0/view?usp=sharing",
+    "ecosystem": "ROAX",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "PLASMA",
+    "website": "https://roax.network",
+    "explorers": [
+      {
+        "url": "https://ethglobal-blockscout.roax.network",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "137": {
     "name": "Polygon PoS",
     "description": "EVM-compatible, proof-of-stake sidechain for Ethereum, with high throughput and low costs.",
