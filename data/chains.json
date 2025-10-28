@@ -7078,6 +7078,23 @@
       }
     ]
   },
+  "83333": {
+    "name": "OGORI",
+    "description": "OGORI is a high-performance blockchain network focused on decentralized applications and smart contracts with professional infrastructure and growing ecosystem.",
+    "logo": "https://ogori.vn/wp-content/uploads/2025/10/ogori.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ORI",
+    "website": "https://ogori.vn",
+    "explorers": [
+      {
+        "url": "https://explorer.ogori.one",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "84532": {
     "name": "Base Sepolia",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
