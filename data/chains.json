@@ -1061,7 +1061,7 @@
   "267": {
     "name": "Neura Testnet",
     "description": "Neura is a sovereign, EVM-compatible Layer 1 blockchain purpose-built for stablecoins, DeFi, and real-time digital finance.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/neura.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -1267,7 +1267,7 @@
   "369": {
     "name": "PulseChain",
     "description": "The faster, smarter, energy-efficient crypto network. Decentralized, censorship-resistant, primed for growth.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/pulsechain.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -1335,7 +1335,7 @@
   "414": {
     "name": "Flynet",
     "description": "The Flynet, will function as the network that records the use of $FLY between platform participants.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/flynet.png",
     "ecosystem": "Base",
     "isTestnet": false,
     "layer": 3,
@@ -1386,7 +1386,7 @@
   "432": {
     "name": "Converge Mainnet",
     "description": "The settlement layer for traditional finance and digital dollars.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/converge.jpg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -2804,7 +2804,7 @@
   "1612": {
     "name": "OpenLedger Mainnet",
     "description": "AI-blockchain infrastructure for training and deploying specialized models using community-owned datasets (Datanets).",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/openledger.jpg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3658,7 +3658,7 @@
   "2786": {
     "name": "Apertum",
     "description": "DAO-driven ecosystem enabling the launch of smart contracts with a deflationary model",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/apertum.png",
     "ecosystem": "Avalanche",
     "isTestnet": false,
     "layer": 1,
@@ -4100,7 +4100,7 @@
   "4242": {
     "name": "Nexi Chain",
     "description": "Creating a peer-to-peer, secure and permissionless environment for developers and builders to develop endless dApps.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexi-chain.jpg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -5462,7 +5462,7 @@
   "10087": {
     "name": "Gate Layer Testnet",
     "description": "A secure and scalable EVM-compatible Layer-1 blockchain designed for high-performance dApps.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/gate-layer.jpg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -5479,7 +5479,7 @@
   "10088": {
     "name": "Gate Layer Mainnet",
     "description": "A secure and scalable EVM-compatible Layer-1 blockchain designed for high-performance dApps.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/gate-layer.jpg",
     "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 2,
@@ -5649,7 +5649,7 @@
   "11690": {
     "name": "Incentiv Testnet",
     "description": "Build EVM-compatible dApps with Account Abstraction and pay lower gas fees via integrated DEX.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/incentiv.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -5700,7 +5700,7 @@
   "12343": {
     "name": "Elastos ECO",
     "description": "Decentralized internet infrastructure that gives users true digital ownership and privacy, secured by Bitcoin's hashpower.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/elastos.png",
     "ecosystem": "Bitcoin",
     "isTestnet": false,
     "layer": 1,
@@ -5923,7 +5923,7 @@
   "16180": {
     "name": "PLYR PHI L1",
     "description": "Empowering developers and gamers alike, our blockchain platform revolutionizes the gaming experience.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plyr.svg",
     "ecosystem": "Avalanche",
     "isTestnet": false,
     "layer": 1,
@@ -6178,7 +6178,7 @@
   "28802": {
     "name": "Incentiv Testnet 2",
     "description": "Build EVM-compatible dApps with Account Abstraction and pay lower gas fees via integrated DEX.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/incentiv.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -6348,7 +6348,7 @@
   "40882": {
     "name": "ZEDXION Testnet",
     "description": "Scalable Dpos EVM Blockchain solution designed to advance the goals of crypto-neobanking.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zedxion.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -7336,7 +7336,7 @@
   "83872": {
     "name": "ZEDXION Mainnet",
     "description": "Scalable Dpos EVM Blockchain solution designed to advance the goals of crypto-neobanking.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zedxion.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -7439,7 +7439,7 @@
   "91342": {
     "name": "GIWA Sepolia",
     "description": "Global infrastructure for Web3 access.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/giwa.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -7473,7 +7473,7 @@
   "97476": {
     "name": "Doma Testnet",
     "description": "Doma Protocol is a purpose-built blockchain to tokenize and unlock the liquidity of over 362M domains.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/doma.png",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -7490,7 +7490,7 @@
   "97477": {
     "name": "Doma Mainnet",
     "description": "Doma Protocol is a purpose-built blockchain to tokenize and unlock the liquidity of over 362M domains.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/doma.png",
     "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 2,
@@ -10336,7 +10336,7 @@
   "elastos": {
     "name": "Elastos",
     "description": "Smart contract sidechain leveraging a DPoS consensus mechanism",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe5385a2c412784749df2_elastos.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/elastos.png",
     "ecosystem": "Bitcoin/BCH",
     "isTestnet": false,
     "layer": 1,
@@ -10353,7 +10353,7 @@
   "elastos-1": {
     "name": "Elastos",
     "description": "Foundation building accessible tools for users to own and control their data.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c292d644cf0423b7801a_Elastos.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/elastos.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -10370,7 +10370,7 @@
   "elastos-testnet": {
     "name": "Elastos Testnet",
     "description": "Foundation building accessible tools for users to own and control their data.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c292d644cf0423b7801a_Elastos.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/elastos.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
