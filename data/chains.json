@@ -4879,24 +4879,6 @@
       }
     ]
   },
-  "7887": {
-    "name": "Kinto Mainnet",
-    "description": "Sybil Resistant blockchain with User-Owned KYC and enforced Account Abstraction",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/kinto.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
-    "settlementLayerChainId": "1",
-    "rollupType": "arbitrum",
-    "native_currency": "ETH",
-    "website": "https://www.kinto.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.kinto.xyz/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "7897": {
     "name": "Arena-Z",
     "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
@@ -6602,23 +6584,6 @@
       }
     ]
   },
-  "44787": {
-    "name": "Celo Alfajores",
-    "description": "The Alfajores Testnet is a Celo test network for developers building on the Celo platform.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/celo.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "CELO",
-    "website": "https://celo.org/",
-    "explorers": [
-      {
-        "url": "https://celo-alfajores.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "45513": {
     "name": "Blessnet",
     "description": "Bless enables everyday devices to power the websites and services they engage with.",
@@ -7092,23 +7057,6 @@
       {
         "url": "https://explorer.testnet.citrea.xyz/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "62320": {
-    "name": "Celo Baklava",
-    "description": "The Baklava Testnet is a non-production Testnet for the Validator community.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/celo.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "CELO",
-    "website": "https://celo.org/",
-    "explorers": [
-      {
-        "url": "https://celo-baklava.blockscout.com/",
-        "hostedBy": "blockscout"
       }
     ]
   },
