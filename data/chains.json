@@ -7891,6 +7891,10 @@
       {
         "url": "https://explorer.althea.link/",
         "hostedBy": "self"
+      },
+      {
+        "url": "https://validatorinfo.com/networks/althea/overview",
+        "hostedBy": "citizen-web3"
       }
     ]
   },
@@ -8899,6 +8903,10 @@
       {
         "url": "https://eth-sepolia.blockscout.com/",
         "hostedBy": "blockscout"
+      },
+      {
+        "url": "https://validatorinfo.com/networks/ethereum-sepolia/overview",
+        "hostedBy": "citizen-web3"
       }
     ]
   },
