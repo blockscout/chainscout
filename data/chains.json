@@ -3366,23 +3366,6 @@
       }
     ]
   },
-  "2039": {
-    "name": "Aleph Zero Testnet",
-    "description": "Blazingly fast blockchain with modular ZK.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aleph-zero.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "TZERO",
-    "website": "https://alephzero.org/",
-    "explorers": [
-      {
-        "url": "https://evm-explorer-testnet.alephzero.org/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "2040": {
     "name": "Vanar",
     "description": "Web3 blockchain build for entertainment, gaming, mixed reality and more.",
@@ -6344,23 +6327,6 @@
       }
     ]
   },
-  "41455": {
-    "name": "Aleph Zero EVM",
-    "description": "The first EVM-compatible ZK privacy with subsecond proving.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aleph-zero.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "AZERO",
-    "website": "https://alephzero.org/",
-    "explorers": [
-      {
-        "url": "https://evm-explorer.alephzero.org/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "41923": {
     "name": "EDU Chain",
     "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
@@ -7925,24 +7891,6 @@
       {
         "url": "https://explorer.althea.link/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "281123": {
-    "name": "Athene Parthenon",
-    "description": "Cutting-edge Ethereum L2 with a native AI integration.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/673bb36b0702519123dce2aa_athene%20network.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "11155111",
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://athene.network/",
-    "explorers": [
-      {
-        "url": "https://parthenon.athenescan.io/",
-        "hostedBy": "gelato-raas"
       }
     ]
   },
