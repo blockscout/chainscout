@@ -3264,23 +3264,6 @@
       }
     ]
   },
-  "2039": {
-    "name": "Aleph Zero Testnet",
-    "description": "Blazingly fast blockchain with modular ZK.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aleph-zero.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "TZERO",
-    "website": "https://alephzero.org/",
-    "explorers": [
-      {
-        "url": "https://evm-explorer-testnet.alephzero.org/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "2040": {
     "name": "Vanar",
     "description": "Web3 blockchain build for entertainment, gaming, mixed reality and more.",
@@ -3417,8 +3400,8 @@
       }
     ]
   },
-  "2390": {
-    "name": "TAC Turin",
+  "2391": {
+    "name": "TAC Spb",
     "description": "TAC is a purpose-built blockchain for EVM dApps to access TON and Telegram Ecosystem's 1B+ user base.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.svg",
     "ecosystem": "Ethereum",
@@ -3429,7 +3412,7 @@
     "website": "https://tac.build/",
     "explorers": [
       {
-        "url": "https://turin.explorer.tac.build/",
+        "url": "https://spb.explorer.tac.build/",
         "hostedBy": "blockscout"
       }
     ]
@@ -4740,24 +4723,6 @@
       {
         "url": "https://explorer-v2.powerloom.network/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "7887": {
-    "name": "Kinto Mainnet",
-    "description": "Sybil Resistant blockchain with User-Owned KYC and enforced Account Abstraction",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/kinto.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
-    "settlementLayerChainId": "1",
-    "rollupType": "arbitrum",
-    "native_currency": "ETH",
-    "website": "https://www.kinto.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.kinto.xyz/",
-        "hostedBy": "blockscout"
       }
     ]
   },
@@ -6104,23 +6069,6 @@
       {
         "url": "https://explorer.testnet.oasys.homeverse.games/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "41455": {
-    "name": "Aleph Zero EVM",
-    "description": "The first EVM-compatible ZK privacy with subsecond proving.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/aleph-zero.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "AZERO",
-    "website": "https://alephzero.org/",
-    "explorers": [
-      {
-        "url": "https://evm-explorer.alephzero.org/",
-        "hostedBy": "gelato-raas"
       }
     ]
   },
@@ -7637,24 +7585,6 @@
       {
         "url": "https://explorer.althea.link/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "281123": {
-    "name": "Athene Parthenon",
-    "description": "Cutting-edge Ethereum L2 with a native AI integration.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/673bb36b0702519123dce2aa_athene%20network.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "11155111",
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://athene.network/",
-    "explorers": [
-      {
-        "url": "https://parthenon.athenescan.io/",
-        "hostedBy": "gelato-raas"
       }
     ]
   },
