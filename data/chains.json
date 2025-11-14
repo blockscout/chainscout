@@ -993,7 +993,7 @@
   "239": {
     "name": "TAC Mainnet",
     "description": "TAC is a purpose-built blockchain for EVM dApps to access TON and Telegram Ecosystem's 1B+ user base.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.jpg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -3519,10 +3519,10 @@
       }
     ]
   },
-  "2390": {
-    "name": "TAC Turin",
+  "2391": {
+    "name": "TAC SPB",
     "description": "TAC is a purpose-built blockchain for EVM dApps to access TON and Telegram Ecosystem's 1B+ user base.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tac.jpg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -3531,7 +3531,7 @@
     "website": "https://tac.build/",
     "explorers": [
       {
-        "url": "https://turin.explorer.tac.build/",
+        "url": "https://spb.explorer.tac.build/",
         "hostedBy": "blockscout"
       }
     ]
