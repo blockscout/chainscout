@@ -7247,19 +7247,19 @@
       }
     ]
   },
-  "83872": {
-    "name": "ZEDXION Mainnet",
-    "description": "Scalable Dpos EVM Blockchain solution designed to advance the goals of crypto-neobanking.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zedxion.png",
+  "83333": {
+    "name": "OGORI",
+    "description": "OGORI is a high-performance blockchain network focused on decentralized applications and smart contracts with professional infrastructure and growing ecosystem.",
+    "logo": "https://ogori.vn/wp-content/uploads/2025/10/ogori.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "ZEDX",
-    "website": "https://www.zedxion.io/",
+    "native_currency": "ORI",
+    "website": "https://ogori.vn",
     "explorers": [
       {
-        "url": "https://zedscan.net/",
+        "url": "https://explorer.ogori.one",
         "hostedBy": "self"
       }
     ]
