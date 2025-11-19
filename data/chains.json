@@ -4590,6 +4590,23 @@
       }
     ]
   },
+  "6174": {
+    "name": "ANDE Network Testnet",
+    "description": "Sovereign EVM rollup built on Celestia DA with Token Duality Precompile, BFT Multi-Validator Consensus, and MEV Redistribution.",
+    "logo": "https://raw.githubusercontent.com/ethereum-lists/chains/master/_data/icons/ande.png",
+    "ecosystem": "Celestia",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "sovereign",
+    "native_currency": "ANDE",
+    "website": "https://ande.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.ande.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "6278": {
     "name": "Rails Network",
     "description": "EVM compatible blockchain with a proprietary consensus mechanism called Proof of Work by Authority (PoWbA).",
