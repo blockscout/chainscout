@@ -11080,8 +11080,8 @@
       }
     ]
   },
-  "taiko": {
-    "name": "Taiko ",
+  "167000": {
+    "name": "Taiko Alethia",
     "description": "A Type 1 (Ethereum-equivalent) ZK-EVM that aims for maximum compatibility.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65f220164c5812191498972e_taiko.png",
     "ecosystem": "Ethereum",
