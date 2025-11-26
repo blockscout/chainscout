@@ -1,21 +1,5 @@
-"3777": {
-    "name": "INRI CHAIN",
-    "description": "EVM Proof-of-Work chain focused on fair mining, fee burning, and low transaction costs.",
-    "logo": "https://raw.githubusercontent.com/inrichain/logoinrichain/main/Logo..png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "INRI",
-    "website": "https://inri.life",
-    "explorers": [
-      {
-        "url": "https://explorer.inri.life",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
- "1": {
+{
+  "1": {
     "name": "Ethereum",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ethereum.svg",
@@ -28,6 +12,23 @@
     "explorers": [
       {
         "url": "https://eth.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "3777": {
+    "name": "INRI CHAIN",
+    "description": "EVM Proof-of-Work chain focused on fair mining, fee burning, and low transaction costs.",
+    "logo": "https://raw.githubusercontent.com/inrichain/logoinrichain/main/Logo..png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "INRI",
+    "website": "https://inri.life",
+    "explorers": [
+      {
+        "url": "https://explorer.inri.life",
         "hostedBy": "blockscout"
       }
     ]
@@ -48,7 +49,9 @@
         "hostedBy": "self"
       }
     ]
-  },
+  }
+}
+
   "10": {
     "name": "OP Mainnet",
     "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
