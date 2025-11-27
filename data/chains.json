@@ -3914,7 +3914,7 @@
     "name": "INRI CHAIN",
     "description": "EVM Proof-of-Work chain focused on fair mining, fee burning, and low transaction costs.",
     "logo": "https://raw.githubusercontent.com/inrichain/logoinrichain/main/Logo..png",
-    "ecosystem": "Ethereum",
+      "ecosystem": ["Ethereum"],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
