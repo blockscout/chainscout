@@ -5577,6 +5577,23 @@
       }
     ]
   },
+  "11113": {
+    "name": "Compose Hoodi Rollup A",
+    "description": "A Horizontal Scaling Architecture for Synchronous Cross-Rollup Composability.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/compose.jpg",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://www.compose.network/",
+    "explorers": [
+      {
+        "url": "https://rollup-a.explorer.testnet.compose.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "11141": {
     "name": "Ankawings Network Testnet",
     "description": "Lower costs, high security, and advanced applications with new networks.",
@@ -6086,6 +6103,23 @@
       {
         "url": "https://ghadames.lbnchain.com/",
         "hostedBy": "conduit"
+      }
+    ]
+  },
+  "22224": {
+    "name": "Compose Hoodi Rollup B",
+    "description": "A Horizontal Scaling Architecture for Synchronous Cross-Rollup Composability.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/compose.jpg",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://www.compose.network/",
+    "explorers": [
+      {
+        "url": "https://rollup-b.explorer.testnet.compose.network/",
+        "hostedBy": "self"
       }
     ]
   },
