@@ -4216,6 +4216,23 @@
       }
     ]
   },
+  "4646": {
+    "name": "MST Mainnet",
+    "description": "A transformative solution by enabling organisations to share information securely and directly without a central authority.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mst.jpg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MSTC",
+    "website": "https://mstblockchain.com/",
+    "explorers": [
+      {
+        "url": "https://mstscan.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "4661": {
     "name": "AppChain Testnet",
     "description": "Incentivized low-cost L2 that allows developers to capture the value their dapps create, enabling sustainable economic models.",
@@ -4518,6 +4535,23 @@
     "explorers": [
       {
         "url": "https://explorer.tangle.tools",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5888": {
+    "name": "MANTRA",
+    "description": "MANTRA is an EVM-compatible Layer 1 Blockchain for RWAs, capable of adherence to real world regulatory requirements.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mantra.jpg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "OM",
+    "website": "https://mantrachain.io/",
+    "explorers": [
+      {
+        "url": "https://blockscout.mantrascan.io/",
         "hostedBy": "self"
       }
     ]
