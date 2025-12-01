@@ -7707,6 +7707,23 @@
       }
     ]
   },
+  "127823": {
+    "name": "Etherlink Shadownet",
+    "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/etherlink.svg",
+    "ecosystem": "Tezos",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "XTZ",
+    "website": "https://www.etherlink.com/",
+    "explorers": [
+      {
+        "url": "https://shadownet.explorer.etherlink.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "128123": {
     "name": "Etherlink Testnet",
     "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
