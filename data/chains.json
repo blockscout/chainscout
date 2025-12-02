@@ -4522,6 +4522,40 @@
       }
     ]
   },
+  "5887": {
+    "name": "MANTRACHAIN Testnet",
+    "description": "The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MANTRA",
+    "website": "https://mantrachain.io",
+    "explorers": [
+      {
+        "url": "https://explorer.dukong.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "5888": {
+    "name": "MANTRACHAIN Mainnet",
+    "description": "The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "OM",
+    "website": "https://mantrachain.io",
+    "explorers": [
+      {
+        "url": "https://blockscout.mantrascan.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "5920": {
     "name": "Chainweb EVM Chain20",
     "description": "An infinitely scalable PoW blockchain that improves upon Bitcoin's design.",
