@@ -10977,24 +10977,6 @@
       }
     ]
   },
-  "17069": {
-    "name": "Redstone Garnet",
-    "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/garnet.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "17000",
-    "rollupType": "optimistic",
-    "native_currency": null,
-    "website": "https://redstone.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.garnetchain.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "reform-blockchain": {
     "name": "Reform Blockchain",
     "description": "Peer-to-peer transactions and document sharing platform, with nodes in data centers throughout the world.",
