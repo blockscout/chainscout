@@ -973,6 +973,23 @@
       }
     ]
   },
+  "229": {
+    "name": "Paxeer Network",
+    "description": "Paxeer is a decentralized capital orchestration Layer 1 network ",
+    "logo": "https://paxscan.paxeer.app/assets/configs/network_logo.png",
+    "ecosystem": "Paxeer",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "PAX",
+    "website": "https://paxeer.app",
+    "explorers": [
+      {
+        "url": "https://paxscan.paxeer.app",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "231": {
     "name": "BPX Chain",
     "description": "New generation EVM blockchain based on an innovative consensus algorithm, Proof of Space and Time.",
