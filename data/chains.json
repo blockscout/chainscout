@@ -4131,6 +4131,23 @@
       }
     ]
   },
+  "4326": {
+    "name": "MegaETH",
+    "description": "Real-time Ethereum, streaming transactions at lightning speed: sub-millisecond latency and over 100000 transactions per second",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/megaeth.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://www.megaeth.com/",
+    "explorers": [
+      {
+        "url": "https://megaeth.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "4355": {
     "name": "BETHERINCE",
     "description": "BETHERINCE is a cryptocurrency platform as a global payment aggregator, providing fast and secure solutions for digital transactions worldwide.",
