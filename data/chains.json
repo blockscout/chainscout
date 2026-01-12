@@ -12216,5 +12216,22 @@
       }
     ],
     "logo": "https://app.mintrax.network/images/MTT.png"
-  }
+  },
+  "890": {
+  "name": "Capital Exchange",
+  "description": "CXM",
+  "ecosystem": ["Capital Exchange"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "CXM",
+  "website": "https://www.capitalexchange.markets",
+  "explorers": [
+    {
+      "url": "https://explorer.capitalexchange.net",
+      "hostedBy": "blockscout"
+    }
+  ],
+  "logo": "https://capitalexchange.it/img/cxm1.png"
+}
 }
