@@ -12217,4 +12217,21 @@
     ],
     "logo": "https://app.mintrax.network/images/MTT.png"
   }
+  "12216": {
+    "name": "L2 Protocol",
+    "description": "Smart Contracts for Any Chain",
+    "ecosystem": ["Ethereum"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "L2P",
+    "website": "https://l2protocol.com",
+    "explorers": [
+      {
+        "url": "https://l2pscan.com",
+        "hostedBy": "self"
+     }
+    ],
+    "logo": "https://static.l2protocol.com/images/icon.svg"
+  }  
 }
