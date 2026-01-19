@@ -12216,7 +12216,7 @@
       }
     ],
     "logo": "https://app.mintrax.network/images/MTT.png"
-  }
+  },
   "12216": {
     "name": "L2 Protocol",
     "description": "Smart Contracts for Any Chain",
@@ -12232,24 +12232,23 @@
         "hostedBy": "self"
      }
     ],
-    "logo": "https://static.l2protocol.com/images/icon.svg"
-  }  
+    "logo": "https://static.l2protocol.com/images/icon.svg"   
   },
   "890": {
-  "name": "Capital Exchange",
-  "description": "CXM",
-  "ecosystem": ["Capital Exchange"],
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "native_currency": "CXM",
-  "website": "https://www.capitalexchange.markets",
-  "explorers": [
-    {
-      "url": "https://explorer.capitalexchange.net",
-      "hostedBy": "blockscout"
-    }
-  ],
-  "logo": "https://capitalexchange.it/img/cxm1.png"
-}
+    "name": "Capital Exchange",
+    "description": "CXM",
+    "ecosystem": ["Capital Exchange"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "CXM",
+    "website": "https://www.capitalexchange.markets",
+    "explorers": [
+      {
+        "url": "https://explorer.capitalexchange.net",
+        "hostedBy": "blockscout"
+      }
+    ],
+    "logo": "https://capitalexchange.it/img/cxm1.png"
+  }
 }
