@@ -1144,8 +1144,8 @@
     ]
   },
   "300": {
-    "name": "ZkSync Era Sepolia Testnet",
-    "description": "zkSync is a Layer-2 protocol that scales Ethereum with cutting-edge ZK tech",
+    "name": "ZKsync Era Sepolia Testnet",
+    "description": "ZKsync is a Layer-2 protocol that scales Ethereum with cutting-edge ZK tech",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zksync-era.svg",
     "ecosystem": "zkSync",
     "isTestnet": true,
@@ -1213,8 +1213,8 @@
     ]
   },
   "324": {
-    "name": "ZkSync Era",
-    "description": "zkSync is a Layer-2 protocol that scales Ethereum with cutting-edge ZK tech",
+    "name": "ZKsync Era",
+    "description": "ZKsync is a Layer-2 protocol that scales Ethereum with cutting-edge ZK tech",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zksync-era.svg",
     "ecosystem": "zkSync",
     "isTestnet": false,
