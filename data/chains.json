@@ -12250,5 +12250,39 @@
       }
     ],
     "logo": "https://capitalexchange.it/img/cxm1.png"
+  },
+  "181228": {
+    "name": "HPP Sepolia",
+    "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates Noösphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
+    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://hpp.io/",
+    "explorers": [
+      {
+        "url": "https://sepolia-explorer.hpp.io",
+        "hostedBy": "conduit"
+      }
+    ],
+    "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
+  },
+  "190415": {
+    "name": "HPP Mainnet",
+    "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates Noösphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
+    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://hpp.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.hpp.io",
+        "hostedBy": "conduit"
+      }
+    ],
+    "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
   }
 }
