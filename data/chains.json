@@ -1707,23 +1707,6 @@
       }
     ]
   },
-  "654": {
-    "name": "Kalichain",
-    "description": "Blockchain platform crafted for fostering authenticity, secure transactions and rightful royalties in secondary markets.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6309fbcab72f487ce3ae_Kalichain.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "KALIS",
-    "website": "https://www.kalichain.com/",
-    "explorers": [
-      {
-        "url": "https://explorer.kalichain.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "690": {
     "name": "Redstone",
     "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
@@ -1856,7 +1839,7 @@
     "website": "https://qom.one/",
     "explorers": [
       {
-        "url": "https://scan.qom.one/",
+        "url": "https://scan.qom.network/",
         "hostedBy": "self"
       }
     ]
@@ -2886,6 +2869,23 @@
       }
     ]
   },
+  "1650": {
+    "name": "IIC Blockchain",
+    "description": "IIC Blockchain is designed as a next-generation digital infrastructure focusing on privacy, security, and efficient transaction management.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "SAYA",
+    "website": "https://metavtz.com/",
+    "explorers": [
+      {
+        "url": "https://scan.iic-blockchain.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1687": {
     "name": "Mint Chain Sepolia",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
@@ -3123,6 +3123,23 @@
     "explorers": [
       {
         "url": "https://testnet.bitciexplorer.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1919": {
+    "name": "Turkchain",
+    "description": "Blockchain project based in Türkiye, built using Cosmos SDK framework, with EVM support.",
+    "logo": "",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TC",
+    "website": "https://turkchain1919.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.turkchain1919.com/",
         "hostedBy": "self"
       }
     ]
@@ -4165,6 +4182,23 @@
       }
     ]
   },
+  "4399": {
+    "name": "Cysic Mainnet",
+    "description": "The full-stack ComputeFi network. Cysic turns GPUs, ASICs, and compute into liquid, yield-bearing assets.",
+    "logo": "",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "CYS",
+    "website": "https://cysic.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer-evm.cysic.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "4460": {
     "name": "Orderly Testnet",
     "description": "The permissionless liquidity layer for Web3 trading.",
@@ -4573,24 +4607,7 @@
       }
     ]
   },
-  "5888": {
-    "name": "MANTRA",
-    "description": "MANTRA is an EVM-compatible Layer 1 Blockchain for RWAs, capable of adherence to real world regulatory requirements.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mantra.jpg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "OM",
-    "website": "https://mantrachain.io/",
-    "explorers": [
-      {
-        "url": "https://blockscout.mantrascan.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-   "5887": {
+  "5887": {
     "name": "MANTRACHAIN Testnet",
     "description": "The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.",
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
@@ -4608,18 +4625,18 @@
     ]
   },
   "5888": {
-    "name": "MANTRACHAIN Mainnet",
-    "description": "The first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements.",
-    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
+    "name": "MANTRA",
+    "description": "MANTRA is an EVM-compatible Layer 1 Blockchain for RWAs, capable of adherence to real world regulatory requirements.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mantra.jpg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
     "native_currency": "OM",
-    "website": "https://mantrachain.io",
+    "website": "https://mantrachain.io/",
     "explorers": [
       {
-        "url": "https://blockscout.mantrascan.io",
+        "url": "https://blockscout.mantrascan.io/",
         "hostedBy": "self"
       }
     ]
@@ -4723,6 +4740,23 @@
       {
         "url": "https://explorer.ande.network/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "6252": {
+    "name": "SANDchain Silica",
+    "description": "SANDchain is a zk blockchain for creator tokens, loyalty, vaults, DeFi, giving communities tools to own, fund, and grow culture.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "SAND",
+    "website": "https://sandchain-hub.caldera.xyz/",
+    "explorers": [
+      {
+        "url": "https://sandchain-explorer.caldera.xyz/",
+        "hostedBy": "caldera"
       }
     ]
   },
@@ -5437,6 +5471,23 @@
     "explorers": [
       {
         "url": "https://explorer-reticulum.galactica.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "9369": {
+    "name": "Z Chain",
+    "description": "Layer 1 blockchain built without limits. It enables high throughput, massive scale, while retaining full decentralization.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "Z",
+    "website": "https://zchain.org/",
+    "explorers": [
+      {
+        "url": "https://zscan.live/",
         "hostedBy": "self"
       }
     ]
@@ -6221,6 +6272,23 @@
     "explorers": [
       {
         "url": "https://rollup-b.explorer.testnet.compose.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "22469": {
+    "name": "Hii Blockchain",
+    "description": "TekNix Corporation delivers cutting-edge tech products & solutions in Blockchain, AI, Fintech, IoT, Green Innovation, empowering businesses and users worldwide.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "Hii",
+    "website": "https://www.teknixcorp.com/",
+    "explorers": [
+      {
+        "url": "https://explorer-sb.teknix.dev/",
         "hostedBy": "self"
       }
     ]
@@ -7247,6 +7315,23 @@
       }
     ]
   },
+  "66666": {
+    "name": "Unikium",
+    "description": "Innovating with Blockchain, NFTs & Tokenization for secure product certification. Combatting fraud in luxury goods.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "UNIK",
+    "website": "https://wallet.unikium.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.unikium.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "67412": {
     "name": "ITA",
     "description": "Comprehensive ecosystem built on web3 technologies, combines entertainment and gaming  - P2E/TAP Games, AI Bot and Game Center.",
@@ -7894,6 +7979,23 @@
       }
     ]
   },
+  "133717": {
+    "name": "Metis Hyperion Testnet",
+    "description": "A high-performance, AI-optimized Layer 2 solution designed to scale AI, DeFi, and gaming applications.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "tMETIS",
+    "website": "https://hyperion.metis.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.hyperion-testnet.metis.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "140125": {
     "name": "Planck Testnet",
     "description": "Modular L1 blockchain, built for startups & scaled for enterprises, powered by H100s and H200s to build, train & deploy AI.",
@@ -8043,6 +8145,23 @@
     "explorers": [
       {
         "url": "https://explorer.evm.hydration.cloud/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "222888": {
+    "name": "Moca Chain",
+    "description": "A modular, chain-agnostic identity L1 blockchain, privacy powered by zero knowledge proofs",
+    "logo": "",
+    "ecosystem": "Cosmos",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MOCA",
+    "website": "https://mocachain.org/en",
+    "explorers": [
+      {
+        "url": "https://testnet-scan.mocachain.org/",
         "hostedBy": "self"
       }
     ]
@@ -9141,6 +9260,23 @@
       }
     ]
   },
+  "12082025": {
+    "name": "ONFA Chain",
+    "description": "Digital asset management platform powered by Mettitech Technology Group.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/onfa-chain.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "OFC",
+    "website": "https://onfa.io",
+    "explorers": [
+      {
+        "url": "https://onfascan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "13863860": {
     "name": "Symbiosis",
     "description": "Cross-chain AMM DEX that pools together liquidity from different networks: L1s and L2s, EVM and non-EVM.",
@@ -9802,23 +9938,6 @@
       {
         "url": "https://testnet.explorer.towns.com/",
         "hostedBy": "caldera"
-      }
-    ]
-  },
-  "8691942025": {
-    "name": "ONFA Chain",
-    "description": "Digital asset management platform powered by Mettitech Technology Group.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/onfa-chain.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "OFC",
-    "website": "https://onfa.io",
-    "explorers": [
-      {
-        "url": "https://onfascan.com/",
-        "hostedBy": "self"
       }
     ]
   },
@@ -12230,9 +12349,9 @@
       {
         "url": "https://l2pscan.com",
         "hostedBy": "self"
-     }
+      }
     ],
-    "logo": "https://static.l2protocol.com/images/icon.svg"   
+    "logo": "https://static.l2protocol.com/images/icon.svg"
   },
   "890": {
     "name": "Capital Exchange",
