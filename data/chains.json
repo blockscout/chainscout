@@ -3991,7 +3991,7 @@
     "explorers": [
       {
         "url": "https://explorer.inri.life",
-        "hostedBy": "blockscout"
+        "hostedBy": "self"
       }
     ]
   },
@@ -12450,7 +12450,7 @@
     "explorers": [
       {
         "url": "https://explorer.capitalexchange.net",
-        "hostedBy": "blockscout"
+        "hostedBy": "self"
       }
     ],
     "logo": "https://capitalexchange.it/img/cxm1.png"
