@@ -2558,6 +2558,23 @@
       }
     ]
   },
+  "1359": {
+    "name": "ISPAY",
+    "description": "Enterprise-grade Hybrid Finance (HyFi) infrastructure platform.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ISPAY",
+    "website": "https://www.ispay.com/",
+    "explorers": [
+      {
+        "url": "https://scan.ispay.vip/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1390": {
     "name": "Stratis",
     "description": "Layer 1 evm compatible chain and network including a platform for smart contract development in C#.",
@@ -3001,6 +3018,23 @@
     "explorers": [
       {
         "url": "https://explorer.metall2.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1805": {
+    "name": "Inception Chain",
+    "description": "A decentralized, affordable, EVM-compatible Layer-1",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "INCP",
+    "website": "https://www.inceptionchain.io/",
+    "explorers": [
+      {
+        "url": "https://scan.inceptionchain.io/",
         "hostedBy": "self"
       }
     ]
@@ -4943,6 +4977,23 @@
     "explorers": [
       {
         "url": "https://explorer.bit-rock.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "7282": {
+    "name": "Salvorias Chain",
+    "description": "Salvorias is a next-gen blockchain engineered for performance, participation, and purpose.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "SAVDR",
+    "website": "https://salvorias.com/",
+    "explorers": [
+      {
+        "url": "https://savscanner.io/",
         "hostedBy": "self"
       }
     ]
@@ -7451,6 +7502,23 @@
       }
     ]
   },
+  "78651": {
+    "name": "Nillion Network Testnet",
+    "description": "Nillion is a secure computation network that decentralizes trust for high value data in the same way that blockchains decentralized transactions.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://nillion.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.nillion.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "80888": {
     "name": "Onyx",
     "description": "Onyx is a Layer 3 blockchain powered by Onyxcoin XCN supporting decentralized financial-purposed applications.",
@@ -7720,6 +7788,23 @@
     "explorers": [
       {
         "url": "https://testnet-explorer.plumenetwork.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "98875": {
+    "name": "Nillion Network",
+    "description": "Nillion is a secure computation network that decentralizes trust for high value data in the same way that blockchains decentralized transactions.",
+    "logo": "",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://nillion.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.nillion.network/",
         "hostedBy": "self"
       }
     ]
