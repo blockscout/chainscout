@@ -2610,6 +2610,23 @@
       }
     ]
   },
+  "1330": {
+  "name": "ONN Chain",
+  "description": "ONN Chain Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.",
+  "ecosystem": ["Ethereum"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "ONN",
+  "website": "https://onnscan.com",
+  "explorers": [
+    {
+      "url": "https://onnscan.com",
+      "hostedBy": "self"
+    }
+  ],
+  "logo": "https://github.com/mkd951/chainscout/blob/main/onnchain.png?raw=true"
+}
   "1338": {
     "name": "Elysium Testnet",
     "description": "Platform to optimize game, NFT, AI, or metaverse projects.",
