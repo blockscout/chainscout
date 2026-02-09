@@ -4569,6 +4569,23 @@
       }
     ]
   },
+  "5108": {
+  "name": "Any Chain",
+  "description": "Any Chain Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.",
+  "ecosystem": ["Ethereum"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "ANC",
+  "website": "https://anychainscan.com",
+  "explorers": [
+    {
+      "url": "https://anychainscan.com",
+      "hostedBy": "self"
+    }
+  ],
+  "logo": "https://raw.githubusercontent.com/solutionprovider25/anychain-assets/679a9a295981b2d0a9b7445ce1b3d670e82d972d/anychainscan_icon.png"
+},
   "5112": {
     "name": "Ham",
     "description": "Experimental Layer 3 rollup, backed by a memcoin and bootstrapped by an NFT mint, built on the OP stack and Base.",
