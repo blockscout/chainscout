@@ -12842,5 +12842,21 @@
       }
     ],
     "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
-  }
-}
+  },
+  "1919": {
+  "name": "TurkChain",
+  "description": "TurkChain is an EVM-compatible Layer 1 blockchain.",
+  "ecosystem": ["Ethereum"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "TURK",
+  "website": "https://turkchain1919.com",
+  "explorers": [
+    {
+      "url": "https://turkscan.com",
+      "hostedBy": "self"
+    }
+  ],
+  "logo": "https://turkchain1919.com/turklogo.png"
+ }
