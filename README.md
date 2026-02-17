@@ -104,3 +104,4 @@ We welcome contributions to Chainscout! Here's how you can help:
 5. Create a pull request with your changes.
 
 Please ensure your contributions adhere to our coding standards and include appropriate documentation.
+http://localhost:3000/
