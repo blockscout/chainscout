@@ -12842,5 +12842,22 @@
       }
     ],
     "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
+  },
+  "1919": {
+    "name": "TurkChain",
+    "description": "TurkChain is an independent Layer 1 blockchain designed for a secure, scalable, and decentralized ecosystem.",
+    "ecosystem": ["Ethereum"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TURK",
+    "website": "https://turkchain1919.com",
+    "explorers": [
+      {
+        "url": "https://turkscan.com",
+        "hostedBy": "self-hosted"
+      }
+    ],
+    "logo": "https://turkchain1919.com/turklogo.png"
   }
 }
