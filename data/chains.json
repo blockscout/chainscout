@@ -9459,24 +9459,6 @@
       }
     ]
   },
-  "7777777": {
-    "name": "Zora",
-    "description": "Fast, cost-efficient, and scalable Layer 2 built to help bring media onchain, built on the OP Stack.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zora.svg",
-    "ecosystem": "Optimism",
-    "isTestnet": false,
-    "layer": 2,
-    "settlementLayerChainId": "1",
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://zora.co/",
-    "explorers": [
-      {
-        "url": "https://explorer.zora.energy/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "7890785": {
     "name": "XGA Mainnet",
     "description": "Platform comprised of a Rollup, smart contract protocol, Ethereum consensus layer sidecar and domain-specific engine for developing game-specific mechanisms.",
