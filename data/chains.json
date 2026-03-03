@@ -3600,6 +3600,23 @@
       }
     ]
   },
+  "222888": {
+    "name": "Moca Chain",
+    "description": "A modular, chain-agnostic identity L1 blockchain, privacy powered by zero knowledge proofs",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.svg",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MOCA",
+    "website": "https://mocachain.org/en",
+    "explorers": [
+      {
+        "url": "https://mocachain.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "2340": {
     "name": "Atleta Olympia Testnet",
     "description": "Modular, multi-layer smart contract platform with native cross-chain interoperability, dedicated to servicing the Sports Industry.",
@@ -4604,7 +4621,7 @@
     ]
   },
   "5151": {
-    "name": "Moca Chain",
+    "name": "Moca Chain Devnet",
     "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.png",
     "ecosystem": "Ethereum",
@@ -8454,7 +8471,7 @@
   "222888": {
     "name": "Moca Chain",
     "description": "A modular, chain-agnostic identity L1 blockchain, privacy powered by zero knowledge proofs",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.svg",
     "ecosystem": "Cosmos",
     "isTestnet": true,
     "layer": 1,
@@ -9411,7 +9428,7 @@
   "5278000": {
     "name": "Kaigan",
     "description": "The first JSC testnet “Kaigan”, symbolizing the initial phase of the Japan Smart Chain ecosystem.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/japan_smart_chain.svg",
     "ecosystem": "Etereum",
     "isTestnet": true,
     "layer": 1,
