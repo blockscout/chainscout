@@ -19,7 +19,7 @@
   "5": {
     "name": "Göerli",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/goerli.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -5882,7 +5882,7 @@
   "10218": {
     "name": "Tea Sepolia",
     "description": "Tea is the permissionless network powering the future of open source. Tea anchors open source in cryptography and turns every signed commit into part of a global economy.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/tea_sepolia.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -7586,7 +7586,7 @@
   "69420": {
     "name": "Alchemy Sepolia",
     "description": "The complete blockchain developer platform trusted by leading fintechs and developers worldwide.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/alchemy.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -7789,8 +7789,8 @@
   },
   "84531": {
     "name": "Base Göerli",
-    "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
-    "logo": "",
+    "description": "(Chain deprecated) Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/base.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -8539,7 +8539,7 @@
   "323432": {
     "name": "World Mobile Testnet",
     "description": "Purpose-built for Decentralized Physical Infrastructure Networks (DePIN), WMC is designed to be faster, fairer, and built for real - world adoption.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/world_mobile.svg",
     "ecosystem": "Base",
     "isTestnet": true,
     "layer": 3,
@@ -8951,7 +8951,7 @@
   "685685": {
     "name": "Gensyn Testnet",
     "description": "It brings persistent identity to decentralized AI systems.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/gensyn_testnet.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -9394,7 +9394,7 @@
   "5042002": {
     "name": "Arc Testnet",
     "description": "Arc is an open Layer-1 blockchain that provides a trusted foundation for the world's stablecoins, tokenized assets, economic contracts, and onchain markets.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/arc-light.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -10315,7 +10315,7 @@
   "3735928814": {
     "name": "Eden Testnet",
     "description": "Celestia is the modular blockchain powering unstoppable applications with full-stack control.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/eden_testnet.svg",
     "ecosystem": "Celestia",
     "isTestnet": true,
     "layer": 1,
