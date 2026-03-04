@@ -3599,24 +3599,7 @@
         "hostedBy": "self"
       }
     ]
-  },
-  "2288": {
-    "name": "Moca Chain",
-    "description": "A modular, chain-agnostic identity L1 blockchain, privacy powered by zero knowledge proofs",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.svg",
-    "ecosystem": "Cosmos",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "MOCA",
-    "website": "https://mocachain.org/en",
-    "explorers": [
-      {
-        "url": "https://mocachain.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
+  }, 
   "2340": {
     "name": "Atleta Olympia Testnet",
     "description": "Modular, multi-layer smart contract platform with native cross-chain interoperability, dedicated to servicing the Sports Industry.",
