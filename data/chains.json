@@ -5269,7 +5269,7 @@
   "8021": {
     "name": "Numine",
     "description": "umine is an integrated blockchain gaming platform designed to facilitate the development, distribution, and gameplay of blockchain-based games.",
-    "logo": "",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/numine.png",
     "ecosystem": "Avalanche",
     "isTestnet": false,
     "layer": 1,
