@@ -562,23 +562,6 @@
       }
     ]
   },
-  "113": {
-    "name": "Flare Network Coston2",
-    "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6675b704f27176823b36e394_flare-blue.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "C2FLR",
-    "website": "https://flare.network/",
-    "explorers": [
-      {
-        "url": "https://coston2-explorer.flare.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "114": {
     "name": "Flare Network Coston2",
     "description": "Blockchain for data, EVM smart contract platform designed to expand the utility of blockchain.",
