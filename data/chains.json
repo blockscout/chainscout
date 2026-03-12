@@ -1794,6 +1794,23 @@
       }
     ]
   },
+  "714": {
+    "name": "Eden",
+    "description": "Celestia is the modular blockchain powering unstoppable applications with full-stack control.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/eden_testnet.svg",
+    "ecosystem": "Celestia",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TIA",
+    "website": "https://celestia.org/",
+    "explorers": [
+      {
+        "url": "https://eden.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "721": {
     "name": "LycanChain",
     "description": "Scalable, developer-friendly blockchain platform for next-gen apps",
@@ -6710,7 +6727,7 @@
     "explorers": [
       {
         "url": "https://explorer.mode.network/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
