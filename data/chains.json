@@ -4586,20 +4586,20 @@
       }
     ]
   },
-  "5151": {
-    "name": "Moca Chain Devnet",
+  "222888": {
+    "name": "Moca Chain Testnet",
     "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
     "native_currency": "MOCA",
-    "website": "https://www.moca.foundation/",
+    "website": "https://mocachain.org/en",
     "explorers": [
       {
-        "url": "https://testnet-scan.mechain.tech/",
-        "hostedBy": "self"
+        "url": "https://testnet-scan.mocachain.org",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8447,7 +8447,7 @@
     "explorers": [
       {
         "url": "https://testnet-scan.mocachain.org/",
-        "hostedBy": "self"
+        "hostedBy": "blockscout"
       }
     ]
   },
