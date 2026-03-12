@@ -12655,7 +12655,7 @@
       }
     ]
   },
-  "2206132": {
+  "20250407": {
     "name": "PlatON testnet",
     "description": "PlatON is an open financial infrastructure initiated and promoted by the LatticeX Foundation.",
     "logo": "https://www.platon.network/_next/static/media/logo3.905a5330.png",
@@ -12667,7 +12667,7 @@
     "website": "https://platon.network/",
     "explorers": [
       {
-        "url": "https://devnet2blockscout.platon.network/",
+        "url": "https://devnet3blockscout.platon.network/",
         "hostedBy": "self"
       }
     ]
