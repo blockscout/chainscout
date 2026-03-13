@@ -1845,23 +1845,6 @@
       }
     ]
   },
-  "749": {
-    "name": "Social Network Testnet",
-    "description": "The first Bitcoin staking Layer-2, backed by Ethereum.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20a2beae5dfc2b6a8046_Social-Network.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://www.social.network/",
-    "explorers": [
-      {
-        "url": "https://socialnetwork-testnet.explorer.alchemy.com",
-        "hostedBy": "alchemy"
-      }
-    ]
-  },
   "758": {
     "name": "Ozone",
     "description": "Quantum resistant blockchain with embedded quantum security technologies included.",
