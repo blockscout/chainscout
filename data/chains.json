@@ -17,7 +17,7 @@
     ]
   },
   "5": {
-    "name": "Göerli",
+    "name": "Ethereum Göerli",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/goerli.svg",
     "ecosystem": "Ethereum",
@@ -3221,23 +3221,6 @@
     "explorers": [
       {
         "url": "https://testnet.bitciexplorer.com",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1919": {
-    "name": "Turkchain",
-    "description": "Blockchain project based in Türkiye, built using Cosmos SDK framework, with EVM support.",
-    "logo": "",
-    "ecosystem": "Cosmos",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "TC",
-    "website": "https://turkchain1919.com/",
-    "explorers": [
-      {
-        "url": "https://explorer.turkchain1919.com/",
         "hostedBy": "self"
       }
     ]
@@ -12146,23 +12129,6 @@
       }
     ]
   },
-  "5___": {
-    "name": "Ethereum Göerli",
-    "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ethereum.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://ethereum.org/",
-    "explorers": [
-      {
-        "url": "https://eth-goerli.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "747_": {
     "name": "Flow Mainnet",
     "description": "Network designed to be the foundation of Web3 and the open metaverse, supporting consumer experiences of tomorrow.",
@@ -12621,23 +12587,6 @@
       }
     ]
   },
-  "20250407": {
-    "name": "PlatON testnet",
-    "description": "PlatON is an open financial infrastructure initiated and promoted by the LatticeX Foundation.",
-    "logo": "https://www.platon.network/_next/static/media/logo3.905a5330.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "LAT",
-    "website": "https://platon.network/",
-    "explorers": [
-      {
-        "url": "https://devnet3blockscout.platon.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "21000000_": {
     "name": "TOY CHAIN Testnet",
     "description": "Built with purpose to solve the biggest challenge in gaming and entertainment—distribution—using the AI Consumer Engine for end users.",
@@ -12760,7 +12709,7 @@
   "1919": {
     "name": "TurkChain",
     "description": "TurkChain is an independent Layer 1 blockchain designed for a secure, scalable, and decentralized ecosystem.",
-    "ecosystem": ["Ethereum"],
+    "ecosystem": "Cosmos",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
