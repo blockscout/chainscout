@@ -10345,23 +10345,6 @@
       }
     ]
   },
-  "88153591557": {
-    "name": "Gelato - Arbitrum Blueberry",
-    "description": "Rollup-as-a-Service Platform. Launch enterprise-grade L2 & L3 chains integrated with industry-standard Web3 services.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e627917a1e518bd9faf3c_Gelato.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "CGT",
-    "website": "https://www.gelato.network/",
-    "explorers": [
-      {
-        "url": "https://arb-blueberry.gelatoscout.com/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "420120000": {
     "name": "Optimism Interop Devnet 0",
     "description": "Devnet for testing interoperability messages",
