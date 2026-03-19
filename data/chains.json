@@ -1964,6 +1964,23 @@
       }
     ]
   },
+  "870": {
+    "name": "Autonomys EVM",
+    "description": "The infrastructure to scale decentralized AI3.0 applications on-chain—hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/autonomys.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": null,
+    "website": "https://www.autonomys.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.auto-evm.mainnet.autonomys.xyz/",
+        "hostedBy": "protofire"
+      }
+    ]
+  },
   "884": {
     "name": "Bit Rock",
     "description": "Ethereum IBFT 2.0 Proof of Authority (PoA) side chain with near-zero native gas fees.",
@@ -5349,6 +5366,23 @@
       {
         "url": "https://base.blockscout.com/",
         "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "8700": {
+    "name": "Chronos Autonomys EVM",
+    "description": "The infrastructure to scale decentralized AI3.0 applications on-chain—hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/autonomys.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": null,
+    "website": "https://www.autonomys.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.auto-evm.mainnet.autonomys.xyz/",
+        "hostedBy": "protofire"
       }
     ]
   },
