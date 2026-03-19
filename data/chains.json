@@ -1972,7 +1972,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": null,
+    "native_currency": "AI3",
     "website": "https://www.autonomys.xyz/",
     "explorers": [
       {
@@ -4552,6 +4552,23 @@
       }
     ]
   },
+  "5031": {
+    "name": "Somnia",
+    "description": "For millions of users, the fastest (1M+ TPS) and most cost-efficient EVM L1 blockchain with Multistream Consensus, Bringing entire worlds’ data fully on-chain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/somnia.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "SOMI",
+    "website": "https://somnia.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.somnia.network/",
+        "hostedBy": "protofire"
+      }
+    ]
+  },
   "5101": {
     "name": "Syndicate Frame",
     "description": "An OP Stack L3 on Base with Celestia underneath unlocking high throughput and extremely low gas costs for Frame developers.",
@@ -5377,7 +5394,7 @@
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
-    "native_currency": null,
+    "native_currency": "tAI3",
     "website": "https://www.autonomys.xyz/",
     "explorers": [
       {
@@ -7086,7 +7103,7 @@
     "explorers": [
       {
         "url": "https://shannon-explorer.somnia.network/",
-        "hostedBy": "self"
+        "hostedBy": "protofire"
       }
     ]
   },
