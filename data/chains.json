@@ -633,7 +633,7 @@
   "130": {
     "name": "Unichain",
     "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20307ba9b03f0026ddee_Unichain.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/Unichain.svg",
     "ecosystem": "Optimism",
     "isTestnet": false,
     "layer": 2,
@@ -2545,7 +2545,7 @@
   "1301": {
     "name": "Unichain Sepolia Testnet",
     "description": "Designed for DeFi. Powered by Uniswap. Optimized to be the home for liquidity across chains.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/unichain.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/Unichain.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -6171,7 +6171,7 @@
   "13371": {
     "name": "Immutable zkEVM",
     "description": "A chain for games offering EVM compatibility, low cost, massive scale, and Ethereum security.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/immutable-zkevm.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/Immutable_zkEVM.svg",
     "ecosystem": "Polygon",
     "isTestnet": false,
     "layer": 2,
@@ -6189,7 +6189,7 @@
   "13473": {
     "name": "Immutable zkEVM Testnet",
     "description": "A chain for games offering EVM compatibility, low cost, massive scale, and Ethereum security.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/immutable-zkevm.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/Immutable_zkEVM.svg",
     "ecosystem": "Polygon",
     "isTestnet": true,
     "layer": 2,
@@ -9394,7 +9394,7 @@
   "5042002": {
     "name": "Arc Testnet",
     "description": "Arc is an open Layer-1 blockchain that provides a trusted foundation for the world's stablecoins, tokenized assets, economic contracts, and onchain markets.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/arc-light.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/Arc.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
