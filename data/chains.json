@@ -17,7 +17,7 @@
     ]
   },
   "5": {
-    "name": "Ethereum Göerli",
+    "name": "Ethereum G\u00f6erli",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/goerli.svg",
     "ecosystem": "Ethereum",
@@ -54,7 +54,10 @@
     "name": "OP Mainnet",
     "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/op-mainnet.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -161,7 +164,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "草田分",
+    "native_currency": "\u8349\u7530\u5206",
     "website": "https://ctblock.cn",
     "explorers": [
       {
@@ -858,7 +861,10 @@
     "name": "Mint Chain",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b4292ddefeda50298_Mint.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -943,7 +949,10 @@
     "name": "Swan Chain",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -1147,7 +1156,10 @@
     "name": "Orderly",
     "description": "The permissionless liquidity layer for Web3 trading.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -1404,7 +1416,10 @@
     "name": "OP Goerli",
     "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/op-mainnet.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": true,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -1763,7 +1778,10 @@
     "name": "Redstone",
     "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/redstone.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -1966,7 +1984,7 @@
   },
   "870": {
     "name": "Autonomys EVM",
-    "description": "The infrastructure to scale decentralized AI3.0 applications on-chain—hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
+    "description": "The infrastructure to scale decentralized AI3.0 applications on-chain\u2014hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/autonomys.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
@@ -1997,6 +2015,25 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "890": {
+    "name": "Capital Exchange",
+    "description": "CXM",
+    "ecosystem": [
+      "Capital Exchange"
+    ],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "CXM",
+    "website": "https://www.capitalexchange.markets",
+    "explorers": [
+      {
+        "url": "https://explorer.capitalexchange.net",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://capitalexchange.it/img/cxm1.png"
   },
   "893": {
     "name": "Adil Chain",
@@ -2053,7 +2090,10 @@
     "name": "Derive Mainnet",
     "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2147,23 +2187,6 @@
     "explorers": [
       {
         "url": "https://gonscan.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "10946": {
-    "name": "Quadrans",
-    "description": "Sustainability-focused chain built for businesses, institutions and public organizations.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53e9834b252a6504c3a_quadrans.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": null,
-    "website": "https://quadrans.io/",
-    "explorers": [
-      {
-        "url": "https://explorer.quadrans.io/",
         "hostedBy": "self"
       }
     ]
@@ -2410,7 +2433,10 @@
     "name": "Lisk ",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/lisk.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2473,6 +2499,25 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "1233": {
+    "name": "Fitochain",
+    "description": "EVM-compatible blockchain focused on low fees and AI-integrated tooling, secured with Proof of Stake plus commit-chain consensus.",
+    "ecosystem": [
+      "Ethereum"
+    ],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "FITO",
+    "website": "https://fitochain.com",
+    "explorers": [
+      {
+        "url": "https://explorer.fitochain.com",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://explorer.fitochain.com/assets/configs/network_logo.png"
   },
   "1234": {
     "name": "Step Network",
@@ -2611,22 +2656,24 @@
     ]
   },
   "1330": {
-  "name": "ONN Chain",
-  "description": "ONN Chain Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.",
-  "ecosystem": ["Ethereum"],
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "native_currency": "ONN",
-  "website": "https://onnscan.com",
-  "explorers": [
-    {
-      "url": "https://onnscan.com",
-      "hostedBy": "self"
-    }
-  ],
-  "logo": "https://github.com/mkd951/chainscout/blob/main/onnchain.png?raw=true"
-},
+    "name": "ONN Chain",
+    "description": "ONN Chain Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.",
+    "ecosystem": [
+      "Ethereum"
+    ],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ONN",
+    "website": "https://onnscan.com",
+    "explorers": [
+      {
+        "url": "https://onnscan.com",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://github.com/mkd951/chainscout/blob/main/onnchain.png?raw=true"
+  },
   "1338": {
     "name": "Elysium Testnet",
     "description": "Platform to optimize game, NFT, AI, or metaverse projects.",
@@ -2677,6 +2724,25 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "1370": {
+    "name": "Ramestta",
+    "description": "Ramestta is a high-speed Layer 2 blockchain built on Polygon PoS, focused on scalable decentralized applications and RAMA coin economy.",
+    "ecosystem": [
+      "Polygon"
+    ],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "RAMA",
+    "website": "https://www.ramestta.com/",
+    "explorers": [
+      {
+        "url": "https://ramascan.com/",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBp6j3zKrobPEXOXGai2loMqYpBIAFWNHlg&s"
   },
   "1390": {
     "name": "Stratis",
@@ -2833,7 +2899,7 @@
   },
   "1532": {
     "name": "Xai",
-    "description": "The world’s first Layer 3 solution for AAA gaming. Powered by Arbitrum.",
+    "description": "The world\u2019s first Layer 3 solution for AAA gaming. Powered by Arbitrum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65fb753335e971744b4214ab_xai-chain.png",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
@@ -3071,7 +3137,7 @@
   },
   "1738": {
     "name": "Xai Testnet",
-    "description": "The world’s first Layer 3 solution for AAA gaming. Powered by Arbitrum.",
+    "description": "The world\u2019s first Layer 3 solution for AAA gaming. Powered by Arbitrum.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65fb7533949a70477c471dcb_xai-chain.png",
     "ecosystem": "Arbitrum",
     "isTestnet": false,
@@ -3090,7 +3156,10 @@
     "name": "Metal L2",
     "description": "Blockchain solution serving as the connective layer for seamless asset transfers and dApp operations.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6a611744972e72f88b_Metal_L2.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -3241,6 +3310,23 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "1919": {
+    "name": "TurkChain",
+    "description": "TurkChain is an independent Layer 1 blockchain designed for a secure, scalable, and decentralized ecosystem.",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TURK",
+    "website": "https://turkchain1919.com",
+    "explorers": [
+      {
+        "url": "https://turkscan.com",
+        "hostedBy": "self-hosted"
+      }
+    ],
+    "logo": "https://turkchain1919.com/turklogo.png"
   },
   "1923": {
     "name": "Swell Chain",
@@ -3468,7 +3554,10 @@
     "name": "Swan Saturn",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
@@ -3582,7 +3671,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "2288": {
     "name": "Moca Chain",
     "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
@@ -3704,7 +3793,7 @@
   },
   "2420": {
     "name": "Rufus",
-    "description": "Dogelon Mars’s Layer-2 chain, Rufus, is designed to reduce gas fees and support a GameFi ecosystem.",
+    "description": "Dogelon Mars\u2019s Layer-2 chain, Rufus, is designed to reduce gas fees and support a GameFi ecosystem.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rufus.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
@@ -4080,7 +4169,9 @@
     "name": "INRI CHAIN",
     "description": "EVM Proof-of-Work chain focused on fair mining, fee burning, and low transaction costs.",
     "logo": "https://raw.githubusercontent.com/inrichain/logoofficial/main/256x256.png",
-    "ecosystem": ["Ethereum"],
+    "ecosystem": [
+      "Ethereum"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -4554,7 +4645,7 @@
   },
   "5031": {
     "name": "Somnia",
-    "description": "For millions of users, the fastest (1M+ TPS) and most cost-efficient EVM L1 blockchain with Multistream Consensus, Bringing entire worlds’ data fully on-chain.",
+    "description": "For millions of users, the fastest (1M+ TPS) and most cost-efficient EVM L1 blockchain with Multistream Consensus, Bringing entire worlds\u2019 data fully on-chain.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/somnia.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
@@ -4617,23 +4708,6 @@
       {
         "url": "https://explorer-2.seismicdev.net/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "222888": {
-    "name": "Moca Chain Testnet",
-    "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "MOCA",
-    "website": "https://mocachain.org/en",
-    "explorers": [
-      {
-        "url": "https://testnet-scan.mocachain.org",
-        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5372,7 +5446,10 @@
     "name": "Base",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/base.svg",
-    "ecosystem": ["Ethereum", "Superchain"],
+    "ecosystem": [
+      "Ethereum",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -5388,7 +5465,7 @@
   },
   "8700": {
     "name": "Chronos Autonomys EVM",
-    "description": "The infrastructure to scale decentralized AI3.0 applications on-chain—hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
+    "description": "The infrastructure to scale decentralized AI3.0 applications on-chain\u2014hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/autonomys.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
@@ -5422,7 +5499,7 @@
   },
   "8818": {
     "name": "C Link Chain",
-    "description": "Next-generation Web3 ecosystem, powering the world’s first MaaS launchpad.",
+    "description": "Next-generation Web3 ecosystem, powering the world\u2019s first MaaS launchpad.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/c-link.jpg",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
@@ -5637,6 +5714,23 @@
     "explorers": [
       {
         "url": "https://dxdscan.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "9008": {
+    "name": "Shido Network",
+    "description": "Layer 1 PoS chain with Tendermint consensus, infinite scalability, and seamless EVM, Cosmos, and WASM interoperability.",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
+    "ecosystem": "Cosmos",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "SHIDO",
+    "website": "https://shido.io",
+    "explorers": [
+      {
+        "url": "https://shidoscan.net/",
         "hostedBy": "self"
       }
     ]
@@ -5947,6 +6041,23 @@
       }
     ]
   },
+  "10946": {
+    "name": "Quadrans",
+    "description": "Sustainability-focused chain built for businesses, institutions and public organizations.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53e9834b252a6504c3a_quadrans.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": null,
+    "website": "https://quadrans.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.quadrans.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "11011": {
     "name": "Shape Testnet",
     "description": "Chain for creators, built on top of Ethereum using OP Stack.",
@@ -6083,9 +6194,28 @@
       }
     ]
   },
+  "12216": {
+    "name": "L2 Protocol",
+    "description": "Smart Contracts for Any Chain",
+    "ecosystem": [
+      "Ethereum"
+    ],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "L2P",
+    "website": "https://l2protocol.com",
+    "explorers": [
+      {
+        "url": "https://l2pscan.com",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://static.l2protocol.com/images/icon.svg"
+  },
   "12323": {
     "name": "Huddle01 Mainnet",
-    "description": "World’s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
+    "description": "World\u2019s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/huddle01.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
@@ -6342,7 +6472,7 @@
   },
   "17000": {
     "name": "Holesky",
-    "description": "Holešky is a staking, infrastructure and protocol-developer testnet for Ethereum.",
+    "description": "Hole\u0161ky is a staking, infrastructure and protocol-developer testnet for Ethereum.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ethereum.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
@@ -6718,7 +6848,10 @@
     "name": "Mode",
     "description": "Ethereum L2 with rewards for growing the network via new economic mechanisms.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mode.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -6744,6 +6877,27 @@
     "explorers": [
       {
         "url": "https://explorer.q.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "38833": {
+    "name": "Igra Network",
+    "description": "Based rollup L2 combining Kaspa's high-performance DAG consensus with full EVM compatibility",
+    "logo": "https://ivory-inc-monkey-585.mypinata.cloud/ipfs/bafkreiaiwspr47i3wshtf4jkroc2cfsttg5bvb36zig7xdjyb5pdanwcwi",
+    "ecosystem": [
+      "Kaspa",
+      "Ethereum",
+      "Igra"
+    ],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "iKAS",
+    "website": "https://igralabs.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.igralabs.com/",
         "hostedBy": "self"
       }
     ]
@@ -7092,7 +7246,7 @@
   },
   "50312": {
     "name": "Somnia Testnet",
-    "description": "For millions of users, the fastest (1M+ TPS) and most cost-efficient EVM L1 blockchain with Multistream Consensus, Bringing entire worlds’ data fully on-chain.",
+    "description": "For millions of users, the fastest (1M+ TPS) and most cost-efficient EVM L1 blockchain with Multistream Consensus, Bringing entire worlds\u2019 data fully on-chain.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/somnia.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
@@ -7805,7 +7959,7 @@
     ]
   },
   "84531": {
-    "name": "Base Göerli",
+    "name": "Base G\u00f6erli",
     "description": "(Chain deprecated) Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/base.svg",
     "ecosystem": "Ethereum",
@@ -8349,6 +8503,63 @@
       }
     ]
   },
+  "167000": {
+    "name": "Taiko Alethia",
+    "description": "A Type 1 (Ethereum-equivalent) ZK-EVM that aims for maximum compatibility.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65f220164c5812191498972e_taiko.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://taiko.xyz/",
+    "explorers": [
+      {
+        "url": "https://blockscout.mainnet.taiko.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "181228": {
+    "name": "HPP Sepolia",
+    "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates No\u00f6sphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
+    "ecosystem": [
+      "Ethereum",
+      "Arbitrum Orbit"
+    ],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://hpp.io/",
+    "explorers": [
+      {
+        "url": "https://sepolia-explorer.hpp.io",
+        "hostedBy": "conduit"
+      }
+    ],
+    "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
+  },
+  "190415": {
+    "name": "HPP Mainnet",
+    "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates No\u00f6sphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
+    "ecosystem": [
+      "Ethereum",
+      "Arbitrum Orbit"
+    ],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://hpp.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.hpp.io",
+        "hostedBy": "conduit"
+      }
+    ],
+    "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
+  },
   "191919": {
     "name": "ALT Blockscan",
     "description": "ALT Block is a blockchain that reduces costs, scales effortlessly, and makes your web3 application come alive.",
@@ -8434,6 +8645,23 @@
       }
     ]
   },
+  "210425": {
+    "name": "PlatON network",
+    "description": "PlatON is an open financial infrastructure initiated and promoted by the LatticeX Foundation.",
+    "logo": "https://www.platon.network/_next/static/media/logo3.905a5330.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "LAT",
+    "website": "https://platon.network/",
+    "explorers": [
+      {
+        "url": "https://blockscout.platon.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "212000": {
     "name": "SxT Testnet",
     "description": "Space and Time is a blockchain for ZK-proven data.",
@@ -8465,6 +8693,23 @@
       {
         "url": "https://explorer.evm.hydration.cloud/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "222888": {
+    "name": "Moca Chain Testnet",
+    "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/moca.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MOCA",
+    "website": "https://mocachain.org/en",
+    "explorers": [
+      {
+        "url": "https://testnet-scan.mocachain.org",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8690,6 +8935,25 @@
       }
     ]
   },
+  "478549": {
+    "name": "Mintrax Mainnet",
+    "description": "A decentralized mining & token ecosystem powered by MTX.",
+    "ecosystem": [
+      "Ethereum"
+    ],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MTX",
+    "website": "https://mintrax.network",
+    "explorers": [
+      {
+        "url": "https://explorer.mintrax.network",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://app.mintrax.network/images/MTT.png"
+  },
   "490000": {
     "name": "Taurus Auto EVM",
     "description": "The Foundation Layer for AI3.0. Build super dApps and on-chain agents on our hyper-scalable storage, compute & consensus DePIN.",
@@ -8699,7 +8963,6 @@
     "layer": 1,
     "rollupType": null,
     "native_currency": "AI3",
-
     "website": "https://www.autonomys.xyz/",
     "explorers": [
       {
@@ -8762,7 +9025,7 @@
     ]
   },
   "543210": {
-    "name": "ZERϴ Network",
+    "name": "ZER\u03f4 Network",
     "description": "EVM-compatible rollup that eliminates the need for gas entirely within the network.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zero.png",
     "ecosystem": "Ethereum",
@@ -9204,6 +9467,23 @@
       }
     ]
   },
+  "988207": {
+    "name": "Ecrox Chain",
+    "description": "Non-profit organization advancing blockchain adoption in Thailand through infrastructure services, smart contract audits, and public education",
+    "logo": "https://raw.githubusercontent.com/ecroxchain/assets/main/blockchains/ECROX/assets/0x40662e09C1a421d8b8a661fdD59c183516Db93Ac/logo.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ECROX",
+    "website": "https://ecroxscan.com",
+    "explorers": [
+      {
+        "url": "https://ecroxscan.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1027303": {
     "name": "Facet Mainnet",
     "description": "Facet is a rollup that removes trusted intermediaries, ensuring every user has the same level of power, even in the most adversarial conditions.",
@@ -9308,7 +9588,7 @@
   },
   "2524852": {
     "name": "Huddle01 Testnet",
-    "description": "World’s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
+    "description": "World\u2019s first decentralized physical infrastructure network (DePIN) dedicated to making real-time communication (RTC) faster, cheaper and more secure.huddl",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/huddle01.png",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": true,
@@ -9410,7 +9690,7 @@
   },
   "5278000": {
     "name": "Kaigan",
-    "description": "The first JSC testnet “Kaigan”, symbolizing the initial phase of the Japan Smart Chain ecosystem.",
+    "description": "The first JSC testnet \u201cKaigan\u201d, symbolizing the initial phase of the Japan Smart Chain ecosystem.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/japan_smart_chain.svg",
     "ecosystem": "Etereum",
     "isTestnet": true,
@@ -9615,7 +9895,7 @@
   },
   "11155931": {
     "name": "RISE Testnet",
-    "description": "Infinite Speed—real time performance, decentralized. The fastest blockchain, secured by Ethereum.",
+    "description": "Infinite Speed\u2014real time performance, decentralized. The fastest blockchain, secured by Ethereum.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rise.png",
     "ecosystem": "Ethereum",
     "isTestnet": true,
@@ -9919,6 +10199,39 @@
       }
     ]
   },
+  "420120000": {
+    "name": "Optimism Interop Devnet 0",
+    "description": "Devnet for testing interoperability messages",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/optimism.svg",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "website": "https://www.optimism.io/",
+    "explorers": [
+      {
+        "url": "https://optimism-interop-alpha-0.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "420120001": {
+    "name": "Optimism Interop Devnet 1",
+    "description": "Devnet for testing interoperability messages",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/optimism.svg",
+    "ecosystem": "Optimism",
+    "isTestnet": true,
+    "layer": 2,
+    "settlementLayerChainId": "11155111",
+    "rollupType": "optimistic",
+    "website": "https://www.optimism.io/",
+    "explorers": [
+      {
+        "url": "https://optimism-interop-alpha-1.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "666666666": {
     "name": "Degen Chain",
     "description": "Enables Casters to reward others with DEGEN for posting quality content.",
@@ -10002,447 +10315,6 @@
       {
         "url": "https://sepolia.explorer.zora.energy/",
         "hostedBy": "conduit"
-      }
-    ]
-  },
-  "1000000003": {
-    "name": "THE POWER",
-    "description": "Full-fledged web3 infrastructure platform for full-stack, really decentralized applications.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/power.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "SK",
-    "website": "https://thepower.io/",
-    "explorers": [
-      {
-        "url": "https://bs.thepower.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1020352220": {
-    "name": "Titan AI Hub",
-    "description": "SKALE chain dedicated to AI and ML apps looking to utilize blockchain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/titan-ai-hub.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "sFUEL",
-    "website": "https://skale.space/",
-    "explorers": [
-      {
-        "url": "https://aware-fake-trim-testnet.explorer.testnet.skalenodes.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1123581321": {
-    "name": "xOracle",
-    "description": "Decentralized oracle price feed data solution for blockchain ecosystems.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c694661561bd9c9137c_xOracle.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "XOR",
-    "website": "https://xoracle.io/",
-    "explorers": [
-      {
-        "url": "https://explorer.xoracle.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1313161554": {
-    "name": "Aurora Mainnet",
-    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535a3674caf1d54651c_aurora.png",
-    "ecosystem": "Near",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://aurora.dev/",
-    "explorers": [
-      {
-        "url": "https://explorer.mainnet.aurora.dev/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1313161555": {
-    "name": "Aurora Testnet",
-    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535a3674caf1d54651c_aurora.png",
-    "ecosystem": "Near",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://aurora.dev/",
-    "explorers": [
-      {
-        "url": "https://explorer.testnet.aurora.dev/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1313161567": {
-    "name": "Turbo",
-    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
-    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/turbo.png",
-    "ecosystem": "Near",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "TURBO",
-    "website": "https://aurora.dev/",
-    "explorers": [
-      {
-        "url": "https://explorer.turbo.aurora.dev/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1350216234": {
-    "name": "Titan AI Hub Testnet",
-    "description": "SKALE chain dedicated to AI and ML apps looking to utilize blockchain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/skale.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "sFUEL",
-    "website": "https://skale.space/",
-    "explorers": [
-      {
-        "url": "https://parallel-stormy-spica.explorer.mainnet.skalenodes.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1380012617": {
-    "name": "RARI Chain",
-    "description": "Embeds royalties on the node level to guarantee royalty payments, powered by Arbitrum.",
-    "logo": "",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": false,
-    "layer": 3,
-    "rollupType": "arbitrum",
-    "native_currency": "ETH",
-    "website": "https://rarichain.org/",
-    "explorers": [
-      {
-        "url": "https://mainnet.explorer.rarichain.org/",
-        "hostedBy": "caldera"
-      }
-    ]
-  },
-  "1417429182": {
-    "name": "WilderWorld",
-    "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
-    "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "Z",
-    "website": "https://www.wilderworld.com/",
-    "explorers": [
-      {
-        "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-  "1570754601": {
-    "name": "Haust network",
-    "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
-    "logo": "https://haust.network/haust-icon-white512.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "HAUST",
-    "website": "https://haust.network/",
-    "explorers": [
-      {
-        "url": "https://explorer-testnet.haust.app/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-  "1660990954": {
-    "name": "Status Sepolia Testnet",
-    "description": "First natively gasless Ethereum L2 with built-in public yield.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/status.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "ETH",
-    "website": "https://status.network/",
-    "explorers": [
-      {
-        "url": "https://sepoliascan.status.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "1666600000": {
-    "name": "Harmony",
-    "description": "Harmony is an open blockchain with data sharding and fast finality.",
-    "logo": "https://cdn.prod.website-files.com/676b715fa7c0ee9345c1a283/676b719201065b4d04e0e5cf_1666600000.png",
-    "ecosystem": "Harmony",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ONE",
-    "website": "https://www.harmony.one/",
-    "explorers": [
-      {
-        "url": "https://explorer.harmony.one/",
-        "hostedBy": "protofire"
-      }
-    ]
-  },
-  "1666700000": {
-    "name": "Harmony Testnet",
-    "description": "Harmony is an open blockchain with data sharding and fast finality.",
-    "logo": "https://cdn.prod.website-files.com/676b715fa7c0ee9345c1a283/676b719201065b4d04e0e5cf_1666600000.png",
-    "ecosystem": "Harmony",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ONE",
-    "website": "https://www.harmony.one/",
-    "explorers": [
-      {
-        "url": "https://explorer.testnet.harmony.one/",
-        "hostedBy": "protofire"
-      }
-    ]
-  },
-  "1888108590": {
-    "name": "Prom Devnet",
-    "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "T-PROM",
-    "website": "https://prom.io/",
-    "explorers": [
-      {
-        "url": "https://testnet.promscan.io/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-  "1952959480": {
-    "name": "Lumia Testnet",
-    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6325e31c88419962a8d0_Lumia.png",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "LUMIA",
-    "website": "https://lumia.org/",
-    "explorers": [
-      {
-        "url": "https://lumia-testnet-blockscout.eu-north-2.gateway.fm/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-  "2046399126": {
-    "name": "Skale",
-    "description": "Multichain network composed of an unlimited number high-performance Ethereum Blockchains.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe540d93ca536ba72d865_skale.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "sFUEL",
-    "website": "https://skale.space/",
-    "explorers": [
-      {
-        "url": "https://elated-tan-skat.explorer.mainnet.skalenodes.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "2030232745": {
-    "name": "Lumia Beam Testnet",
-    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6325e31c88419962a8d0_Lumia.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "LUMIA",
-    "website": "https://lumia.org/",
-    "explorers": [
-      {
-        "url": "https://beam-explorer.lumia.org/",
-        "hostedBy": "gateway"
-      }
-    ]
-  },
-  "3735928814": {
-    "name": "Eden Testnet",
-    "description": "Celestia is the modular blockchain powering unstoppable applications with full-stack control.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/eden_testnet.svg",
-    "ecosystem": "Celestia",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "TIA",
-    "website": "https://celestia.org/",
-    "explorers": [
-      {
-        "url": "https://eden-testnet.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "5447216671": {
-    "name": "Hilo Chain",
-    "description": "Protocol designed for user-driven systems. Control, build, and earn directly on-chain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hilo.png",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": false,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://www.hilo.app/",
-    "explorers": [
-      {
-        "url": "https://hiloscan.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "5565244900": {
-    "name": "Towns Testnet",
-    "description": "Communication onchain. Build decentralized, encrypted messaging apps on Towns.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.towns.com/",
-    "explorers": [
-      {
-        "url": "https://testnet.explorer.towns.com/",
-        "hostedBy": "caldera"
-      }
-    ]
-  },
-  "34131050525": {
-    "name": "Hyra Network Testnet",
-    "description": "World's first Layer-3 blockchain democratizes decentralized AI edge computing with Train AI-to-earn model.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hyra-network.png",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": "optimistic",
-    "native_currency": "HYRA",
-    "website": "https://hyra.network/",
-    "explorers": [
-      {
-        "url": "https://scan-testnet.hyra.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "71499284269": {
-    "name": "Rogue Chain Testnet",
-    "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64d1fbcab72f487e9ed4_Rogue-Chain.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "ROGUE",
-    "website": "https://roguechain.io/",
-    "explorers": [
-      {
-        "url": "https://testnet-explorer.roguechain.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "420120000": {
-    "name": "Optimism Interop Devnet 0",
-    "description": "Devnet for testing interoperability messages",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/optimism.svg",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "website": "https://www.optimism.io/",
-    "explorers": [
-      {
-        "url": "https://optimism-interop-alpha-0.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "420120001": {
-    "name": "Optimism Interop Devnet 1",
-    "description": "Devnet for testing interoperability messages",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/optimism.svg",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "11155111",
-    "rollupType": "optimistic",
-    "website": "https://www.optimism.io/",
-    "explorers": [
-      {
-        "url": "https://optimism-interop-alpha-1.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "200820172034": {
-    "name": "OpenGPU Testnet",
-    "description": "Built for speed and scalability with a custom protocol integration. The blockchain leverages Lachesis consensus for parallel execution of transactions.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/opengpu.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ToGPU",
-    "website": "https://opengpu.network/",
-    "explorers": [
-      {
-        "url": "https://testnet.ogpuscan.io/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "383414847825": {
-    "name": "Zeniq Smartchain",
-    "description": "ZENIQ Smartchain (ZSC) is a smart contract enabled sidechain of the ZENIQ main chain. It provides a permissionless platform for decentralized applications (DApps).",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zeniq.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ZENIQ",
-    "website": "http://www.zeniq.com",
-    "explorers": [
-      {
-        "url": "https://zeniqscan.com",
-        "hostedBy": "self"
       }
     ]
   },
@@ -10888,23 +10760,6 @@
       }
     ]
   },
-  "988207": {
-    "name": "Ecrox Chain",
-    "description": "Non-profit organization advancing blockchain adoption in Thailand through infrastructure services, smart contract audits, and public education",
-    "logo": "https://raw.githubusercontent.com/ecroxchain/assets/main/blockchains/ECROX/assets/0x40662e09C1a421d8b8a661fdD59c183516Db93Ac/logo.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "ECROX",
-    "website": "https://ecroxscan.com",
-    "explorers": [
-      {
-        "url": "https://ecroxscan.com",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "ecrox-testnet": {
     "name": "Ecrox Chain Testnet",
     "description": "Focusing on security, fast transactions, and a comprehensive array of interconnected services and platforms.",
@@ -11128,7 +10983,7 @@
   },
   "karura": {
     "name": "Karura",
-    "description": "All-in-one DeFi platform to help you swap, borrow, lend, earn, and more – all with a micro gas fee.",
+    "description": "All-in-one DeFi platform to help you swap, borrow, lend, earn, and more \u2013 all with a micro gas fee.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53b9c7e4d2873f00152_karura.png",
     "ecosystem": "Polkadot",
     "isTestnet": false,
@@ -11734,23 +11589,6 @@
     "explorers": [
       {
         "url": "https://explorer.hekla.taiko.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "167000": {
-    "name": "Taiko Alethia",
-    "description": "A Type 1 (Ethereum-equivalent) ZK-EVM that aims for maximum compatibility.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65f220164c5812191498972e_taiko.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "ETH",
-    "website": "https://taiko.xyz/",
-    "explorers": [
-      {
-        "url": "https://blockscout.mainnet.taiko.xyz/",
         "hostedBy": "self"
       }
     ]
@@ -12571,19 +12409,53 @@
       }
     ]
   },
-  "9008": {
-    "name": "Shido Network",
-    "description": "Layer 1 PoS chain with Tendermint consensus, infinite scalability, and seamless EVM, Cosmos, and WASM interoperability.",
-    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
-    "ecosystem": "Cosmos",
+  "21000000_": {
+    "name": "TOY CHAIN Testnet",
+    "description": "Built with purpose to solve the biggest challenge in gaming and entertainment\u2014distribution\u2014using the AI Consumer Engine for end users.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/toy-chain.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "TOY",
+    "website": "https://hub.xyz/toy",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.playontoy.com/",
+        "hostedBy": "caldera"
+      }
+    ]
+  },
+  "1000000003": {
+    "name": "THE POWER",
+    "description": "Full-fledged web3 infrastructure platform for full-stack, really decentralized applications.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/power.png",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "SHIDO",
-    "website": "https://shido.io",
+    "native_currency": "SK",
+    "website": "https://thepower.io/",
     "explorers": [
       {
-        "url": "https://shidoscan.net/",
+        "url": "https://bs.thepower.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1020352220": {
+    "name": "Titan AI Hub",
+    "description": "SKALE chain dedicated to AI and ML apps looking to utilize blockchain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/titan-ai-hub.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "sFUEL",
+    "website": "https://skale.space/",
+    "explorers": [
+      {
+        "url": "https://aware-fake-trim-testnet.explorer.testnet.skalenodes.com/",
         "hostedBy": "self"
       }
     ]
@@ -12604,174 +12476,378 @@
       }
     ]
   },
-  "1370": {
-    "name": "Ramestta",
-    "description": "Ramestta is a high-speed Layer 2 blockchain built on Polygon PoS, focused on scalable decentralized applications and RAMA coin economy.",
-    "ecosystem": ["Polygon"],
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "RAMA",
-    "website": "https://www.ramestta.com/",
-    "explorers": [
-      {
-        "url": "https://ramascan.com/",
-        "hostedBy": "self"
-      }
-    ],
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBp6j3zKrobPEXOXGai2loMqYpBIAFWNHlg&s"
-  },
-  "210425": {
-    "name": "PlatON network",
-    "description": "PlatON is an open financial infrastructure initiated and promoted by the LatticeX Foundation.",
-    "logo": "https://www.platon.network/_next/static/media/logo3.905a5330.png",
+  "1123581321": {
+    "name": "xOracle",
+    "description": "Decentralized oracle price feed data solution for blockchain ecosystems.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c694661561bd9c9137c_xOracle.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "LAT",
-    "website": "https://platon.network/",
+    "native_currency": "XOR",
+    "website": "https://xoracle.io/",
     "explorers": [
       {
-        "url": "https://blockscout.platon.network/",
+        "url": "https://explorer.xoracle.io/",
         "hostedBy": "self"
       }
     ]
   },
-  "21000000_": {
-    "name": "TOY CHAIN Testnet",
-    "description": "Built with purpose to solve the biggest challenge in gaming and entertainment—distribution—using the AI Consumer Engine for end users.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/toy-chain.svg",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": "arbitrum",
-    "native_currency": "TOY",
-    "website": "https://hub.xyz/toy",
+  "1313161554": {
+    "name": "Aurora Mainnet",
+    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535a3674caf1d54651c_aurora.png",
+    "ecosystem": "Near",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://aurora.dev/",
     "explorers": [
       {
-        "url": "https://testnet-explorer.playontoy.com/",
+        "url": "https://explorer.mainnet.aurora.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1313161555": {
+    "name": "Aurora Testnet",
+    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe535a3674caf1d54651c_aurora.png",
+    "ecosystem": "Near",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://aurora.dev/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.aurora.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1313161567": {
+    "name": "Turbo",
+    "description": "EVM implementation as a smart contract on the NEAR Protocol.",
+    "logo": "https://blockscout-content.s3.us-east-1.amazonaws.com/turbo.png",
+    "ecosystem": "Near",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "TURBO",
+    "website": "https://aurora.dev/",
+    "explorers": [
+      {
+        "url": "https://explorer.turbo.aurora.dev/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1350216234": {
+    "name": "Titan AI Hub Testnet",
+    "description": "SKALE chain dedicated to AI and ML apps looking to utilize blockchain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/skale.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "sFUEL",
+    "website": "https://skale.space/",
+    "explorers": [
+      {
+        "url": "https://parallel-stormy-spica.explorer.mainnet.skalenodes.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1380012617": {
+    "name": "RARI Chain",
+    "description": "Embeds royalties on the node level to guarantee royalty payments, powered by Arbitrum.",
+    "logo": "",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 3,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://rarichain.org/",
+    "explorers": [
+      {
+        "url": "https://mainnet.explorer.rarichain.org/",
         "hostedBy": "caldera"
       }
     ]
   },
-  "1233": {
-    "name": "Fitochain",
-    "description": "EVM-compatible blockchain focused on low fees and AI-integrated tooling, secured with Proof of Stake plus commit-chain consensus.",
-    "ecosystem": ["Ethereum"],
+  "1417429182": {
+    "name": "WilderWorld",
+    "description": "An immersive, decentralized metaverse that combines photorealistic graphics, artificial intelligence, and blockchain technology to create a vast, player-driven virtual world",
+    "logo": "https://d2e6b8w31txsjq.cloudfront.net/WilderWorld.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "Z",
+    "website": "https://www.wilderworld.com/",
+    "explorers": [
+      {
+        "url": "https://zephyr-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+  "1570754601": {
+    "name": "Haust network",
+    "description": "EVM-compatible Layer 2 blockchain powered by zk-rollups, integrating AggLayer, Data Availability, and Account Abstraction from the outset, and offering a seamless DeFi experience with native yield generation through the Haust Wallet and the innovative Haustoria mechanism.",
+    "logo": "https://haust.network/haust-icon-white512.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "HAUST",
+    "website": "https://haust.network/",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.haust.app/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+  "1660990954": {
+    "name": "Status Sepolia Testnet",
+    "description": "First natively gasless Ethereum L2 with built-in public yield.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/status.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "ETH",
+    "website": "https://status.network/",
+    "explorers": [
+      {
+        "url": "https://sepoliascan.status.network/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "1666600000": {
+    "name": "Harmony",
+    "description": "Harmony is an open blockchain with data sharding and fast finality.",
+    "logo": "https://cdn.prod.website-files.com/676b715fa7c0ee9345c1a283/676b719201065b4d04e0e5cf_1666600000.png",
+    "ecosystem": "Harmony",
     "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ONE",
+    "website": "https://www.harmony.one/",
+    "explorers": [
+      {
+        "url": "https://explorer.harmony.one/",
+        "hostedBy": "protofire"
+      }
+    ]
+  },
+  "1666700000": {
+    "name": "Harmony Testnet",
+    "description": "Harmony is an open blockchain with data sharding and fast finality.",
+    "logo": "https://cdn.prod.website-files.com/676b715fa7c0ee9345c1a283/676b719201065b4d04e0e5cf_1666600000.png",
+    "ecosystem": "Harmony",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ONE",
+    "website": "https://www.harmony.one/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.harmony.one/",
+        "hostedBy": "protofire"
+      }
+    ]
+  },
+  "1888108590": {
+    "name": "Prom Devnet",
+    "description": "Modular ZkEVM L2 enabling interoperability across various chains, both EVM and non-EVM compatible networks.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c29898ad38ca053ffc46_Prom.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "T-PROM",
+    "website": "https://prom.io/",
+    "explorers": [
+      {
+        "url": "https://testnet.promscan.io/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+  "1952959480": {
+    "name": "Lumia Testnet",
+    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6325e31c88419962a8d0_Lumia.png",
+    "ecosystem": "Polygon",
+    "isTestnet": true,
     "layer": 2,
     "rollupType": null,
-    "native_currency": "FITO",
-    "website": "https://fitochain.com",
+    "native_currency": "LUMIA",
+    "website": "https://lumia.org/",
     "explorers": [
       {
-        "url": "https://explorer.fitochain.com",
-        "hostedBy": "self"
+        "url": "https://lumia-testnet-blockscout.eu-north-2.gateway.fm/",
+        "hostedBy": "gateway"
       }
-    ],
-    "logo": "https://explorer.fitochain.com/assets/configs/network_logo.png"
+    ]
   },
-  "478549": {
-    "name": "Mintrax Mainnet",
-    "description": "A decentralized mining & token ecosystem powered by MTX.",
-    "ecosystem": ["Ethereum"],
+  "2030232745": {
+    "name": "Lumia Beam Testnet",
+    "description": "The first hyper-liquid restake rollup L2 for Real-World Assets.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e6325e31c88419962a8d0_Lumia.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "zk",
+    "native_currency": "LUMIA",
+    "website": "https://lumia.org/",
+    "explorers": [
+      {
+        "url": "https://beam-explorer.lumia.org/",
+        "hostedBy": "gateway"
+      }
+    ]
+  },
+  "2046399126": {
+    "name": "Skale",
+    "description": "Multichain network composed of an unlimited number high-performance Ethereum Blockchains.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe540d93ca536ba72d865_skale.png",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "MTX",
-    "website": "https://mintrax.network",
+    "native_currency": "sFUEL",
+    "website": "https://skale.space/",
     "explorers": [
       {
-        "url": "https://explorer.mintrax.network",
+        "url": "https://elated-tan-skat.explorer.mainnet.skalenodes.com/",
         "hostedBy": "self"
       }
-    ],
-    "logo": "https://app.mintrax.network/images/MTT.png"
+    ]
   },
-  "12216": {
-    "name": "L2 Protocol",
-    "description": "Smart Contracts for Any Chain",
-    "ecosystem": ["Ethereum"],
-    "isTestnet": false,
+  "3735928814": {
+    "name": "Eden Testnet",
+    "description": "Celestia is the modular blockchain powering unstoppable applications with full-stack control.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/eden_testnet.svg",
+    "ecosystem": "Celestia",
+    "isTestnet": true,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "L2P",
-    "website": "https://l2protocol.com",
+    "native_currency": "TIA",
+    "website": "https://celestia.org/",
     "explorers": [
       {
-        "url": "https://l2pscan.com",
-        "hostedBy": "self"
+        "url": "https://eden-testnet.blockscout.com/",
+        "hostedBy": "blockscout"
       }
-    ],
-    "logo": "https://static.l2protocol.com/images/icon.svg"
+    ]
   },
-  "890": {
-    "name": "Capital Exchange",
-    "description": "CXM",
-    "ecosystem": ["Capital Exchange"],
+  "5447216671": {
+    "name": "Hilo Chain",
+    "description": "Protocol designed for user-driven systems. Control, build, and earn directly on-chain.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hilo.png",
+    "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
-    "layer": 1,
+    "layer": 3,
     "rollupType": null,
-    "native_currency": "CXM",
-    "website": "https://www.capitalexchange.markets",
+    "native_currency": "ETH",
+    "website": "https://www.hilo.app/",
     "explorers": [
       {
-        "url": "https://explorer.capitalexchange.net",
+        "url": "https://hiloscan.io/",
         "hostedBy": "self"
       }
-    ],
-    "logo": "https://capitalexchange.it/img/cxm1.png"
+    ]
   },
-  "181228": {
-    "name": "HPP Sepolia",
-    "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates Noösphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
-    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
+  "5565244900": {
+    "name": "Towns Testnet",
+    "description": "Communication onchain. Build decentralized, encrypted messaging apps on Towns.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/towns.png",
+    "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
     "native_currency": "ETH",
-    "website": "https://hpp.io/",
+    "website": "https://www.towns.com/",
     "explorers": [
       {
-        "url": "https://sepolia-explorer.hpp.io",
-        "hostedBy": "conduit"
+        "url": "https://testnet.explorer.towns.com/",
+        "hostedBy": "caldera"
       }
-    ],
-    "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
+    ]
   },
-  "190415": {
-    "name": "HPP Mainnet",
-    "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates Noösphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
-    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
-    "isTestnet": false,
-    "layer": 2,
+  "34131050525": {
+    "name": "Hyra Network Testnet",
+    "description": "World's first Layer-3 blockchain democratizes decentralized AI edge computing with Train AI-to-earn model.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/hyra-network.png",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 3,
     "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://hpp.io/",
+    "native_currency": "HYRA",
+    "website": "https://hyra.network/",
     "explorers": [
       {
-        "url": "https://explorer.hpp.io",
-        "hostedBy": "conduit"
+        "url": "https://scan-testnet.hyra.network/",
+        "hostedBy": "self"
       }
-    ],
-    "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
+    ]
   },
-  "1919": {
-    "name": "TurkChain",
-    "description": "TurkChain is an independent Layer 1 blockchain designed for a secure, scalable, and decentralized ecosystem.",
-    "ecosystem": "Cosmos",
+  "71499284269": {
+    "name": "Rogue Chain Testnet",
+    "description": "Blockchain for games of chain. Powering Rogue Trader, a decentralized, zero house edge, binary options game.",
+    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/670e64d1fbcab72f487e9ed4_Rogue-Chain.png",
+    "ecosystem": "Arbitrum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "ROGUE",
+    "website": "https://roguechain.io/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.roguechain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "200820172034": {
+    "name": "OpenGPU Testnet",
+    "description": "Built for speed and scalability with a custom protocol integration. The blockchain leverages Lachesis consensus for parallel execution of transactions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/opengpu.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ToGPU",
+    "website": "https://opengpu.network/",
+    "explorers": [
+      {
+        "url": "https://testnet.ogpuscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "383414847825": {
+    "name": "Zeniq Smartchain",
+    "description": "ZENIQ Smartchain (ZSC) is a smart contract enabled sidechain of the ZENIQ main chain. It provides a permissionless platform for decentralized applications (DApps).",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zeniq.png",
+    "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "TURK",
-    "website": "https://turkchain1919.com",
+    "native_currency": "ZENIQ",
+    "website": "http://www.zeniq.com",
     "explorers": [
       {
-        "url": "https://turkscan.com",
-        "hostedBy": "self-hosted"
+        "url": "https://zeniqscan.com",
+        "hostedBy": "self"
       }
-    ],
-    "logo": "https://turkchain1919.com/turklogo.png"
+    ]
   }
 }
