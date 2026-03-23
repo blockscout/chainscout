@@ -6748,6 +6748,27 @@
       }
     ]
   },
+  "38833": {
+    "name": "Igra Network",
+    "description": "Based rollup L2 combining Kaspa's high-performance DAG consensus with full EVM compatibility",
+    "logo": "https://ivory-inc-monkey-585.mypinata.cloud/ipfs/bafkreiaiwspr47i3wshtf4jkroc2cfsttg5bvb36zig7xdjyb5pdanwcwi",
+    "ecosystem": [
+      "Kaspa",
+      "Ethereum",
+      "Igra"
+    ],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "iKAS",
+    "website": "https://igralabs.com/",
+    "explorers": [
+      {
+        "url": "https://explorer.igralabs.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "39815": {
     "name": "Oho",
     "description": "The Universal Layer 1-for-All blockchain powered by $OHO Coin.",
