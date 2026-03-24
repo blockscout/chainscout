@@ -239,9 +239,9 @@
     ]
   },
   "42": {
-    "name": "Lukso",
+    "name": "LUKSO",
     "description": "EVM blockchain based on Casper PoS geared towards the new creative economy.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53d4c9114b41a31b397_lukso.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/lukso_logo.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
