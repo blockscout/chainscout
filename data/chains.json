@@ -7145,23 +7145,6 @@
       }
     ]
   },
-  "51010": {
-    "name": "Metabased Stratos",
-    "description": "A community of organizations leading the development and decentralization of the next layer of Ethereum to build a truly community-owned internet.",
-    "logo": "",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://www.metabased.org/",
-    "explorers": [
-      {
-        "url": "https://metabased-stratos.explorer.alchemy.com/",
-        "hostedBy": "alchemy"
-      }
-    ]
-  },
   "51012": {
     "name": "PlutoChain",
     "description": "PlutoChain is a Hybrid Layer 2 Solution that introduces smart contracts to Bitcoin.",
