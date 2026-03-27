@@ -1557,7 +1557,7 @@
   "545": {
     "name": "Flow Testnet",
     "description": "Layer 1 blockchain for mainstream apps.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/66d204d51ac762c654ef1011_flow-flow-logo.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/flow.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
@@ -1566,8 +1566,8 @@
     "website": "https://flow.com/",
     "explorers": [
       {
-        "url": "https://evm-testnet.flowscan.io/",
-        "hostedBy": "self"
+        "url": "https://flow-testnet.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -1829,6 +1829,23 @@
     ]
   },
   "747": {
+    "name": "Flow Mainnet",
+    "description": "Network designed to be the foundation of Web3 and the open metaverse, supporting consumer experiences of tomorrow.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/flow.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "FLOW",
+    "website": "https://flow.com/",
+    "explorers": [
+      {
+        "url": "https://flow.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "747_": {
     "name": "Alvey Chain",
     "description": "VR multiverse exchange featuring 200k tx per second.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/65afe53569ada8a3f6cc0dac_alveyscan.png",
@@ -12180,23 +12197,6 @@
     "explorers": [
       {
         "url": "https://btsscan.com",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "747_": {
-    "name": "Flow Mainnet",
-    "description": "Network designed to be the foundation of Web3 and the open metaverse, supporting consumer experiences of tomorrow.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/6746035c9e84bada95f65685_Flow.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "FLOW",
-    "website": "https://flow.com/",
-    "explorers": [
-      {
-        "url": "https://evm.flowscan.io/",
         "hostedBy": "self"
       }
     ]
