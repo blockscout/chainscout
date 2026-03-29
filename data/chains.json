@@ -12777,5 +12777,22 @@
       }
     ],
     "logo": "https://turkchain1919.com/turklogo.png"
+  },
+  "9898": {
+    "name": "Larissa",
+    "description": "Larissa is a Layer-1 blockchain built for real-world utility, powered by SILO, its S3-compatible distributed storage layer for secure and scalable data storage.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "LRS",
+    "website": "https://larissa.network",
+    "explorers": [
+      {
+        "url": "https://scan.larissa.network",
+        "hostedBy": "self-hosted"
+      }
+    ],
+    "logo": "https://tokens.larissa.network/logo.png"
   }
 }
