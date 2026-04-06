@@ -12779,3 +12779,36 @@
     "logo": "https://turkchain1919.com/turklogo.png"
   }
 }
+"chainId": {
+  "name": "Tipschain",
+  "description": "Brief description of the chain",
+  "ecosystem": ["Associated ecosystem (e.g., Ethereum, Polkadot)"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "ETH",
+  "website": "https://chain-website.com",
+  "explorers": [
+    {
+      "url": "https://explorer-url.com",
+      "hostedBy": "blockscout"
+    }
+  ],
+  "logo": "https://example.com/path/to/logo.png"
+"chainId": {
+  "name": "TipsChain",
+  "description": "Community-driven blockchain focused on micro-tipping and rewards",
+  "ecosystem": ["ETH, TPC"],
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "TPC",
+  "website": "https://tipschain.org",
+  "explorers": [
+    {
+      "url": "https://scan.tipschain.online",
+      "hostedBy": "blockscout"
+    }
+  ],
+  "logo": "https://github.com/tipspay-dev/LOGO/blob/main/logo/TPC-Logo.png"
+}
