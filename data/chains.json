@@ -12779,21 +12779,38 @@
     "logo": "https://turkchain1919.com/turklogo.png"
   },
   "19251925": {
-  "name": "Tipschain",
-  "description": "Community-driven blockchain focused on micro-tipping and rewards",
-  "ecosystem": ["TPC, Ethereum"],
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "native_currency": "TPC",
-  "website": "https://tipschain.org",
-  "explorers": [
-    {
-      "url": "https://scan.tipschain.online",
-      "hostedBy": "blockscout"
-    }
-  ],
-  "logo": "https://github.com/tipspay-dev/LOGO/blob/main/logo/TPC-Logo.png"
-}
+    "name": "Tipschain",
+    "description": "Community-driven blockchain focused on micro-tipping and rewards",
+    "ecosystem": ["TPC, Ethereum"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TPC",
+    "website": "https://tipschain.org",
+    "explorers": [
+      {
+        "url": "https://scan.tipschain.online",
+        "hostedBy": "blockscout"
+      }
+    ],
+    "logo": "https://github.com/tipspay-dev/LOGO/blob/main/logo/TPC-Logo.png"
+  },
+  "9898": {
+    "name": "Larissa",
+    "description": "Larissa is a Layer-1 blockchain built for real-world utility, powered by SILO, its S3-compatible distributed storage layer for secure and scalable data storage.",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "LRS",
+    "website": "https://larissa.network",
+    "explorers": [
+      {
+        "url": "https://scan.larissa.network",
+        "hostedBy": "self-hosted"
+      }
+    ],
+    "logo": "https://tokens.larissa.network/logo.png"
+  }
 }
 
