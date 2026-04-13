@@ -12777,9 +12777,8 @@
       }
     ],
     "logo": "https://turkchain1919.com/turklogo.png"
-  }
-},
-"19251925": {
+  },
+  "19251925": {
   "name": "Tipschain",
   "description": "Community-driven blockchain focused on micro-tipping and rewards",
   "ecosystem": ["TPC, Ethereum"],
@@ -12796,3 +12795,5 @@
   ],
   "logo": "https://github.com/tipspay-dev/LOGO/blob/main/logo/TPC-Logo.png"
 }
+}
+
