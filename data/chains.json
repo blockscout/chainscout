@@ -12779,10 +12779,10 @@
     "logo": "https://turkchain1919.com/turklogo.png"
   }
 }
-"chainId": {
+"19251925": {
   "name": "Tipschain",
   "description": "Community-driven blockchain focused on micro-tipping and rewards",
-  "ecosystem": ["L1 ecosystem (TPC, Ethereum)"],
+  "ecosystem": ["TPC, Ethereum"],
   "isTestnet": false,
   "layer": 1,
   "rollupType": null,
@@ -12790,7 +12790,7 @@
   "website": "https://tipschain.org",
   "explorers": [
     {
-      "url": "https://scan.tipschain.org",
+      "url": "https://scan.tipschain.online",
       "hostedBy": "blockscout"
     }
   ],
