@@ -6,7 +6,7 @@
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
-    "rollupType": null,
+    "rollupType": null, 
     "native_currency": "ETH",
     "website": "https://ethereum.org/",
     "explorers": [
