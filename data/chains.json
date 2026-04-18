@@ -9790,23 +9790,6 @@
       }
     ]
   },
-  "9999999": {
-    "name": "Fluence",
-    "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fluence.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "FLT",
-    "website": "https://www.fluence.network/",
-    "explorers": [
-      {
-        "url": "https://blockscout.mainnet.fluence.dev",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "10241024": {
     "name": "AlienX",
     "description": "Staking blockchain driven by AI node for NFT and game mass adoption.",
@@ -10063,40 +10046,6 @@
       }
     ]
   },
-  "34949059": {
-    "name": "Citronus Citro",
-    "description": "Citronus is a full-fledged ecosystem designed to simplify the investment experience for users at all levels.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20653793b58ae2af9230_Citronus.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "CITRO",
-    "website": "https://citronus.com/",
-    "explorers": [
-      {
-        "url": "https://test.citronus.com",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
-  "52164803": {
-    "name": "Fluence Testnet",
-    "description": "Fluence is a DePIN (Decentralized Physical Networks) cloudless computing platform that provides a resilient, open, and low-cost alternative to traditional cloud computing.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/fluence.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "tFLT",
-    "website": "https://www.fluence.network/",
-    "explorers": [
-      {
-        "url": "https://blockscout.testnet.fluence.dev",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "65100002": {
     "name": "Autonity Piccadilly",
     "description": "Public, EVM proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
@@ -10247,23 +10196,6 @@
       {
         "url": "https://explorer.degen.tips/",
         "hostedBy": "alchemy"
-      }
-    ]
-  },
-  "686669576": {
-    "name": "Polygon CDK Stavanger",
-    "description": "EVM-compatible, proof-of-stake sidechain for Ethereum, with high throughput and low costs.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/polygon-pos.svg",
-    "ecosystem": "Polygon",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "zk",
-    "native_currency": "ETH",
-    "website": "https://polygon.technology/",
-    "explorers": [
-      {
-        "url": "https://polygon-cdk-stavanger.blockscout.com/",
-        "hostedBy": "blockscout"
       }
     ]
   },
