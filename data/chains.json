@@ -12743,6 +12743,40 @@
       }
     ],
     "logo": "https://tokens.larissa.network/logo.png"
+  },
+  "3018": {
+    "name": "AICChain Mainnet",
+    "description": "The world's first L1 public chain designed specifically for high-frequency RWA trading and AI compute trading.",
+    "logo": "https://aic-assets.aicchain.io/Logo_Black.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "AIC",
+    "website": "https://aicchain.io/",
+    "explorers": [
+      {
+        "url": "https://scan.aicchain.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "30181": {
+    "name": "AICChain Testnet",
+    "description": "AICChain Testnet - The world's first L1 public chain designed specifically for high-frequency RWA trading and AI compute trading.",
+    "logo": "https://aic-assets.aicchain.io/Logo_Black.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "tAIC",
+    "website": "https://aicchain.io/",
+    "explorers": [
+      {
+        "url": "https://testscan.aicchain.io",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
 
