@@ -9425,7 +9425,7 @@
     "explorers": [
       {
         "url": "https://testnet.arcscan.app/",
-        "hostedBy": "alchemy"
+        "hostedBy": "blockscout"
       }
     ]
   },
