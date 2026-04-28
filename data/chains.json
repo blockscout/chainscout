@@ -12722,7 +12722,7 @@
     "explorers": [
       {
         "url": "https://scan.tipschain.online",
-        "hostedBy": "blockscout"
+        "hostedBy": "self"
       }
     ],
     "logo": "https://github.com/tipspay-dev/LOGO/blob/main/logo/TPC-Logo.png"
