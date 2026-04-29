@@ -8986,6 +8986,23 @@
       }
     ]
   },
+  "685689": {
+    "name": "Gensyn",
+    "description": "It brings persistent identity to decentralized AI systems.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/gensyn_testnet.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://www.gensyn.ai/",
+    "explorers": [
+      {
+        "url": "https://gensyn-mainnet.explorer.alchemy.com/",
+        "hostedBy": "alchemy"
+      }
+    ]
+  },
   "688688": {
     "name": "Pharos Testnet",
     "description": "Ultra-fast EVM-compatible blockchain platform, designed to seamlessly connect traditional and decentralized systems.",
