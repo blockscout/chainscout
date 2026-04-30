@@ -12794,6 +12794,45 @@
         "hostedBy": "self"
       }
     ]
+  },
+   "6497": {
+      }
+    ]
+  },
+  "869": {
+    "name": "World Mobile",
+    "description": "Purpose-built for Decentralized Physical Infrastructure Networks (DePIN), WMC is designed to be faster, fairer, and built for real - world adoption.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/world_mobile.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "WMTX",
+    "website": "https://worldmobile.io/the-chain",
+    "explorers": [
+      {
+        "url": "https://explorer.worldmobile.io/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "109": {
+    "name": "Shibarium",
+    "description": "Shiba Inu's L2 blockchain featuring low cost, fast, and powerful technology.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/shibarium.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "settlementLayerChainId": "1",
+    "rollupType": "optimistic",
+    "native_currency": "BONE",
+    "website": "https://docs.shibariumtech.com/shibarium/",
+    "explorers": [
+      {
+        "url": "https://shibariumscan.io/",
+        "hostedBy": "blockscout"
+      }
+    ]
   }
 }
 
