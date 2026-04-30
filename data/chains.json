@@ -12796,6 +12796,19 @@
     ]
   },
    "6497": {
+    "name": "Awaji",
+    "description": "Awaji is a testnet in the Japan Smart Chain ecosystem.",
+    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/awaji-light.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MIZU",
+    "website": "https://mizuhiki.io/en",
+    "explorers": [
+      {
+        "url": "https://awaji.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
