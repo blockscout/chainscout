@@ -391,40 +391,6 @@
       }
     ]
   },
-  "88": {
-    "name": "Viction Network",
-    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "VIC",
-    "website": "https://viction.xyz/",
-    "explorers": [
-      {
-        "url": "https://viction.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "89": {
-    "name": "Viction Testnet Network",
-    "description": "Scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/viction.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "VIC",
-    "website": "https://viction.xyz/",
-    "explorers": [
-      {
-        "url": "https://viction-testnet.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "94": {
     "name": "SwissDLT",
     "description": "Swiss Infrastructure with nodes under Swiss law for SMEs.",
@@ -523,24 +489,6 @@
     "explorers": [
       {
         "url": "https://explorer.stratisevm.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "109": {
-    "name": "Shibarium",
-    "description": "Shiba Inu's L2 blockchain featuring low cost, fast, and powerful technology.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/shibarium.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 2,
-    "settlementLayerChainId": "1",
-    "rollupType": "optimistic",
-    "native_currency": "BONE",
-    "website": "https://docs.shibariumtech.com/shibarium/",
-    "explorers": [
-      {
-        "url": "https://www.shibariumscan.io/",
         "hostedBy": "self"
       }
     ]
@@ -1566,7 +1514,7 @@
     "website": "https://flow.com/",
     "explorers": [
       {
-        "url": "https://flow-testnet.blockscout.com/",
+        "url": "https://testnet.evm.flow.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -1840,7 +1788,7 @@
     "website": "https://flow.com/",
     "explorers": [
       {
-        "url": "https://flow.blockscout.com/",
+        "url": "https://evm.flow.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -5760,27 +5708,10 @@
       }
     ]
   },
-  "9897": {
-    "name": "Arena-Z-Testnet",
-    "description": "Gaming blockchain uniting the gaming community to pioneer the future of entertainment.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/672e20514ab5756e2e37e133_Arena-Z.png",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://arena-z.gg/",
-    "explorers": [
-      {
-        "url": "https://testnet-explorer.arena-z.gg/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "9898": {
     "name": "Larissa Chain",
-    "description": "Next-generation blockchain that leverages an EVM-based architecture and a robust Proof of Work consensus mechanism.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/larissa.png",
+    "description": "Larissa is a Layer-1 blockchain built for real-world utility, powered by SILO, its S3-compatible distributed storage layer for secure and scalable data storage.",
+    "logo": "https://tokens.larissa.network/logo.png",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -12743,23 +12674,6 @@
       }
     ],
     "logo": "https://github.com/tipspay-dev/LOGO/blob/main/logo/TPC-Logo.png"
-  },
-  "9898": {
-    "name": "Larissa",
-    "description": "Larissa is a Layer-1 blockchain built for real-world utility, powered by SILO, its S3-compatible distributed storage layer for secure and scalable data storage.",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "LRS",
-    "website": "https://larissa.network",
-    "explorers": [
-      {
-        "url": "https://scan.larissa.network",
-        "hostedBy": "self-hosted"
-      }
-    ],
-    "logo": "https://tokens.larissa.network/logo.png"
   },
   "3018": {
     "name": "AICChain Mainnet",
