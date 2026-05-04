@@ -15,24 +15,7 @@
         "hostedBy": "blockscout"
       }
     ]
-  },
-  "5": {
-    "name": "Ethereum Göerli",
-    "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/goerli.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://ethereum.org/",
-    "explorers": [
-      {
-        "url": "https://eth-goerli.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
+  }, 
   "7": {
     "name": "Thai Chain",
     "description": "Non-profit organization advancing blockchain adoption in Thailand through infrastructure services, smart contract audits, and public education",
@@ -1345,24 +1328,6 @@
       {
         "url": "https://explorer.sx.technology/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "420": {
-    "name": "OP Goerli",
-    "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/op-mainnet.svg",
-    "ecosystem": ["Optimism", "Superchain"],
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "1",
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.optimism.io/",
-    "explorers": [
-      {
-        "url": "https://optimism-goerli.blockscout.com/",
-        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7755,24 +7720,7 @@
         "hostedBy": "self"
       }
     ]
-  },
-  "84531": {
-    "name": "Base Göerli",
-    "description": "(Chain deprecated) Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/base.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://base.org/",
-    "explorers": [
-      {
-        "url": "https://base-goerli.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
+  }, 
   "84532": {
     "name": "Base Sepolia",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
