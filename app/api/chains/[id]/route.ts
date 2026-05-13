@@ -5,10 +5,10 @@ import { Chains } from '@/types';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const id = params.id;
+    const { id } = await params;
     const filePath = path.join(process.cwd(), 'data', 'chains.json');
     const jsonData = await fs.readFile(filePath, 'utf8');
     const chainsData: Chains = JSON.parse(jsonData);
