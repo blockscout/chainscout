@@ -39,9 +39,37 @@ export default function ChainCard({
   const hostedByText = HOSTING_PROVIDERS[hostedBy as HostingProvider] || 'Unknown';
   const colors = hostingColors[hostedBy as HostingProvider] || hostingColors.blockscout;
   const ecosystemTags = Array.isArray(ecosystem) ? ecosystem : [ecosystem];
+  const isClickFromLink = (target: EventTarget | null) => {
+    return target instanceof HTMLElement && Boolean(target.closest('a'));
+  };
+
+  const openExplorer = () => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
+  const handleCardClick = (event: React.MouseEvent<HTMLElement>) => {
+    if (isClickFromLink(event.target)) return;
+
+    openExplorer();
+  };
+
+  const handleCardKeyDown = (event: React.KeyboardEvent<HTMLElement>) => {
+    if (isClickFromLink(event.target)) return;
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+
+    event.preventDefault();
+    openExplorer();
+  };
 
   return (
-    <div className="bg-white p-6 flex flex-col border rounded-[20px] hover:shadow-[20px_0_40px_rgba(183,183,183,.1),2px_0_20px_rgba(183,183,183,.08)] transition-shadow duration-[400ms] ease-[cubic-bezier(.39, .575, .565, 1)] group">
+    <div
+      className="bg-white p-6 flex flex-col border rounded-[20px] hover:shadow-[20px_0_40px_rgba(183,183,183,.1),2px_0_20px_rgba(183,183,183,.08)] transition-shadow duration-[400ms] ease-[cubic-bezier(.39, .575, .565, 1)] group cursor-pointer"
+      role="link"
+      tabIndex={0}
+      aria-label={`Open ${name} explorer`}
+      onClick={handleCardClick}
+      onKeyDown={handleCardKeyDown}
+    >
       <div className="flex justify-between items-center mb-6">
         <span
           className="inline-flex items-center px-2 py-0.5 rounded text-sm font-medium"
