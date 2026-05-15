@@ -2,25 +2,9 @@ import { ChainData } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { HOSTING_PROVIDERS, HostingProvider, ROLLUP_TYPES, RollupType } from '@/utils/constants';
-import LinkIcon from '@/public/link.svg';
-
-const hostingColors: Record<HostingProvider, { bg: string; text: string }> = {
-  'blockscout': { bg: '#91eabf', text: '#006635' },
-  'conduit': { bg: '#31e3e3', text: '#0a0a0a' },
-  'gelato-raas': { bg: '#f37b84', text: '#202020' },
-  'altlayer-raas': { bg: 'hsla(264.6428571428571, 100.00%, 78.04%, 1.00)', text: '#1c1e24' },
-  'protofire': { bg: '#faa807', text: '#1c1e24' },
-  'gateway': { bg: '#9368E8', text: '#ffffff' },
-  'self': { bg: '#c2d9ff', text: '#003180' },
-  'alchemy': { bg: '#363FF9', text: '#ffffff' },
-};
-
-const Tag = ({ children }: { children: string }) => (
-  <span className="inline-flex items-center px-1.5 py-0.5 rounded text-sm font-medium bg-[#f4f5f6] text-[#6b6b74]">
-    {children}
-  </span>
-);
+import { ROLLUP_TYPES, RollupType } from '@/utils/constants';
+import { HostedByBadge, Tag } from '@/components/ChainBadges';
+import LinkIcon from '@/icons/link.svg';
 
 export default function ChainCard({
   chainId,
@@ -36,8 +20,6 @@ export default function ChainCard({
   featured,
 }: ChainData & { chainId: string, featured: boolean }) {
   const { hostedBy, url } = explorers[0];
-  const hostedByText = HOSTING_PROVIDERS[hostedBy as HostingProvider] || 'Unknown';
-  const colors = hostingColors[hostedBy as HostingProvider] || hostingColors.blockscout;
   const ecosystemTags = Array.isArray(ecosystem) ? ecosystem : [ecosystem];
   const isClickFromLink = (target: EventTarget | null) => {
     return target instanceof HTMLElement && Boolean(target.closest('a'));
@@ -47,14 +29,20 @@ export default function ChainCard({
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
+  const isFullCardClickEnabled = () => {
+    return window.matchMedia('(min-width: 1000px)').matches;
+  };
+
   const handleCardClick = (event: React.MouseEvent<HTMLElement>) => {
     if (isClickFromLink(event.target)) return;
+    if (!isFullCardClickEnabled()) return;
 
     openExplorer();
   };
 
   const handleCardKeyDown = (event: React.KeyboardEvent<HTMLElement>) => {
     if (isClickFromLink(event.target)) return;
+    if (!isFullCardClickEnabled()) return;
     if (event.key !== 'Enter' && event.key !== ' ') return;
 
     event.preventDefault();
@@ -71,12 +59,7 @@ export default function ChainCard({
       onKeyDown={handleCardKeyDown}
     >
       <div className="flex justify-between items-center mb-6">
-        <span
-          className="inline-flex items-center px-2 py-0.5 rounded text-sm font-medium"
-          style={{ backgroundColor: colors.bg, color: colors.text }}
-        >
-          {hostedBy === 'self' ? 'Self-hosted' : `Hosted by ${hostedByText}`}
-        </span>
+        <HostedByBadge hostedBy={hostedBy} />
         {featured && (
           <Image
             src="/star.svg"
@@ -119,7 +102,7 @@ export default function ChainCard({
                 <span className="text-sm font-medium text-black group-hover/link:text-blue-600 transition-colors duration-[400ms]">
                   {text}
                 </span>
-                <LinkIcon className="flex-shrink-0 text-[#B1B5C3] group-hover/link:text-blue-600 transition-colors duration-[400ms]"/>
+                <LinkIcon className="w-3 h-3 flex-shrink-0 text-[#B1B5C3] group-hover/link:text-blue-600 transition-colors duration-[400ms]"/>
               </Link>
               {index < array.length - 1 && <div className="border-t border-gray-200 my-3"></div>}
             </React.Fragment>

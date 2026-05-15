@@ -6,6 +6,7 @@ import ChainList from '@/components/ChainList';
 import Filters from '@/components/Filters';
 import PopularEcosystems from '@/components/PopularEcosystems';
 import AddChainSection from '@/components/AddChainSection';
+import ViewToggle, { ViewMode } from '@/components/ViewToggle';
 import { Chains } from '@/types';
 
 async function getChainsData(): Promise<Chains> {
@@ -44,6 +45,7 @@ export default function Home() {
   });
   const [sortOption, setSortOption] = useState<'Featured' | 'Alphabetical'>('Featured');
   const [featuredChains, setFeaturedChains] = useState<string[]>([]);
+  const [viewMode, setViewMode] = useState<ViewMode>('list');
 
   const popularEcosystems = ['Ethereum', 'Polygon', 'Optimism', 'Polkadot', 'Cosmos', 'zkSync', 'Arbitrum'];
 
@@ -160,14 +162,19 @@ export default function Home() {
             <div className="text-lg md:text-[22px] font-semibold text-[#6b6b74]">
               {sortedAndFilteredChains.length} Results
             </div>
-            <Filters
-              filters={filters}
-              setFilters={setFilters}
-              ecosystems={ecosystems}
-              appliedFiltersCount={appliedFiltersCount}
-              sortOption={sortOption}
-              setSortOption={setSortOption}
-            />
+            <div className="flex w-full md:w-auto items-center gap-3">
+              <div className="hidden min-[1000px]:block">
+                <ViewToggle value={viewMode} onChange={setViewMode} />
+              </div>
+              <Filters
+                filters={filters}
+                setFilters={setFilters}
+                ecosystems={ecosystems}
+                appliedFiltersCount={appliedFiltersCount}
+                sortOption={sortOption}
+                setSortOption={setSortOption}
+              />
+            </div>
           </div>
           <AddChainSection />
           <ChainList
@@ -176,6 +183,7 @@ export default function Home() {
             isLoading={isLoading}
             filters={filters}
             featuredChains={featuredChains}
+            viewMode={viewMode}
           />
         </div>
       </div>

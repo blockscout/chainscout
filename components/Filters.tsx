@@ -111,7 +111,7 @@ const Filters: React.FC<FiltersProps> = ({
       <div className="md:relative flex-1 md:flex-auto" ref={filterRef}>
         <button
           onClick={() => setIsFilterOpen(!isFilterOpen)}
-          className="w-full flex items-center h-[46px] gap-2 p-[10px_12px_10px_16px] border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
+          className="w-full flex items-center h-[44px] gap-2 p-[10px_12px_10px_16px] border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
         >
           {appliedFiltersCount > 0 && (
             <div className="h-6 min-w-6 px-[3px] text-sm text-semibold text-white bg-[#23262f] rounded-full flex items-center justify-center">
@@ -169,7 +169,7 @@ const Filters: React.FC<FiltersProps> = ({
       <div className="relative flex-1 md:flex-auto" ref={sortRef}>
         <button
           onClick={() => setIsSortOpen(!isSortOpen)}
-          className="w-full flex items-center gap-2 h-[46px] py-2.5 px-3 border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
+          className="w-full flex items-center gap-2 h-[44px] py-2.5 px-3 border border-[#d0d5dd] rounded-lg text-sm font-medium text-[#23262f] hover:bg-[#f2f4fc] focus:outline-none focus:border-[#85888e] transition-colors"
         >
           <span>
             <span className="text-[#b1b5c3]">Sort:</span> {sortOption}
