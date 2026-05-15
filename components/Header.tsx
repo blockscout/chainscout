@@ -13,7 +13,7 @@ export default function Header() {
     <>
       {/* Mobile menu */}
       <div
-        className={`md:hidden fixed inset-x-0 top-0 bottom-0 pt-[143px] bg-white transition-transform duration-300 ease-in-out overflow-y-auto z-10 ${
+        className={`lg:hidden fixed inset-x-0 top-0 bottom-0 pt-[143px] bg-white transition-transform duration-300 ease-in-out overflow-y-auto z-10 ${
           isMobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
@@ -23,16 +23,16 @@ export default function Header() {
         </div>
       </div>
       <header className="fixed w-full z-10 bg-white">
-        <div className="bg-[#161616] text-white text-sm h-[68px] md:h-[44px] flex flex-col md:flex-row items-center justify-center gap-1 md:gap-[14px]">
-          <span>Launch your own fully functioning blockchain explorer in minutes.</span>
-          
+        <div className="bg-[#161616] text-white text-sm min-h-[68px] lg:h-[44px] flex flex-col lg:flex-row items-center justify-center gap-1 lg:gap-[14px] p-2">
+          <span className="text-center">Launch your own fully functioning blockchain explorer in minutes.</span>
+
           <Link href="https://deploy.blockscout.com/?utm_source=blockscout_chainscout" target="_blank" className="underline">
             Deploy now
           </Link>
         </div>
-        <div className="flex items-center justify-between bg-white max-w-[1376px] h-[75px] md:h-[94px] mx-auto px-5 md:px-10 md:border-0 border-b border-[#e6e8ec]">
-          <div className="flex-1 mb-[-6px] md:mb-0">
-            <div className="w-[150px] md:w-[115px] relative">
+        <div className="flex items-center justify-between bg-white max-w-[1376px] h-[75px] lg:h-[94px] mx-auto px-5 lg:px-10 lg:border-0 border-b border-[#e6e8ec]">
+          <div className="flex-1 mb-[-6px] lg:mb-0">
+            <div className="w-[150px] lg:w-[115px] relative">
               <Image
                 src="/logo.svg"
                 alt="Blockscout Logo"
@@ -44,19 +44,19 @@ export default function Header() {
             </div>
           </div>
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             <MenuLinks />
           </div>
           {/* Mobile menu button */}
           <button
-            className="w-8 h-8 flex flex-col justify-center items-center md:hidden gap-1 mb-[-6px]"
+            className="w-8 h-8 flex flex-col justify-center items-center lg:hidden gap-1 mb-[-6px]"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <div className={`block w-5 h-0.5 bg-black ${isMobileMenuOpen ? 'rotate-45 translate-y-[3px]' : ''}`}></div>
             <div className={`block w-5 h-0.5 bg-black ${isMobileMenuOpen ? '-rotate-45 -translate-y-[3px]' : ''}`}></div>
           </button>
           {/* Desktop Explorer Dropdown */}
-          <div className="hidden md:flex flex-1 justify-end">
+          <div className="hidden lg:flex flex-1 justify-end">
             <ExplorerDropdown />
           </div>
         </div>
