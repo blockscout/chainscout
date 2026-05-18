@@ -8,9 +8,9 @@ type PopularEcosystemsProps = {
 
 const PopularEcosystems: React.FC<PopularEcosystemsProps> = ({ ecosystems, selectedEcosystems, onSelect }) => {
   return (
-    <div className="w-full mt-4 md:mt-6 flex flex-col md:flex-row gap-3 md:gap-0 justify-between items-center">
+    <div className="w-full mt-4 lg:mt-6 flex flex-col lg:flex-row gap-3 lg:gap-0 justify-between items-center">
       <span className="text-md text-[#6b6b74]">Popular Ecosystems:</span>
-      <div className="flex flex-wrap gap-2 justify-center md:justify-end">
+      <div className="flex flex-wrap gap-2 justify-center lg:justify-end">
         {ecosystems.map((ecosystem) => (
           <button
             key={ecosystem}

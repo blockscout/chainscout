@@ -10,6 +10,14 @@ const nextConfig = {
       },
     ]
   },
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
   webpack(config) {
     const fileLoaderRule = config.module.rules.find(
       (rule) => rule.test && rule.test instanceof RegExp && rule.test.test('.svg')

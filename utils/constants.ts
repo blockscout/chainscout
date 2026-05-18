@@ -6,7 +6,8 @@ export const HOSTING_PROVIDERS = {
   'protofire': 'Protofire',
   'gateway' : 'gateway.fm',
   'self': 'Self-hosted',
-  'alchemy': 'Alchemy'
+  'alchemy': 'Alchemy',
+  'caldera': 'Caldera'
 } as const;
 
 export const ROLLUP_TYPES = {
