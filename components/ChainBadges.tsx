@@ -9,6 +9,7 @@ export const hostingColors: Record<HostingProvider, { bg: string; text: string }
   'gateway': { bg: '#9368E8', text: '#ffffff' },
   'self': { bg: '#c2d9ff', text: '#003180' },
   'alchemy': { bg: '#363FF9', text: '#ffffff' },
+  'caldera': { bg: '#FC5000', text: '#F7F6F3' },
 };
 
 export const Tag = ({ children }: { children: string }) => (
