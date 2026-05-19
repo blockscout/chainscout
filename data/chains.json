@@ -4890,23 +4890,6 @@
       }
     ]
   },
-  "6398": {
-    "name": "Everclear Testnet",
-    "description": "Everclear is the cross-chain clearing and settlement protocol that solves liquidity fragmentation for blockchains and digital assets.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/664e554e425596f35cdc2686_connext.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.everclear.org/",
-    "explorers": [
-      {
-        "url": "https://scan.testnet.everclear.org/",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "6805": {
     "name": "RACE",
     "description": "Layer 2 RWA-focused protocol to unlock global liquidity.",
