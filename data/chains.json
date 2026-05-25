@@ -5299,6 +5299,22 @@
       }
     ]
   },
+  "8472": {
+    "name": "MYRX-MAINNET",
+    "description": "Sovereign EVM healthcare settlement rail operated by MyRxWallet North America Corporation. ONC-certified FHIR R4 platform, healthcare data marketplace, mainnet live 2026-05-07.",
+    "ecosystem": "EVM",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "MRT",
+    "website": "https://myrxwallet.io",
+    "explorers": [
+      {
+        "url": "https://explorer.myrxwallet.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "8700": {
     "name": "Chronos Autonomys EVM",
     "description": "The infrastructure to scale decentralized AI3.0 applications on-chain—hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution.",
