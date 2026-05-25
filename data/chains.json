@@ -5303,6 +5303,7 @@
     "name": "MYRX-MAINNET",
     "description": "Sovereign EVM healthcare settlement rail operated by MyRxWallet North America Corporation. ONC-certified FHIR R4 platform, healthcare data marketplace, mainnet live 2026-05-07.",
     "ecosystem": "EVM",
+    "logo":"https://blockscout-icons.s3.us-east-1.amazonaws.com/rx-icon-transparent.svg",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
