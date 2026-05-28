@@ -4141,6 +4141,23 @@
         "hostedBy": "blockscout"
       }
     ]
+  },  
+  "3946": {
+    "name": "Nexus Mainnet",
+    "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexus.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "NEX",
+    "website": "https://nexus.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.nexus.xyz/",
+        "hostedBy": "blockscout"
+      }
+    ]
   },
   "4024": {
     "name": "TONSquare",
@@ -6253,23 +6270,6 @@
       }
     ]
   },
-  "17000": {
-    "name": "Holesky",
-    "description": "Holešky is a staking, infrastructure and protocol-developer testnet for Ethereum.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ethereum.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://github.com/eth-clients/holesky",
-    "explorers": [
-      {
-        "url": "https://eth-holesky.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "17071": {
     "name": "Onchain Points",
     "description": "Dynamic ecosystem of fast-paced, onchain games.",
@@ -8160,23 +8160,6 @@
     "explorers": [
       {
         "url": "https://shadownet.explorer.etherlink.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "128123": {
-    "name": "Etherlink Testnet",
-    "description": "A truly decentralized layer 2 blockchain powered by Tezos smart rollup technology.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/etherlink.svg",
-    "ecosystem": "Tezos",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "XTZ",
-    "website": "https://www.etherlink.com/",
-    "explorers": [
-      {
-        "url": "https://testnet.explorer.etherlink.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -12723,7 +12706,7 @@
     "explorers": [
       {
         "url": "https://explorer.testnet.chain.robinhood.com/",
-        "hostedBy": "blockscout"
+        "hostedBy": "self-hosted"
       }
     ]
   }
