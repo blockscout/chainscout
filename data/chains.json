@@ -1672,24 +1672,6 @@
       }
     ]
   },
-  "690": {
-    "name": "Redstone",
-    "description": "Built by Lattice in collaboration with Optimism for builders building ambitious applications.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/redstone.svg",
-    "ecosystem": ["Optimism", "Superchain"],
-    "isTestnet": false,
-    "layer": 2,
-    "settlementLayerChainId": "1",
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://redstone.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.redstone.xyz/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "698": {
     "name": "Matchain",
     "description": "EVM-compatible L1 that operates on the Cosmos with a focus on decentralization and composability.",
@@ -8879,24 +8861,6 @@
       {
         "url": "https://testnet.pharosscan.xyz/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "695569": {
-    "name": "Pyrope Testnet",
-    "description": "Pyrope is the public testnet for Redstone, settling on the Ethereum Sepolia testnet.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/pyrope.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "11155111",
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://pyropechain.com/bridge",
-    "explorers": [
-      {
-        "url": "https://explorer.pyropechain.com/",
-        "hostedBy": "blockscout"
       }
     ]
   },
