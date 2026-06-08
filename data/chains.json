@@ -1,4 +1,21 @@
 {
+  "821207": {
+    "name": "GembaBlockchain Testnet",
+    "description": "Public test network for GembaBlockchain \u2014 a decentralized, permissionless Cosmos EVM (CometBFT PoS) L1 whose native coin GMB is a utility coin.",
+    "logo": "https://testnet.gembascan.io/brand/gemba-bold-256.png",
+    "ecosystem": ["Cosmos", "EVM"],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "GMB",
+    "website": "https://gembachain.io",
+    "explorers": [
+      {
+        "url": "https://testnet.gembascan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1": {
     "name": "Ethereum",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
