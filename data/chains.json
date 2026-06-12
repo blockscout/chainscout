@@ -12692,4 +12692,25 @@
     ]
   }
 }
+},
+"7777001": {
+  "name": "SAIHCHAIN GENESIS",
+  "description": "Blockchain infrastructure focused on education, humanitarian impact, innovation, transparency, justice and sustainable community development.",
+  "logo": "https://saihchain.com/assets/logos/saihchain-genesis-logo.png",
+  "ecosystem": ["Ethereum","SAIHCHAIN"],
+  "isTestnet": false,
+  "chainId" : 7777001,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "SAIH",
+  "website": "https://saihchain.com",
+  "explorers": [
+    {
+      "url": "https://explorer.saihchain.com",
+      "hostedBy": "self"
+    }
+  ]
+}
+}
+
 
