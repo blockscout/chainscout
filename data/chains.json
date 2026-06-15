@@ -12694,8 +12694,8 @@
 ,
   "778889": {
     "name": "Unitsky String Technologies",
-    "description": "Proof-of-work EVM blockchain with on-chain mining contract (USSTMine). Miners submit GPU-computed nonces to earn UST tokens.",
-    "logo": "https://147-45-143-23.sslip.io/icon.svg",
+    "description": "EVM-compatible chain (Chain ID 778889) with Clique PoA block production and on-chain Proof-of-Work token distribution via USSTMine v4. Permissionless GPU/CPU mining, 5-second blocks, public RPC and Blockscout explorer.",
+    "logo": "https://blockscout.byteboost.ru/icon.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -12704,8 +12704,8 @@
     "website": "https://147-45-143-23.sslip.io",
     "explorers": [
       {
-        "url": "https://147-45-143-23.sslip.io",
-        "hostedBy": "self"
+        "url": "https://blockscout.byteboost.ru",
+        "hostedBy": "self-hosted"
       }
     ]
   }
