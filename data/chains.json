@@ -12691,5 +12691,22 @@
       }
     ]
   }
+,
+  "778889": {
+    "name": "Unitsky String Technologies",
+    "description": "EVM-compatible chain (Chain ID 778889) with Clique PoA block production and on-chain Proof-of-Work token distribution via USSTMine v4. Permissionless GPU/CPU mining, 5-second blocks, public RPC and Blockscout explorer.",
+    "logo": "https://blockscout.byteboost.ru/icon.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "UST",
+    "website": "https://147-45-143-23.sslip.io",
+    "explorers": [
+      {
+        "url": "https://blockscout.byteboost.ru",
+        "hostedBy": "self-hosted"
+      }
+    ]
+  }
 }
-
