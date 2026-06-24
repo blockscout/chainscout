@@ -4974,6 +4974,23 @@
       }
     ]
   },
+  "6923": {
+    "name": "LUST Chain",
+    "description": "LUST Chain is an EVM-compatible Layer 1 blockchain powered by LQC consensus, built for decentralized applications, DeFi, NFTs, public participation, and low-cost transactions. Official website: https://lustchain.org/. Ecosystem platform: https://platform.lustchain.org/.",
+    "logo": "https://explorer.lustchain.org/lust-assets/github/lst-icon.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "LST",
+    "website": "https://lustchain.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.lustchain.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "6969": {
     "name": "Tomb",
     "description": "Fast and secure Optimistic Rollup built on Fantom.",
