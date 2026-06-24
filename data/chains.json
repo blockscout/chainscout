@@ -12725,7 +12725,24 @@
         "hostedBy": "self-hosted"
       }
     ]
-  }
+  },
+  "677": {
+  "name": "BOT Chain Mainnet",
+  "description": "EVM 兼容 Layer 1，采用 Parlia（权威权益证明）共识，原生代币为 BOT。",
+  "ecosystem": "Ethereum",
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "BOT",
+  "website": "https://www.botchain.ai/",
+  "explorers": [
+    {
+      "url": "https://scan.botchain.ai/",
+      "hostedBy": "self"
+    }
+  ],
+  "logo": "https://www.botchain.ai/favicon.ico"
+}
 }
 
 
