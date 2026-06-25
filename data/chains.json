@@ -3360,19 +3360,19 @@
     ]
   },
   "2020": {
-    "name": "Alastria",
-    "description": "Public-permissioned, multi-sector blockchain platform aiming to spread knowledge about distributed ledger technologies.",
-    "logo": "https://cdn.prod.website-files.com/644a5b7efad46e3cd70deafb/67064ce1050dc4355123e909_Alastria.png",
+    "name": "Ronin Mainnet",
+    "description": "Ronin is the blockchain for fun and practical blockchain applications.",
+    "logo": "https://ipfs.io/ipfs/bafkreicwyre2qm2g2g27rffua7sb3dsqx7kka4rcjnb5wzcwhdlemyjn5m",
     "ecosystem": "Ethereum",
     "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://alastria.io/",
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "RON",
+    "website": "https://roninchain.com/",
     "explorers": [
       {
-        "url": "https://b-network.alastria.izer.tech/",
-        "hostedBy": "self"
+        "url": "https://explorer.roninchain.com/",
+        "hostedBy": "conduit"
       }
     ]
   },
@@ -12759,7 +12759,24 @@
     }
   ],
   "logo": "https://www.botchain.ai/favicon.ico"
-}
+  },
+  "202601": {
+    "name": "Ronin Saigon Testnet",
+    "description": "Ronin is the blockchain for fun and practical blockchain applications.",
+    "logo": "https://ipfs.io/ipfs/bafkreicwyre2qm2g2g27rffua7sb3dsqx7kka4rcjnb5wzcwhdlemyjn5m",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "RON",
+    "website": "https://roninchain.com/",
+    "explorers": [
+      {
+        "url": "https://saigon-explorer.roninchain.com/",
+        "hostedBy": "conduit"
+      }
+    ]
+  }
 }
 
 
