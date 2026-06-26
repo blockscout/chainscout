@@ -2506,18 +2506,18 @@
     ]
   },
   "1315": {
-    "name": "Story Aeneid",
-    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.svg",
+    "name": "DATA Network Aeneid",
+    "description": "DATA Network is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
+    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/datanet-light.svg",
     "ecosystem": "Cosmos",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "IP",
-    "website": "https://www.story.foundation/",
+    "native_currency": "DATA",
+    "website": "https://www.datafdn.org/",
     "explorers": [
       {
-        "url": "https://aeneid.storyscan.io/",
+        "url": "https://aeneid.datanetscan.io/",
         "hostedBy": "blockscout"
       }
     ]
@@ -2709,36 +2709,19 @@
       }
     ]
   },
-  "1512": {
-    "name": "Story Internal Devnet",
-    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.svg",
-    "ecosystem": "Cosmos",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "IP",
-    "website": "https://www.story.foundation/",
-    "explorers": [
-      {
-        "url": "https://devnet.storyscan.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "1514": {
-    "name": "Story",
-    "description": "Story is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/story.svg",
+    "name": "DATA Network",
+    "description": "DATA Network is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
+    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/datanet-light.svg",
     "ecosystem": "Cosmos",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "IP",
-    "website": "https://www.story.foundation/",
+    "native_currency": "DATA",
+    "website": "https://www.datafdn.org/",
     "explorers": [
       {
-        "url": "https://www.storyscan.io/",
+        "url": "https://www.datanetscan.io/",
         "hostedBy": "blockscout"
       }
     ]
