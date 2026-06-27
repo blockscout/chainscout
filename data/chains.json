@@ -647,6 +647,24 @@
       }
     ]
   },
+
+  "138": {
+    "name": "DeFi Oracle Meta Mainnet",
+    "description": "EVM-compatible QBFT L1 mainnet for the GRU v2 compliant asset family (cUSDT, cUSDC, cBTC, and related tokens). Public Blockscout explorer for the Defi Oracle chain.",
+    "logo": "https://blockscout.defi-oracle.io/token-icons/chain-138.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://info.defi-oracle.io",
+    "explorers": [
+      {
+        "url": "https://blockscout.defi-oracle.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "140": {
     "name": "Data Lake Chain",
     "description": "Data Lake is an ecosystem focused on helping patients access better treatments more effectively.",
