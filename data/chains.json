@@ -4431,6 +4431,23 @@
       }
     ]
   },
+  "4663": {
+    "name": "Robinhood Chain",
+    "description": "Robinhood Chain is a permissionless Layer 2 blockchain built for financial services and tokenized real-world assets.",
+    "logo": "https://bs-static-content.blockscout.com/robinhood-config/icon-light.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://robinhood.com/",
+    "explorers": [
+      {
+        "url": "https://robinhoodchain.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "4801": {
     "name": "World Chain Testnet",
     "description": "World Chain is permissionless, open source, designed for community governance, and for developers to reach users with apps for everyday life.",
