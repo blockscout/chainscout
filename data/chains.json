@@ -16,6 +16,27 @@
       }
     ]
   },
+  "20260532": {
+    "name": "GridMind Testnet",
+    "description": "EVM-compatible public testnet pilot for GridMind Wallet, resource intelligence workflows, and early wallet/explorer testing.",
+    "logo": "https://www.grid-mind.com/logo.png",
+    "ecosystem": ["Ethereum", "EVM", "RWA"],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "testGRD",
+    "website": "https://www.grid-mind.com/blockchain",
+    "explorers": [
+      {
+        "url": "https://gridmindblockchain.com/",
+        "hostedBy": "self"
+      },
+      {
+        "url": "https://testnet-explorer.grid-mind.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1": {
     "name": "Ethereum",
     "description": "Decentralized global computing platform supporting smart contracts & P2P apps.",
