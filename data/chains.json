@@ -12732,7 +12732,7 @@
   "46630": {
     "name": "Robinhood Chain Testnet",
     "description": "Public testnet for Robinhood Chain, an Ethereum L2 built on Arbitrum Orbit for financial-grade applications and tokenized real-world assets.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/robinhood-chain.svg",
+    "logo": "https://bs-static-content.blockscout.com/robinhood-config/icon-light.svg",
     "ecosystem": ["Arbitrum", "Ethereum"],
     "isTestnet": true,
     "layer": 2,
