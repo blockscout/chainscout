@@ -4928,23 +4928,6 @@
       }
     ]
   },
-  "6343": {
-    "name": "MegaETH Testnet v2",
-    "description": "Real-time Ethereum, streaming transactions at lightning speed: sub-millisecond latency and over 100000 transactions per second",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/megaeth.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://www.megaeth.com/",
-    "explorers": [
-      {
-        "url": "https://megaeth-testnet-v2.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "6805": {
     "name": "RACE",
     "description": "Layer 2 RWA-focused protocol to unlock global liquidity.",
