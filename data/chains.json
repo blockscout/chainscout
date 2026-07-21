@@ -8852,23 +8852,6 @@
       }
     ]
   },
-  "656476": {
-    "name": "EDU Chain Testnet",
-    "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/edu-chain.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": true,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "EDU",
-    "website": "https://educhain.xyz/",
-    "explorers": [
-      {
-        "url": "https://edu-chain-testnet.blockscout.com",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "668668": {
     "name": "Conwai Mainnet",
     "description": "Specialized L3 built for high-throughput AI computations and low-friction on-chain/off-chain communication.",
