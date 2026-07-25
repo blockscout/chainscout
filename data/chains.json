@@ -1,4 +1,21 @@
 {
+  "88118": {
+    "name": "Shark Network",
+    "description": "Shark Network is a high-performance EVM-compatible blockchain designed for the next generation of decentralized applications.",
+    "logo": "https://swapshark.net/logo.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "SHARK",
+    "website": "https://swapshark.net",
+    "explorers": [
+      {
+        "url": "https://sharkscan.app/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "821207": {
     "name": "GembaBlockchain Testnet",
     "description": "Public test network for GembaBlockchain \u2014 a decentralized, permissionless Cosmos EVM (CometBFT PoS) L1 whose native coin GMB is a utility coin.",
