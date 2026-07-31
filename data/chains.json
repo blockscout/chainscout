@@ -7606,40 +7606,6 @@
       }
     ]
   },
-  "73114": {
-    "name": "ICB Network Testnet",
-    "description": "Decentralized blockchain combining speed and safety, built to enable scalable, user-friendly apps for the world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/icb.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": null,
-    "website": "https://www.icb.network/",
-    "explorers": [
-      {
-        "url": "https://testnet.icbscan.io/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "73115": {
-    "name": "ICB Network",
-    "description": "Decentralized blockchain combining speed and safety, built to enable scalable, user-friendly apps for the world.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/icb.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "ICBX",
-    "website": "https://www.icb.network/",
-    "explorers": [
-      {
-        "url": "https://icbscan.io/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "73682": {
     "name": "Renta",
     "description": "Global ecosystem for property rental worldwide without commissions and intermediaries.",
