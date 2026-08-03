@@ -6771,23 +6771,6 @@
       }
     ]
   },
-  "41923": {
-    "name": "EDU Chain",
-    "description": "A Layer 3 blockchain for consumer-facing education apps and on-chain education finance (EduFi).",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/edu-chain.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 3,
-    "rollupType": null,
-    "native_currency": "EDU",
-    "website": "https://educhain.xyz/",
-    "explorers": [
-      {
-        "url": "https://educhain.blockscout.com",
-        "hostedBy": "gelato-raas"
-      }
-    ]
-  },
   "42026": {
     "name": "Donatuz",
     "description": "Streamlining Monetization for Sustainable Creator Income!",
@@ -8609,24 +8592,6 @@
       {
         "url": "https://testnet-explorer.sovrun.org/",
         "hostedBy": "protofire"
-      }
-    ]
-  },
-  "534351": {
-    "name": "Scroll Testnet",
-    "description": "Security-focused scaling solution for Ethereum, using innovations in scaling design and zero knowledge proofs to build a new layer on Ethereum.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/scroll.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "settlementLayerChainId": "11155111",
-    "rollupType": "zk",
-    "native_currency": "ETH",
-    "website": "https://scroll.io/",
-    "explorers": [
-      {
-        "url": "https://scroll-sepolia.blockscout.com",
-        "hostedBy": "blockscout"
       }
     ]
   },
