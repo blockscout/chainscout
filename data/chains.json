@@ -12553,7 +12553,7 @@
     "explorers": [
       {
         "url": "https://sepolia-explorer.hpp.io",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ],
     "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
@@ -12570,7 +12570,7 @@
     "explorers": [
       {
         "url": "https://explorer.hpp.io",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ],
     "logo": "https://asset.hpp.io/svg/HPP_ticker_black.svg"
