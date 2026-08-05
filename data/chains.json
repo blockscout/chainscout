@@ -9213,7 +9213,7 @@
     "description": "Mizuhiki is the mainnet part of the Japan Smart Chain ecosystem.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/japan_smart_chain.svg",
     "ecosystem": "Ethereum",
-    "isTestnet": true,
+    "isTestnet": false,
     "layer": 1,
     "rollupType": null,
     "native_currency": "MIZU",
