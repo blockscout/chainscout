@@ -9208,19 +9208,19 @@
       }
     ]
   },
-  "5278000": {
-    "name": "Kaigan",
-    "description": "The first JSC testnet “Kaigan”, symbolizing the initial phase of the Japan Smart Chain ecosystem.",
+  "6498": {
+    "name": "Mizuhiki",
+    "description": "Mizuhiki is the mainnet part of the Japan Smart Chain ecosystem.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/japan_smart_chain.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "JETH",
+    "native_currency": "MIZU",
     "website": "https://japansmartchain.com/",
     "explorers": [
       {
-        "url": "https://kaigan.blockscout.com/",
+        "url": "https://mizuhiki.blockscout.com",
         "hostedBy": "blockscout"
       }
     ]
