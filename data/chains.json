@@ -1,4 +1,24 @@
 {
+  "2443": {
+    "name": "Haus Chain Testnet",
+    "description": "EVM-compatible Layer 1 testnet for Haus Chain, designed for fast smart-contract development, testing and onchain applications.",
+    "logo": "https://dex-testnet.hausserver.xyz/token-logos/haus.webp",
+    "ecosystem": [
+      "Ethereum",
+      "EVM"
+    ],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "HAUS",
+    "website": "https://www.hausserver.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.hausserver.xyz/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "88118": {
     "name": "Shark Network",
     "description": "Shark Network is a high-performance EVM-compatible blockchain designed for the next generation of decentralized applications.",
