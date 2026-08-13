@@ -2037,10 +2037,27 @@
       }
     ]
   },
+  "901": {
+    "name": "Derive Testnet",
+    "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.svg",
+    "ecosystem": ["Optimism", "Superchain"],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://www.derive.xyz/",
+    "explorers": [
+      {
+        "url": "https://explorer.derive.xyz/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "957": {
     "name": "Derive Mainnet",
     "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.svg",
     "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
@@ -2050,7 +2067,7 @@
     "explorers": [
       {
         "url": "https://explorer.derive.xyz/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
