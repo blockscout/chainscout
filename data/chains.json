@@ -2550,7 +2550,7 @@
   "1315": {
     "name": "DATA Network Aeneid",
     "description": "DATA Network is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/datanet-light.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/data_network.svg",
     "ecosystem": "Cosmos",
     "isTestnet": true,
     "layer": 1,
@@ -2754,7 +2754,7 @@
   "1514": {
     "name": "DATA Network",
     "description": "DATA Network is a purpose-built Layer 1 blockchain that tokenizes intellectual property into a programmable store of value in an AI-driven world.",
-    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/datanet-light.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/data_network.svg",
     "ecosystem": "Cosmos",
     "isTestnet": false,
     "layer": 1,
@@ -4458,7 +4458,7 @@
   "4663": {
     "name": "Robinhood Chain",
     "description": "Robinhood Chain is a permissionless Layer 2 blockchain built for financial services and tokenized real-world assets.",
-    "logo": "https://bs-static-content.blockscout.com/robinhood-config/icon-light.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/robinhood.svg",
     "ecosystem": "Arbitrum Orbit",
     "isTestnet": false,
     "layer": 2,
@@ -9231,7 +9231,7 @@
   "6498": {
     "name": "Mizuhiki",
     "description": "Mizuhiki is the mainnet part of the Japan Smart Chain ecosystem.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/japan_smart_chain.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mizuhiki.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -12563,7 +12563,7 @@
    "6497": {
     "name": "Awaji",
     "description": "Awaji is a testnet in the Japan Smart Chain ecosystem.",
-    "logo": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/awaji-light.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mizuhiki.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
