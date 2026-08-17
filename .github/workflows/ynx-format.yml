@@ -1,0 +1,34 @@
+name: Format YNX ChainScout entry
+
+on:
+  push:
+    branches:
+      - add-ynx-testnet-6423
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: add-ynx-testnet-6423
+      - name: Fix entry indentation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('data/chains.json')
+          s = p.read_text()
+          s = s.replace('{\n"6423": {', '{\n  "6423": {', 1)
+          p.write_text(s)
+          PY
+      - name: Remove temporary workflow and commit
+        run: |
+          rm .github/workflows/ynx-format.yml
+          git config user.name "JiahaoAlbus"
+          git config user.email "159010359+JiahaoAlbus@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: format YNX ChainScout entry"
+          git push origin HEAD:add-ynx-testnet-6423
