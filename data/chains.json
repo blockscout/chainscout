@@ -1,4 +1,38 @@
 {
+  "1611": {
+    "name": "NVNM Chain Mainnet",
+    "description": "EVM-compatible chain built on MANTRA providing a verifiable, auditable evidence layer for AI-driven decisions and institutional finance workflows.",
+    "logo": "https://assets.mainnet.nvnmchain.io/nvnm-token-primary.svg",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "MANTRAUSD",
+    "website": "https://www.nvnmchain.io/",
+    "explorers": [
+      {
+        "url": "https://evm.explorer.nvnmchain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "787111": {
+    "name": "NVNM Chain Testnet",
+    "description": "EVM-compatible testnet built on MANTRA providing a verifiable, auditable evidence layer for AI-driven decisions and institutional finance workflows.",
+    "logo": "https://assets.mainnet.nvnmchain.io/nvnm-token-primary.svg",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": null,
+    "native_currency": "MANTRAUSD",
+    "website": "https://www.nvnmchain.io/",
+    "explorers": [
+      {
+        "url": "https://evm.explorer.testnet.nvnmchain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2443": {
     "name": "Haus Chain Testnet",
     "description": "EVM-compatible Layer 1 testnet for Haus Chain, designed for fast smart-contract development, testing and onchain applications.",
@@ -2853,23 +2887,6 @@
       }
     ]
   },
-  "1611": {
-    "name": "saakuru",
-    "description": "Consumer-centric L1 with zero transaction fees.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/668b1629cd9c8054440fa42d_saakuru.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "OAS",
-    "website": "https://saakuru.com/",
-    "explorers": [
-      {
-        "url": "https://explorer.saakuru.network/",
-        "hostedBy": "self"
-      }
-    ]
-  },
   "1612": {
     "name": "OpenLedger Mainnet",
     "description": "AI-blockchain infrastructure for training and deploying specialized models using community-owned datasets (Datanets).",
@@ -4790,7 +4807,7 @@
     "website": "https://mantrachain.io",
     "explorers": [
       {
-        "url": "https://explorer.dukong.io",
+        "url": "https://blockscout.dukong.mantrascan.io/",
         "hostedBy": "self"
       }
     ]
@@ -4803,7 +4820,7 @@
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "OM",
+    "native_currency": "MANTRA",
     "website": "https://mantrachain.io/",
     "explorers": [
       {
