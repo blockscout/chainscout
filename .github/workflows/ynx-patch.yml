@@ -23,27 +23,24 @@ jobs:
           p = Path('data/chains.json')
           s = p.read_text()
           if '"6423"' not in s:
-              entry = '''  "6423": {
-    "name": "YNX Testnet",
-    "description": "EVM-compatible public Layer 1 testnet for the YNX Web4 ecosystem.",
-    "logo": "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
-    "ecosystem": ["Ethereum", "EVM"],
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "YNXT",
-    "website": "https://ynxweb4.com",
-    "explorers": [
-      {
-        "url": "https://explorer.ynxweb4.com/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-'''
+              entry = {
+                  "6423": {
+                      "name": "YNX Testnet",
+                      "description": "EVM-compatible public Layer 1 testnet for the YNX Web4 ecosystem.",
+                      "logo": "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+                      "ecosystem": ["Ethereum", "EVM"],
+                      "isTestnet": True,
+                      "layer": 1,
+                      "rollupType": None,
+                      "native_currency": "YNXT",
+                      "website": "https://ynxweb4.com",
+                      "explorers": [{"url": "https://explorer.ynxweb4.com/", "hostedBy": "self"}],
+                  }
+              }
+              rendered = json.dumps(entry, indent=2)[1:-1].strip() + ',\n'
               if not s.startswith('{\n'):
                   raise SystemExit('unexpected chains.json format')
-              s = '{\n' + entry + s[2:]
+              s = '{\n' + rendered + s[2:]
               p.write_text(s)
           json.loads(p.read_text())
           PY
