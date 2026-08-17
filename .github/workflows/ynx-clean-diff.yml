@@ -18,6 +18,7 @@ jobs:
           fetch-depth: 0
       - name: Restore upstream formatting and insert YNX only
         run: |
+          git fetch origin main:refs/remotes/origin/main
           git show origin/main:data/chains.json > data/chains.json
           python - <<'PY'
           from pathlib import Path
@@ -49,7 +50,7 @@ jobs:
                   s='{\r\n'+entry.replace('\n','\r\n')+s[3:]
               else:
                   raise SystemExit('unexpected format')
-          p.write_text(s, newline='')
+          p.write_text(s)
           json.loads(p.read_text())
           PY
       - name: Remove temporary workflow and commit
