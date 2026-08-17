@@ -2,7 +2,7 @@
   "6423": {
     "name": "YNX Testnet",
     "description": "EVM-compatible public Layer 1 testnet for the YNX Web4 ecosystem.",
-    "logo": "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+    "logo": "/ynx-logo.png",
     "ecosystem": [
       "Ethereum",
       "EVM"
@@ -43,7 +43,10 @@
     "name": "Shark Network",
     "description": "Shark Network is a high-performance EVM-compatible blockchain designed for the next generation of decentralized applications.",
     "logo": "https://swapshark.net/logo.png",
-    "ecosystem": ["Ethereum", "EVM"],
+    "ecosystem": [
+      "Ethereum",
+      "EVM"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -58,9 +61,12 @@
   },
   "821207": {
     "name": "GembaBlockchain Testnet",
-    "description": "Public test network for GembaBlockchain \u2014 a decentralized, permissionless Cosmos EVM (CometBFT PoS) L1 whose native coin GMB is a utility coin.",
+    "description": "Public test network for GembaBlockchain — a decentralized, permissionless Cosmos EVM (CometBFT PoS) L1 whose native coin GMB is a utility coin.",
     "logo": "https://testnet.gembascan.io/brand/gemba-bold-256.png",
-    "ecosystem": ["Cosmos", "EVM"],
+    "ecosystem": [
+      "Cosmos",
+      "EVM"
+    ],
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -77,7 +83,11 @@
     "name": "GridMind Testnet",
     "description": "EVM-compatible public testnet pilot for GridMind Wallet, resource intelligence workflows, and early wallet/explorer testing.",
     "logo": "https://www.grid-mind.com/logo.png",
-    "ecosystem": ["Ethereum", "EVM", "RWA"],
+    "ecosystem": [
+      "Ethereum",
+      "EVM",
+      "RWA"
+    ],
     "isTestnet": true,
     "layer": 1,
     "rollupType": null,
@@ -110,7 +120,7 @@
         "hostedBy": "blockscout"
       }
     ]
-  }, 
+  },
   "7": {
     "name": "Thai Chain",
     "description": "Non-profit organization advancing blockchain adoption in Thailand through infrastructure services, smart contract audits, and public education",
@@ -132,7 +142,10 @@
     "name": "OP Mainnet",
     "description": "Optimism is building an equitable Internet with their Superchain infra - this is the flagship Optimism Mainnet instance.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/op-mainnet.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -725,7 +738,6 @@
       }
     ]
   },
-
   "138": {
     "name": "DeFi Oracle Meta Mainnet",
     "description": "EVM-compatible QBFT L1 mainnet for the GRU v2 compliant asset family (cUSDT, cUSDC, cBTC, and related tokens). Public Blockscout explorer for the Defi Oracle chain.",
@@ -885,7 +897,10 @@
     "name": "Mint Chain",
     "description": "L2 blockchain built on OP Stack for the NFT ecosystem.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6b4292ddefeda50298_Mint.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -970,7 +985,10 @@
     "name": "Swan Chain",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -1174,7 +1192,10 @@
     "name": "Orderly",
     "description": "The permissionless liquidity layer for Web3 trading.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2061,7 +2082,10 @@
     "name": "Derive Testnet",
     "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2078,7 +2102,10 @@
     "name": "Derive Mainnet",
     "description": "Decentralized protocol that creates unique and programmable onchain options, perpetuals, and structured products.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/derive.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2418,7 +2445,10 @@
     "name": "Lisk ",
     "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/lisk.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -2619,22 +2649,24 @@
     ]
   },
   "1330": {
-  "name": "ONN Chain",
-  "description": "ONN Chain Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.",
-  "ecosystem": ["Ethereum"],
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "native_currency": "ONN",
-  "website": "https://onnscan.com",
-  "explorers": [
-    {
-      "url": "https://onnscan.com",
-      "hostedBy": "self"
-    }
-  ],
-  "logo": "https://github.com/mkd951/chainscout/blob/main/onnchain.png?raw=true"
-},
+    "name": "ONN Chain",
+    "description": "ONN Chain Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.",
+    "ecosystem": [
+      "Ethereum"
+    ],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ONN",
+    "website": "https://onnscan.com",
+    "explorers": [
+      {
+        "url": "https://onnscan.com",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://github.com/mkd951/chainscout/blob/main/onnchain.png?raw=true"
+  },
   "1338": {
     "name": "Elysium Testnet",
     "description": "Platform to optimize game, NFT, AI, or metaverse projects.",
@@ -3081,7 +3113,10 @@
     "name": "Metal L2",
     "description": "Blockchain solution serving as the connective layer for seamless asset transfers and dApp operations.",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/669a6c6a611744972e72f88b_Metal_L2.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -3459,7 +3494,10 @@
     "name": "Swan Saturn",
     "description": "OP Stack L2 offering comprehensive solutions for storage, computing, bandwidth, and payments",
     "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/660dccad4fc0b068654ed135_swanchain.png",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": true,
     "layer": 2,
     "rollupType": null,
@@ -3573,7 +3611,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "2288": {
     "name": "Moca Chain",
     "description": "$MOCA is an omni-chain network token created to reimagine the web3 cultural economy by empowering unity in culture, governance, and growth.",
@@ -4071,7 +4109,9 @@
     "name": "INRI CHAIN",
     "description": "EVM Proof-of-Work chain focused on fair mining, fee burning, and low transaction costs.",
     "logo": "https://raw.githubusercontent.com/inrichain/logoofficial/main/256x256.png",
-    "ecosystem": ["Ethereum"],
+    "ecosystem": [
+      "Ethereum"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -4202,7 +4242,7 @@
         "hostedBy": "blockscout"
       }
     ]
-  },  
+  },
   "3946": {
     "name": "Nexus Mainnet",
     "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
@@ -5363,7 +5403,10 @@
     "name": "Base",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/base.svg",
-    "ecosystem": ["Ethereum", "Superchain"],
+    "ecosystem": [
+      "Ethereum",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -5381,7 +5424,7 @@
     "name": "MYRX-MAINNET",
     "description": "Sovereign EVM healthcare settlement rail operated by MyRxWallet North America Corporation. ONC-certified FHIR R4 platform, healthcare data marketplace, mainnet live 2026-05-07.",
     "ecosystem": "EVM",
-    "logo":"https://blockscout-icons.s3.us-east-1.amazonaws.com/rx-icon-transparent.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/rx-icon-transparent.svg",
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -6692,7 +6735,10 @@
     "name": "Mode",
     "description": "Ethereum L2 with rewards for growing the network via new economic mechanisms.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mode.svg",
-    "ecosystem": ["Optimism", "Superchain"],
+    "ecosystem": [
+      "Optimism",
+      "Superchain"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -7730,7 +7776,7 @@
         "hostedBy": "self"
       }
     ]
-  }, 
+  },
   "84532": {
     "name": "Base Sepolia",
     "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
@@ -8592,7 +8638,6 @@
     "layer": 1,
     "rollupType": null,
     "native_currency": "AI3",
-
     "website": "https://www.autonomys.xyz/",
     "explorers": [
       {
@@ -12379,7 +12424,9 @@
   "1370": {
     "name": "Ramestta",
     "description": "Ramestta is a high-speed Layer 2 blockchain built on Polygon PoS, focused on scalable decentralized applications and RAMA coin economy.",
-    "ecosystem": ["Polygon"],
+    "ecosystem": [
+      "Polygon"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -12430,7 +12477,9 @@
   "1233": {
     "name": "Fitochain",
     "description": "EVM-compatible blockchain focused on low fees and AI-integrated tooling, secured with Proof of Stake plus commit-chain consensus.",
-    "ecosystem": ["Ethereum"],
+    "ecosystem": [
+      "Ethereum"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": null,
@@ -12447,7 +12496,9 @@
   "478549": {
     "name": "Mintrax Mainnet",
     "description": "A decentralized mining & token ecosystem powered by MTX.",
-    "ecosystem": ["Ethereum"],
+    "ecosystem": [
+      "Ethereum"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -12464,7 +12515,9 @@
   "12216": {
     "name": "L2 Protocol",
     "description": "Smart Contracts for Any Chain",
-    "ecosystem": ["Ethereum"],
+    "ecosystem": [
+      "Ethereum"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -12481,7 +12534,9 @@
   "890": {
     "name": "Capital Exchange",
     "description": "CXM",
-    "ecosystem": ["Capital Exchange"],
+    "ecosystem": [
+      "Capital Exchange"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -12498,7 +12553,10 @@
   "181228": {
     "name": "HPP Sepolia",
     "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates Noösphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
-    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
+    "ecosystem": [
+      "Ethereum",
+      "Arbitrum Orbit"
+    ],
     "isTestnet": true,
     "layer": 2,
     "rollupType": "optimistic",
@@ -12515,7 +12573,10 @@
   "190415": {
     "name": "HPP Mainnet",
     "description": "House Party Protocol (HPP) is an AI-native L2 blockchain and data infrastructure, evolved from Aergo's production-proven enterprise and public-sector deployments since 2018, that integrates Noösphere to enable verifiable, cost-efficient AI task delegation for smart contracts and applications as an execution and settlement layer for AI-driven services.",
-    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
+    "ecosystem": [
+      "Ethereum",
+      "Arbitrum Orbit"
+    ],
     "isTestnet": false,
     "layer": 2,
     "rollupType": "optimistic",
@@ -12549,7 +12610,9 @@
   "19251925": {
     "name": "Tipschain",
     "description": "Community-driven blockchain focused on micro-tipping and rewards",
-    "ecosystem": ["TPC, Ethereum"],
+    "ecosystem": [
+      "TPC, Ethereum"
+    ],
     "isTestnet": false,
     "layer": 1,
     "rollupType": null,
@@ -12597,7 +12660,7 @@
       }
     ]
   },
-   "6497": {
+  "6497": {
     "name": "Awaji",
     "description": "Awaji is a testnet in the Japan Smart Chain ecosystem.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/mizuhiki.svg",
@@ -12653,7 +12716,10 @@
     "name": "Robinhood Chain Testnet",
     "description": "Public testnet for Robinhood Chain, an Ethereum L2 built on Arbitrum Orbit for financial-grade applications and tokenized real-world assets.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/robinhood.svg",
-    "ecosystem": ["Arbitrum", "Ethereum"],
+    "ecosystem": [
+      "Arbitrum",
+      "Ethereum"
+    ],
     "isTestnet": true,
     "layer": 2,
     "settlementLayerChainId": "1",
@@ -12665,15 +12731,18 @@
         "url": "https://explorer.testnet.chain.robinhood.com/",
         "hostedBy": "self-hosted"
       }
-    ]  
+    ]
   },
   "7777001": {
     "name": "SAIHCHAIN GENESIS",
     "description": "Blockchain infrastructure focused on education, humanitarian impact, innovation, transparency, justice and sustainable community development.",
     "logo": "https://saihchain.com/assets/logos/saihchain-genesis-logo.png",
-    "ecosystem": ["Ethereum","SAIHCHAIN"],
+    "ecosystem": [
+      "Ethereum",
+      "SAIHCHAIN"
+    ],
     "isTestnet": false,
-    "chainId" : 7777001,
+    "chainId": 7777001,
     "layer": 1,
     "rollupType": null,
     "native_currency": "SAIH",
@@ -12703,21 +12772,21 @@
     ]
   },
   "677": {
-  "name": "BOT Chain Mainnet",
-  "description": "EVM 兼容 Layer 1，采用 Parlia（权威权益证明）共识，原生代币为 BOT。",
-  "ecosystem": "Ethereum",
-  "isTestnet": false,
-  "layer": 1,
-  "rollupType": null,
-  "native_currency": "BOT",
-  "website": "https://www.botchain.ai/",
-  "explorers": [
-    {
-      "url": "https://scan.botchain.ai/",
-      "hostedBy": "self"
-    }
-  ],
-  "logo": "https://www.botchain.ai/favicon.ico"
+    "name": "BOT Chain Mainnet",
+    "description": "EVM 兼容 Layer 1，采用 Parlia（权威权益证明）共识，原生代币为 BOT。",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "BOT",
+    "website": "https://www.botchain.ai/",
+    "explorers": [
+      {
+        "url": "https://scan.botchain.ai/",
+        "hostedBy": "self"
+      }
+    ],
+    "logo": "https://www.botchain.ai/favicon.ico"
   },
   "202601": {
     "name": "Ronin Saigon Testnet",
@@ -12737,5 +12806,3 @@
     ]
   }
 }
-
-
