@@ -1,0 +1,62 @@
+name: Clean YNX diff
+
+on:
+  push:
+    branches:
+      - add-ynx-testnet-6423
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: add-ynx-testnet-6423
+          fetch-depth: 0
+      - name: Restore upstream formatting and insert YNX only
+        run: |
+          git show origin/main:data/chains.json > data/chains.json
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('data/chains.json')
+          s=p.read_text()
+          entry='''  "6423": {
+    "name": "YNX Testnet",
+    "description": "EVM-compatible public Layer 1 testnet for the YNX Web4 ecosystem.",
+    "logo": "/ynx-logo.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "YNXT",
+    "website": "https://ynxweb4.com",
+    "explorers": [
+      {
+        "url": "https://explorer.ynxweb4.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+'''
+          if '"6423"' not in s:
+              if s.startswith('{\n'):
+                  s='{\n'+entry+s[2:]
+              elif s.startswith('{\r\n'):
+                  s='{\r\n'+entry.replace('\n','\r\n')+s[3:]
+              else:
+                  raise SystemExit('unexpected format')
+          p.write_text(s, newline='')
+          json.loads(p.read_text())
+          PY
+      - name: Remove temporary workflow and commit
+        run: |
+          rm .github/workflows/ynx-clean-diff.yml
+          git config user.name "JiahaoAlbus"
+          git config user.email "159010359+JiahaoAlbus@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: minimize YNX ChainScout diff"
+          git push origin HEAD:add-ynx-testnet-6423
