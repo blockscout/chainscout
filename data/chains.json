@@ -1,4 +1,24 @@
 {
+"6423": {
+    "name": "YNX Testnet",
+    "description": "EVM-compatible public Layer 1 testnet for the YNX Web4 ecosystem.",
+    "logo": "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+    "ecosystem": [
+      "Ethereum",
+      "EVM"
+    ],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "YNXT",
+    "website": "https://ynxweb4.com",
+    "explorers": [
+      {
+        "url": "https://explorer.ynxweb4.com/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2443": {
     "name": "Haus Chain Testnet",
     "description": "EVM-compatible Layer 1 testnet for Haus Chain, designed for fast smart-contract development, testing and onchain applications.",
