@@ -12715,6 +12715,26 @@
         "hostedBy": "conduit"
       }
     ]
+  },
+  "1874": {
+    "name": "Whitechain Sepolia",
+    "description": "Public testnet of Whitechain, the EVM network backed by WhiteBIT. An OP Stack optimistic rollup that settles to Ethereum Sepolia, with WBT as the native gas token, 1s block time and a public faucet.",
+    "logo": "https://whitechain.io/icon.svg",
+    "ecosystem": [
+      "Ethereum",
+      "Optimism"
+    ],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "WBT",
+    "website": "https://whitechain.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.whitechain.io/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
 
