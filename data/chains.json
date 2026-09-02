@@ -3962,7 +3962,7 @@
       }
     ]
   },
-  "3409": {
+  "97741": {
     "name": "Pepe Unchained",
     "description": "Ethereum Layer 2 Ecosystem purpose-built for memes.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/pepe-unchained.png",
@@ -7864,58 +7864,7 @@
         "hostedBy": "conduit"
       }
     ]
-  },
-  "98864": {
-    "name": "Plume Legacy Testnet",
-    "description": "Modular RWA L2 bringing any real world asset on-chain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.png",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.plumenetwork.xyz/",
-    "explorers": [
-      {
-        "url": "https://test-explorer.plumenetwork.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "98865": {
-    "name": "Plume Legacy Mainnet",
-    "description": "Modular RWA L2 bringing any real world asset on-chain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.png",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "ETH",
-    "website": "https://www.plumenetwork.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.plumenetwork.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
-  "98867": {
-    "name": "Plume Testnet",
-    "description": "Modular RWA L2 bringing any real world asset on-chain.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.png",
-    "ecosystem": "Arbitrum Orbit",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": "optimistic",
-    "native_currency": "P",
-    "website": "https://www.plumenetwork.xyz/",
-    "explorers": [
-      {
-        "url": "https://testnet-explorer.plumenetwork.xyz/",
-        "hostedBy": "self"
-      }
-    ]
-  },
+  },  
   "98875": {
     "name": "Nillion Network",
     "description": "Nillion is a secure computation network that decentralizes trust for high value data in the same way that blockchains decentralized transactions.",
@@ -9038,6 +8987,40 @@
       {
         "url": "https://explorer.forma.art/",
         "hostedBy": "self"
+      }
+    ]
+  },
+  "98866": {
+    "name": "Plume Mainnet",
+    "description": "Plume is bringing institutional assets out of closed financial systems and putting them to work onchain",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "PLUME",
+    "website": "https://www.plume.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.plume.org",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },  
+  "98867": {
+    "name": "Plume Testnet",
+    "description": "Plume is bringing institutional assets out of closed financial systems and putting them to work onchain",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "PLUME",
+    "website": "https://www.plume.org/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.plume.org",
+        "hostedBy": "blockscout"
       }
     ]
   },
