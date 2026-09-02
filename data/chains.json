@@ -12715,6 +12715,40 @@
         "hostedBy": "conduit"
       }
     ]
+  },
+  "21892": {
+    "name": "DAC Interstellar Mainnet",
+    "description": "DAC Blockchain is designed as a next-generation distributed ledger that goes beyond traditional transactional use cases, enabling programmable value, advanced governance models, and native support for complex digital assets and services.",
+    "logo": "https://media.dachain.tech/token/dac_token_512.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "DACC",
+    "website": "https://dachain.tech",
+    "explorers": [
+      {
+        "url": "https://dacscan.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "21894": {
+    "name": "DAC Inception Testnet",
+    "description": "DAC Inception Testnet Blockchain is a sandbox environment identical to the main network but using tokens with no real-world value. It is designed for developers to test decentralized applications (dApps), smart contracts, and node configurations.",
+    "logo": "https://media.dachain.tech/token/dac_token_512.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "tDACC",
+    "website": "https://dachain.tech",
+    "explorers": [
+      {
+        "url": "https://exptest.dachain.tech",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
 
