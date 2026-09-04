@@ -12560,6 +12560,23 @@
       }
     ]
   },
+  "8844": {
+  "name": "NEXU Chain",
+  "description": "NEXU Chain Mainnet - An EVM-compatible Layer 1 blockchain powering the NEXU Ecosystem, designed for decentralized applications, digital payments, tokenized assets, and Web3 services.",
+  "logo": "https://cdn.prod.website-files.com/6a9a377e39c81f1843e41d4e/6a9a3872e8ef0f26c933455a_nexu-logo-DQ2rT4mw.png",
+  "ecosystem": "Ethereum",
+  "isTestnet": false,
+  "layer": 1,
+  "rollupType": null,
+  "native_currency": "NEXU",
+  "website": "https://nexuchain.xyz/",
+  "explorers": [
+    {
+      "url": "https://explorer.nexuchain.xyz/",
+      "hostedBy": "self"
+    }
+  ]
+  },
    "6497": {
     "name": "Awaji",
     "description": "Awaji is a testnet in the Japan Smart Chain ecosystem.",
