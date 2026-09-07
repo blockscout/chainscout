@@ -12718,6 +12718,26 @@
         "hostedBy": "self"
       }
     ]
+  },
+    "1114": {
+    "name": "WorkChain Testnet",
+    "description": "Public testnet of WorkChain, a sovereign Ethereum Layer 2 OP Stack rollup purpose-built for the decentralized freelance and gig economy with native escrow and zero platform commissions.",
+    "logo": "https://explorer.workchain.website/workchain-icon.png",
+    "ecosystem": [
+      "Ethereum",
+      "Optimism"
+    ],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "WORK",
+    "website": "https://workchain.website/",
+    "explorers": [
+      {
+        "url": "https://explorer.workchain.website/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
 
