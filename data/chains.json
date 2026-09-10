@@ -12715,6 +12715,42 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.rabbitchain.org/",
+  "88788": {
+      "name": "PropTech Mainnet",
+      "description": "PropTech Blockchain is an EVM-compatible Layer 1 network for the global PropTech ecosystem.",
+      "logo": "https://explorer.ptekcoin.com/assets/configs/network_icon.png",
+      "ecosystem": [
+        "Ethereum",
+        "EVM"
+      ],
+      "isTestnet": false,
+      "layer": 1,
+      "rollupType": null,
+      "native_currency": "PTEK",
+      "website": "https://ptek.ai/",
+      "explorers": [
+        {
+          "url": "https://explorer.ptekcoin.com/",
+          "hostedBy": "self"
+        }
+      ]
+  },
+  "1874": {
+    "name": "Whitechain Sepolia",
+    "description": "Public testnet of Whitechain, the EVM network backed by WhiteBIT. An OP Stack optimistic rollup that settles to Ethereum Sepolia, with WBT as the native gas token, 1s block time and a public faucet.",
+    "logo": "https://whitechain.io/icon.svg",
+    "ecosystem": [
+      "Ethereum",
+      "Optimism"
+    ],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "optimistic",
+    "native_currency": "WBT",
+    "website": "https://whitechain.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.whitechain.io/",
         "hostedBy": "self"
       }
     ]
