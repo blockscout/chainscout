@@ -12699,6 +12699,22 @@
       }
     ]
   },
+  "9280": {
+    "name": "Rabbit Chain Testnet",
+    "description": "Public EVM Layer 1 testnet for Rabbit Chain, using Work V2 for permissionless admission and LCQ Consensus for canonical participation and block production.",
+    "logo": "https://rabbitchain.org/rabbit-wallet-icon.png",
+    "ecosystem": [
+      "Ethereum",
+      "EVM"
+    ],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "tRAB",
+    "website": "https://rabbitchain.org",
+    "explorers": [
+      {
+        "url": "https://explorer-testnet.rabbitchain.org/",
   "88788": {
       "name": "PropTech Mainnet",
       "description": "PropTech Blockchain is an EVM-compatible Layer 1 network for the global PropTech ecosystem.",
@@ -12740,5 +12756,3 @@
     ]
   }
 }
-
-
