@@ -9401,7 +9401,7 @@
   "11155420": {
     "name": "OP Sepolia",
     "description": "Latest OP Testnet",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/op-mainnet.svg",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/op-sepolia.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
