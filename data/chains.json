@@ -9211,6 +9211,23 @@
       }
     ]
   },
+  "5042": {
+    "name": "Arc Mainnet",
+    "description": "Arc is an open Layer-1 blockchain that provides a trusted foundation for the world's stablecoins, tokenized assets, economic contracts, and onchain markets.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/Arc.svg",
+    "ecosystem": "Circle",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "USDC",
+    "website": "https://www.arc.network/",
+    "explorers": [
+      {
+        "url": "https://explorer.arc.io/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "5042002": {
     "name": "Arc Testnet",
     "description": "Arc is an open Layer-1 blockchain that provides a trusted foundation for the world's stablecoins, tokenized assets, economic contracts, and onchain markets.",
@@ -9223,7 +9240,7 @@
     "website": "https://www.arc.network/",
     "explorers": [
       {
-        "url": "https://testnet.arcscan.app/",
+        "url": "http://explorer.testnet.arc.io",
         "hostedBy": "blockscout"
       }
     ]
