@@ -512,7 +512,7 @@
     "website": "https://docs.gnosischain.com/",
     "explorers": [
       {
-        "url": "https://gnosis.blockscout.com/",
+        "url": "https://gnosisscan.io/",
         "hostedBy": "blockscout"
       }
     ]
@@ -822,7 +822,7 @@
     "website": "https://hsk.xyz/",
     "explorers": [
       {
-        "url": "https://hashkey.blockscout.com/",
+        "url": "https://hsk.blockscout.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -1301,7 +1301,7 @@
     "explorers": [
       {
         "url": "https://shapescan.xyz/",
-        "hostedBy": "alchemy"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -1319,23 +1319,6 @@
       {
         "url": "https://scan.pulsechain.box/",
         "hostedBy": "self"
-      }
-    ]
-  },
-  "393": {
-    "name": "Nexus",
-    "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexus.png",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "NEX",
-    "website": "https://nexus.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.nexus.xyz/",
-        "hostedBy": "caldera"
       }
     ]
   },
@@ -1488,11 +1471,28 @@
     "explorers": [
       {
         "url": "https://worldchain-mainnet.explorer.alchemy.com",
-        "hostedBy": "alchemy"
+        "hostedBy": "blockscout"
+      }
+    ]
+  }, 
+  "484": {
+    "name": "Camp Network",
+    "description": "Identity layer enabling users to monetize their data.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c290dcd9650d7aac81e8_Camp_Network.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://www.campnetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://basecamp.cloud.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
-  "484": {
+  "4848": {
     "name": "BlockSurety",
     "description": "Asset tokenization for liquidity and investment service provider.",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/block-surety.png",
@@ -2049,7 +2049,7 @@
     "website": "https://www.derive.xyz/",
     "explorers": [
       {
-        "url": "https://explorer.derive.xyz/",
+        "url": "https://testnet-explorer.derive.xyz/",
         "hostedBy": "blockscout"
       }
     ]
@@ -2223,24 +2223,7 @@
         "hostedBy": "blockscout"
       }
     ]
-  },
-  "1076": {
-    "name": "IOTA EVM Testnet",
-    "description": "An Open, Feeless Data And Value Transfer Protocol",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/iota.svg",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "IOTA",
-    "website": "https://www.iota.org/",
-    "explorers": [
-      {
-        "url": "https://explorer.evm.testnet.iota.cafe/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
+  },  
   "1081": {
     "name": "Loop",
     "description": "EVM-compatible programmability with Proof of Stake and Authority(PoSA) consensus.",
@@ -2407,7 +2390,7 @@
     "explorers": [
       {
         "url": "https://blockscout.lisk.com/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -3036,7 +3019,7 @@
     "explorers": [
       {
         "url": "https://explorer.reya.network/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -3121,7 +3104,7 @@
     "explorers": [
       {
         "url": "https://explorer.playblock.io/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -3566,7 +3549,7 @@
     "website": "https://mocachain.org/en",
     "explorers": [
       {
-        "url": "https://mocachain.blockscout.com",
+        "url": "https://scan.mocachain.org/",
         "hostedBy": "blockscout"
       }
     ]
@@ -4178,7 +4161,7 @@
     "website": "https://nexus.xyz/",
     "explorers": [
       {
-        "url": "https://nexus.testnet.blockscout.com/",
+        "url": "https://testnet.explorer.nexus.xyz/",
         "hostedBy": "blockscout"
       }
     ]
@@ -4264,7 +4247,7 @@
     "explorers": [
       {
         "url": "https://sepolia-blockscout.lisk.com/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -4501,8 +4484,8 @@
     "website": "https://world.org/world-chain",
     "explorers": [
       {
-        "url": "https://worldchain-sepolia.explorer.alchemy.com",
-        "hostedBy": "alchemy"
+        "url": "https://worldchain-sepolia.explorer.blockscout.com",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5062,7 +5045,7 @@
     "website": "https://www.zetachain.com/",
     "explorers": [
       {
-        "url": "https://zetachain.blockscout.com/",
+        "url": "https://zetascan.com/",
         "hostedBy": "blockscout"
       }
     ]
@@ -5079,8 +5062,8 @@
     "website": "https://www.zetachain.com/",
     "explorers": [
       {
-        "url": "https://zetachain-athens-3.blockscout.com/",
-        "hostedBy": "gelato-raas"
+        "url": "https://testnet.zetascan.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5233,7 +5216,7 @@
     "explorers": [
       {
         "url": "https://explorer.arena-z.gg/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5930,8 +5913,8 @@
     "website": "https://www.shape.network/",
     "explorers": [
       {
-        "url": "https://shape-sepolia-explorer.alchemy.com/",
-        "hostedBy": "alchemy"
+        "url": "hhttps://sepolia.shapescan.xyz",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7316,7 +7299,7 @@
     "explorers": [
       {
         "url": "https://explorer.inkonchain.com/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7554,7 +7537,7 @@
     "explorers": [
       {
         "url": "https://alchemy-sepolia.explorer.alchemy.com/",
-        "hostedBy": "alchemy"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7844,7 +7827,7 @@
     "explorers": [
       {
         "url": "https://explorer-testnet.doma.xyz/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -7861,7 +7844,7 @@
     "explorers": [
       {
         "url": "https://explorer.doma.xyz/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },  
@@ -8560,7 +8543,7 @@
     "website": "https://scroll.io/",
     "explorers": [
       {
-        "url": "https://scroll.blockscout.com",
+        "url": "https://scrollscan.com",
         "hostedBy": "blockscout"
       }
     ]
@@ -8748,7 +8731,7 @@
     "explorers": [
       {
         "url": "https://gensyn-testnet.explorer.alchemy.com/",
-        "hostedBy": "alchemy"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8765,7 +8748,7 @@
     "explorers": [
       {
         "url": "https://gensyn-mainnet.explorer.alchemy.com/",
-        "hostedBy": "alchemy"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -8850,7 +8833,7 @@
     "explorers": [
       {
         "url": "https://explorer-sepolia.inkonchain.com",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -9428,7 +9411,7 @@
     "website": "https://www.optimism.io/",
     "explorers": [
       {
-        "url": "https://optimism-sepolia.blockscout.com/",
+        "url": "https://testnet-explorer.optimism.io/",
         "hostedBy": "blockscout"
       }
     ]
@@ -9650,7 +9633,7 @@
     "explorers": [
       {
         "url": "https://reya-cronos.blockscout.com/",
-        "hostedBy": "gelato-raas"
+        "hostedBy": "blockscout"
       }
     ]
   },
