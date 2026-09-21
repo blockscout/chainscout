@@ -12079,6 +12079,44 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "10901": {
+    "name": "Zama Gateway Testnet",
+    "description": "Public testnet of WorkChain, a sovereign Ethereum Layer 2 OP Stack rollup purpose-built for the decentralized freelance and gig economy with native escrow and zero platform commissions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zama.svg",
+    "ecosystem": [   
+      "Arbitrum"
+    ],
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://www.zama.org/",
+    "explorers": [
+      {
+        "url": "https://zama-testnet.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+"261131": {
+    "name": "Zama Gateway Mainnet",
+    "description": "Public testnet of WorkChain, a sovereign Ethereum Layer 2 OP Stack rollup purpose-built for the decentralized freelance and gig economy with native escrow and zero platform commissions.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zama.svg",
+    "ecosystem": [
+      "Arbitrum"
+    ],
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "native_currency": "ETH",
+    "website": "https://www.zama.org/",
+    "explorers": [
+      {
+        "url": "https://zama.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
   }
 }
 
