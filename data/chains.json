@@ -3268,7 +3268,7 @@
   "2020": {
     "name": "Ronin Mainnet",
     "description": "Ronin is the blockchain for fun and practical blockchain applications.",
-    "logo": "https://ipfs.io/ipfs/bafkreicwyre2qm2g2g27rffua7sb3dsqx7kka4rcjnb5wzcwhdlemyjn5m",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ronin.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 2,
@@ -3278,7 +3278,7 @@
     "explorers": [
       {
         "url": "https://explorer.roninchain.com/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -12023,7 +12023,7 @@
   "202601": {
     "name": "Ronin Saigon Testnet",
     "description": "Ronin is the blockchain for fun and practical blockchain applications.",
-    "logo": "https://ipfs.io/ipfs/bafkreicwyre2qm2g2g27rffua7sb3dsqx7kka4rcjnb5wzcwhdlemyjn5m",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/ronin.svg",
     "ecosystem": "Ethereum",
     "isTestnet": true,
     "layer": 2,
@@ -12033,7 +12033,7 @@
     "explorers": [
       {
         "url": "https://saigon-explorer.roninchain.com/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
