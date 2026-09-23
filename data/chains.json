@@ -12097,61 +12097,37 @@
       }
     ]
   },
-  "9280": {
-    "name": "Rabbit Chain Testnet",
-    "description": "Public EVM Layer 1 testnet for Rabbit Chain, using Work V2 for permissionless admission and LCQ Consensus for canonical participation and block production.",
-    "logo": "https://rabbitchain.org/rabbit-wallet-icon.png",
-    "ecosystem": [
-      "Ethereum",
-      "EVM"
-    ],
-    "isTestnet": true,
+    "21892": {
+    "name": "DAC Interstellar Mainnet",
+    "description": "DAC Blockchain is designed as a next-generation distributed ledger that goes beyond traditional transactional use cases, enabling programmable value, advanced governance models, and native support for complex digital assets and services.",
+    "logo": "https://media.dachain.tech/token/dac_token_512.svg",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
     "layer": 1,
     "rollupType": null,
-    "native_currency": "tRAB",
-    "website": "https://rabbitchain.org",
+    "native_currency": "DACC",
+    "website": "https://dachain.tech",
     "explorers": [
       {
-        "url": "https://explorer-testnet.rabbitchain.org/",
+        "url": "https://dacscan.io/",
         "hostedBy": "self"
       }
     ]
   },
-  "10901": {
-    "name": "Zama Gateway Testnet",
-    "description": "Public testnet of WorkChain, a sovereign Ethereum Layer 2 OP Stack rollup purpose-built for the decentralized freelance and gig economy with native escrow and zero platform commissions.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zama.svg",
-    "ecosystem": [   
-      "Arbitrum"
-    ],
+    "21894": {
+    "name": "DAC Inception Testnet",
+    "description": "DAC Inception Testnet Blockchain is a sandbox environment identical to the main network but using tokens with no real-world value. It is designed for developers to test decentralized applications (dApps), smart contracts, and node configurations.",
+    "logo": "https://media.dachain.tech/token/dac_token_512.svg",
+    "ecosystem": ["Ethereum", "EVM"],
     "isTestnet": true,
-    "layer": 2,
-    "rollupType": "arbitrum",
-    "native_currency": "ETH",
-    "website": "https://www.zama.org/",
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "tDACC",
+    "website": "https://dachain.tech",
     "explorers": [
       {
-        "url": "https://zama-testnet.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-"261131": {
-    "name": "Zama Gateway Mainnet",
-    "description": "Public testnet of WorkChain, a sovereign Ethereum Layer 2 OP Stack rollup purpose-built for the decentralized freelance and gig economy with native escrow and zero platform commissions.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zama.svg",
-    "ecosystem": [
-      "Arbitrum"
-    ],
-    "isTestnet": false,
-    "layer": 2,
-    "rollupType": "arbitrum",
-    "native_currency": "ETH",
-    "website": "https://www.zama.org/",
-    "explorers": [
-      {
-        "url": "https://zama.blockscout.com/",
-        "hostedBy": "blockscout"
+        "url": "https://exptest.dachain.tech",
+        "hostedBy": "self"
       }
     ]
   }
