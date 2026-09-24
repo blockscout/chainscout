@@ -8519,7 +8519,7 @@
     "description": "Plume is bringing institutional assets out of closed financial systems and putting them to work onchain",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/plume.svg",
     "ecosystem": "Arbitrum Orbit",
-    "isTestnet": false,
+    "isTestnet": true,
     "layer": 2,
     "rollupType": "arbitrum",
     "native_currency": "PLUME",
