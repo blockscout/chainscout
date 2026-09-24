@@ -1187,7 +1187,7 @@
   "291": {
     "name": "Orderly",
     "description": "The permissionless liquidity layer for Web3 trading.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/orderly.svg",
     "ecosystem": ["Optimism", "Superchain"],
     "isTestnet": false,
     "layer": 2,
@@ -1197,7 +1197,7 @@
     "explorers": [
       {
         "url": "https://explorer.orderly.network/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -4135,7 +4135,7 @@
   "4460": {
     "name": "Orderly Testnet",
     "description": "The permissionless liquidity layer for Web3 trading.",
-    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6615a2d62a9b27eb77876ef0_pgn.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/orderly.svg",
     "ecosystem": "Optimism",
     "isTestnet": true,
     "layer": 2,
@@ -4145,7 +4145,7 @@
     "explorers": [
       {
         "url": "https://testnet-explorer.orderly.org/",
-        "hostedBy": "conduit"
+        "hostedBy": "blockscout"
       }
     ]
   },
