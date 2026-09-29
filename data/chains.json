@@ -12150,5 +12150,40 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "1475": {
+    "name": "CRYMAD Chain",
+    "description": "EVM Layer 1 for real world asset tokenisation, using a proof of staked authority validator set with sub second blocks and fast finality.",
+    "logo": "https://cmxofficial.com/assets/images/cmx-r.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "CMX-R",
+    "website": "https://cmxofficial.com",
+    "explorers": [
+      {
+        "url": "https://explorer.cmxofficial.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "7373": {
+    "name": "CRYMAD Chain L2",
+    "description": "OP Stack optimistic rollup settling to CRYMAD Chain (1475), carrying high throughput application traffic for the CRYMAD platform.",
+    "logo": "https://cmxofficial.com/assets/images/cmx-r.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 2,
+    "settlementLayerChainId": "1475",
+    "rollupType": "optimistic",
+    "native_currency": "CMX-R",
+    "website": "https://cmxofficial.com",
+    "explorers": [
+      {
+        "url": "https://explorer-l2.cmxofficial.com",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
