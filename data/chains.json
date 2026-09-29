@@ -12150,5 +12150,22 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "165": {
+    "name": "Farm Chain",
+    "description": "Farm Chain is an EVM-compatible Layer 1 blockchain for agriculture, supply chain, tokenization, finance, and decentralized applications.",
+    "logo": "https://farmchain.org/assets/images/logo.svg",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "FMC",
+    "website": "https://farmchain.org/",
+    "explorers": [
+      {
+        "url": "https://fmcscan.com/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
