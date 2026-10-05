@@ -7416,6 +7416,24 @@
       }
     ]
   },
+  "529375": {
+    "name": "LayerK",
+    "description": "LayerK is an innovative decentralized platform that aims to democratize access to opportunities in the crypto world, ensuring everyone has the chance to participate and benefit.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/layerk.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 2,
+    "settlementLayerChainId": "42161",
+    "rollupType": "arbitrum",
+    "native_currency": "LYK",
+    "website": "https://layerk.com/",
+    "explorers": [
+      {
+        "url": "https://layerk.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "534352": {
     "name": "Scroll",
     "description": "Security-focused scaling solution for Ethereum, using innovations in scaling design and zero knowledge proofs to build a new layer on Ethereum.",
