@@ -1369,6 +1369,23 @@
       }
     ]
   },
+  "484": {
+    "name": "Camp Network",
+    "description": "Identity layer enabling users to monetize their data.",
+    "logo": "https://uploads-ssl.webflow.com/644a5b7efad46e3cd70deafb/6696c290dcd9650d7aac81e8_Camp_Network.png",
+    "ecosystem": "Optimism",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETH",
+    "website": "https://www.campnetwork.xyz/",
+    "explorers": [
+      {
+        "url": "https://camp.cloud.blockscout.com/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
   "4848": {
     "name": "BlockSurety",
     "description": "Asset tokenization for liquidity and investment service provider.",
@@ -1982,7 +1999,7 @@
       }
     ]
   },
-  "1075": {
+  "1076": {
     "name": "IOTA EVM Testnet",
     "description": "An Open, Feeless Data And Value Transfer Protocol",
     "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/iota.svg",
@@ -5115,6 +5132,42 @@
       }
     ]
   },
+  "10901": {
+    "name": "Zama Gateway Testnet",
+    "description": "The Zama Protocol enables confidential assets to be issued, traded, and managed natively on public blockchains, with full verifiability and programmable compliance.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zama.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": true,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "settlementLayerChainId": "421614",
+    "native_currency": "ETH",
+    "website": "https://www.zama.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.zama.org/",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "261131": {
+    "name": "Zama Gateway Mainnet",
+    "description": "The Zama Protocol enables confidential assets to be issued, traded, and managed natively on public blockchains, with full verifiability and programmable compliance.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/zama.svg",
+    "ecosystem": "Arbitrum Orbit",
+    "isTestnet": false,
+    "layer": 2,
+    "rollupType": "arbitrum",
+    "settlementLayerChainId": "42161",
+    "native_currency": "ETH",
+    "website": "https://www.zama.org/",
+    "explorers": [
+      {
+        "url": "https://explorer.mainnet.zama.org",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },  
   "11011": {
     "name": "Shape Testnet",
     "description": "Chain for creators, built on top of Ethereum using OP Stack.",
