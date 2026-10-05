@@ -10922,5 +10922,22 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "482120": {
+    "name": "Bitcoin Swap",
+    "description": "EVM mainnet (Hyperledger Besu, QBFT consensus, 5-second blocks, chain ID 482120) with native coin BTCw, an on-chain DEX and Hyperlane bridges to Arbitrum One.",
+    "logo": "https://btcw.tech/logo-512.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "BTCw",
+    "website": "https://btcw.tech",
+    "explorers": [
+      {
+        "url": "https://explorer.btcw.tech",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
