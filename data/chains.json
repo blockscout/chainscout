@@ -11010,5 +11010,22 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "20250": {
+    "name": "CHEESE Blockchain",
+    "description": "High-performance EVM-compatible Layer 1 blockchain powered by AI-governed transaction security, decentralized consensus, and native NCH utility.",
+    "logo": "https://cheeseblockchain.com/logo.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "NCH",
+    "website": "https://cheeseblockchain.com/",
+    "explorers": [
+      {
+        "url": "https://cheeseblockchain.com/explorer",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
