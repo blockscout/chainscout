@@ -3601,57 +3601,6 @@
       }
     ]
   },
-  "3941": {
-    "name": "Nexus Staging Testnet",
-    "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexus.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "NEX",
-    "website": "https://nexus.xyz/",
-    "explorers": [
-      {
-        "url": "https://nexus-staging-testnet.blockscout.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "3945": {
-    "name": "Nexus Testnet",
-    "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexus.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "NEX",
-    "website": "https://nexus.xyz/",
-    "explorers": [
-      {
-        "url": "https://testnet.explorer.nexus.xyz/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
-  "3946": {
-    "name": "Nexus Mainnet",
-    "description": "The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world's commerce.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/nexus.png",
-    "ecosystem": "Ethereum",
-    "isTestnet": true,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "NEX",
-    "website": "https://nexus.xyz/",
-    "explorers": [
-      {
-        "url": "https://explorer.nexus.xyz/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "4024": {
     "name": "TONSquare",
     "description": "Platform that bridges the TON blockchain with EVM-compatible chains, enhancing dApp developement across ecosystems.",
