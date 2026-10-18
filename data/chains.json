@@ -11010,5 +11010,22 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "712217": {
+    "name": "PRANA",
+    "description": "Proof-of-work EVM Layer-1 (core-geth fork, Etchash/ECIP-1099, EIP-1559, chain ID 712217) with native coin PRANA, fair launch with no premine, mainnet since 2026-08-29.",
+    "logo": "https://kula.money/prana-logo.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "PRANA",
+    "website": "https://wiki.soapbox.community/wiki/PRANA",
+    "explorers": [
+      {
+        "url": "https://pranascan.soapbox.community",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
