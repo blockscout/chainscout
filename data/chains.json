@@ -10959,5 +10959,41 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "7741": {
+    "name": "RWA Chain",
+    "description": "OP Stack rollup for tokenized real-world assets, settling on Base.",
+    "logo": "https://rwa-chain.io/logo.png",
+    "ecosystem": ["Optimism", "Base"],
+    "isTestnet": false,
+    "layer": 3,
+    "settlementLayerChainId": "8453",
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://rwa-chain.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.rwa-chain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "77410": {
+    "name": "RWA Chain Sepolia",
+    "description": "Testnet of RWA Chain, an OP Stack rollup for tokenized real-world assets, settling on Base Sepolia.",
+    "logo": "https://rwa-chain.io/logo.png",
+    "ecosystem": ["Optimism", "Base"],
+    "isTestnet": true,
+    "layer": 3,
+    "settlementLayerChainId": "84532",
+    "rollupType": "optimistic",
+    "native_currency": "ETH",
+    "website": "https://testnet.rwa-chain.io/",
+    "explorers": [
+      {
+        "url": "https://sepolia-explorer.rwa-chain.io/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
