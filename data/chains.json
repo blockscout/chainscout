@@ -8424,24 +8424,6 @@
       }
     ]
   },
-  "666666666": {
-    "name": "Degen Chain",
-    "description": "Enables Casters to reward others with DEGEN for posting quality content.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/degen.svg",
-    "ecosystem": "Arbitrum",
-    "isTestnet": false,
-    "layer": 3,
-    "settlementLayerChainId": "8453",
-    "rollupType": null,
-    "native_currency": "DEGEN",
-    "website": "https://www.degen.tips/",
-    "explorers": [
-      {
-        "url": "https://explorer.degen.tips/",
-        "hostedBy": "alchemy"
-      }
-    ]
-  },
   "888888888": {
     "name": "Ancient8 Mainnet",
     "description": "Gaming-focused, community-driven L2 built to onboard the next 100M Web3 citizens",
