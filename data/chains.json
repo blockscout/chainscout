@@ -3652,23 +3652,6 @@
       }
     ]
   },
-  "4202": {
-    "name": "Lisk Sepolia Testnet",
-    "description": "Cost-efficient, fast, and scalable Layer 2 (L2) network secured by Ethereum.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/lisk.svg",
-    "ecosystem": "Optimism",
-    "isTestnet": true,
-    "layer": 2,
-    "rollupType": null,
-    "native_currency": "ETH",
-    "website": "https://lisk.com/",
-    "explorers": [
-      {
-        "url": "https://sepolia-blockscout.lisk.com/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
   "4242": {
     "name": "Nexi Chain",
     "description": "Creating a peer-to-peer, secure and permissionless environment for developers and builders to develop endless dApps.",
