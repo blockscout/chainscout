@@ -6212,7 +6212,7 @@
   "52014": {
     "name": "Electroneum",
     "description": "Electroneum is a Layer-1 EVM-compatible blockchain, with 5+ million users and 5 second transaction  speed with single block finality.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/electroneum.png",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/electroneum.svg",
     "ecosystem": "Ethereum",
     "isTestnet": false,
     "layer": 1,
@@ -6221,8 +6221,25 @@
     "website": "https://electroneum.com/",
     "explorers": [
       {
-        "url": "https://blockexplorer.electroneum.com/",
-        "hostedBy": "self"
+        "url": "https://electroneum.blockscout.com",
+        "hostedBy": "blockscout"
+      }
+    ]
+  },
+  "5201420": {
+    "name": "Electroneum Testnet",
+    "description": "Electroneum is a Layer-1 EVM-compatible blockchain, with 5+ million users and 5 second transaction  speed with single block finality.",
+    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/electroneum.svg",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "ETN",
+    "website": "https://electroneum.com/",
+    "explorers": [
+      {
+        "url": "https://electroneum-testnet.blockscout.com",
+        "hostedBy": "blockscout"
       }
     ]
   },
