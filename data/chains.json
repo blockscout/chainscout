@@ -1,4 +1,24 @@
 {
+  "70770": {
+    "name": "DHURI Blockchain Testnet",
+    "description": "High-throughput Layer 1 Proof-of-Proof (PoP) mobile & validator blockchain with native EVM compatibility.",
+    "logo": "https://dhuriblockchain.com/logo.svg",
+    "ecosystem": [
+      "Ethereum",
+      "EVM"
+    ],
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "DHURI",
+    "website": "https://dhuriblockchain.com",
+    "explorers": [
+      {
+        "url": "https://dhuriscan.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1611": {
     "name": "NVNM Chain Mainnet",
     "description": "EVM-compatible chain built on MANTRA providing a verifiable, auditable evidence layer for AI-driven decisions and institutional finance workflows.",
