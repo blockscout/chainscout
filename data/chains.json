@@ -3278,6 +3278,23 @@
       }
     ]
   },
+  "2679": {
+    "name": "Eoraptor",
+    "description": "EVM-compatible Layer 1 network for AI compute infrastructure and real-world asset applications.",
+    "logo": "https://icon.scan.eoraptor.org/logo.png",
+    "ecosystem": ["Ethereum", "EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "EPR",
+    "website": "https://www.eoraptordex.com/",
+    "explorers": [
+      {
+        "url": "https://scan.eoraptor.org/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "2748": {
     "name": "Taker Testnet",
     "description": "Bitcoin yields scaling layer.",
