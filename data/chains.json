@@ -1,4 +1,22 @@
-{
+{  
+  "6292": {
+    "name": "MAYA CHAIN",
+    "description": "Ethereum Layer 2 built on Arbitrum Orbit, with M3G as its gas token.",
+    "logo": "https://scan.mayachain.io/assets/maya-chain-mark.png",
+    "ecosystem": ["Ethereum", "Arbitrum Orbit"],
+    "isTestnet": false,
+    "layer": 2,
+    "settlementLayerChainId": "1",
+    "rollupType": "arbitrum",
+    "native_currency": "M3G",
+    "website": "https://www.mayachain.io",
+    "explorers": [
+      {
+        "url": "https://scan.mayachain.io",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "1611": {
     "name": "NVNM Chain Mainnet",
     "description": "EVM-compatible chain built on MANTRA providing a verifiable, auditable evidence layer for AI-driven decisions and institutional finance workflows.",
