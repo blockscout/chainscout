@@ -1591,24 +1591,7 @@
         "hostedBy": "self"
       }
     ]
-  },
-  "698": {
-    "name": "Matchain",
-    "description": "EVM-compatible L1 that operates on the Cosmos with a focus on decentralization and composability.",
-    "logo": "https://blockscout-icons.s3.us-east-1.amazonaws.com/matchain.svg",
-    "ecosystem": "Optimism",
-    "isTestnet": false,
-    "layer": 1,
-    "rollupType": null,
-    "native_currency": "BNB",
-    "website": "https://matchain.io/",
-    "explorers": [
-      {
-        "url": "https://matchscan.io/",
-        "hostedBy": "blockscout"
-      }
-    ]
-  },
+  }, 
   "714": {
     "name": "Eden",
     "description": "Celestia is the modular blockchain powering unstoppable applications with full-stack control.",
@@ -5795,8 +5778,8 @@
     "website": "https://apecoin.com/",
     "explorers": [
       {
-        "url": "https://curtis.explorer.caldera.xyz/",
-        "hostedBy": "caldera"
+        "url": "https://apechain-curtis.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
@@ -5812,8 +5795,8 @@
     "website": "https://apechain.com/",
     "explorers": [
       {
-        "url": "https://apechain.calderaexplorer.xyz/",
-        "hostedBy": "caldera"
+        "url": "https://apechain.blockscout.com/",
+        "hostedBy": "blockscout"
       }
     ]
   },
