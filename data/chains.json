@@ -10995,5 +10995,22 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "12142816": {
+    "name": "Winmar Chain",
+    "description": "EVM-compatible Layer 1 blockchain using QBFT Proof of Authority consensus, with WMC as its native coin.",
+    "logo": "https://winmarchain.io/logo/wmc.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "WMC",
+    "website": "https://winmarchain.io/",
+    "explorers": [
+      {
+        "url": "https://scan.winmarchain.io/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
