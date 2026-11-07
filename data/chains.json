@@ -1,4 +1,21 @@
 {  
+  "6396": {
+    "name": "NEX Chain",
+    "description": "Proof-of-work EVM Layer 1 blockchain powering NEX Wallet, with NEXC as its native coin and NEX-20 tokens.",
+    "logo": "https://explorer.getnexwallet.com/brand/nexc-icon-256.png",
+    "ecosystem": ["EVM"],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "NEXC",
+    "website": "https://getnexwallet.com",
+    "explorers": [
+      {
+        "url": "https://explorer.getnexwallet.com",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "6292": {
     "name": "MAYA CHAIN",
     "description": "Ethereum Layer 2 built on Arbitrum Orbit, with M3G as its gas token.",
