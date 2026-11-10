@@ -1,4 +1,23 @@
 {  
+  "20261001": {
+    "name": "Cookchain Mainnet",
+    "description": "Cookchain is an EVM-compatible Layer 1 blockchain using QBFT consensus. COOK is its native gas currency.",
+    "logo": "https://cookscan.net/static/bridge-chain-logos/cook.webp",
+    "ecosystem": [
+      "EVM"
+    ],
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "COOK",
+    "website": "https://cookscan.net",
+    "explorers": [
+      {
+        "url": "https://blockscout.cookscan.net",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "6396": {
     "name": "NEX Chain",
     "description": "Proof-of-work EVM Layer 1 blockchain powering NEX Wallet, with NEXC as its native coin and NEX-20 tokens.",
