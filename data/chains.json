@@ -10928,6 +10928,24 @@
       }
     ]
   },
+  "1875": {
+    "name": "Whitechain",
+    "description": "Mainnet of Whitechain, the EVM network backed by WhiteBIT. An OP Stack optimistic rollup that settles to Ethereum, with WBT as the native gas token and 1s block time.",
+    "logo": "https://whitechain.io/icon.svg",
+    "ecosystem": ["Ethereum", "Optimism"],
+    "isTestnet": false,
+    "layer": 2,
+    "settlementLayerChainId": "1",
+    "rollupType": "optimistic",
+    "native_currency": "WBT",
+    "website": "https://whitechain.io/",
+    "explorers": [
+      {
+        "url": "https://explorer.whitechain.io/",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "21892": {
     "name": "DAC Interstellar Mainnet",
     "description": "DAC Blockchain is designed as a next-generation distributed ledger that goes beyond traditional transactional use cases, enabling programmable value, advanced governance models, and native support for complex digital assets and services.",
