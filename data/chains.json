@@ -11031,5 +11031,56 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "455": {
+    "name": "TSX Horizon",
+    "description": "The open TSX chain, an Avalanche L1. Anyone can deploy contracts and use them, with no sign-up. Fees are paid in TSX.",
+    "logo": "https://tsx.network/brand/icon.png",
+    "ecosystem": "Avalanche",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TSX",
+    "website": "https://tsx.network/",
+    "explorers": [
+      {
+        "url": "https://scan.tsx.network/horizon/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "454": {
+    "name": "TSX Bastion",
+    "description": "The curated TSX chain, an Avalanche L1. Anyone can use it, but only approved builders can deploy contracts. Fees are paid in TSX.",
+    "logo": "https://tsx.network/brand/icon.png",
+    "ecosystem": "Avalanche",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TSX",
+    "website": "https://tsx.network/",
+    "explorers": [
+      {
+        "url": "https://scan.tsx.network/bastion/",
+        "hostedBy": "self"
+      }
+    ]
+  },
+  "445": {
+    "name": "TSX Testnet",
+    "description": "The TSX test chain, an Avalanche L1 for trying contracts before Horizon or Bastion. Free coins from the faucet at tsx.network/faucet.",
+    "logo": "https://tsx.network/brand/icon.png",
+    "ecosystem": "Avalanche",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "TSX",
+    "website": "https://tsx.network/",
+    "explorers": [
+      {
+        "url": "https://scan.tsx.network/testnet/",
+        "hostedBy": "self"
+      }
+    ]
   }
 }
