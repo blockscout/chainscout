@@ -11031,5 +11031,39 @@
         "hostedBy": "self"
       }
     ]
+  },
+  "88881": {
+    "name": "KuSpin Chain",
+    "description": "EVM-compatible Layer 1 blockchain with native KuSpinSwap DEX and Hyperlane cross-chain bridging.",
+    "logo": "https://explorer.kuspin.app/branding/kuspin-icon.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": false,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "KSP",
+    "website": "https://kuspin.app/",
+    "explorers": [
+      {
+        "url": "https://explorer.kuspin.app/",
+        "hostedBy": "self-hosted"
+      }
+    ]
+  },
+  "88889": {
+    "name": "KuSpin Testnet",
+    "description": "Public testnet for KuSpin Chain.",
+    "logo": "https://explorer.kuspin.app/branding/kuspin-icon.png",
+    "ecosystem": "Ethereum",
+    "isTestnet": true,
+    "layer": 1,
+    "rollupType": null,
+    "native_currency": "tKSP",
+    "website": "https://kuspin.app/",
+    "explorers": [
+      {
+        "url": "https://testnet-explorer.kuspin.app/",
+        "hostedBy": "self-hosted"
+      }
+    ]
   }
 }
