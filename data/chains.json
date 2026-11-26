@@ -1,4 +1,25 @@
 {  
+  "60531373273": {
+    "name": "Latheon Testnet",
+    "description": "Test chain of Latheon, a zero-knowledge privacy protocol: shielded pools with selective disclosure to an auditor. Testnet only; the native coin LTH has no value.",
+    "logo": "https://latheon.xyz/apple-touch-icon.png",
+    "ecosystem": [
+      "Arbitrum",
+      "Arbitrum Orbit"
+    ],
+    "isTestnet": true,
+    "layer": 3,
+    "settlementLayerChainId": "421614",
+    "rollupType": "arbitrum",
+    "native_currency": "LTH",
+    "website": "https://latheon.xyz",
+    "explorers": [
+      {
+        "url": "https://explorer.testnet.latheon.xyz",
+        "hostedBy": "self"
+      }
+    ]
+  },
   "20261001": {
     "name": "Cookchain Mainnet",
     "description": "Cookchain is an EVM-compatible Layer 1 blockchain using QBFT consensus. COOK is its native gas currency.",
